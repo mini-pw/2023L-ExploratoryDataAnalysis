@@ -1,6 +1,6 @@
 ### Wstęp do eksploracji danych
 
-[@kozaka93](https://github.com/kozaka93)
+[@kozaka93](https://github.com/kozaka93) [@HubertR21](https://github.com/HubertR21) [@sobieskibj](https://github.com/sobieskibj)
 
 Materiały z zajęć *Wstęp do eksploracji danych* (MiNI, 2 rok MAD)
 
