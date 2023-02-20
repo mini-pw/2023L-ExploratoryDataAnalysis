@@ -32,19 +32,19 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">1</td>
     <td rowspan="3">21-02</td>
-    <td rowspan="2">Wstęp, eksploracja danych, narzędzia, zasady zaliczenia</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L1-intro.pdf  target="_blank" rel="noopener noreferrer">Wstęp, eksploracja danych, narzędzia, zasady zaliczenia</a></td>
     <td rowspan="3"></td>
     <td rowspan="4"></td>
   </tr>
   <tr>
   </tr>
   <tr>
-    <td>Projekt 1</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/projects/project1 target="_blank" rel="noopener noreferrer">Projekt 1</a></td>
   </tr>
   <tr>
     <td>22-02</td>
     <td></td>
-    <td>Powtórzenie R. Jak działa GitHub?</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab1  target="_blank" rel="noopener noreferrer">Powtórzenie R. Jak działa GitHub?</a></td>
   </tr>
   <tr>
     <td rowspan="4">2</td>
