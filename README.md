@@ -49,7 +49,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">2</td>
     <td rowspan="2">28-02</td>
-    <td>Gramatyka języka wizualizacji</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L2-visualization-grammar.pdf target="_blank" rel="noopener noreferrer">Gramatyka języka wizualizacji</a></td>
     <td rowspan="2"></td>
     <td rowspan="4">P1 (1p)</td>
   </tr>
@@ -59,7 +59,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">01-03</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: dplyr, tidyr, forcats</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab2 target="_blank" rel="noopener noreferrer">R: dplyr, tidyr, forcats</a></td>
   </tr>
   <tr>
   </tr>
