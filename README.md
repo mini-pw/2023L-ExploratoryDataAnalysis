@@ -68,7 +68,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">07-03</td>
     <td rowspan="2">-</td>
     <td rowspan="2"></td>
-    <td rowspan="4">HW1 (5p)</td>
+    <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/44 target="_blank" rel="noopener noreferrer">HW1</a> (5p)</td>
   </tr>
   <tr>
   </tr>
