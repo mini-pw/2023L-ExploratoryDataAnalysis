@@ -23,7 +23,6 @@ data(auta2012)
 # 3. Spośród samochodów w kolorze szary-metallic, których cena w PLN znajduje się
 # pomiędzy jej średnią a medianą (nie zważając na brutto/netto), wybierz te, 
 # których kraj pochodzenia jest inny niż kraj aktualnej rejestracji i poodaj ich liczbę.
-# UWAGA: Nie rozpatrujemy obserwacji z NA w kraju aktualnej rejestracji
 
 
 
