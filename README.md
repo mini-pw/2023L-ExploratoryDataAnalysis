@@ -75,7 +75,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">08-03</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: ggplot2 wstęp i gramatyka</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab3 target="_blank" rel="noopener noreferrer">R: ggplot2 wstęp i gramatyka</a></td>
   </tr>
   <tr>
   </tr>
