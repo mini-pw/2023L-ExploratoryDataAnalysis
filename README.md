@@ -82,7 +82,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">4</td>
     <td rowspan="2">14-03</td>
-    <td>Sposoby badania rozkładu jednej zmiennej (ilościowej i jakościowej)<br>Sposoby badania rozkładu dwóch i więcej zmiennych</td>
+    <td></td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
@@ -91,7 +91,7 @@ Wstęp do eksploracji danych składa się z:
   </tr>
   <tr>
     <td rowspan="2">15-03</td>
-    <td rowspan="2"></td>
+    <td rowspan="2">Nie popełniaj tych błędów</td>
     <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab4 target="_blank" rel="noopener noreferrer">R: ggplot2 - modyfikacje wykresów, stylów w ggplot2</a></td>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">5</td>
     <td rowspan="2">21-03</td>
-    <td>Nie popełniaj tych błędów</td>
+    <td>Sposoby badania rozkładu jednej zmiennej (ilościowej i jakościowej)<br>Sposoby badania rozkładu dwóch i więcej zmiennych</td>
     <td rowspan="2"></td>
     <td rowspan="4">HW2 (5p)<br>P1 (2p)</td>
   </tr>
