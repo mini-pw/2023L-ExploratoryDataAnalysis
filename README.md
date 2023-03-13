@@ -100,7 +100,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">21-03</td>
     <td>Sposoby badania rozkładu jednej zmiennej (ilościowej i jakościowej)<br>Sposoby badania rozkładu dwóch i więcej zmiennych</td>
     <td rowspan="2"></td>
-    <td rowspan="4">HW2 (5p)<br>P1 (2p)</td>
+    <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/94 target="_blank" rel="noopener noreferrer">HW2 </a>(5p)<br>P1 (2p)</td>
   </tr>
   <tr>
     <td>Spotkanie projektowe II</td>
