@@ -82,7 +82,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">4</td>
     <td rowspan="2">14-03</td>
-    <td>Nie popełniaj tych błędów! <br> Kolory i skale</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L4-color-scales.pdf target="_blank" rel="noopener noreferrer">Nie popełniaj tych błędów! <br> Kolory i skale</a></td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
