@@ -82,12 +82,12 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">4</td>
     <td rowspan="2">14-03</td>
-    <td></td>
+    <td>Nie popełniaj tych błędów!</td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
   <tr>
-    <td>Nie popełniaj tych błędów <br>Kolory i skale</td>
+    <td>Kolory i skale</td>
   </tr>
   <tr>
     <td rowspan="2">15-03</td>
