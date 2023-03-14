@@ -118,7 +118,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">28-03</td>
     <td>Mapy - czy to takie skomplikowane?</td>
     <td rowspan="2"></td>
-    <td rowspan="4">HW3 (10p)</td>
+    <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/95 target="_blank" rel="noopener noreferrer"> HW3 </a>(10p)</td>
   </tr>
   <tr>
     <td>Dashboards</td>
