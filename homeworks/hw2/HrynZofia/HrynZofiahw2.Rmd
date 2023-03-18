@@ -1,0 +1,50 @@
+---
+title: "Caffeine visual chart"
+author: "Hryn Zofia"
+date: '2023-03-18'
+output: html_document
+---
+
+## Wykres źródłowy
+
+Wykres źródłowy pochodzi z serwisu Reddit:
+https://www.reddit.com/r/coolguides/comments/11pmy6s/behold_my_caffeine_content_visual_chart/
+![https://www.reddit.com/r/coolguides/comments/11pmy6s/behold_my_caffeine_content_visual_chart/](chart.png){width="400"}
+
+## Poprawiona wizualizacja
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+ # library
+library(dplyr)
+library(ggplot2)
+library(RColorBrewer)
+
+drinks <- rep(c("Coca Cola", "Mountain Dew", "Starbucks Coffee", "Dark Roast Coffee", "Monster Energy Drink", "Panera Bread Coffee"),
+               each = 2)
+drinks <- factor(drinks, levels = unique(drinks))
+caffeine_data <- c(35, 8, 45, 13.5, 96, 18.5, 150, 55.5, 150, 36, 387, 40)
+data_kind <- rep(c("as shown on visual chart", "in 100ml"), 6)
+
+data <- data.frame(drinks, caffeine_data, data_kind)
+data <- data %>% group_by(drinks)
+
+diagram <- ggplot(data, aes(x = drinks, y = caffeine_data, fill = data_kind)) +
+  geom_bar(position = "dodge", stat = "identity") +
+  scale_x_discrete(guide = guide_axis(angle = 15))+
+  guides(fill=guide_legend(title="Drink volume")) +
+  geom_text(aes(label = caffeine_data), size = 3, position=position_dodge(width=0.9), vjust=-0.25) +
+  scale_fill_manual(values = c("#8c510a", "#d8b365")) +
+  scale_y_continuous(limits = c(0,400), expand = c(0, 0)) +
+  labs(title = 'CAFFEINE',
+       subtitle = 'visual chart',
+       x = 'Drinks',
+       y = 'Amount of caffeine (mg)') +
+  theme_light()
+
+diagram
+```
+
+## Uzasadnienie
+
+Wybrana przeze mnie wizualizacja dobrze sprawdziłaby się jedynie w kawiarni, ponieważ jest ona dość nieczytelna. Zdecydowałam się na przedstawienie podanych na niej danych w postaci wykresu słupkowego w kolorze brązowym. Dzięki temu dużo łatwiej jest porównywać zawartość kofeiny w poszczególnych napojach. Ciężko było zrozumieć z pierwotnego wykresu jak duże są kubki i puszki, więc stworzyłam dodatkowye żótłe słupki, które przedstawią zawartość kofeiny w 100 ml danego płynu. Niestety te informacje nie były podane na plakacie, więc musiałam się posiłkować tabelami znalezionami na stronach internetowych. Uważam, że stworzona przeze mnie wizualizacja lepiej obrazuje dane i dodatkowo pozwala je lepiej porównać. 
