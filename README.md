@@ -111,17 +111,17 @@ Wstęp do eksploracji danych składa się z:
     <td>Spotkanie projektowe II</td>
   </tr>
   <tr>
-    <td>R: ggplot2 - zaawansowany oraz rozszerzenia: patchwork, ggrepel</td>
+    <td>a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab5 target="_blank" rel="noopener noreferrer">R: ggplot2 - zaawansowany oraz rozszerzenia: patchwork, ggrepel</a></td>
   </tr>
   <tr>
     <td rowspan="4">6</td>
     <td rowspan="2">28-03</td>
-    <td>Mapy - czy to takie skomplikowane?</td>
+    <td><a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L6-maps-dashboards.pdf target="_blank" rel="noopener noreferrer">Mapy - czy to takie skomplikowane?</a></td>
     <td rowspan="2"></td>
     <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/95 target="_blank" rel="noopener noreferrer"> HW3 </a>(10p)</td>
   </tr>
   <tr>
-    <td>Dashboards</td>
+    <td>a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L6-maps-dashboards.pdf target="_blank" rel="noopener noreferrer"Dashboards</a></td>
   </tr>
   <tr>
     <td rowspan="2">29-03</td>
