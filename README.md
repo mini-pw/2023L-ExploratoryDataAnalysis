@@ -121,7 +121,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/95 target="_blank" rel="noopener noreferrer"> HW3 </a>(10p)</td>
   </tr>
   <tr>
-    <td><a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L6-maps-dashboards.pdf target="_blank" rel="noopener noreferrer"Dashboards</a></td>
+    <td><a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L6-maps-dashboards.pdf target="_blank" rel="noopener noreferrer">Dashboards</a></td>
   </tr>
   <tr>
     <td rowspan="2">29-03</td>
