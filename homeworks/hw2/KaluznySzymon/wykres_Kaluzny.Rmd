@@ -1,0 +1,40 @@
+---
+title: "wykres"
+author: "Szymon_Kałużny"
+date: "`r Sys.Date()`"
+output: html_document
+fig_width: 12
+fig_height: 10
+---
+
+
+## Wykres, którego obróbką się zajmę pochodzi z portalu [theanalyst](https://theanalyst.com/na/2021/10/nba-stats-and-player-projections/) i dotyczy charakterystyki graczy NBA. Wygląda on następująco:
+
+![wykres](C:%5CUsers%5Cszymo%5CDesktop%5Cgraph1.jpg)
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+names <- c("JAYSON TATUM", "BAM ADEBAYO", "ANTHONY EDWARDS", "ZACH LAVINE", "DOMANTAS SABONIS", "MIKAL BRIDGES", "EVAN MOBLEY", "SCOTTIE BARNES", "JERAMI GRANT", "SPENCER DINWIDDIE", "NIKOLA VUCEVIC", "JULIUS RANDLE", "DEJOUNTE MURRAY", "HARRISON BARNES", "DEMAR DEROZAN", "FRANZ WAGNER")
+pozycja_zaw <- c(73, 75, 51, 39, 74, 32, 83, 33, 46, 4, 95, 74, 30, 45, 20, 22)
+of_punkty <- c(3.7, 1.3, 2.3, 3.0, 1.3, 2.1, -0.4, 0.7, 1.0, 1.9, 0.5, 1.6, 1.2, 0.9, 2.0, 1.4)
+def_punkty <- c(-0.6, 0.8, -0.5, -1.6, -0.1, -1.0, 1.4, 0.3, -0.1, -1.0, 0.3, -1.0, -0.6, -0.3, -1.4, -0.9)
+df <- data.frame(names, pozycja_zaw, of_punkty, def_punkty, stringsAsFactors = TRUE)
+
+nba <- df %>% 
+  mutate(punkty=of_punkty+def_punkty) %>% 
+  mutate(rola_zawodnika=case_when(of_punkty - def_punkty >= 2 ~ "bardzo ofensywny" ,
+                                 of_punkty > def_punkty ~ "ofensywny",
+                                 TRUE ~ "defensywny"))
+
+
+```
+
+```{r, fig.width=10, fig.height=7, echo=FALSE}
+wykres1 <- ggplot(nba, aes(x=pozycja_zaw, y=punkty, label = names)) + geom_point(aes(color = rola_zawodnika), size = 4) +
+  scale_color_manual(values = c("bardzo ofensywny"="red", "ofensywny"="green", "defensywny"="blue")) + geom_text(hjust =0.5, vjust= 2, size=1.9) + ggtitle("Wykres zależności użyteczności najczęściej występujących koszykarzy od ich pozycji na boisku (100-najbliżej kosza)") + xlab("pozycja")+ylab("użyteczność zawodnika") + labs(color = "rola zawodnika")
+wykres1
+```
+
+## Uzasadnienie czemu wykres jest lepszy niż oryginalny
+Wykres był nieczytelny ze względu na dużą ilość obserwacji oraz użycie buubblechart'a który utrudnia precyzyjne odczytanie wartości. Ponadto badane parametry nie zostały dostatecznie wyjaśnione, a punkty na wykresie nie były podpisane. W swojej pracy ograniczyłem liczbę obserwacji do 16 zawodników z największą liczbą minut na parkietach w tym sezonie, oraz zaprzestałem porównania liczby minut (gdyż wszyscy badani grali dużo, zamiast tego rozróżniłem punkty kolorem porównując rolę zawodnika na boisku, dzięki temu wykres jest czytelniejszy, a podpisy do punktów ukazują o który rekord chodzi.
