@@ -1,0 +1,35 @@
+---
+title: "hw2"
+author: "Mikołaj Zięcina"
+date: '2023-03-22'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Wykres jest zły, ponieważ zaczyna się od 7.00% i jest zabużona perspektywa różnicy pomiędzy stacjami telewizyjnymi telewizji publicznej i prywatnymi. Poza tym słupki są w 3D ale dwa środkowe nie do końca, wygląda to bez sensu i przeszkadza w odczytaniu wartości pierwszego i ostatniego słupka.
+
+![](C:\Users\Mikołaj\Downloads\Screenshot 2023-03-22 133247.png)
+
+żródło: https://www.instagram.com/p/Cp2LJnoK3Ii/
+
+```{r, message=FALSE, warning=FALSE, echo=TRUE}
+library(ggplot2)
+library(forcats)
+
+```
+
+
+
+```{r, echo=TRUE}
+df <- data.frame(x = c('TVP2', 'TVP1', 'tvn', 'polsat'), y = c(0.0786, 0.0782 ,0.074, 0.0733))
+ggplot(df, aes(x = fct_rev(x), y = y))+
+  geom_col(fill = 'darkgreen', width = 0.6)+
+  labs(x = 'Stacja telewizyjna', y = 'Udział stacji', title = 'Udziały 4 głównych stacji w marcu 2023')+
+  scale_y_continuous(labels = scales::percent)+
+  theme(plot.title = element_text(hjust = 0.5),
+        panel.background = element_rect(fill = 'white'))
+```
+
