@@ -1,0 +1,77 @@
+---
+title: "Zadanko _domowe_2"
+author: "Maciej Janta Lipinski"
+date: '2023-03-22'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(ggplot2)
+library(knitr)
+```
+# Wstęp
+
+Znaleziony wykres, który będę poprawiać pochodzi z portalu Trading Economics 
+zawierającego różne indeksy, raporty i dane ekonomiczne. Dotyczy on liczby zakończonych transakcji domów jednorodzinnych, domów miejskich i mieszkań własnościowych w danym miesiącu.
+
+**Źródło:** <https://tradingeconomics.com/united-states/existing-home-sales> 
+(link do strony internetowej z omawianą wizualizacją)
+
+# Błędna wizualizacja
+
+```{r echo=FALSE, fig.cap="", out.width='100%'}
+knitr::include_graphics("https://d3fy651gv2fhd3.cloudfront.net/charts/united-states-existing-home-sales.png?s=unitedstaexihomsal&v=202303211409V20220312")
+
+```
+
+# Dlaczego ten wykres jest taki zły?
+
+**Znalezione błędy:**
+
+
+1. Brak opisu osi x i y, a także brak tytułu wykresu (o czym mówi, czego dotyczy).
+2. Oś y nie zaczyna się od 0, co może powodować błędne wnioski odczytując wyniki tylko na podstawie porównania wysokości słupków na wykresie.
+3. Nieopisanie faktu iż podane wartości sprzedanych domów liczone są w tysiącach.
+
+
+# Poprawiony wizualizacja
+
+
+```{r pressure, echo=TRUE}
+
+months <- c("Mar 2022","Apr 2022","May 2022","Jun 2022","Jul 2022",
+            "Aug 2022","Sep 2022","Oct 2022","Nov 2022","Dec 2022",
+            "Jan 2023", "Feb 2023")
+value <- c(5690, 5570,5400, 5130, 4880, 4770, 4680, 4440, 4120, 4030,
+           4000, 4580)
+
+df <- data.frame(months, value)
+df$months  <- factor(months , levels = c("Mar 2022","Apr 2022","May 2022",
+                                         "Jun 2022","Jul 2022","Aug 2022",
+                                         "Sep 2022","Oct 2022","Nov 2022",
+                                         "Dec 2022","Jan 2023", "Feb 2023"))
+df <- df[order(df$months), ]
+
+ggplot(df, aes(x = months, y = value)) +
+  geom_col( fill = 4) +
+  labs(title = "Sprzedaż istniejących domów w Stanach Zjednoczonych (wyrażona w tysiącach)",
+       x = "Upływ czasu",
+       y = "Sprzedane domy (w tysiącach sztuk)") +
+  scale_x_discrete(guide = guide_axis(n.dodge = 1, angle = 25)) +
+  ylim(c(0, 6500)) +
+  geom_text(aes(label=value), vjust=-0.5) +
+  theme_minimal()
+
+```
+
+
+**Poprawione błędy:**
+
+1. Dodanie nazw osi i tytułu wykresu
+2. Zwizualizowanie podanych wartości w skali (oś y zaczyna się od wartości 0)
+3. Dodanie szczegółów poprawiający przejrzystość podanych informacji np. pokazanie, że liczby na wykresie trzeba przeskalować jeszcze przez tysiąc, aby uzyskać porządane wielkości
+
+# Podsumowanie
+
+Dzięki naniesionym poprawkom można teraz wywnioskować czego dotyczy ten wykres, który jest teraz o wiele bardziej przejrzysty dla osoby niezaznajomionej z jego tematem.
