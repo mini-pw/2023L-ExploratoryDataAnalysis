@@ -1,0 +1,88 @@
+---
+title: "PD2 - Eksploracja Danych"
+author: "Arkadiusz Maciak"
+date: "2023-03-20"
+output: html_document
+---
+
+## Oryginalny wykres
+![OrginalPlot](https://i.redd.it/0hbxum5fkdoa1.png)
+Źródło: https://www.reddit.com/r/dataisbeautiful/comments/11u5wn6/oc_the_cost_of_cable_vs_top_streaming/
+
+## Poprawiony wykres
+
+Kod w R:
+```{r packages, message=FALSE, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r data}
+# przygotowujemy ramki danych + inne rzeczy których użyjemy do wykresu
+
+### PREVIOUSLY USED DF ###
+
+#df <- data.frame("streaming_subscriptions" = c("discovery+","AppleTv","Prime video", "peacock", "Paramount+", "Netflix", "HBO MAX", "Disney+"),
+#                 "Cost" = c(6.99, 6.99, 8.99, 9.99, 9.99, 9.99, 15.99, 19.99))
+
+
+#df2 <- data.frame("Cable_package" = c("Verizon - The Most Fios TV", "DirecTV - PREMIER All-Included", "Dish - America's Top 200", "Spectrum - Spectrum TV® Select", 
+#                                      "Cox - Contour TV Starter" , "Xfinity - Popular TV"),
+#                  "Cost" = c(110, 154.99, 99.99, 59.99, 53, 50)) %>% 
+#  arrange(desc(Cost))
+
+### FINAL DF ###
+
+df_final <- data.frame("Sources" = c( c("discovery+","AppleTv","Prime video", "peacock", "Paramount+", "Netflix", "HBO MAX", "Disney+"),
+                               c("Verizon - The Most Fios TV", "DirecTV - PREMIER All-Included", "Dish - America's Top 200", "Spectrum - Spectrum TV® Select", 
+                                      "Cox - Contour TV Starter" , "Xfinity - Popular TV")),
+                 "Cost" = c(c(6.99, 6.99, 8.99, 9.99, 9.99, 9.99, 15.99, 19.99),c(110, 154.99, 99.99, 59.99, 53, 50)),
+                 "Type" = c(rep("Streaming Subscriptions", 8), rep("Cable Package", 6)))
+
+### UNUSED DATA ###
+
+#mean_streaming <- df_final %>% 
+#  filter(Type == "Streaming Subscriptions") %>% 
+#  summarise(mean = mean(Cost))
+
+#mean_cable <- df_final %>% 
+#  filter(Type == "Cable Package") %>% 
+#  summarise(mean = mean(Cost))
+
+#mean_cable_overall <- 83
+```
+
+```{r plot}
+ggplot(data = df_final, mapping = aes(x = Cost, y =reorder(Sources, -Cost), fill = Type)) +
+  geom_bar(stat="identity") +
+  labs(title = "The Cost Of Most Popular Cable Packages Vs. \n The Cost of TopStreaming Subsciptions",
+       subtitle = "(as of 2023)",
+       x = "Cost (in US dollars)",
+       y = "CablePackages and Streaming Services") +
+  theme_minimal()+
+  theme(plot.title = element_text(hjust = 0.5), 
+        plot.subtitle = element_text(hjust = 0.5),) #+
+  #geom_vline(xintercept = mean_streaming$mean, col = "red")+
+  #geom_vline(xintercept = mean_cable$mean, col = "orange") +
+  #geom_vline(xintercept = mean_cable_overall, col = "black")
+```
+
+## Dlaczego nowy wykres jest lepszy? - Uzasadnienie
+
+Lista powodów, dla których nowy wykres jest lepszy od poprzedniego:
+
+ * różnica między cenami poszczególnych serwisów streamingowych jest lepiej dostrzegalna
+ * użycie średniej w porównaniu może prowadzić do "zakłamania" danych (średnia jest złym estymatorem)
+ * na oryginalnym wykresie porównywane były ze sobą średnia kosztu (telewizji kablowej) i suma kosztów (serwisów streamingowych) - takie porównanie jest bezsensowne
+ * nowy wykres jest o wiele bardziej czytelny, łatwiejszy do czytania
+ * na oryginalnym wykresie brakuje osi przedstawiającej wartości cen
+ * Nowy wykres porównuje ze sobą ceny wybranych pakietów telewizji kablowej z ceną wybranych serwisów streamingowych
+
+
+## Bibliografia
+Do ulepszenia wykresu zostały użyte dane z następujących stron:
+ 
+ * https://www.cabletv.com/blog/best-tv-packages
+ * https://www.cabletv.com/blog/how-much-should-i-pay-for-cable-tv
+ * https://www.cabletv.com/blog/basic-cable-channels-resource
