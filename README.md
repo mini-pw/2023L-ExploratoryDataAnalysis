@@ -98,7 +98,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">5</td>
     <td rowspan="2">21-03</td>
-    <td>Sposoby badania rozkładu jednej zmiennej (ilościowej i jakościowej)<br>Sposoby badania rozkładu dwóch i więcej zmiennych</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L5-variable-distribution.html target="_blank" rel="noopener noreferrer">Sposoby badania rozkładu jednej zmiennej (ilościowej i jakościowej)<br>Sposoby badania rozkładu dwóch i więcej zmiennych</a></td>
     <td rowspan="2"></td>
     <td rowspan="4"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/94 target="_blank" rel="noopener noreferrer">HW2 </a>(5p)<br>P1 (2p)</td>
   </tr>
