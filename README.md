@@ -135,7 +135,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">04-04</td>
     <td rowspan="2">Spotkanie projektowe III</td>
     <td rowspan="2"></td>
-    <td rowspan="4">P1 (2p)<br>HW4 (5p) </td>
+    <td rowspan="4">P1 (2p)<br><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/170 target="_blank" rel="noopener noreferrer">HW4 (5p)</a> </td>
   </tr>
   <tr>
   </tr>
