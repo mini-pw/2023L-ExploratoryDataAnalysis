@@ -1,0 +1,16 @@
+osoba,najczestszy_kolor,zolty_czy_czarny,latwiej_interpretowac,estetyczny,lepszy,cena_audi_wieksza_1,przebieg_przekracza_1,cena_audi_wieksza_2,przebieg_przekracza_2,czy_3d_wprowadza_w_blad
+1,brazowy,zolty,1,1,2,False,2,True,4,True
+2,niebieski,zolty,2,2,2,False,2,True,4,True
+3,brazowy,zolty,1,1,2,False,2,True,4,True
+4,brazowy,czarny,1,2,2,False,3,True,4,True
+5,brazowy,zolty,1,1,2,False,2,True,4,True
+6,brazowy,czarny,2,2,2,False,2,True,4,True
+7,brazowy,zolty,1,2,2,False,2,True,4,True
+8,brazowy,zolty,1,1,2,False,2,True,4,True
+9,niebieski,zolty,2,2,2,False,2,True,4,True
+10,brazowy,zolty,2,2,2,False,2,True,4,True
+11,brazowy,zolty,2,2,2,False,3,True,4,True
+12,niebieski,zolty,2,2,2,False,2,True,4,False
+13,brazowy,zolty,1,2,2,False,2,True,4,True
+14,brazowy,zolty,2,2,2,False,2,True,4,True
+15,brazowy,czarny,1,1,2,False,2,True,4,True
