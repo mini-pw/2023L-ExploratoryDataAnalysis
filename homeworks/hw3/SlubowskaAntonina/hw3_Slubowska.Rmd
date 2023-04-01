@@ -1,0 +1,630 @@
+---
+title: "PD3 - Czytelność wykresów"
+author: "Antonina Slubowska"
+date: "2023-03-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(RColorBrewer)
+library(dplyr)
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Wprowadzenie
+
+Podstawowym zadaniem wykresu jest przekazywanie konkretnych informacji. Reprezentacja danych w formie graficznej powinna ułatwiać, a przez to przyspieszać przyswajanie i przetwarzanie nowych treści. Analiza subiektywnej oceny czytelności wykresu może się okazać niewystarczającym narzędziem do badania efektywności pozyskiwania z niego informacji. Z tego względu w ramach pracy domowej 3 zdecydowałam się przedstawić 3 niewielkie zbiory danych w kilku różnych formach (w sumie 10 wykresów), a następnie przygotować na ich podstawie quiz z ograniczonym czasem na każde pytanie, aby zweryfikować, czy wskaźnik poprawnych odpowiedzi będzie w jakiś sposób zależał od typu wizualnej reprezentacji danych.
+
+# 2. Opis eksperymentu
+
+## Grupa badana
+
+Jako grupę badaną wybrałam studentów II roku kierunku lekarskiego na WMCM UKSW, dla których prowadzę przedmiot "Biostatystyka z elementami informatyki". Quiz został udostępniony na platformie MS Teams w terminie od 24.03, 13:30 do 26.03, 20:00. W tym czasie w badaniu wzięło udział 65 osób - 9 mężczyzn i 56 kobiet. Znaczna dysproporcja płci sprawia, że wyniki eksperymentu bezpieczniej odnosić do populacji kobiet.
+
+## Quiz
+
+Mając na uwadze zainteresowania grupy badanej, dane do quizu znalazłam w, stosunkowo świeżo opublikowanych, artykułach biomedycznych o niezbyt skomplikowanej tematyce (dokładne źródła poniżej). Wszystkie wykresy powstały przy użyciu programu R.
+Do utworzenia quizu wykorzystałam platformę Testportal, która pozwoliła na ograniczenie czasu na udzielenie pojedynczej odpowiedzi do 30 sekund. W quizie pojawiły się 3 typy pytań - zamknięte wielokrotnego wyboru i prawda/fałsz, na podstawie których analizowałam wyniki eksperymentu oraz ostatnie, otwarte, dotyczące odczuć i przemyśleń badanych związanych z wykonaniem quizu, do których nawiązanie znajduje się w części podsumowującej raportu.
+
+## Pytania i wykresy
+
+Poniżej zamieszczam treści wszystkich pytań (w zachowanej kolejności) oraz wykresy, których dotyczą.
+
+**1., 3.** (Wykresy 1-2)
+
+Na podstawie danych przedstawionych na wykresie oceń prawdziwość poniższego zdania.
+
+Liczba respondentów praktykujących 11-15 lat jest **większa** niż tych praktykujących 21-25. (P/F)
+
+**2., 4.** (Wykresy 1-2)
+
+Na podstawie danych przedstawionych na wykresie oceń prawdziwość poniższego zdania.
+
+Liczba respondentów praktykujących 26-30 lat jest **większa** niż tych praktykujących >30 lat.(P/F)
+
+**Wykres 1** - kołowy, z wykorzystaniem kolorów z palety sekwencyjnej Blues, bez widocznych wartości w %
+
+
+```{r kolowy1, echo=FALSE}
+
+
+df <- data.frame(odpowiedź = c("<=5","6-10", "11-15", "16-20", "21-25", "26-30", ">30"), 
+                 procent.badanych = c(25.90, 14.80, 16.50, 5.00, 16.50, 11.10, 11.10))
+
+df %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = "", y = procent.badanych, fill = odpowiedź, label = rep(c(""),7))) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = c("#EFF3FF","#C6DBEF","#9ECAE1","#6BAED6","#4292C6","#2171B5","#084594")) +
+  coord_polar("y", start = 0) +
+  theme(title = element_text(size=9),
+        panel.background = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid  = element_blank()) +
+  ggtitle("Lata praktyki w specjalizacji endokrynologicznej, procent odp.") +
+  xlab("") +
+  ylab("") + 
+  guides(fill=guide_legend(title=""))-> kolowy1
+
+plot(kolowy1)
+```
+
+**Wykres 2** - słupkowy pionowy, bez widocznych wartości w %
+
+```{r slupkowy1, echo=FALSE}
+df %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(odpowiedź,row), y = procent.badanych, fill = odpowiedź, 
+             label = rep(c(""),7))) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = rep(c("#9ECAE1"), 7)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Lata praktyki w specjalizacji endokrynologicznej") +
+  ylab("Procent respondentów") +
+  xlab("Lata praktyki") +
+  scale_y_continuous(breaks = c(0.0, 5.0, 10.0, 15.0, 20.0, 25.0, 30.0)) -> slupkowy1
+
+plot(slupkowy1)
+```
+
+**5., 7.** (Wykresy 3-4)
+
+3 **najmniejsze** grupy respondentów pod względem lat doświadczenia w zawodzie to osoby pracujące: (wielokrotny wybór)
+
+**6., 8.** (Wykresy 3-4)
+
+3 **największe** grupy respondentów pod względem lat doświadczenia w zawodzie to osoby pracujące: (wielokrotny wybór)
+
+**Wykres 3** - kołowy, z wykorzystaniem kolorów z palety sekwencyjnej Blues, z widocznymi wartościami w %
+
+```{r kolowy2, echo=FALSE}
+df %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = "", y = procent.badanych, fill = odpowiedź, label = procent.badanych)) +
+  geom_col() +
+  geom_text(aes(label = paste(round(procent.badanych / sum(procent.badanych) * 100, 1)), x = 1.2),
+            position = position_stack(vjust = 0.5)) + 
+  scale_fill_manual(values = c("#EFF3FF","#C6DBEF","#9ECAE1","#6BAED6","#4292C6","#2171B5","#084594")) +
+  coord_polar("y", start = 0) +
+  theme(title = element_text(size=9),
+        panel.background = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid  = element_blank()) +
+  ggtitle("Lata praktyki w specjalizacji endokrynologicznej, procent odp.") +
+  xlab("") +
+  ylab("") + 
+  guides(fill=guide_legend(title=""))-> kolowy2
+plot(kolowy2)
+```
+
+**Wykres 4** - słupkowy pionowy, z widocznymi wartościami w %
+
+```{r slupkowy2, echo=FALSE}
+df %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(odpowiedź,row), y = procent.badanych, fill = odpowiedź, 
+             label = procent.badanych)) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = rep(c("#9ECAE1"), 7)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Lata praktyki w specjalizacji endokrynologicznej") +
+  ylab("Procent respondentów") +
+  xlab("Lata praktyki") +
+  scale_y_continuous(breaks = c(0.0, 5.0, 10.0, 15.0, 20.0, 25.0, 30.0)) -> slupkowy2
+plot(slupkowy2)
+```
+
+**9., 11.** (Wykresy 5-6)
+
+Na podstawie danych przedstawionych na wykresie oceń prawdziwość poniższego zdania.
+
+Styl życia i rodzina są **ważniejszymi** czynnikami kształtującymi wybór ścieżki zawodowej studenta medycyny niż inne, nienazwane.(P/F)
+
+**10., 12.** (Wykresy 5-6)
+
+Na podstawie danych przedstawionych na wykresie oceń prawdziwość poniższego zdania.
+
+Styl życia i rodzina, typowi pacjenci i relacja z pacjentem liczone razem są **ważniejszymi** czynnikami kształtującymi wybór ścieżki zawodowej studenta medycyny niż inne, nienazwane, oraz osobiste korzyści, liczone razem. (P/F)
+
+**Wykres 5** - kołowy, z wykorzystaniem kolorów z palety "jakościowej" (qualitative), bez widocznych wag
+
+```{r kolowy3, echo=FALSE}
+df3 <- data.frame(czynnik = c("Typowi pacjenci","Wpływ otoczenia", 
+                             "Relacja z pacjentami", "Osobiste korzyści", 
+                             "Styl życia, rodzina", "Inne"), 
+                  waga = c(8.0, 9.0, 11.0, 20.0, 27.0, 25.0))
+df3 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = "", y = waga, fill = czynnik, label = rep(c(""),6))) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = c("#d53e4f","#fc8d59","#fee08b","#e6f598","#99d594","#3288bd")) +
+  coord_polar("y", start = 0) +
+  theme(title = element_text(size=9),
+        panel.background = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid  = element_blank()) +
+  ggtitle("Czynniki kształtujące wybór ścieżki zawodowej studentów medycyny, z wagami") +
+  xlab("") +
+  ylab("") + 
+  guides(fill=guide_legend(title=""))-> kolowy3
+plot(kolowy3)
+```
+
+**Wykres 6** - słupkowy poziomy, bez widocznych wag
+
+```{r slupkowy3, echo=FALSE}
+df3 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(czynnik,row), y = waga, fill = czynnik, 
+             label = "")) +
+  geom_col() +
+  geom_text(nudge_y = -7) +
+  scale_fill_manual(values = rep(c("#99d594"), 6)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.x = element_line(color = "grey")) +
+  ggtitle("Czynniki kształtujące wybór ścieżki zawodowej studentów medycyny") +
+  ylab("Waga") +
+  xlab("") +
+  coord_flip() -> slupkowy3
+
+plot(slupkowy3)
+```
+
+**13., 15.** (Wykresy 7-8)
+
+3 **najważniejszymi** czynnikami kształtującymi wybór ścieżki zawodowej studentów medycyny są:(wielokrotny wybór)
+
+**14., 16.** (Wykresy 7-8)
+
+3 **najmniej ważnymi** czynnikami kształtującymi wybór ścieżki zawodowej studentów medycyny są:(wielokrotny wybór)
+
+**Wykres 7** - kołowy, z wykorzystaniem kolorów z palety "jakościowej" (qualitative), z widocznymi wagami
+
+```{r kolowy4, echo=FALSE}
+df3 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = "", y = waga, fill = czynnik, label = waga)) +
+  geom_col() +
+  geom_text(aes(label = paste(round(waga / sum(waga) * 100, 1)), x = 1.2),
+            position = position_stack(vjust = 0.5)) + 
+  scale_fill_manual(values = c("#d53e4f","#fc8d59","#fee08b","#e6f598","#99d594","#3288bd")) +
+  coord_polar("y", start = 0) +
+  theme(title = element_text(size=9),
+        panel.background = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid  = element_blank()) +
+  ggtitle("Czynniki kształtujące wybór ścieżki zawodowej studentów medycyny, z wagami") +
+  xlab("") +
+  ylab("") + 
+  guides(fill=guide_legend(title=""))-> kolowy4
+plot(kolowy4)
+```
+
+**Wykres 8** - słupkowy poziomy, z widocznymi wagami
+
+```{r slupkowy4, echo=FALSE}
+df3 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(czynnik,row), y = waga, fill = czynnik, 
+             label = waga)) +
+  geom_col() +
+  geom_text(nudge_y = -1) +
+  scale_fill_manual(values = rep(c("#99d594"), 6)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.x = element_line(color = "grey")) +
+  ggtitle("Czynniki kształtujące wybór ścieżki zawodowej studentów medycyny") +
+  ylab("Waga") +
+  xlab("") +
+  coord_flip() -> slupkowy4
+
+plot(slupkowy4)
+```
+
+**17., 18.** (Wykresy 9-10)
+
+**Więcej**  lekarzy uznaje "Większe zaangażowanie pacjenta" niż "Lepszą jakość leczenia" za dużą zaletę cyfryzacji w diabetologii.(P/F)
+
+**Wykres 9** - słupkowy poziomy, bez widocznych wartości w %
+
+```{r slupkowy5, echo=FALSE}
+df2 <- data.frame(zaleta = c("Lepsza komunikacja z pacjentem","Większe wsparcie w decyzjach dot. leczenia", 
+                             "Większe zaangażowanie pacjenta", "Lepsza jakość leczenia", 
+                             "Większa pewność siebie pacjenta", "Lepsza komunikacja z innymi lekarzami"), 
+                 procent.lekarzy = c(71.6, 66.8, 62.3, 62.3, 59.4, 41.0))
+df2 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(zaleta,row), y = procent.lekarzy, fill = zaleta, 
+             label = rep(c(""),6))) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = rep(c("#6BAED6"), 6)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.x = element_line(color = "grey")) +
+  ggtitle("Zalety cyfryzacji w diabetologii") +
+  ylab("Procent lekarzy, uznający zaletę za dużą") +
+  xlab("") +
+  coord_flip() -> slupkowy5
+plot(slupkowy5)
+```
+
+**Wykres 10** - słupkowy poziomy, z widocznymi wartościami w %
+
+```{r slupkowy6, echo=FALSE}
+df2 %>%
+  mutate(row = row_number()) %>% 
+  ggplot(aes(x = reorder(zaleta,row), y = procent.lekarzy, fill = zaleta, 
+             label = procent.lekarzy)) +
+  geom_col() +
+  geom_text(nudge_y = -7) +
+  scale_fill_manual(values = rep(c("#6BAED6"), 6)) +
+  theme(legend.position="none",
+        title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.x = element_line(color = "grey")) +
+  ggtitle("Zalety cyfryzacji w diabetologii") +
+  ylab("Procent lekarzy, uznający zaletę za dużą") +
+  xlab("") +
+  coord_flip() -> slupkowy6
+plot(slupkowy6)
+```
+
+## Źródła danych:
+
+1.	Amber M. Healy, Jay H. Shubrook, Frank L. Schwartz, Doyle M. Cummings, Almond J. Drake, Robert J. Tanenberg; Endocrinologists’ Opinions of Diabetology as a Primary Care Subspecialty. Clin Diabetes 1 April 2018; 36 (2): 168–173. https://doi.org/10.2337/cd17-0097 (Wykresy 1-4)
+
+2.	Roos T, Hochstadt S, Keuthage W, Kröger J, Lueg A, Mühlen H, Schütte L, Scheper N, Ehrmann D, Hermanns N, Heinemann L, Kulzer B. Level of Digitalization in Germany: Results of the Diabetes Digitalization and Technology (D.U.T) Report 2020. J Diabetes Sci Technol. 2022 Jan;16(1):144-151. doi: 10.1177/1932296820965553. (Wykresy 5-8)
+
+3.	Gottlieb-Smith R, Gelb DJ, Becker B, Dymm B, Gutgsell O, Patel N, Balmer DF. Longitudinal Qualitative Study of Career Decision-making of First-Year Medical Students: Why Neurology (or Not)? Neurol Clin Pract. 2021 Aug;11(4):e387-e396. doi: 10.1212/CPJ.0000000000001071. (Wykresy 9-10)
+
+# 3. Wyniki
+
+## Pytania 1. - 4.
+
+4 pierwsze pytania typu prawda/fałsz miały na celu sprawdzenie, czy, w przypadku wykresów nieopatrzonych dokładnymi wartościami prezentujących te same dane, porównywanie wielkości wycinków koła takich samych rozmiarów na wykresie kołowym sprawia więcej trudności niż słupków na jednokolorowym pionowym wykresie słupkowym.
+
+Poniższy wykres, przedstawiający procent zsumowanych poprawnych i błędnych odpowiedzi na pyt. 1. i 2., dotyczące wykresu kołowego oraz 3. i 4., dotyczące wykresu słupkowego, wskazuje, że tak!
+
+```{r wynik1, echo=FALSE}
+df14 <- data.frame(wykres = rep(c("kołowy","słupkowy"),2), 
+                     procent.odp = c(65.0, 89.0, 35.0, 12.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df14 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Co jest większym wyzwaniem - porównywanie jednakowej wielkości słupków, \n czy jednakowej wielkości wycinków koła?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Typ wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik1
+
+plot(wynik1)
+```
+
+## Pytania 5. - 8.
+
+Pytania od 5. do 8. były pytaniami wielokrotnego wyboru i miały pomóc zweryfikować, czy konieczność korzystania z legendy kolorów z palety gradientowej znacząco utrudnia wybór 3 najmniejszych/największych grup na opatrzonym dokładnymi wartościami wykresie kołowym, w porównaniu z "etykietowanym" pionowym wykresem słupkowym wygenerowanym przy użyciu tych samych danych.
+
+Poniższy wykres, przedstawiający procent zsumowanych poprawnych i błędnych odpowiedzi na pyt. 5. i 6., dotyczące wykresu kołowego oraz 7. i 8., dotyczące wykresu słupkowego, wskazuje, że ZDECYDOWANIE TAK!
+
+```{r wynik2, echo=FALSE}
+df58 <- data.frame(wykres = rep(c("kołowy z legendą gradientową","słupkowy"),2), 
+                   procent.odp = c(20.0, 83.0, 80.0, 17.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df58 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Czy gradientowa legenda do wykresu kołowego stanowi duże utrudnienie?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Typ wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik2
+plot(wynik2)
+```
+
+To chyba najbardziej spektakularny wynik eksperymentu, w którym proporcje odpowiedzi poprawnych do błędnych w przypadku wykresów kołowych i słupkowych są niemal odwrotne, przy czym pyt. 5. wypadło najgorzej ze wszystkich, co widać również na ostatnim wykresie w tej części raportu.
+
+## Pytania 9. - 12.
+
+Pytania od 9. do 12. były znowu pytaniami typu prawda/fałsz, ale dotyczyły innych danych, które zostały zaprezentowane za pomocą wykresu kołowego powstałego z użyciem "jakościowej" (qualitative) palety kolorów (pyt. 9. i 10.) oraz poziomego słupkowego. Oba zostały pozbawione etykiet danych.
+
+Celem tej części quizu było sprawdzenie 2 rzeczy. 
+
+Po pierwsze, czy porównywanie wielkości wycinków koła nieznacznie różnych rozmiarów jest trudniejsze niż w przypadku podobnej wielkości słupków, odnoszących się do tych samych zbiorów danych - pytania 9. i 11. 
+
+Po drugie, czy porównywanie wielkości "zespołów" wycinków podobnych rozmiarów jest trudniejsze niż w przypadku podobnej wielkości "zespołów słupków", odnoszących się do tych samych zbiorów danych - pytania 10. i 12.
+
+Tym razem przewaga wykresów słupkowych okazała się mniej miażdżąca.
+
+Uzyskane w tej części eksperymentu wyniki sugerują, że w przypadku porównywania grup nieznacznie różniących się rozmiarem (o 2 punkty procentowe) wybór typu wykresu (kołowy/słupkowy) nie ma kluczowego znaczenia, co widać na poniższym wykresie.
+
+```{r wynik3, echo=FALSE}
+df911 <- data.frame(wykres = rep(c("kołowy","słupkowy"),2), 
+                   procent.odp = c(88.0, 91.0, 12.0, 9.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df911 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Który typ wykresu sprawdza się lepiej przy porównywaniu grup, \n nieznacznie (o 2 pkt %) różniących się rozmiarem?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Typ wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik3
+plot(wynik3)
+```
+
+Porównywanie rozmiarów "zespołów" słupków przysparza natomiast nieco mniej trudności niż porównywanie "zespołów" wycinków, co, jak wynika z poprzedniej części badania oraz wrażeń uczestników, jest najprawdopodobniej spowodowane dodatkowym czasem potrzebnym na przeanalizowanie legendy do wykresu kołowego. "Zespoły" różniły się od siebie o zaledwie 1 punkt procentowy i zadanie to okazało się w ogóle dość trudne do wykonania prawidłowo w 30 sekund. W przypadku obu wykresów procent prawidłowych odpowiedzi był niższy niż 50% (Wykres poniżej), co jest wynikiem gorszym niż oczekiwany przy założeniu całkowicie losowego zaznaczania odpowiedzi.
+
+```{r wynik4, echo=FALSE}
+df1012 <- data.frame(wykres = rep(c("kołowy","słupkowy"),2), 
+                    procent.odp = c(38.0, 49.0, 62.0, 51.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df1012 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Który typ wykresu sprawdza się lepiej przy porównywaniu \"zespołów\" grup, \n nieznacznie (o 1 pkt %) różniących się rozmiarem?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Typ wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik4
+
+plot(wynik4)
+```
+
+## Pytania 13. - 16.
+
+4 następne zadania były analogiczne do zadań 5. - 8., z tym, że dotyczyły poziomego, a nie pionowego wykresu słupkowego oraz wykresu kołowego pokolorowanego przy użyciu palety jakościowej, ułatwiającej rozróżnianie kategorii. W tym przypadku wybieranie 3 największych/najmniejszych korzystając z wykresu kołowego z etykietami danych okazało się tylko nieznacznie trudniejsze niż patrząc na wykres słupkowy, z widocznymi wartościami. 
+
+Poniższy wykres przedstawia procent zsumowanych poprawnych i błędnych odpowiedzi na pyt. 13. i 14., dotyczące wykresu kołowego oraz 15. i 16., dotyczące wykresu słupkowego.
+
+```{r wynik5, echo=FALSE}
+df1315 <- data.frame(wykres = rep(c("kołowy z legendą jakościową","słupkowy"),2), 
+                     procent.odp = c(88.0, 96.0, 12.0, 4.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df1315 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Czy jakościowa legenda do wykresu kołowego stanowi duże utrudnienie?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Typ wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik5
+plot(wynik5)
+```
+
+## Pytania 17. i 18.
+
+2 ostatnie pytania typu prawda/fałsz miały na celu sprawdzenie, czy porównanie ze sobą dwóch słupków jednakowej wielkości na wykresie słupkowym poziomym uporządkowanym (tutaj malejąco) sprawia więcej trudności, gdy przy słupkach nie widnieją dokładne wartości niż kiedy te same słupki są podpisane.
+
+Poniższy wykres wyknonany na podstawie danych o odpowiedziach w pyt. 17. i 18. sugeruje, że tak!
+
+```{r wynik6, echo=FALSE}
+df1718 <- data.frame(wykres = rep(c("bez widocznych wartości","z widocznymi wartościami"),2), 
+                 procent.odp = c(79.0, 95.0, 21.0, 5.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+df1718 %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Porównywanie jednakowej wielkości słupków sąsiadujących ze sobą") +
+  ylab("Procent odpowiedzi") +
+  xlab("Wersja wykresu") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik6
+plot(wynik6)
+```
+
+## Kolory wykresu kołowego
+ 
+Wstępna analiza wyników nasuwa przypuszczenie, że główny problem ze sprawnym wyciąganiem potrzebnych informacji z wykresu kołowego stanowi konieczność odwoływania się do legendy z trudno rozróżnialnymi kolorami (np. zrobionej przy użyciu palety gradientowej). 
+
+Poniższy wykres przedstawia różnicę w procencie poprawnych odpowiedzi wymagających odwołania się do legendy wykresu kołowego między wykresem z legendą gradientową (pytania 5. i 6.), a takim z legendą jakościową (pytania 13. i 14.).
+
+```{r wynik7, echo=FALSE}
+dfleg <- data.frame(wykres = rep(c("gradientowa","jakościowa"),2), 
+                    procent.odp = c(20.0, 88.0, 80.0, 12.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+dfleg %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 10, color='black'),
+         axis.text.y = element_text(size = 10, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Jak duże znaczenie mają kolory wykresu kołowego?") +
+  ylab("Procent odpowiedzi") +
+  xlab("Rodzaj palety użytej do pokolorowania wykresu kołowego") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik7
+plot(wynik7)
+```
+
+Warto zastanowić się, czy oprócz wpływu kolorów legendy na poziom skomplikowania zadania, także pytania 5. i 6. nie były same w sobie trudniejsze. Jest to możliwe, ale z pewnością miało to mniejszy wpływ na wyniki, co widać na wykresie przedstawiającym rozkład odpowiedzi na te same pytania zadane do wykresów słupkowych.
+
+```{r wynik8, echo=FALSE}
+dfslup <- data.frame(wykres = rep(c("7.i 8. (gradientowa)","15. i 16. (jakościowa)"),2), 
+                    procent.odp = c(83.0, 96.0, 17.0, 4.0), kategoria = c("poprawne", "poprawne", "niepoprawne", "niepoprawne"))
+
+dfslup %>% 
+  ggplot(aes(fill = kategoria, x = wykres, y = procent.odp, label = paste0(procent.odp,"%\n"))) +
+  geom_col(position="dodge") +
+  geom_text(position = position_dodge(width = 1)) +
+  scale_fill_manual(values = c("#d53e4f", "#99d594")) +
+  theme (title = element_text(size=9),
+         axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+         axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+         axis.text.x = element_text(size = 9, color='black'),
+         axis.text.y = element_text(size = 8, color='black'),
+         panel.background = element_blank(),
+         panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Rozkład odpowiedzi na pytania wielokrotnego wyboru w wersji z wykresami słupkowymi") +
+  ylab("Procent odpowiedzi") +
+  xlab("Numery pytań wraz z paletą kolorów użytą w wykresie kołowym, \n do którego zadano pytania o tej samej treści") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik8
+plot(wynik8)
+```
+
+## Podsumowanie wpływu typu wykresu (kołowy vs słupkowy) na trudność pytania 
+
+Poniższy wykres przedstawia procent poprawnych odpowiedzi na każde z pytań, z zaznaczeniem, jakiego typu wykresu dotyczyło.
+
+```{r wynik9, echo=FALSE}
+allans <- data.frame(pytanie = c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13",
+                                 "14", "15", "16", "17", "18"),
+                     proc.popr = c(62, 68, 89, 89, 14, 26, 82, 85, 88, 38, 91,
+                                   49, 82, 95, 95, 97, 78, 95),
+                     wykres = c("kołowy", "kołowy",
+                                "słupkowy", "słupkowy", "kołowy",
+                                "kołowy", "słupkowy", "słupkowy", "kołowy", "kołowy",
+                                "słupkowy", "słupkowy", "kołowy", "kołowy", "słupkowy",
+                                "słupkowy", "słupkowy", "słupkowy"))
+
+allans %>%
+  ggplot(aes(x = reorder(pytanie, proc.popr), y = proc.popr, fill = wykres, 
+             label = proc.popr)) +
+  geom_col() +
+  geom_text(nudge_y = 2) +
+  scale_fill_manual(values = c("#fc8d59", "#3288bd")) +
+  theme (title = element_text(size=9),
+        axis.title.x = element_text(size=9.75,color='black', face = "bold"),
+        axis.title.y = element_text(size=9.75,color='black', face = "bold"),
+        axis.text.x = element_text(size = 10, color='black'),
+        axis.text.y = element_text(size = 10, color='black'),
+        panel.background = element_blank(),
+        panel.grid.major.y = element_line(color = "grey")) +
+  ggtitle("Czy rzeczywiście wykresy kołowe są takie niepraktyczne?") +
+  ylab("Procent poprawnych odpowiedzi") +
+  xlab("Numer pytania") +
+  scale_y_continuous(breaks = c(0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0)) -> wynik9
+plot(wynik9)
+```
+
+Jak widać w części przypadków wykres kołowy nie przyczynił się do znacznego utrudnienia zadania quizowego, jednak wśród pytań, na które udzielono mniej niż 70% poprawnych odpowiedzi, zdecydowanie przoduje, więc wybieranie zamiast niego na wszelki wypadek w każdej sytuacji wykresu słupkowego, wydaje się być nadal słusznym i bezpiecznym zaleceniem.
+
+# Podsumowanie wyników
+
+Wykonany eksperyment dostarczył kolejnych argumentów przeciwko wykresom kołowym, a za wykresami słupkowymi, ponieważ zasugerował, że te pierwsze, w przeciwieństwie do drugich, mogą przyczynić się do znacznego utrudnienia szybkiej analizy prezentowanych danych. Szczególnie niewskazane wydaje się wykorzystywanie do wizualizacji wykresów kołowych pokolorowanych przy użyciu palety gradientowej. Wnioski te pokrywają się z odczuciami badanych studentów, raportowanymi przez nich w otwartym pytaniu 19. quizu. Oprócz ww. kwestii, wskazywali oni także na większą czytelność wykresu z widocznymi wartościami przyporządkowanymi poszczególnym wycinkom/słupkom. W części raportu poświęconej wynikom postarałam zastosować się do wszystkich tych sugestii. 
+
+# Dyskusja
+
+Słabym punktem badania był fakt, że uczestnicy za pierwszym razem widzieli dane prezentowane na wykresie kołowym (wg eksperymentu - gorszym), a dopiero drugi raz na wykresie słupkowym (wg eksperymentu - lepszym), co mogło wpłynąć na lepsze wyniki uzyskiwane w pytaniach do wykresów słupkowych. Idealnie byłoby zwiększyć grupę badaną do min. 100 osób, przeprowadzić w jej obrębie proces randomizacji, dzieląc ją losowo na pół i każdemu z 2 powstałych podzbiorów badanych dać do rozwiązania inny test, z każdym zestawem danych w jednej formie - wykresu kołowego albo słupkowego. Niestety na organizację takiego przedsięwzięcia brakowało czasu. Wydaje się jednak, że, w związku z nieświadomością badanych, iż wykresy prezentują dokładnie te same dane, a nie tylko dane na ten sam temat, potęgowaną przez presję czasu, której zostali poddani uczestnicy, "efekt kolejności" został zniwelowany i wyniki eksperymentu można uznać za wartościowe.
+
+
+
+
+
