@@ -6,7 +6,7 @@ output:
   html_document:
     code_folding: "hide"
 knit: (function(input, ...) {
-    rmarkdown::render(input,output_dir = "..")
+    rmarkdown::render(input, output_dir = "..")
   })
 ---
 
@@ -33,6 +33,20 @@ library(readr)
 library(sf)
 library(stringr)
 ```
+
+## Wstęp
+
+Celem pracy domowej było sprawdzenie znajomości tworzenia map z wykorzystaniem narzędzi w języku *R* lub *Python* i polegała ona na przedstawieniu dowolnych danych w poprawny sposób z wykorzystaniem mapy.
+
+## Dane
+
+Utworzona wizualizacja dotyczyła danych o wynikach głosowania na listy Sejmowe, w wyborach parlamentarnych w Polsce w 2019. roku, udostępnionych przez *Państwową Komisję Wyborczą (PKW)*. Dane są dostępne do pobrania pod linkiem: 
+
+https://sejmsenat2019.pkw.gov.pl/sejmsenat2019/pl/dane_w_arkuszach.
+
+Dane geograficzne niezbędne do utworzenia mapy pochodziły z *Państwowego Rejestru Granic (PRG)* i są dostępne do pobrania pod linkiem:
+
+https://www.geoportal.gov.pl/dane/panstwowy-rejestr-granic.
 
 ```{r process_data, results='hide', message=FALSE}
 fix_names <- function(string) {
@@ -63,6 +77,10 @@ granice_wyniki <- granice_powiatow |>
   inner_join(wyniki_glosowania, by = join_by(JPT_KOD_JE == kod_teryt))
 ```
 
+## Wizualizacja
+
+Na mapie administracyjnej Polski, kolorem przedstawiono udział procentowy głosów unieważnionych z powodu niepostawienia znaku 'X' obok nazwiska żadnego kandydata w stosunku do wszystkich ważnych kart, w wyborach parlamentarnych w Polsce w 2019. roku,  według poszczególnych powiatów.
+
 ```{r map, fig.dim=c(16, 9), fig.align='center', out.width='100%'}
 custom_theme <- theme(
   axis.text = element_blank(),
@@ -91,7 +109,7 @@ ggplot() +
     linewidth = 0.5
   ) +
   scale_fill_viridis_c(
-    labels = scales::percent_format(scale = 100)
+    labels = scales::label_percent()
   ) +
   labs(
     title = str_wrap(
@@ -107,3 +125,7 @@ ggplot() +
   theme_bw() +
   custom_theme
 ```
+
+## Podsumowanie
+
+Tworzenie wizualizacji na mapach na stanowi istotne doświadczenie w pracy z danymi. Wizualizacje takie jak powyższa mogą stanowić niezastąpione źródło informacji na różne tematy, w tym społeczno-polityczne.
