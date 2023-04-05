@@ -1,0 +1,116 @@
+---
+title: "Raport PD4 - mapa"
+author: "Helena Wałachowska"
+date: "2023-04-03"
+output: html_document
+---
+
+## Tematyka
+
+Zaprezentowana wizualzacja miała na celu przedstawienie relacji między urbanizacją danego stanu USA, a liczbą wykrytych morderst przypadających na 100.000 mieszkańców danego stanu. Dane pochodzą z roku 1973.
+
+## Dane
+
+Dane zostały zaczerpnięte ze strony [kaggle.com](https://www.kaggle.com/datasets/mathchi/violent-crime-rates-by-us-state).
+
+## Wizualizacja
+
+```{r wykres2, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(maps)
+library(mapdata)
+library(dplyr)
+library(patchwork)
+
+crime <- read.csv("US_violent_crime.csv")
+
+df <- crime %>%
+  mutate(X = tolower(X))
+
+states <- map_data("state")
+
+# tabelki do wykresów
+
+murder <- df %>%
+  select(X, Murder) %>%
+  full_join(states, by = c("X" = "region"))
+
+urban_pop <- df %>%
+  select(X, UrbanPop) %>%
+  full_join(states, by = c("X" = "region"))
+
+theme_nothing <- theme(
+  axis.text = element_blank(),
+  axis.line = element_blank(),
+  axis.ticks = element_blank(),
+  panel.border = element_blank(),
+  panel.grid = element_blank(),
+  axis.title = element_blank()
+)
+
+# wykresy
+
+murder_map <- ggplot(data = murder)+
+  geom_polygon(aes(x = long, y = lat, group = group, fill = Murder), color = "grey", ) +
+  coord_fixed(1.3) +
+  scale_fill_gradient2(
+    low = "#5584B0",
+    mid = "white",
+    high = "#BF233C",
+    midpoint = 10,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "fill"
+  ) +
+  theme_bw() +
+  theme_nothing +
+  labs(title = "Liczba morderstw na 100.000 mieszkańców",
+       subtitle = "USA, rok 1973",
+       fill = "Morderstwa") +
+  theme(plot.title=element_text(face = "bold", size = 10, hjust = 0.5, color = "grey50"),
+        plot.subtitle = element_text(size = 10, hjust = 0.5, color = "grey50"),
+        legend.title = element_text(size = 10, color = "grey50"))
+
+
+urban_map <- ggplot(data = urban_pop)+
+  geom_polygon(aes(x = long, y = lat, group = group, fill = UrbanPop), color = "grey", ) +
+  scale_fill_gradient2(
+    low = "#61A95C",
+    mid = "white",
+    high = "#2A5783",
+    midpoint = 65,
+    space = "Lab",
+    na.value = "grey50",
+    guide = "colourbar",
+    aesthetics = "fill"
+  ) +
+  coord_fixed(1.3) +
+  theme_bw() +
+  theme_nothing +
+  labs(title = "Mieszkańcy ośrodków miejskich względem całej populacji",
+       subtitle = "USA, rok 1973",
+       fill = "%") +
+  theme(plot.title=element_text(face = "bold", size = 10, hjust = 0.5, color = "grey50"),
+        plot.subtitle = element_text(size = 10, hjust = 0.5, color = "grey50"),
+        legend.title = element_text(size = 10, color = "grey50"))
+
+urban_map
+murder_map
+
+```
+
+## Wnioski
+
+Po analizie obu map możemy stwierdzić, że sytuacja w każdym ze stanów jest odmienna i trudno byłoby określić jednoznaczną regułę wiążącą ze sobą oba zjawiska.
+
+Możemy wyróżnić 4 zwracające uwagę kategorie:
+
+* stany o wysokim współczynniku morderstw i wysokim stopniu urbanizacji, tutaj wyróżnia się Floryda, potem dostrzegamy Texas, Nevadę i Michigan, w których proporcja pomiędzy współczynnikami jest zachowana, ale ich wartości są niższe niż na Florydzie, w Nowym Yorku mimo prawie najwyższej
+urbanizacji również odnotowano znaczącą liczbę morderstw;
+
+* stany o wysokim współczynniku morderstw i niewielkim stopniu urbanizacji, w tej kategorii znajduje się większość stanów południowo-wschodnich Tennesse, Karolina Pn. i Pd., Missipi, Alabama oraz Georgia, którą wyróżnia największy współczynnik zabójstw;
+
+* stany o niskim współczynniku morderstw i niewielkim stopniu urbanizacji, w tym przypadku są to stany północno-zachodnie, gdzie wyróżniają się Dakota Pn. i Pd., Idaho i Iowa, bardzo pozytywnie w tej kategorii wypadają stany najdalej wysunięte na północny-wschód, czyli Vermont, New Hampshire i Maine;
+
+* stany o niskim współczynniku morderstw i znaczącym stopniu urbanizacji, tu przodują małe stany północno-wschodnie: Massachusetts, Connecticut, Rhode Island, a z drugiej strony duże stany zachodnie takie jak: Utah, Oregon i Waszyngton.
