@@ -5,7 +5,7 @@ library(showtext)
 library(calendR)
 library(paletteer)
 
-opera <- read.csv("../Data/Opera.csv")
+opera <- read.csv("Opera.csv")
 View(opera)
 
 # opery z ilością wystawień i datą premiery w danym roku
