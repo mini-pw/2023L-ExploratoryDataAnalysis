@@ -158,7 +158,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">19-04</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: Shiny - część 1</td>
+    <td rowspan="2">R: generowanie raportów z analizą danych</td>
   </tr>
   <tr>
   </tr>
@@ -175,7 +175,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">26-04</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: Shiny - część 2</td>
+    <td rowspan="2">R: Shiny - część 1</td>
   </tr>
   <tr>
   </tr>
@@ -192,7 +192,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">10-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: generowanie raportów z analizą danych</td>
+    <td rowspan="2">R: Shiny - część 2</td>
   </tr>
   <tr>
   </tr>
