@@ -1,0 +1,222 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+1. Logowanie do Spotify API:
+
+```{r}
+
+library(spotifyr)
+setwd("C:/Users/rober/Desktop/skrypty_do_plakatu")
+
+Sys.setenv(SPOTIFY_CLIENT_ID  = "client_id")
+Sys.setenv(SPOTIFY_CLIENT_SECRET  = "client_secret")
+access_token <- get_spotify_access_token()
+```
+
+2. Dodawanie genre do ramek global z całego roku:
+
+```{r}
+library(dplyr)
+library(stringr)
+library(lubridate)
+
+setwd("C:/Users/rober/Desktop/skrypty_do_plakatu")
+#setwd("C:/Users/rober/Documents/Rspotify")
+
+prepare_data <- function(csv_filename,d){
+  data <- read.csv(paste(csv_filename,d,".csv",sep=""))
+  #print(d)
+  data <- data %>% 
+  mutate(id = str_split(uri,":",simplify = TRUE)[ , 3])
+  ids1 <- data$id[1:100]
+  ids2 <- data$id[101:200]
+  features1 <- get_track_audio_features(ids1)
+  features2 <- get_track_audio_features(ids2)
+  features <- rbind(features1,features2)
+  data <- cbind(data,features[c('danceability','valence','speechiness',
+                              'energy','liveness','tempo','loudness',
+                              'acousticness','instrumentalness')])
+  data <- data %>%
+  mutate(main_artist = str_split(artist_names,",",simplify=TRUE)[,1])
+    tracks1 <- get_tracks(data$id[1:50])
+    tracks2 <- get_tracks(data$id[51:100])
+    tracks3 <- get_tracks(data$id[101:150])
+    tracks4 <- get_tracks(data$id[151:200])
+    
+  tracks <- rbind(tracks1,tracks2,tracks3,tracks4)
+  data$artist.id = lapply(tracks$artists, function(x) x[[2]][1])
+  genres1 <- get_artists(data$artist.id[1:50])['genres']
+  genres2 <- get_artists(data$artist.id[51:100])['genres']
+  genres3 <- get_artists(data$artist.id[101:150])['genres']
+  genres4 <- get_artists(data$artist.id[151:200])['genres']
+  genres <- rbind(genres1,genres2,genres3,genres4)
+  data <- data %>%
+    mutate(genres = genres$genres)
+  data$genres <- lapply(data$genres, function(x) paste(x,collapse=','))
+  data <- apply(data,2,as.character)
+  #View(data)
+  write.csv(data,
+            paste(csv_filename,d,
+                "-withGenres.csv",sep=""))
+}
+#df <- apply(df,2,as.character)
+#data <- read.csv("regional-global-weekly-2022-01-06.csv")
+
+d <- date("2022-01-06")
+#d <- date("2023-01-05")
+for (i in 1:51){
+  print(i)
+  prepare_data("regional-global-weekly-",d)
+  d <- d + 7
+  
+}
+
+```
+
+3. Wczytanie całego roku global do jednej ramki:
+
+```{r}
+library(lubridate)
+library(dplyr)
+
+setwd("C:/Users/rober/Desktop/skrypty_do_plakatu")
+#setwd("C:/Users/rober/Documents/Rspotify")
+
+d <- date("2022-01-06")
+#d<-d+7
+ramka <- read.csv(paste("regional-global-weekly-",d,"-withGenres.csv",sep=""))
+for (i in 1:52){
+  #print(i)
+  print(d)
+  tmp <- read.csv(paste("regional-global-weekly-",d,"-withGenres.csv",sep=""))
+  ramka <- rbind(ramka,tmp)
+  d <- d + 7
+}
+ramka <- ramka %>% 
+        group_by(uri) %>%
+        top_n(1, streams)
+  #distinct(uri, .keep_all=TRUE)
+write.csv(ramka,"ramka-caly-2022.csv")
+```
+
+4. Tworzenie wykresów radar graph o top 5 artystach:
+(najpierw trzeba uruchomić punkt 3)
+
+```{r}
+library(scales)
+library(fmsb)
+
+#library(ggpubr)
+
+setwd("C:/Users/rober/Desktop/skrypty_do_plakatu")
+#setwd("C:/Users/rober/Documents/Rspotify")
+
+
+
+create_radarchart <- function(data, color = "#00AFBB", 
+                                        vlabels = colnames(data), vlcex = 0.7,
+                                        caxislabels = NULL, title = NULL, ...){
+  radarchart(
+    data, axistype = 1,
+    pcol = color, pfcol = scales::alpha(color, 0.5), plwd = 2, plty = 1,
+    cglcol = "grey", cglty = 1, cglwd = 0.8,
+    #axislabcol = "grey",
+    axislabcol = scales::alpha(color, 0.0), 
+    #axislabels = NULL, 
+    vlcex = vlcex, vlabels = vlabels,
+    caxislabels = caxislabels, title = title, ...
+  )
+}
+
+
+top_artists <- ramka %>%
+  group_by(main_artist) %>% summarise(streams = sum(streams),
+    valence = mean(valence), danceability = mean(danceability),
+    energy = mean(energy),tempo=mean(tempo),
+    #liveness = mean(liveness),
+    speechiness = mean(speechiness)) %>%
+  arrange(-streams) %>% top_n(5,streams)
+
+#liczba streamow juz niepotrzebna
+top_artists <- select(top_artists,-c(streams))
+
+min_dance <- min(top_artists$danceability)
+max_dance <- max(top_artists$danceability)
+min_tempo <- min(top_artists$tempo)
+max_tempo <- max(top_artists$tempo)
+min_valemce <- min(top_artists$valence)
+max_valemce <- max(top_artists$valence)
+min_energy <- min(top_artists$energy)
+max_energy <- max(top_artists$energy)
+min_speechiness <- min(top_artists$speechiness)
+max_speechiness <- max(top_artists$speechiness)
+#min_liveness <- min(top_artists$liveness)
+#max_liveness <- max(top_artists$liveness)
+
+
+minima <- apply(top_artists[,-1],2,min)
+maxima <- apply(top_artists[,-1],2,max)
+
+#op <- par(mar = c(1, 1, 1, 1))
+#par(mfrow = c(1,5))
+kolumny <- c("valence","danceability               ","energy","tempo","               speechiness")
+
+for (i in 1:5){
+  print(i)
+  
+  artist <- top_artists[i,]
+  artist_name = artist[1]
+  artist <- rbind(maxima,minima,artist[,-1])
+  #png(filename =paste(artist_name,"-chart.png"))
+  create_radarchart(artist,title = artist_name,
+                              color = '#f5a442',vlabels = kolumny)
+} 
+#par(op)
+```
+
+
+
+5. Obliczanie dla danego kraju sredniej valence z danych przygotowanych
+przez scraper:
+
+```{r}
+library(stringr)
+
+setwd("C:/Users/rober/Desktop/skrypty_do_plakatu/scraper_spotify_python")
+
+country_code = "AE"
+d <- date("2022-01-06")
+suma_valence = 0
+number_of_songs = 0
+for (i in 1:52){
+  print(i)
+  
+  data <- read.csv(paste(paste('uris',country_code,d,".csv",sep="")))
+  
+  data <- data %>% 
+  mutate(uri = str_split(uri,":",simplify = TRUE)[ , 3])
+  ids1 <- data$uri[1:50]
+  ids2 <- data$uri[51:100]
+  ids3 <- data$uri[101:150]
+  ids4 <- data$uri[151:200]
+  features1 <- get_track_audio_features(ids1)
+  features2 <- get_track_audio_features(ids2)
+  features3 <- get_track_audio_features(ids3)
+  features4 <- get_track_audio_features(ids4)
+  features <- rbind(features1,features2,features3,features4)
+  number_of_songs <- number_of_songs  + colSums(!is.na(features))['valence']
+  #View(features)
+  #data <- cbind(data,features[c('valence')])
+  suma_valence = suma_valence + sum(features$valence,na.rm=TRUE)
+  print(suma_valence)
+  d <- d + 7
+}
+print("Srednia valence dla roku:")
+#srednia_valence = suma_valence / (200*52)
+srednia_valence = suma_valence / number_of_songs
+print(srednia_valence)
+write(srednia_valence,paste("srednia_valence_",country_code,".txt",sep=""))
+print(paste("Zrobiono ",country_code))
+```
