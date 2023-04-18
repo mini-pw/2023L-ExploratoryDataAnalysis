@@ -165,7 +165,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">9</td>
     <td rowspan="2">18-04</td>
-    <td>Raportowanie </td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L9-reports.pdf target="_blank" rel="noopener noreferrer">Raportowanie </a></td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
@@ -187,7 +187,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="4">P2 (1p)<br><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/257 target="_blank" rel="noopener noreferrer">HW5 </a>(10p)</td>
   </tr>
   <tr>
-    <td>Spotkanie projektowe I</td>
+    <td>History of Statistical Graphics</td>
   </tr>
   <tr>
     <td rowspan="2">10-05</td>
@@ -199,7 +199,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">11</td>
     <td rowspan="2">09-05</td>
-    <td>History of Statistical Graphics</td>
+    <td> Spotkanie projektowe I </td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
