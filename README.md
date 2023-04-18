@@ -204,7 +204,6 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="4"></td>
   </tr>
   <tr>
-    <td>TBA</td>
   </tr>
   <tr>
     <td rowspan="2">17-05</td>
