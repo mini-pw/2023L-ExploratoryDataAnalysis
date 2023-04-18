@@ -149,7 +149,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">8</td>
     <td rowspan="2">11-04</td>
-    <td rowspan="2">Oddanie P1</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/posters/tree/main/2022-2023/ExploratoryDataAnalysis target="_blank" rel="noopener noreferrer">Oddanie P1</a></td>
     <td rowspan="2"></td>
     <td rowspan="4">P1 (19p)</td>
   </tr>
