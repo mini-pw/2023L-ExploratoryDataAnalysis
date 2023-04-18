@@ -151,7 +151,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">11-04</td>
     <td rowspan="2">Oddanie P1</td>
     <td rowspan="2"></td>
-    <td rowspan="4">P1 (20p)</td>
+    <td rowspan="4">P1 (19p)</td>
   </tr>
   <tr>
   </tr>
@@ -170,7 +170,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="4"></td>
   </tr>
   <tr>
-    <td>Projekt 2</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/projects/project2 target="_blank" rel="noopener noreferrer">Projekt 2</a></td>
   </tr>
   <tr>
     <td rowspan="2">26-04</td>
