@@ -158,7 +158,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">19-04</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: generowanie raportów z analizą danych</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab8 target="_blank" rel="noopener noreferrer">R: generowanie raportów z analizą danych</a></td>
   </tr>
   <tr>
   </tr>
