@@ -1,0 +1,57 @@
+---
+title: ""
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+
+library(dplyr)
+library(ggplot2)
+```
+
+# Rozkłady zmiennych
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+iris %>% 
+  group_by(Species) %>% 
+  summarise_all(mean) %>% 
+  DT::datatable(width=10, options = list(dom = 't'))
+```
+
+
+
+
+Rozkład dwuwymiarowy {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r plot2, fig.cap = "Przykładowy wykres",fig.height=10, fig.width=10}
+ggplot(iris)+
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width))+
+  theme_bw()
+```
+
+
+
+# Dane
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+head(iris) %>% 
+  knitr::kable()
+```

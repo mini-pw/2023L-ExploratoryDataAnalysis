@@ -1,0 +1,165 @@
+---
+title: "Podstawowe raporty w R"
+date: "2023-04-19"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: united
+---
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Tutaj warto wczytać biblioteki, których używamy, dodatkowo w opcjach chunk można ustawić message = FALSE.
+
+library(dplyr)
+library(ggplot2)
+
+```
+
+
+# Raport z analizą danych
+
+Raport składa się z kilku rozdziałów. Główne rozdziały są oznaczone `#`. Im więcej dodamy `#` tym bardziej zagnieżdzony będzie nasz podrozdział.
+
+
+## To jest podrozdział rozdziału "Raport z analizą danych"
+
+### A tu kolejny podrozdział
+
+# Komentarze
+
+Komentarze standardowo są poprzez zaznaczenie kodu i użycie kombinacji klawiszy Ctrl + Shift + C.
+
+Na przykład: 
+<!-- Dodawanie komentarzy i kodu -->
+
+# Markdown - formatowanie
+
+Formatowanie tekstu:
+
+- **pogrubienie** czcionki
+- *kursywa*
+
+Opcje załączania grafik/tabel:
+
+1. tworzenie ich w R
+2. załączanie z pliku/ strony jako plik graficzny
+
+Można również generować kod R w tekście używając `r Sys.time()`.
+
+## Globalne opcje dot. wywołania kodu
+
+- echo - odpowiada za załączanie kodu z komórki w raporcie
+- include - odpowiada za dodawanie komórek i wyników w raporcie (ale są wywoływane)
+- eval - odpowiada za wywołanie kodu (kod może byc zwarty ale bez wywołania)
+- warning -
+- message - 
+- fig_height/fig_width ...
+
+### Customize appearance
+
+- Spis treści 
+  1. `toc`
+  2. `toc_float`
+  3. `toc_depth`
+- Code folding - `code_fold`
+- Styl 
+  1. `theme` - [https://bootswatch.com/3/](https://bootswatch.com/3/)
+  2. CSS
+
+
+# Współpraca z kodem R (ale nie tylko)
+
+```{r}
+
+df <- iris
+colnames(iris)
+```
+
+```{r}
+head(iris) 
+```
+
+```{r}
+head(iris ) %>% 
+  knitr::kable( caption = 'Liczność poszczególnych klas')
+```
+
+## Dołączanie wykresów
+
+
+```{r ggplot}
+ggplot(iris)+
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width))+
+  theme_bw()
+```
+
+<!-- Zmiana wielkości okna -->
+
+```{r plot2, fig.cap = "Przykładowy wykres",fig.height=10, fig.width=10}
+ggplot(iris)+
+  geom_point(aes(x = Sepal.Length, y = Sepal.Width))+
+  theme_bw()
+```
+
+
+## Referencje
+
+YAML: zmiana `html_document` -> `bookdown::html_document2:`
+
+\@ref(fig:plot2)
+
+# Zadanie 1
+
+Dla zmiennych ciągłych utwórz histogram w ggplot2.
+
+```{r message = FALSE}
+
+numeric_col <- colnames(iris)[sapply(iris,class) == 'numeric']
+
+for (var in numeric_col){
+  p <- ggplot(iris)+
+    geom_histogram(aes_string(x = var))+
+    labs(title = var)
+  print(p)
+}
+
+```
+
+
+# Interaktywne elementy raportu
+
+## interaktywne tabele
+
+```{r}
+
+?DT::datatable
+
+iris %>% 
+  group_by(Species) %>% 
+  summarise(cnt = n()) %>% 
+  DT::datatable()
+```
+
+```{r }
+iris %>% 
+  group_by(Species) %>% 
+  summarise(cnt = n()) %>% 
+  DT::datatable(width=10, options = list(dom = 't'))
+```
+
+Więcej o opcjach formatowania tabeli z pakietu `DT` można znaleźć [https://rstudio.github.io/DT/options.html](https://rstudio.github.io/DT/options.html)
+
+## Interaktywne wykresy
+
+```{r warning=FALSE, message=FALSE}
+library(plotly)
+
+fig <- plot_ly(data = iris, x = ~Sepal.Length, y = ~Petal.Length, color = ~Species, colors = "Set1")
+
+fig
+```
+
