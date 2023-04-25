@@ -33,7 +33,7 @@ Zajęcia projektowe to głównie wspólne dyskusje, praca w grupie, prezentacje 
 </tr>
 <tr>
 <td>2</td>
-<td>25-04-2023</td>
+<td>09-05-2023</td>
 <td>Praca w zespołach, burza mózgów, określenie tematyki raportu.</td>
 <td>1</td>
 </tr>
