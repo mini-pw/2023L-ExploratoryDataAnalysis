@@ -182,12 +182,12 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">10</td>
     <td rowspan="2">25-04</td>
-    <td>The International Business Communication Standards</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L10-IBCS-history.pdf target="_blank" rel="noopener noreferrer">The International Business Communication Standards</a></td>
     <td rowspan="2"></td>
     <td rowspan="4">P2 (1p)<br><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/issues/257 target="_blank" rel="noopener noreferrer">HW5 </a>(10p)</td>
   </tr>
   <tr>
-    <td>History of Statistical Graphics</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L10-IBCS-history.pdf target="_blank" rel="noopener noreferrer">History of Statistical Graphics</a></td>
   </tr>
   <tr>
     <td rowspan="2">10-05</td>
