@@ -192,7 +192,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">10-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">R: Shiny - część 2</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab10 target="_blank" rel="noopener noreferrer">R: Shiny - część 2</a></td>
   </tr>
   <tr>
   </tr>
