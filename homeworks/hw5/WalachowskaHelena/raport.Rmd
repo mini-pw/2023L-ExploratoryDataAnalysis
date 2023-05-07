@@ -1,0 +1,176 @@
+---
+title: "PISA 2018"
+author: "Helena Wałachowska"
+date: "2023-05-01"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: cosmo
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readxl)
+library(dplyr)
+library(plotly)
+
+df <- read_xlsx('Zeszyt1.xlsx')
+
+df <- df %>%
+  mutate(Women_in_reading = as.numeric(r_female), 
+         Men_in_reading = as.numeric(r_male), 
+         All_in_reading = as.numeric(r_all),
+         Women_in_math = as.numeric(m_female), 
+         Men_in_math = as.numeric(m_male), 
+         All_in_math = as.numeric(m_all)) %>%
+  select(Continent, Country, Women_in_reading, Men_in_reading, All_in_reading,
+         Women_in_math, Men_in_math, All_in_math)
+
+```
+
+# Wstęp
+
+W trosce o poprawę jakości nauczania i organizacji systemów edukacyjnych na świecie prowadzi się różnorodne programy i badania gromadzące dane na temat umiejętności i wiedzy uczniów. Jednym z nim jest PISA (Programme for International Student Assessment) - program kordynowany przez Organizację Współpracy Gospodarczej i Rozwoju. Jego celem jest uzyskanie porównywalnych danych o umiejętnościach uczniów, którzy ukończyli 15. rok życia.
+
+Badania prowadzone w ramach PISA kładą nacisk na umiejętności kojarzenia i praktycznego wykorzystania wiedzy oraz umiejętności z różnych dziedzin. Badania przeprowadzane są regularnie co trzy lata, a wyróżnia się w nich trzy podstawowe dziedziny: czytanie i interpretacja, matematyka i rozumowanie w naukach przyrodniczych.
+
+W niniejszym raporcie wykorzystamy dane zgromadzone w 2018 roku. Skupimy się na umiejętnościch uczniów w czytaniu i interpretacji oraz matematyce. Przeanalizujemy jak wyniki uczniów przedstawiją się w podziale na płcie i kraje.
+
+## Dane
+
+Więcej na temat PISA można przeczytać na stronie: [www.oecd.org/pisa/](https://www.oecd.org/pisa/)
+
+Dane analizowane w raporcie zostały pobrane z poniższej bazy: [pisadataexplorer.oecd.org](https://pisadataexplorer.oecd.org/ide/idepisa//)
+
+# Analiza według podziału na dyscypliny
+
+## Jak czytać wykresy?
+
+Wykresy przedstawiają średnie wyniki chłopców i dziewczynek z każdego z 37 państw uzyskane w testach sprawdzających odpowiednio umiejętności czytania i interpretacji oraz umiejętności matematyczne. Wielkość markera jest proporcjonalna do średniego wyniku wszystkich piętnastolatów przebadanych w danym kraju w 2018 roku. Z kolei jego kolor przypisany jest do odpowiadającego mu kontynentu.
+
+```{r fig1, message=FALSE, warning=FALSE, fig.height=5, fig.width=8}
+fig1 <- plot_ly(data = df,
+             x = ~Women_in_reading, 
+             y = ~Men_in_reading,
+             size = ~All_in_reading,
+             text = ~Country,
+             type="scatter",
+             mode="markers",
+             color = ~Continent,
+             colors = c("#4daf4a", "#e41a1c", "#377eb8","#ff7f00","#984ea3"),
+             sizes = c(5, 20),
+             marker = list(opacity = 0.5, sizemode = 'diameter')) %>%
+  layout(title = "Umiejętności czytania i interpretacji wg. PISA",
+         xaxis=list(title="Dziewczynki"),
+         yaxis=list(title="Chlopcy"))
+fig1
+```
+
+* Można zauważyć, że dziewczynki osągają średnio o 30 punktów lepsze wyniki niż chłopcy w przypadku czytania ze zrozumieniem.
+
+* Znacząco niższe wyniki obserwujemy w przypadku uczniów z Kolumbii i Meksyku. Trochę lepiej, ale wciąż negatywnie wyróżniją się w tej dziedzinie Chile, Słowacja i Grecja.
+
+* Ciekawa sytuacja ma miejce w przypadku Finlandii, ponieważ jest to kraj, w którym dziewczynki osiągały średnio najwyższe wyniki, ale jednocześnie obserwujemy tam największą dysproporcję między wynikami chłopców (495) i dziewczynek (546).
+
+* Najwyższe i najbardziej zbliżone między płcami wyniki uzyskano w Estonii, Kanadzie, Irlandii i Korei.
+
+```{r fig2, message=FALSE, warning=FALSE, fig.height=5, fig.width=8}
+fig2 <- plot_ly(data = df,
+                x = ~Women_in_math, 
+                y = ~Men_in_math,
+                size = ~All_in_math,
+                text = ~Country,
+                type="scatter",
+                mode="markers",
+                color = ~Continent,
+                colors = c("#4daf4a", "#e41a1c", "#377eb8","#ff7f00","#984ea3"),
+                sizes = c(5, 20),
+                marker = list(opacity = 0.5, sizemode = 'diameter')) %>%
+  layout(title = "Umiejętności matematyczne wg. PISA",
+         xaxis=list(title="Dziewczynki"),
+         yaxis=list(title="Chlopcy"))
+fig2
+```
+
+* W przypadku wyników uczniów z matematyki są one bardzo zbliżone dla obu płci. Nie zachodzą tam zauważalne dysproporcje.
+
+* Kolejno najniższe wyniki uzyskały dzieci uczące się w Kolumbii, Maksyku i Chile.
+
+* Nie najlepiej w tym rankingu wypadła także Grecja, Turcja i Izrael.
+
+* W matematycznym rozumowaniu przodują natomiast kraje azjatyckie - Japonia i Korea, a także Estonia.
+
+# Analia według podziału na płcie
+
+## Jak czytać wykresy?
+
+Wykresy przedstwiają uśrednione wyniki z matymatyki i czytania ze zrozumieniem osiągane odpowiednio przez chłopców i dziewczynki z różnych krajów. Kolor markera oznacza odpowiedni kontynent.
+
+```{r fig3, message=FALSE, warning=FALSE, fig.height=5, fig.width=8}
+fig3 <- plot_ly(data = df,
+                x = ~Women_in_reading, 
+                y = ~Women_in_math,
+                text = ~Country,
+                type="scatter",
+                mode="markers",
+                color = ~Continent,
+                colors = c("#4daf4a", "#e41a1c", "#377eb8","#ff7f00","#984ea3"),
+                marker = list(opacity = 0.5, sizemode = 'diameter', size=10)) %>%
+  layout(title = "Dziewczynki",
+         xaxis=list(title="czytanie i interpretacja"),
+         yaxis=list(title="matematyka"))
+fig3
+```
+
+* Na podstwie wykresu można wynioskować, że dziewczynki osiągają odrobinę lepsze wyniki w czytaniu niż w matematyce.
+
+* W krajach azjatyckich (Japoni, Korea) i europejskich (Holandia, Estonie, Poslaka, Szwjcaria, Finlandia) uczącą się najbardziej rozwinięte pod względem matematycznym dziewczynki.
+
+* Kraje wypadające najsłabiej w tym przypadku to te same, które zostały wymienione w tej kategorii w poprzednich zestwieniach.
+
+```{r fig4, message=FALSE, warning=FALSE, fig.height=5, fig.width=8}
+fig4 <- plot_ly(data = df,
+                x = ~Men_in_reading, 
+                y = ~Men_in_math,
+                text = ~Country,
+                type="scatter",
+                mode="markers",
+                color = ~Continent,
+                colors = c("#4daf4a", "#e41a1c", "#377eb8","#ff7f00","#984ea3"),
+                marker = list(opacity = 0.5, sizemode = 'diameter', size=10)) %>%
+  layout(title = "Chlopcy",
+         xaxis=list(title="czytanie i interpretacja"),
+         yaxis=list(title="matematyka"))
+fig4
+```
+
+* Przyglądając się wynikom chłopców zauważamy, że są one znacznie lepsze jeśli chodzi o umiejętności matematyczne.
+
+* Matematycznie uzdolnieni chłopcy uczą się w tych samych krajach co matematycznie uzdolnione dziewczynki oraz w Kanadzie.
+
+* Kraje osiągające najniższe wyniki pozostają niezmienne.
+
+* Na Słowacji dostrzegamy odbiegającą od normy dysproporcję między kompetencjami matematycznymi (488) a interpretacyjnymi (441) chłopców, z przewagą dla matematyki.
+
+# Szczegółowe dane
+
+Poniżej zanajduje się interaktywna tabelka zawierająca dane przedstwione wcześniej na wykresach.
+
+```{r table}
+df %>% 
+  DT::datatable()
+```
+# Podsumowanie
+
+* Bogate azjatyckie kraje (Japonia i Korea) oraz zamożne pólnocnoeuropejsie państwa (Estonia, Finlandia, Szwajcaria, Holandia, Dania, Polska), a także Kanada mogą pochwalić się wysokimi wynikami w rankingu PISA.
+
+* Wyniki dzieci uczących się w Polsce bardzo pozytywnie wyróżniają się na tle światowym. Zarówno w przypadku czytania i interpretacji, jak i matematyki Polska plasuje się w pierwszej piątce najlepszych wyników.
+
+* Niski poziom eudkacji odnotowujemy w Kolumbii, Meksyku, Chile, a także Grecji, Turcji i Izraelu.
+
+* Dysproporcje między umiejętnościami w obu dziedzinach w podziale na obie płcie są mniej ujednolicone niż różnice odnotowane między płcami w obrębie tej samej dziedziny. Wnioskiem z tej obserwacji może być to, że edukacja w danym kraju utrzymuje się na podbnym poziomie nie zależnie do dziedziny. Jednak na ostateczne wyniki uczniów mają wpływ również ich upodobnia i predyspozycje częściowo związane z płcią.
+
+* Kompetencje matematyczne i interpretacyjne dziewczynek utrzymują się na podbnie wysokim poziomie, natomiast u chłopców zachodzi pod tym względem dysproporcja z korzyścią dla umiejętności matematycznych. Powoduje to, że osiągają oni przeciętnie wyższe wyniki w tej dziedzinie niż dziewczynki. Z kolei dziewczynki mają nad nimi przewagę w kwestii czytania i interpretacji tekstów.
