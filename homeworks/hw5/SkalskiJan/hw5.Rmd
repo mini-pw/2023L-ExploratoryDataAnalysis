@@ -1,0 +1,144 @@
+---
+title: "How students'performance in maths affects their future job expectations"
+subtitle: "Based on 2018 PISA research among 15 year-olds in 78 countries"
+author: "Jan Skalski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<style type="text/css">
+  body{
+  font-size: 15pt;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r packages, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(plotly)
+library(readxl)
+library(DT)
+```
+
+```{r data, echo=FALSE}
+data <- read_xlsx("C:/Users/Dell/OneDrive/Dokumenty/R/WdED/hw5/dane.xlsx")
+
+df <- read.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv')
+
+df <- df %>% left_join(data, by = "COUNTRY") %>% 
+  select(COUNTRY, CODE, MEAN)
+```
+
+## About methods of assessment
+
+### Mathematics performance
+
+PISA (Programme for International Student Assessment) examined the students' proficiency in maths through the test that covered range of mathematical skills and knowledge. Its results were then assessed based on a scale divided to 6 levels, with higher levels indicating higher general proficiency and understanding. First level started from 358 points and last level was 669 points and above.
+
+### Career expectations
+
+Based on students' reports PISA examined percentage of students who don't have any clear idea on their future job when they are around 30 years old. Whereas, students who do have some plan on that were asked to assign whether their expected occupation is high, medium or low skilled in terms of level it takes in ISCO (International Standard Classification of Occupations).
+
+
+
+## Test results among countries:
+
+* In a list of means of the scores achieved by students per country, average value sits 489 points (level 3 in maths proficiency scale).
+
+* It's no surprise that China tops the list with striking round 591 points.
+
+* Well developed European and North America countries placed themselves near eachother with values around solid 500 points.
+
+* Students from countries in South America and South-East Asia performed the weakest with results barely after the level 1 lower score limit.
+
+
+```{r map, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=7, fig.width=15}
+l <- list(color = toRGB("grey"), width = 0.5)
+
+g <- list(
+  showframe = F,
+  showcoastlines = F,
+  projection = list(type = 'Mercator')
+)
+
+fig <- plot_geo(df) %>% 
+  add_trace(z = ~MEAN, 
+            color = ~MEAN, 
+            colors = 'Blues',
+            text = ~COUNTRY, 
+            locations = ~CODE, 
+            marker = list(line = l)) %>% 
+  colorbar(title = 'Mean of scores in country')%>% 
+  layout(title = 'PISA mathematics test results',
+         geo = g)
+
+fig
+```
+
+## Connection between maths test results and future job aspirations
+
+
+```{r table, echo=FALSE}
+dt <- data %>% 
+  arrange(desc(MEAN)) %>% 
+  mutate(PERCENT1 = PERCENT1 / 100,
+         PERCENT2 = PERCENT2 / 100,
+         .keep = "unused")
+
+
+datatable(dt, 
+          colnames = c("Country", "Mean of scores", "Percentage of students who don't have idea on their future job", "Percentage of students who expect to have a high-skilled occupation"),
+          caption = "Countries by mean of the scores in maths test in descending order") %>% 
+  formatPercentage(c("PERCENT1", "PERCENT2"), 1)
+```
+
+## Correlation plots {.tabset}
+
+### Plot 1
+
+```{r plot1, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=7, fig.width=15}
+
+fig <- plot_ly(data, x = ~MEAN, y = ~PERCENT1,
+               marker = list(size = 12,
+                             color = 'rgba(255, 182, 193, .9)',
+                             line = list(color = 'rgba(152, 0, 0, .8)',
+                                         width = 3))) %>% 
+  add_trace(text = ~COUNTRY) %>% 
+  layout(title = "Scores in maths test to percentage of students who dont'have idea on future job",
+         yaxis = list(title = "Percentage of students (%)",zeroline = FALSE),
+         xaxis = list(title = "Mean of test scores in country",zeroline = FALSE))
+
+fig
+```
+
+Plot above indicates a very slight tendency that students from countries with lower averages of the scores are less likely to plan about their future job. Most significant deviations appeared for marginal data, which means that highest percentage of students who don't have idea on their future occurred in countries with lowest mean of the scores and the other way round.
+
+### Plot 2
+
+```{r plot2, echo=FALSE, warning=FALSE, message=FALSE, fig.align='center', fig.height=7, fig.width=15}
+
+fig <- plot_ly(data, x = ~MEAN, y = ~PERCENT2,
+               marker = list(size = 12,
+                             color = 'rgba(65, 105, 225, .9)',
+                             line = list(color = 'rgba(0, 0, 128, .8)',
+                                         width = 3))) %>% 
+  add_trace(text = ~COUNTRY) %>% 
+  layout(title = "Scores in maths test to percentage of students who expect to have a high-skilled occupation",
+         yaxis = list(title = "Percentage of students (%)",zeroline = FALSE),
+         xaxis = list(title = "Mean of test scores in country",zeroline = FALSE))
+
+fig
+```
+
+On the other hand results showed by this plot are not that obvious. Highest percentage of students planning to have a high-skilled occupation occurred in countries with either higher or lower mean of the scores in test and there isn't any visible trend through the plot. 
