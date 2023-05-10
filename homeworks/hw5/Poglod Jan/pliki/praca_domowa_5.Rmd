@@ -1,0 +1,194 @@
+---
+title: "Raport na temat badania satysfakcji z życia u uczniów na podstawie PISA 2018"
+date: "2023-05-07"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: united
+---
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# wczytanie bibliotek
+
+library(dplyr)
+library(plotly)
+
+```
+
+
+# 1. Wstęp
+
+## 1.1 Co to jest PISA?
+
+PISA, czyli Programme for International Student Assessment to międzynarodowe badanie, którego zadaniem jest uzyskanie porównywalnych danych o umiejętnościach oraz samoocenie uczniów którzy ukończyli 15 rok życia.
+
+W badaniu PISA wyróżniono trzy podstawowe dziedziny: czytanie i interpretacja (ang. reading literacy), matematyka (mathematical literacy) i rozumowanie w naukach przyrodniczych (scientific literacy).
+
+Badanie realizowane jest regularnie co trzy lata, począwszy od 2000r.
+
+## 1.2 PISA 2018
+
+W badaniu PISA 2018 uczestniczyło 79 krajów, a liczba przebadanych uczniów przekroczyła 660 tys. Polskę reprezentowało 5653 uczniów z 227 szkół. Testy umiejętności podzielone były na trzy kategorie: 
+
+  1. Czytanie i rozumienie
+  2. Matematyka
+  3. Nauki przyrodnicze
+  
+, w których każdy z badanych mógł dostać indywidualną ocenę za rozwiązanie testu.
+Oprócz badań umiejętności badanie PISA obejmowało także różne aspekty życia takie jak poczucie swojej wartości, wysokość samooceny, poziom satysfakcji w życiu, cel w życiu oraz wiele innych
+
+Raport w pełni poświęcony jest tematowi satysfakcji z życia u uczniów, oraz czynnikom, które na to wpływają.
+
+Każdy z badanych uczniów otrzymał pytanie: __W Skali od jeden do dziesięciu zaznacz na ile jesteś usatysfakcjonowany ze swojego życia__ oraz mógł odpowiedzieć tylko jedną odpowiedzią: 1,2,3,...,10
+
+
+# 2. Eksploracja oraz wizualizacje
+
+## 2.1 Wyniki satysfakcji z życia u uczniów 
+
+Na poniższym wykresie interaktywnym obserwować możemy wyniki badania poziomów satysfakcji u uczniów dla kazdego z poszczególnych krajów, które weszły w skład ankietyzowanych w 2018 roku. Poziom satysfakcji na osi poziomej oznacza poziom jak bardzo uczeń czuje się usatysfakcjonowany ze swojego życia w skali od 1 do 10, a procenty na osi pionowej oznaczają częstość występowania tego poziomu w stosunku do wszystkich 10 poziomów. 
+
+```{r warning=FALSE, message=FALSE}
+
+satysfakcja <- read.csv("satysfakcja_zycia.csv", header=FALSE, sep=";")
+colnames(satysfakcja) = c("Kraje","1","2","3","4",
+                          "5","6","7","8","9","10")
+satysfakcja <- satysfakcja[!apply(satysfakcja == "m",1,any), ]
+satysfakcja <- tidyr::gather(satysfakcja, key = "poziom_satysfakcji",
+                              value = "procent", -Kraje) %>%
+  mutate(procent = as.numeric(gsub(",", ".", procent)))
+
+fig <- plot_ly(data = satysfakcja, x = ~poziom_satysfakcji, y=~procent,
+               frame = ~Kraje, type = "bar") %>%
+  animation_button( x = 0, y = -0.2, xanchor = "right", yanchor = "bottom" ) %>%
+  layout(
+    title = "PISA 2018 badanie satysfakcji u uczniów",
+    xaxis = list(title = "",
+                 categoryorder = "array",
+                 categoryarray = ~poziom_satysfakcji),
+    yaxis = list(title = "procent ze wszystkich studentów", range=c(0,60)),
+    showlegend = FALSE
+  ) %>%
+  animation_slider(currentvalue = list(prefix = "Kraj: ", 
+                                       font = list(color="blue")))
+fig
+
+```
+
+## 2.2 Co wpływa na satysfakcję uczniów w poszczególnych krajach?
+
+Poniżej przedstawione zostały dwa wykresy interaktywne, które pokazują jak bardzo uczniowie są usatysfakcjonowani ze swojego życia w zależności od różnych wskaźników. Na pierszym wykresie badany jest wpływ zamożności kraju. Na drugim zaś wpływ wielkości populacji kraju.
+
+```{r warning=FALSE, message=FALSE}
+countries <- read.csv("countries of the world.csv")
+countries_data <- countries %>% select(Country,Region,Population,GDP....per.capita.) %>%
+  mutate(Country = trimws(Country))
+colnames(countries_data) <- c("Kraje","Region","Populacja","GDP")
+
+res <- na.omit(left_join(x=satysfakcja, y=countries_data, by = c("Kraje"))) %>%
+  mutate(poziom_satysfakcji = as.numeric(poziom_satysfakcji),
+         czy_zamozne = ifelse(GDP>12000, "Tak", "Nie"),
+         czy_duze = case_when(Populacja<10000000 ~ "Małe",
+                              Populacja>10000000 & Populacja<30000000 ~ "Średnie",
+                              Populacja>3000000 ~ "Duże"))
+
+plot_ly(
+  data = res, 
+  x = ~procent,
+  y = ~poziom_satysfakcji,
+  colors = "Set1",
+  type = "scatter",
+  color=~czy_zamozne
+) %>%
+  layout(
+    title = "Badanie satysfakcji u uczniów w zależności od zamożności Kraju <br> Czy kraj jest zamożny?",
+    yaxis = list(title="poziom satysfakcji"))
+
+plot_ly(
+  data = res, 
+  x = ~procent,
+  y = ~poziom_satysfakcji,
+  colors = "Set2",
+  type = "scatter",
+  color=~czy_duze
+) %>%
+  layout(
+    title = "Badanie satysfakcji u uczniów w zależności od wielkości populacji <br> Jak duża jest populacja kraju?",
+    yaxis = list(title="poziom satysfakcji"))
+
+```
+
+Można zauważyć, że wbrew intuicji, to w krajach mniej zamożnych satysfakcja ze swojego życia jest wyżej oceniana przez uczniów. W krajach zamożnych największy odsetek dzieci zaznaczało swoją ocenę satysfakcji na 7,8 zaś na 10 diametralnie mniej niż w krajach niezamożnych. Powodami niższych wyników w krajach zamożnych mogą być: cięższa edukacja, mniej czasu wolnego u dzieci, presja społeczeństwa rodziców oraz wyidealizowany obraz ucznia. 
+Dodatkowo warto zauważyć, że wielkość populacji nie ma znaczącego wpływu na wysokość satysfkacji u dzieci, a w każdym z badanych wielkości populacji wyniki rozkładają się równomiernie. 
+
+## 2.3 Region zamieszkania, a poziom satysfakcji u uczniów
+
+Poniżej na interaktywnym wykresie skrzynkowym przedstawiona została zależność pomiędzy regionem w jakim zamieszkują uczniowie oraz dwoma skrajnymi ocenami poziomu satysfakcji. (To znaczy tylko Ci uczniowie którzy zaznaczali 1 albo Ci którzy zaznaczali 10). Na tej podstawie można zaobserwować, gdzie uczniowie są stosunkowo najbardziej usatysfakcjonowani i najmniej.
+```{r}
+
+countries <- read.csv("countries of the world.csv")
+countries_data <- countries %>% select(Country,Region,Population,GDP....per.capita.) %>%
+  mutate(Country = trimws(Country))
+colnames(countries_data) <- c("Kraje","Region","Populacja","GDP")
+
+res <- na.omit(left_join(x=satysfakcja, y=countries_data, by = c("Kraje"))) %>%
+  mutate(poziom_satysfakcji = as.character(poziom_satysfakcji)) %>%
+  filter(poziom_satysfakcji %in% c(1,10))
+
+plot_ly(
+  data = res, 
+  x = ~procent,
+  y = ~Region,
+  color = ~poziom_satysfakcji,
+  colors = "Set1",
+  type = "box"
+) %>%
+  layout(
+    title = "Badanie satysfakcji u uczniów w zależności od regionu na świecie",
+    yaxis=list(title=""))
+
+```
+
+Ciekawe obserwacje możemy zauważyć w przypadku europy zachodniej. To tutaj procentowy rozrzut najniższego poziomu satysfakcji jest największy spośród wszystkich regionów, a w przypadku najwyższego poziomu kwartyle wypadają najgorzej spośród pozostałych regionów oprócz jedynie Azji i krajów bałtyckich, co oznacza, że w Europie zachodniej uczniowie są prawdopodobnie najmniej usatysfakcjonowani z życia, co może potwierdzać poprzednie wnioski związane z zamożnością krajów. Ponadto uczniowie w krajach Azji oraz w krajach bałtyckich także mają niskie poczucie swojej satysfakcji z życia.
+Regionem, w którym najwyższy poziom satysfakcji wychodzi procentowo najlepiej, jest region C.W. OF IND. States (pol. Wspólnota Niepodległych Państw), w skład, krórych wchodzą Armenia, Azerbejdżan, Białoruś, Kazachstan, Kirgistan, Mołdawia, Rosja, Tadżykistan, Ukraina i Uzbekistan. To tam mediana jak i kwartyle procentów występowania tego poziomu satysfakcji są najwyższe, zatem jest to region, w którym uczniowie mogą być najbardziej usatysfakcjonowani ze swojego życia. 
+
+## 2.4 Wykres przedstawiający poziom satysfakcji uczniów w USA oraz w krajach niezamożnych 
+
+Z powodu iż USA uchodzi za kraj, gdzie presja nauki jest jedną z najwyższych na świecie porównamy ten kraj z krajami, które uchodzą za niezamożne, oraz tymi gdzie satysfakcja poziomu uczniów była największa, czyli z krajami ze Wspólnoty Niepodległych Państw. Na poniższym wykresie interaktym przedstawione zostały trzy zmienne: poziom satysfakcji, procent uczniów zaznaczający ten poziom oraz wartość produktu krajowego brutto. Kolorami odzielone zostało USA oraz kraje ze wspólnoty.
+
+```{r warning=FALSE, message=FALSE}
+library(stringi)
+countries <- read.csv("countries of the world.csv")
+countries_data <- countries %>% select(Country,Region,Population,GDP....per.capita.) %>%
+  mutate(Country = trimws(Country))
+colnames(countries_data) <- c("Kraje","Region","Populacja","GDP")
+
+res <- na.omit(left_join(x=satysfakcja, y=countries_data, by = c("Kraje"))) %>%
+  mutate(poziom_satysfakcji = as.numeric(poziom_satysfakcji)) %>%
+  filter(stringi::stri_trim(Region) %in% c("NORTHERN AMERICA","C.W. OF IND. STATES"))
+
+plot_ly(
+  data = res, 
+  x = ~procent,
+  y = ~GDP,
+  z = ~poziom_satysfakcji,
+  color = ~Region,
+  colors = "Set2",
+  type = "scatter3d"
+) %>%
+  layout(
+    title = "Badanie satysfakcji u uczniów w USA oraz w krajach niezamożnych na świecie",
+    yaxis=list(title=""))
+```
+
+Oczywiście USA jest znacznie bogatszym krajem od krajów wspólnoty, co potwierdza pozostałe wnioski. Łatwo zauważyć jak rozkłada się poziom satysfakcji u uczniów tych dwóch regionów. 
+
+# 4. Podsumowanie
+
+Poczucie satysfakcji z życia u dzieci jest niezmiernie ważnym aspektem, ponieważ wpływa na ich przyszłość, kariere i pewność siebie. Na podstawie badania widzimy, że wśród nich występuje stosunkowo niskie poczucie satysfakcji. Głównymi skupiskami obniżonego poczucia satysfkacji u uczniów okazują się być kraje zamożne z regionów takich jak Europa zachodnia, kraje bałtyckie oraz północna Ameryka.  Wpływa na to cięższa edukacja, presja społeczeństwa rodziców oraz mała ilość czasu wolnego, aby dzieci mogły rozwijać swoje pasje. 
+Podsumowując wnioski z wizualizacji, widzimy że w krajach zamożnych obniżony jest poziom satysfakcji z życia u dzieci kosztem wypracowania u nich lepszych umiejętności, co może prowadzić do niebiezpiecznych sytuacji wypalenia zawodowego, braku pewności siebie, myśli samobójczych już na tak młodym poziomie życia jak wiek 15 lat.
+
