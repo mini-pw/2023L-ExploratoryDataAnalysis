@@ -1,0 +1,79 @@
+---
+title: "Analiza wyników badania PISA 2018"
+author: "Monika Bednarek, Jakub Konieczny"
+date: "2023-05-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+library(dplyr)
+```
+
+### O badaniu PISA
+PISA (Programme for International Student Assessment) to międzynarodowe badanie przeprowadzane przez Organizację Wpółpracy Gospodarczej i Rozwoju (OECD). Jego celem jest zbadanie i porównanie umiejętności uczniów, którzy ukończyli 15 rok życia. Podczas badania sprawdzane są umiejętności  z różnych obszarów takich jak matematyka, nauki przyrodnicze, czytanie i interpretacja. Celem badania jest poprawa jakości nauczania i organizacji systemów edukacji.
+
+### Cel pracy
+W naszej pracy przyjrzeliśmy się dokładniej wynikom testów sprawdzających umiejętności matematyczne, czytanie oraz wiedzę przyrodniczom. Utworzony przez nas wykres przedstawia średni wynik z testu uzyskany przez uczniów z Europy w każdej z tych dziedzin .
+
+
+```{r,  echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7.5}
+# Load openxlsx
+library(openxlsx)
+library(dplyr)
+library(plotly)
+library(htmlwidgets)
+
+# Read excel file
+df <- read.xlsx('countries_results.xlsx')
+df$result_reading <- round(df$result_reading,0)
+df$result_science <- round(df$result_science,0)
+
+df <- df %>% filter(continent == "Europe")
+
+df %>% 
+  plot_ly(x = ~result_maths, y = ~country,
+          name='matematyka', type='bar', orientation = "h", marker = list(color = "db6d57")) %>%
+  add_trace(x = ~result_reading, name = 'czytanie', type='bar', orientation = "h", marker = list(color = "0ca1d5")) %>%
+  add_trace(x = ~result_science, name = 'przyroda', type='bar',orientation = "h", marker = list(color = "51a112")) %>%
+  hide_legend() %>% 
+  layout(
+    margin = list(
+      t = 100,  
+      r = 50,  
+      b = 50,
+      l = 50  ),
+    title = list(text = "Średni wynik badania PISA w poszczególnych dziedzinach w krajach Europy w 2018 roku", x = 0.5, y = 10),
+    xaxis = list(showgrid = TRUE, title = "Średni wynik (liczba punktów)"),
+    yaxis = list(showgrid = TRUE, title = "Kraj", side = "left"),
+    updatemenus = list(
+      list(
+        x=1.2, y=1,
+        type = "list",
+        label = 'Kategoria',
+        buttons = list(
+          list(method = "restyle",
+               args = list('visible', c(TRUE, FALSE, FALSE)),
+               label = "Matematyka"),
+          list(method = "restyle",
+               args = list('visible', c(FALSE, TRUE, FALSE)),
+               label = "Czytanie"),
+          list(method = "restyle",
+               args = list('visible', c(FALSE, FALSE, TRUE)),
+               label = "Nauki przyrodnicze")
+        )
+      )
+    )
+  )
+
+
+
+```
+
+### Obserwacje
+
+W Estonii, Polsce, Finlandii, Szwecji i  Wielkiej Brytanii wyniki plasowały się za każdym razem w czołówce. Niezaleznie od dziedziny, zawsze średni rezultat był na bardzo wysokim poziomie na tle innych krajów europejskich. Zaś w krajach byłej Jugosławii oraz Rumunii, Bułgarii i Mołdawii wyniki zawsze są jednymi z najsłabszych. Wyraźnie zamykają stawkę z najgorszymi rezultatami badania.
+
+### Podsumowanie i wnioski
+Niezależnie od dziedziny, w krajach dobrze rozwiniętych wyniki badania były wyraźnie lepsze od wyników w krajach dopiero rozwijających się. W krajach bałkańskich nauka nie jest na tak dobrym poziomie, jak na przykład w krajach skandynawskich, czy Wielkiej Brytanii, co skutkuje słabszymi wynikami. Omawiane badanie wyraźnie ukazuje różnice w jakości nauczania i dysproporcję umiejętności uczniów na tle Europy. Takie porównanie może pozytywnie wpłynąć na kraje z gorszymi wynikami, ponieważ docierające słabe rezultaty zmuszą władze do refleksji nad poprawą jakości nauczania i lepszą organizacją systemów edukacji.
