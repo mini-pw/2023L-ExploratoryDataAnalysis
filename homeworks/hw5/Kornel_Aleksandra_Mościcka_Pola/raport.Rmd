@@ -1,0 +1,125 @@
+---
+title: "hw5_raport"
+author: "Aleksandra Kornel, Pola Mościcka"
+date: '2023-05-09'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: readable
+---
+
+# KORZYSTANIE Z INTERNETU PRZEZ NASTOLATKÓW
+
+Na podstawie danych zebranych w badaniu PISA w 2018 roku przyjrzymy się, ile czasu dziennie nastolatkowie z każdego kraju biorącym udział w badaniu spędzają używając Internetu w zależności czy są w szkole, w domu, czy jest to weekend. Dane przedstawimy przy pomocy dwóch wykresów i opiszemy najciekawsze obserwacje.
+
+Podczas badania uczniowie mieli określić, ile czasu poświęcają na aktywność w Internecie w 3 sytuacjach:
+
+-   w typowy dzień tygodnia, gdy są w szkole,
+
+-   w typowy dzień tygodnia, kiedy są w domu,
+
+-   w typowy dzień weekendu
+
+Odpowiadali, wybierając jedną z możliwości:
+
+-   wcale
+
+-   1- 30 minut
+
+-   31 - 60 minut
+
+-   1 - 2 godziny
+
+-   2 - 4 godziny
+
+-   4 - 6 godzin
+
+-   ponad 6 godzin
+
+Dane użyte do przygotowania raportu zostały pobrane ze strony: <https://www.oecd.org/pisa/publications/pisa-2018-results.htm>
+
+## Wykres 1
+
+Poniższy wykres przedstawia uśrednioną liczbę minut spędzonych na korzystaniu z Internetu przez nastolatków z określonych krajów, dla każdej z badanych sytuacji.
+
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+library(plotly)
+library(dplyr)
+library(openxlsx)
+library(dplyr)
+
+z<-read.xlsx("C:/Users/olako/OneDrive/Pulpit/2 rok/eksploracja danych/hw5/ramka1(1).xlsx")
+
+dane<-z %>% 
+  filter(school!="m") %>% 
+  filter(kontynent!="afr") %>% 
+  mutate_at(c('school', 'weekday', 'weekend'), as.numeric) %>% 
+  mutate(across(where(is.numeric), round, 1))
+
+dane2<-dane %>% 
+  filter(kontynent=="Europe"|kontynent=="Asia"|kontynent=="Americas")
+
+
+fig <- plot_ly(dane2, x = ~kraj)%>%
+  add_bars(y = ~school, color="orange" ,name = "w szkole")%>% 
+  add_bars(y = ~weekday, color="pink",name = "w domu")%>% 
+  add_bars(y = ~weekend, color="blue",name = "w weekend")%>% 
+  layout(
+  title = "czas korzystania z Internetu w każdym kraju",
+  xaxis = list(domain = c(0.1, 1)),
+  yaxis = list(title = "minuty"))
+
+fig
+
+```
+
+### INTERNET W DOMU A INTERNET W SZKOLE
+
+Na podstawie powyższego wykresu możemy wywnioskować, że uczniowie więcej korzystają z Internetu w domu niż w szkole. Najmniej czasu z Internetu w szkole korzystają uczniowie w Brunei, a najwięcej w Dani i prawie drugie tyle poświęcają na Internet w domu. Najwięcej Internetu w domu używają nastolatkowie w Chile, a najmniej w Maroko.
+
+### INTERNET W WEEKEND
+
+Według badania w dzień weekendowy uczniowie korzystają z Internetu więcej niż w domu w dzień powszedni. Nie jest to jednak zazwyczaj duża różnica i w wielu przypadkach biorąc pod uwagę także czas spędzony na korzystaniu z Internetu w szkole, okazuje się, że poświęcają Internetowi więcej czasu przez cały dzień w tygodniu więcej czasu niż w dzień weekendowy. Najmniej czasu w weekend na Internet poświęcają uczniowie w Maroko, a najwięcej w Szwecji.
+
+## Wykres 2
+
+Poniższy wykres skrzynkowy przedstawia liczbę minut korzystania z Internetu w szkole, w domu lub w weekend przez uczniów z Europy, Azji, i Ameryk (Północnej i Południowej razem)
+
+```{r warning=FALSE, message=FALSE, echo=FALSE}
+fig2 <- plot_ly(dane2, x = ~kontynent)%>% 
+  add_boxplot(y = ~school, name = "w szkole",visible = T)%>% 
+  add_boxplot(y = ~weekday, name = "w domu",visible = F)%>% 
+  add_boxplot(y = ~weekend,name = "w weekend",visible = F)%>% 
+  layout(
+  title = "Czas korzystania z Internetu w szkole ze względu na kontynent ",
+  xaxis = list(domain = c(0.1, 1)),
+  yaxis = list(title = "minuty"),
+  updatemenus = list(
+    list(
+      yaxis = list(range = c(0, 260)),
+      y = 0.2,
+      x=0.05,
+      buttons = list(
+        list(method = "restyle",
+             args = list("visible", list(TRUE, FALSE,FALSE)),
+             label = "w szkole"),
+        list(method = "restyle",
+             args = list("visible", list(FALSE, TRUE,FALSE)),
+             label = "w domu"),
+        list(method = "restyle",
+             args = list("visible", list(FALSE,FALSE,TRUE)),
+             label = "w weekend")))
+    
+  ))
+
+
+
+
+fig2
+```
+
+Przyglądając się czasowi korzystania z Internetu w szkole na poszczególnych kontynentach widzimy, że najmniej czasu poświęcają na to uczniowie z Azji. W weekend także są to uczniowie z Azji, ale i tak korzystają z niego co najmniej 2 godziny. W Europie są to już minimum 3 godziny, a średnio około 3,5 godziny.
+
+## Podsumowanie
+Wyniki badania nie są raczej zaskakujące, młodzież korzysta z Internetu w większym stopniu w czasie wolnym niż w szkole oraz poświęca na to sporą część dnia. Czas korzystania z Internetu jest również zróżnicowany  w porównaniu poszczególnych kontynentów.
