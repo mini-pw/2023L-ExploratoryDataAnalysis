@@ -208,7 +208,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">17-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">Python: wstęp</td>
+    <td rowspan="2">-</td>
   </tr>
   <tr>
   </tr>
