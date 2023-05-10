@@ -1,0 +1,314 @@
+---
+title: "Student truancy and lateness | PISA 2018 Results"
+author: "Antonina Slubowska"
+date: "2023-05-09"
+output: 
+  html_document:
+    toc: true
+    code_folding: hide
+    theme: flatly
+---
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(readxl)
+library(countrycode)
+```
+
+## Wybrany obszar badania PISA 2018
+
+Badanie PISA (Programme for International Student Assessment) jest największym na świecie badaniem umiejętności uczniów, realizowanym co trzy lata we wszystkich państwach członkowskich OECD (Organisation for Economic Co-operation and Development) oraz kilkudziesięciu krajach partnerskich. 
+
+W ramach pracy domowej zdecydowałam się przeanalizować dane z badania PISA 2018 dotyczące absencji i spóźnień uczniów (ang. Student truancy and lateness) z 48 krajów europejskich, ze szczególnym uwzględnieniem charakterystyki uczniów, którzy w ciągu 2 tygodni poprzedzających badanie opuścili przynajmniej 1 cały dzień zajęć szkolnych.
+
+## Analiza wyników
+
+### Jaki procent uczniów opuszcza zajęcia szkolne lub się na nie spóźnia?
+
+#### Opuszczanie całego dnia zajęć
+Poniższy interaktywny wykres mapowy przedstawia procent uczniów z danego kraju, którzy w czasie 2 tygodni poprzedzających badanie PISA: ani razu, 1-2 razy, 3-4 razy lub 5 i więcej razy opuścili cały dzień szkolnych zajęć.
+
+```{r fig1, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+df2 <- read_excel("whole_day.xlsx")
+df2 %>% mutate(Code = countrycode(Country, "country.name", "iso3c")) -> df2
+
+europe_df2 <- subset(df2, Country %in% c("Albania", "Andorra", "Armenia", "Austria",
+                                       "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
+                                       "Croatia", "Cyprus", "Czechia","Denmark","Estonia","Finland", 
+                                       "France","Georgia", "Germany", "Greece","Hungary","Iceland", 
+                                       "Ireland", "Italy", "Kosovo", "Latvia","Liechtenstein", 
+                                       "Lithuania", "Luxembourg","Malta","Moldova","Monaco","Montenegro",
+                                       "Macedonia", "Netherlands","Norway","Poland","Portugal","Romania",
+                                       "San Marino","Serbia","Slovakia","Slovenia","Spain",
+                                       "Sweden","Switzerland","Turkey","Ukraine","UK","Vatican"))
+
+slider_columns <- c("Never", "Once_twice", "Three_four", "Five_more")
+slider_desc <- c("Ani razu", "1-2 razy", "3-4 razy", "5 lub więcej")
+
+aval2 <- list()
+for(step in 1:4){
+  aval2[[step]] <-list(visible = FALSE,
+                      name = paste0(''),
+                      z = europe_df2[[slider_columns[[step]]]],
+                      locations = europe_df2$Code,
+                      color = europe_df2[[slider_columns[[step]]]])
+}
+
+
+aval2[1][[1]]$visible = TRUE
+
+
+
+# create steps and plot all traces
+steps <- list()
+fig2 <- plot_geo(locations = europe_df2$Code)
+for (i in 1:4) {
+  fig2 <- add_trace(
+    fig2,
+    z = aval2[i][[1]]$z,
+    locations = aval2[i][[1]]$locations,
+    color = aval2[i][[1]]$color,
+    visible = aval2[i][[1]]$visible,
+    name = aval2[i][[1]]$name
+  ) 
+  
+  step <- list(args = list('visible', rep(FALSE, length(aval2))),
+               method = 'restyle',
+               label=slider_desc[[i]])
+  step$args[[2]][i] = TRUE  
+  steps[[i]] = step 
+}  
+
+
+fig2 <- fig2 %>%
+  layout(sliders = list(list(active = 1,
+                             currentvalue = list(prefix = "Ile razy w ciągu ostatnich 2 tygodni opuściłeś/aś cały dzień szkoły? Odp.: "),
+                             steps = steps)),
+         geo = list(lonaxis = list(range = c(-20, 40)),
+                    lataxis = list(range = c(35, 80))
+         ))
+
+fig2
+
+```
+
+#### Opuszczanie pojedynczych zajęć
+Następny wykres przedstawia procent uczniów z danego kraju, którzy w czasie 2 tygodni poprzedzających badanie PISA: ani razu, 1-2 razy, 3-4 razy lub 5 i więcej razy opuścili pojedyncze szkolne zajęcia.
+
+```{r fig2, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df3 <- read_excel("some_classes.xlsx")
+df3 %>% mutate(Code = countrycode(Country, "country.name", "iso3c")) -> df3
+
+europe_df3 <- subset(df3, Country %in% c("Albania", "Andorra", "Armenia", "Austria",
+                                         "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
+                                         "Croatia", "Cyprus", "Czechia","Denmark","Estonia","Finland", 
+                                         "France","Georgia", "Germany", "Greece","Hungary","Iceland", 
+                                         "Ireland", "Italy", "Kosovo", "Latvia","Liechtenstein", 
+                                         "Lithuania", "Luxembourg","Malta","Moldova","Monaco","Montenegro",
+                                         "Macedonia", "Netherlands","Norway","Poland","Portugal","Romania",
+                                         "San Marino","Serbia","Slovakia","Slovenia","Spain",
+                                         "Sweden","Switzerland","Turkey","Ukraine","UK","Vatican"))
+aval3 <- list()
+for(step in 1:4){
+  aval3[[step]] <-list(visible = FALSE,
+                       name = paste0(''),
+                       z = europe_df3[[slider_columns[[step]]]],
+                       locations = europe_df3$Code,
+                       color = europe_df3[[slider_columns[[step]]]])
+}
+
+
+aval3[1][[1]]$visible = TRUE
+# create steps and plot all traces
+steps <- list()
+fig3 <- plot_geo(locations = europe_df3$Code)
+for (i in 1:4) {
+  fig3 <- add_trace(
+    fig3,
+    z = aval3[i][[1]]$z,
+    locations = aval3[i][[1]]$locations,
+    color = aval3[i][[1]]$color,
+    visible = aval3[i][[1]]$visible,
+    name = aval3[i][[1]]$name
+  ) 
+  
+  step <- list(args = list('visible', rep(FALSE, length(aval3))),
+               method = 'restyle',
+               label=slider_desc[[i]])
+  step$args[[2]][i] = TRUE  
+  steps[[i]] = step 
+}  
+
+
+fig3 <- fig3 %>%
+  layout(sliders = list(list(active = 1,
+                             currentvalue = list(prefix = "Ile razy w ciągu ostatnich 2 tygodni opuściłeś/aś jakieś zajęcia szkolne? Odp.: "),
+                             steps = steps)),
+         geo = list(lonaxis = list(range = c(-20, 40)),
+                    lataxis = list(range = c(35, 80))
+         ))
+
+fig3
+
+```
+
+#### Spóźnianie się na zajęcia
+Ostatni wykres w tej części przedstawia procent uczniów z danego kraju, którzy w czasie 2 tygodni poprzedzających badanie PISA: ani razu, 1-2 razy, 3-4 razy lub 5 i więcej razy spóźnili się na zajęcia.
+
+```{r fig3, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+df <- read_excel("late.xlsx")
+
+df %>% mutate(Code = countrycode(Country, "country.name", "iso3c")) -> df
+
+europe_df <- subset(df, Country %in% c("Albania", "Andorra", "Armenia", "Austria",
+                                       "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
+                                       "Croatia", "Cyprus", "Czechia","Denmark","Estonia","Finland", 
+                                       "France","Georgia", "Germany", "Greece","Hungary","Iceland", 
+                                       "Ireland", "Italy", "Kosovo", "Latvia","Liechtenstein", 
+                                       "Lithuania", "Luxembourg","Malta","Moldova","Monaco","Montenegro",
+                                       "Macedonia", "Netherlands","Norway","Poland","Portugal","Romania",
+                                       "San Marino","Serbia","Slovakia","Slovenia","Spain",
+                                       "Sweden","Switzerland","Turkey","Ukraine","UK","Vatican"))
+
+slider_columns <- c("Never", "Once_twice", "Three_four", "Five_more")
+slider_desc <- c("Ani razu", "1-2 razy", "3-4 razy", "5 lub więcej")
+
+aval <- list()
+for(step in 1:4){
+  aval[[step]] <-list(visible = FALSE,
+                      name = paste0(''),
+                      z = europe_df[[slider_columns[[step]]]],
+                      locations = europe_df$Code,
+                      color = europe_df[[slider_columns[[step]]]])
+}
+
+
+aval[1][[1]]$visible = TRUE
+
+
+
+# create steps and plot all traces
+steps <- list()
+fig <- plot_geo(locations = europe_df$Code)
+for (i in 1:4) {
+  fig <- add_trace(
+    fig,
+    z = aval[i][[1]]$z,
+    locations = aval[i][[1]]$locations,
+    color = aval[i][[1]]$color,
+    visible = aval[i][[1]]$visible,
+    name = aval[i][[1]]$name
+  ) 
+  
+  step <- list(args = list('visible', rep(FALSE, length(aval))),
+               method = 'restyle',
+               label=slider_desc[[i]])
+  step$args[[2]][i] = TRUE  
+  steps[[i]] = step 
+}  
+
+
+fig <- fig %>%
+  layout(sliders = list(list(active = 1,
+                             currentvalue = list(prefix = "Ile razy w ciągu ostatnich 2 tygodni spóźniłeś/aś się na zajęcia szkolne? Odp.: "),
+                             steps = steps)),
+         geo = list(lonaxis = list(range = c(-20, 40)),
+                    lataxis = list(range = c(35, 80))
+         ))
+
+fig
+
+
+```
+
+### Kto opuszcza całe dni zajęć szkolnych?
+
+W tej części raportu zamieszczone zostały wykresy ilustrujące procent uczniów w poszczególnych krajach, którzy w ciągu 2 tygodni poprzedzających badanie ominęli przynajmniej 1 cały dzień zajęć szkolnych, z podziałem na płci oraz środowiska - uprzywilejowane/nieuprzywilejowane, z których pochodzą uczniowie. 
+
+#### Uczennice
+
+```{r fig4, message=FALSE, warning=FALSE}
+whole_day_circ <- read_excel("whole_day_circ.xlsx")
+chosen <- c("Albania", "Andorra", "Armenia", "Austria",
+            "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria",
+            "Croatia", "Cyprus", "Czechia","Denmark","Estonia","Finland", 
+            "France","Georgia", "Germany", "Greece","Hungary","Iceland", 
+            "Ireland", "Italy", "Kosovo", "Latvia","Liechtenstein", 
+            "Lithuania", "Luxembourg","Malta","Moldova","Monaco","Montenegro",
+            "Macedonia", "Netherlands","Norway","Poland","Portugal","Romania",
+            "San Marino","Serbia","Slovakia","Slovenia","Spain",
+            "Sweden","Switzerland","Turkey","Ukraine","UK","Vatican")
+
+whole_day_circ %>% filter(OECD %in% chosen) -> wd_circ_chosen
+plot_ly(
+  data = wd_circ_chosen, 
+  x = ~wd_circ_chosen$OECD,
+  y = ~wd_circ_chosen$Girls,
+  color = ~wd_circ_chosen$OECD,
+  type = "bar"
+) %>% 
+  layout(xaxis = list(categoryorder = "total descending", title = "Kraj"),
+         yaxis = list(title = "Procent respondentek"),
+         title = "Procent dziewczynek w poszczególnych krajach, które \n w ciągu ostatnich 2 tygodni przynajmniej raz opuściły cały dzień szkoły",
+         showlegend = FALSE) -> fig4
+
+fig4
+```
+
+#### Uczniowie
+```{r fig5, message=FALSE, warning=FALSE}
+plot_ly(
+  data = wd_circ_chosen, 
+  x = ~wd_circ_chosen$OECD,
+  y = ~wd_circ_chosen$Boys,
+  color = ~wd_circ_chosen$OECD,
+  type = "bar"
+) %>% 
+  layout(xaxis = list(categoryorder = "total descending", title = "Kraj"),
+         yaxis = list(title = "Procent respondentów"),
+         title = "Procent chłopców w poszczególnych krajach, którzy \n w ciągu ostatnich 2 tygodni przynajmniej raz opuścili cały dzień szkoły",
+         showlegend = FALSE) -> fig5
+fig5
+```
+
+#### Uczniowie ze środowisk nieuprzywilejowanych
+
+```{r fig6, message=FALSE, warning=FALSE}
+plot_ly(
+  data = wd_circ_chosen, 
+  x = ~wd_circ_chosen$OECD,
+  y = ~wd_circ_chosen$`Disadvantaged students`,
+  color = ~wd_circ_chosen$OECD,
+  type = "bar"
+) %>% 
+  layout(xaxis = list(categoryorder = "total descending", title = "Kraj"),
+         yaxis = list(title = "Procent respondentów"),
+         title = "Procent uczniów nieuprzywilejowanych w poszczególnych krajach, którzy \n w ciągu ostatnich 2 tygodni przynajmniej raz opuścili cały dzień szkoły",
+         showlegend = FALSE) -> fig6
+fig6
+```
+
+#### Uczniowie ze środowisk uprzywilejowanych
+```{r fig7, message=FALSE, warning=FALSE}
+plot_ly(
+  data = wd_circ_chosen, 
+  x = ~wd_circ_chosen$OECD,
+  y = ~wd_circ_chosen$`Advantaged students`,
+  color = ~wd_circ_chosen$OECD,
+  type = "bar"
+) %>% 
+  layout(xaxis = list(categoryorder = "total descending", title = "Kraj"),
+         yaxis = list(title = "Procent respondentów"),
+         title = "Procent uczniów uprzywilejowanych w poszczególnych krajach, którzy \n w ciągu ostatnich 2 tygodni przynajmniej raz opuścili cały dzień szkoły",
+         showlegend = FALSE) -> fig7
+fig7
+```
+## Źródła danych
+https://gpseducation.oecd.org/
