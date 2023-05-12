@@ -97,7 +97,7 @@ Np. dla Polski, najwięcej uczniów spędza w internecie 2 godziny w szkole i 5 
 ```{r message = FALSE}
 data1 <- data1 %>% na.omit()
 kraje <- unique(data1$CNT)
-#data1 <- data1  %>% rename(kraj = CNT)
+data1 <- data1  %>% rename(kraj = CNT)
 data1$kraj <- factor(data1$kraj, levels = kraje)
 
 
