@@ -1,0 +1,130 @@
+---
+title: "RaportPD5"
+author: "Robert Jankowski"
+date: "2023-05-9"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE, message = FALSE)
+
+library(plotly)
+library(dplyr)
+```
+
+
+## Wstęp
+PISA (Programme for International Student Assessment) jest testem organizowanym przez OECD (Organisation for Economic Co-operation and Development) badającym umiejętności 15-latków  z różnych krajów w zakresie matematyki, czytania i nauk przyrodniczych w celu sprawdzenia efektywności systemów edukacji.
+\
+
+W teście tym bierze udział również Polska i zazwyczaj zdobywa bardzo dobre wyniki.
+ 
+## Dane
+
+Dane zostały pobrane ze strony https://www.oecd.org/pisa/data/2018database/.
+W badaniu zostały wykorzytane dane z kwestionariusza wypełnianego przez uczniów wskazujące na kraj, z którego pochodzą, liczbę godzin spędzanych w internecie w czasie zajęć szkolnych i poza nimi oraz liczbę urządzeń w ich domu, które umożliwiają przeglądanie internetu (PC, tablety, smartfony).
+
+
+## Problem
+
+W raporcie przyjrzymy się ile godzin w poszczególnych krajach uczniowie spędzają w internecie, wyróżniając czas poświęcony tej aktywności w szkole jak i poza nią.
+\
+
+Dodatkowo sprawdzimy, czy w krajach, w których liczba instrumentów w domach jest duża czas spędzany w internecie jest mniejszy.
+\
+Do przedstawienia danych wykorzystano wykres kropkowy oraz histogram 2D.
+
+## Analiza danych
+
+W poniższej tabeli przedstawiono dane do stworzenia wykresu kropkowego:
+
+```{r message = FALSE}
+data1 <- read.csv("C:/Users/rober/Desktop/data1.csv")
+data2 <- data1 %>%
+  group_by(CNT) %>% 
+  
+  summarise_at(c("ST012Q09NA","IC005Q01TA","IC006Q01TA",
+                 "ST012Q05NA","ST012Q06NA","ST012Q07NA"),mean,na.rm=TRUE) %>%
+
+  mutate(devices_count = ST012Q05NA + ST012Q06NA + ST012Q07NA) %>%
+  select(c("CNT","ST012Q09NA","IC005Q01TA","IC006Q01TA","devices_count")) %>%
+  na.omit()# %>%
+  #arrange(-devices_count)
+
+colnames(data2) <- c("country","instruments_count","hours_internet_in_school",
+                     "hours_internet_outside_school","liczba_urządzeń")
+data2 %>% 
+  DT::datatable(width=10, options = list(dom = 't'))
+```
+
+### Średnia liczba godzin w internecie w różnych krajach
+
+Na poniższym wykresie każdemu markerowi przypisany jest jeden kraj.
+Kolor markera oznacza średnią liczbę urządzeń umożliwiających dostęp do internetu w domach uczniów, a jego wielkość średnią liczbę instrumentów w ich domach.
+
+```{r, echo=FALSE, message = FALSE}
+fig1 <- plot_ly(
+  data2, 
+  x = ~hours_internet_in_school, 
+  y = ~hours_internet_outside_school,
+  type="scatter",
+  mode="markers",
+  hoverinfo = 'text',
+  text = ~paste("Kraj: ",country,"<br>Średnia liczba instrumentów w domu : ", instruments_count,"<br>Średnia liczba urządzeń IT w domu : ",liczba_urządzeń),
+  color = ~liczba_urządzeń,
+  size = ~instruments_count) %>%
+  layout(title = "Średnie wartości dla krajów świata",
+         xaxis=list(title="Średnia liczba godzin w internecie w trakcie zajęć"),
+         yaxis=list(title="Średnia liczba godzin w internecie w czasie wolnym"))
+
+fig1
+```
+
+
+### Szczegóły o czasie spędzanym w internecie dla wybranych krajów:
+
+Na poniższej interaktywnej wizualizacji można wybrać na suwaku kraj, któremu chcemu się bliżej przyjrzeć. Dane przedstawione zostały w postaci mapy ciepła:
+pola o cieplejszej barwie oznaczają, że uczniowie najczęściej spędzają w internecie tyle czasu, ile przypisane jest danemu polu.
+\
+
+Np. dla Polski, najwięcej uczniów spędza w internecie 2 godziny w szkole i 5 godzin poza szkołą.
+
+```{r message = FALSE}
+data1 <- data1 %>% na.omit()
+kraje <- unique(data1$CNT)
+#data1 <- data1  %>% rename(kraj = CNT)
+data1$kraj <- factor(data1$kraj, levels = kraje)
+
+
+
+fig2 <- plot_ly(data=data1,
+               frame = ~kraj,
+               x=~IC005Q01TA,
+               y=~IC006Q01TA) %>% 
+  add_histogram2d(
+                  hovertemplate =  paste("Liczba uczniów: %{z}<br>",
+                  "Internet w szkole: %{x} godz.<br>",
+                  "Internet poza szkołą: %{y} godz.")
+                  ) %>%
+  layout(
+    title = "Czas spędzany w internecie dla konkretnego kraju",
+    xaxis = list(title = "Liczba godzin w internecie w szkole"),
+    yaxis = list(title = "Liczba godzin w internecie poza szkołą")
+  )
+
+fig2
+```
+## Wnioski
+
+Okazuje się, że w krajach, w których uczniowie spędzają dużo czasu w internecie i posiadają dużo urządzeń cyfrowych, również liczba instrumentów w domu jest wysoka.
+\
+Powodem jest zapewne wysoka zamożność społeczeństw tych państw, a wiele z instrumentów może być w nich nieużywanych przez młodzież.
+\
+Rzucającymi się w oczy krajami są Korea i Japonia, dla których pomimo wysokiego poziomu gospodarczego liczba godzin, jakie uczniowie poświęcają na internet nie jest duża. W obu tych krajach jest natomiast stosunkowo duża liczba instrumentów.
+
+
