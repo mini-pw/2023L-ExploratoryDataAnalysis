@@ -208,7 +208,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">17-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">-</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab11 target="_blank" rel="noopener noreferrer">Python: pandas, numpy</a></td>
   </tr>
   <tr>
   </tr>
@@ -224,7 +224,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">24-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">Python: pandas, numpy</td>
+    <td rowspan="2">-</td>
   </tr>
   <tr>
   </tr>
