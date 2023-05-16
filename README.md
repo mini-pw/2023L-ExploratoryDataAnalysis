@@ -233,7 +233,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">23-05</td>
     <td>Analiza EDA przed modelowanie.</td>
     <td rowspan="2"></td>
-    <td rowspan="4">HW6 (5p)</td>
+    <td rowspan="4"></td>
   </tr>
   <tr>
     <td>Znani w świecie wizualizacji, wizualizacje modeli, co dalej?</td>
@@ -250,7 +250,7 @@ Wstęp do eksploracji danych składa się z:
     <td rowspan="2">30-05</td>
     <td rowspan="2">Spotkanie projektowe III</td>
     <td rowspan="2"></td>
-    <td rowspan="4">P2 (2p)</td>
+    <td rowspan="4">P2 (2p) <br> HW6 (5p)</td>
   </tr>
   <tr>
   </tr>
