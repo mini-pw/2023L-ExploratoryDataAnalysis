@@ -231,17 +231,16 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="4">13</td>
     <td rowspan="2">23-05</td>
-    <td>Analiza EDA przed modelowanie.</td>
+    <td><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/blob/main/lectures/L13-EDA.pdf target="_blank" rel="noopener noreferrer">Analiza EDA przed modelowanie. <br> Znani w świecie wizualizacji, wizualizacje modeli, co dalej?</a></td>
     <td rowspan="2"></td>
     <td rowspan="4"></td>
   </tr>
   <tr>
-    <td>Znani w świecie wizualizacji, wizualizacje modeli, co dalej?</td>
   </tr>
   <tr>
     <td rowspan="2">31-05</td>
     <td rowspan="2"></td>
-    <td rowspan="2">Python: matplotlib, seaborn</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab13 target="_blank" rel="noopener noreferrer">Python: matplotlib, seaborn</a></td>
   </tr>
   <tr>
   </tr>
