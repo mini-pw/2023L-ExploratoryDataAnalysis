@@ -256,7 +256,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">07-06</td>
     <td rowspan="2"></td>
-    <td rowspan="2">Python: plotly</td>
+    <td rowspan="2"><a href=https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab14 target="_blank" rel="noopener noreferrer">Python: plotly</a></td>
   </tr>
   <tr>
   </tr>
