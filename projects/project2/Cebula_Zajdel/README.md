@@ -8,6 +8,11 @@ The following dashboard was prepared in order to present the interconnected rela
 
 Application hosted under link: [https://cebulam.shinyapps.io/eda-2023L-project2/](https://cebulam.shinyapps.io/eda-2023L-project2/)
 
+In case one wants to locally host the application it might be necessary to run the two scripts:
+
+- `scripts/download_data.R` &mdash; the script which downloads Movies & TV Stack Exchange data and places it into the `data/movies.stackexchange` directory.
+- `scripts/prepare_data.R` &mdash; the script which prepares data to be used by shiny application.
+
 ## Structure
 
 The dashboard consists of 4 tabs:
@@ -19,7 +24,7 @@ The dashboard consists of 4 tabs:
 
 ## Screenshots:
 
-![About](Screeny/about.png)
-![References](Screeny/references.png)
 ![The Community](Screeny/the_community.png)
 ![Why Tags?](Screeny/why_tags.png)
+![About](Screeny/about.png)
+![References](Screeny/references.png)
