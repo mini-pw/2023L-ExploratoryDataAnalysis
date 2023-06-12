@@ -1,0 +1,375 @@
+---
+title: "Oscary - najlepszy film"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: 
+      version: 5
+      bootswatch: lux
+      primary: "goldenrod"
+      secondary: "darkgreen"
+      success: "darkgreen"
+      info: "darkgreen"
+    orientation: rows
+    vertical_layout: scroll
+    social: menu
+    source_code: embed
+runtime: shiny
+---
+
+```{r global, include=FALSE}
+library(shiny)
+library(dplyr)
+library(tidyverse)
+library(ggrepel)
+library(shinycssloaders)
+library(plotly)
+library(stringr)
+library(stringi)
+library(bslib)
+library(DT)
+
+#df <- read.csv("df.csv")
+
+oscars <- read.csv("oscars_df.csv")
+
+
+actors_df <- oscars %>% 
+  select(c("Film", "Year.of.Release","IMDB.Rating","Actors","Award")) %>%
+  separate_longer_delim(c("Actors"), delim = ", ") %>%
+  mutate(Year = as.numeric(Year.of.Release)) %>%
+  mutate(Winner = ifelse(Award == "Winner",1,0 )) %>%
+  mutate(Nominee = ifelse(Award == "Nominee",1,0 ))
+actors_df <- actors_df[-which(actors_df$Actors == ""), ]
+  #filter(as.numeric(Year.of.Release) > 2010) %>%
+  #filter(IMDB.Rating > 8)
+
+
+
+df1 <- oscars %>%
+  filter(Award=="Winner") %>%
+  group_by(Film.Studio.Producer.s.) %>%
+  summarise(Winner_C=n())
+df2 <- oscars %>%
+  filter(Award=="Nominee") %>%
+  group_by(Film.Studio.Producer.s.) %>%
+  summarise(Nominee_C=n())
+df3 <- full_join(df1, df2, by = join_by(Film.Studio.Producer.s. == Film.Studio.Producer.s.))
+df3[is.na(df3)] <- 0
+df3 <- df3 %>%
+  mutate(Suma = Winner_C+Nominee_C) %>%
+  filter(Suma>1) %>%
+  arrange(desc(Suma))
+
+
+df_rating <- oscars %>%
+  mutate(Oscar.Year = ifelse(substr(oscars$Oscar.Year, 1, 2) == "19", 
+                             1900+as.numeric(substr(oscars$Oscar.Year, stri_length(oscars$Oscar.Year)-1, stri_length(oscars$Oscar.Year))),
+                             2000+as.numeric(substr(oscars$Oscar.Year, stri_length(oscars$Oscar.Year)-1, stri_length(oscars$Oscar.Year)))),
+         IMDB.Rating = 10*IMDB.Rating
+  )
+
+ramka_do_tabeli <-oscars %>% filter(Award=="Winner") %>%
+      mutate(Zdobywca_Oscara=Film, Rok=Oscar.Year, Gatunek = Genres, Producent=Film.Studio.Producer.s., Ocena_widzów=IMDB.Rating, Aktorzy = Actors, Opis=Movie.Info) %>% 
+      select(Zdobywca_Oscara, Rok, Gatunek, Producent, Ocena_widzów, Aktorzy, Opis)
+```
+
+
+
+Wstęp 
+=====================================  
+Inputs {.sidebar}
+-------------------------------------
+
+
+```{r}
+fluidRow(
+  p("Wybierz parametry, które Cię interesują:")
+)
+sliderInput("year", "Rok", 
+            value = c(min(df_rating$Oscar.Year), max(df_rating$Oscar.Year)),
+                  min = min(df_rating$Oscar.Year),
+                  max = max(df_rating$Oscar.Year),
+                  step = 1)
+```
+
+Column
+-------------------------------------
+### Czym są Oscary?
+
+Oscary, czyli Nagroda Akademii Filmowej jest przyznawana corocznie przez Amerykańską Akademię Sztuki i Wiedzy Filmowej. Jej pierwsze rozdanie odbyło się w 1929 roku.
+
+Podczas ceremonii rozdania Oscarów nagradza się wstępnie nominowane filmy, które w poprzedzającym roku kalendarzowym były wyświetlane w amerykańskich kinach.  Nagrody, z wyłączeniem jednej kategorii, przyznawane są przeważnie filmom anglojęzycznym. Ceremonia wręczenia Oscarów od 2002 roku odbywa się w Teatrze Dolby w Hollywood. Nagroda ta jest uznawana za najbardziej prestiżową nagrodę filmową.
+
+Row {data-height=1400 .tabset .tabset-fade}
+-------------------------------------
+
+### Popularność w czasie 
+
+Poniższa wizualizacja przedstawia obecną popularność zwycięzcy Oscarów w kategorii najlepszy film z danego roku. Na wykresie porównujemy dane zabrane z portali: IMDB i Rotten Toamto. 
+
+Suwak po lewej stronie umożliwia zmianę zakresu lat, z których zwycięzców chcemy rozważać. Po najechaniu na marker odpowidający zwycięzcy z danego roku wyświtli się jego tytuł.
+    
+```{r}
+fluidRow(
+    renderPlotly({ plot_ly(df_rating %>% 
+              filter(df_rating$Award == "Winner",
+                     df_rating$Oscar.Year >= input$year[1],
+                     df_rating$Oscar.Year <= input$year[2]), 
+            x = ~Oscar.Year, y = ~IMDB.Votes, text = ~Film, name = 'IMDB', type = 'scatter', mode = 'lines+markers', 
+            line = list(color = "goldenrod", width = 1), marker=list(color="goldenrod")) %>%
+      add_trace(y = ~Audience.Count, text = ~Film, name = 'Rotten Tomato', 
+                line = list(color = "darkgreen", width = 1), marker=list(color="darkgreen")) %>%
+      layout(title = "Zdobywcy Oscarów - popularność",
+             xaxis = list(title = "Rok"),
+             yaxis = list (title = ""))
+    }))
+```
+
+### Dane
+
+Niniejsza aplikacja prezentuje dane zebrane na temat nagrodzonych i nominowanych w kategorii najlepszy film. Poniższa tabelka zawiera informacje na temat zdobywców Oskarów w kolejnych latach wraz z oceną publiczności i krótkim opisem fabuły. Znajdziemy też informacje o producencie i aktorach występujących w filmie. Zapraszamy do eksploracji!
+
+```{r}
+output$table = renderDT({DT::datatable(ramka_do_tabeli %>% select(Zdobywca_Oscara, Rok, Gatunek, Producent, Ocena_widzów), 
+      options = list(pageLength = 10),
+      selection = 'single')
+})
+
+output$selectedTitle <- renderText({
+    selectedrowindex <- input$table_rows_selected
+    selectedrowindex <- as.numeric(selectedrowindex)
+    selectedrow <- paste(ramka_do_tabeli[selectedrowindex,c("Zdobywca_Oscara")],collapse = ", ")
+    selectedrow
+  })
+output$selectedDescription <- renderText({
+    selectedrowindex <- input$table_rows_selected
+    selectedrowindex <- as.numeric(selectedrowindex)
+    selectedrow <- paste(ramka_do_tabeli[selectedrowindex,c("Opis")],collapse = ", ")
+    selectedrow
+  })
+output$selectedActors <- renderText({
+    selectedrowindex <- input$table_rows_selected
+    selectedrowindex <- as.numeric(selectedrowindex)
+    selectedrow <- paste(ramka_do_tabeli[selectedrowindex,c("Aktorzy")],collapse = ", ")
+    selectedrow
+  })
+
+
+
+layout_column_wrap(
+  width = 1, height = 1200,
+  DTOutput("table"),
+  card(
+  card_header(
+    textOutput("selectedTitle")
+  ),
+  card_body(
+    fill = TRUE,
+    card_title("Opis"),
+    textOutput("selectedDescription")
+  ),
+  card_body(
+    fill = TRUE,
+    card_title("Aktorzy"),
+    textOutput("selectedActors")
+  )
+)
+  )
+```
+
+Oceny 
+=====================================
+Inputs {.sidebar}
+-------------------------------------
+
+```{r}
+fluidRow(
+  p(""),p(""),
+  p("Wybierz parametry, które Cię interesują:")
+)
+sliderInput("year2", "Rok", 
+            value = c(min(df_rating$Oscar.Year), max(df_rating$Oscar.Year)),
+                  min = min(df_rating$Oscar.Year),
+                  max = max(df_rating$Oscar.Year),
+                  step = 1)
+```
+
+```{r}
+selectInput("genre", "Jakie gatunki filmów wybierasz?",
+                  unique(unlist(strsplit(oscars$Genres, ", "))),
+                  selected = "Classics")
+```
+
+
+Column
+-------------------------------------
+### Który film obejrzeć?
+
+Interesujcym parametrem opisującym filmy oscarowe może okazać się ocena przyznawana im przez widzów na całym świecie. Portale internetowe zrzeszające amatorów kina zbierają dane na temat ocen i oglądalności różnych filmów. Poniższą wizualizację wykonaliśmy na podstawie danych udostępnianych przez portale IMDB i Rotten Toamto.
+
+Row {data-height=650 .tabset .tabset-fade}
+-------------------------------------
+
+### Oceny widzów w czasie
+
+Pierwszy wykres przedstawia zależność między oceną widzów, a oceną krytyków na portalu Rotten Tomato dla filmów wybranego gatunku. Wyboru gatunktu fimu i zakresu lat, w których przeznawano osacary można dokonać w panelu po lewej.
+
+Wielkość markera na wykresie oznacza popularność filmu, a kolor dzieli filmy na zwycięzców i nominowanych. Po najechaniu kursorem na wybrany marker wyświetli się tytuł, któremu on odpowiada.
+    
+```{r}
+fluidRow(
+renderPlotly({
+    plot_ly(df_rating %>% 
+              filter(df_rating$Award == "Winner",
+                     df_rating$Oscar.Year >= input$year2[1],
+                     df_rating$Oscar.Year <= input$year2[2]), 
+            x = ~Oscar.Year, y = ~IMDB.Rating, text = ~Film, name = 'IMDB', type = 'scatter', mode = 'lines+markers',
+            line = list(color = "goldenrod", width = 1), marker=list(color="goldenrod")) %>%
+      add_trace(y = ~Audience.Rating, text = ~Film, 
+                name = 'Rotten Tomato', 
+                line = list(color = "darkgreen", width = 1), marker=list(color="darkgreen")) %>%
+      layout(title = "Zdobywcy Oscarów - oceny widzów",
+             xaxis = list(title = "Rok"),
+             yaxis = list (title = ""))
+    
+  }))
+```
+
+### Oceny dla wybranego gatunku
+
+Drugi wykres przezentuje oceny filmów w skali 0-100 dla zwycięzców Oscarów z danego roku. Na grafice możezmy zobaczyć porównanie ocen wystawionych przez użytkowników dwóch portali IMDB i Rotten Toamto.
+
+Zmiana zakresu lat odbywa się przy użyciu suwaka po lewej stronie, a po najechaniu na marker odpowidający zdobywcy Oscara, wyświetli się jego tytuł.
+    
+```{r}
+fluidRow(
+renderPlotly({
+    
+    plot_ly(df_rating %>% 
+              filter(str_detect(df_rating$Genres, input$genre),
+                     df_rating$Oscar.Year >= input$year2[1],
+                     df_rating$Oscar.Year <= input$year2[2]), 
+            x = ~Audience.Rating,
+            y = ~Tomatometer.Rating,
+            size = ~Audience.Count,
+            text = ~Film,
+            type="scatter",
+            mode="markers",
+            color = ~Award,
+            colors = c("darkgreen", "goldenrod"),
+            sizes = c(5, 20),
+            marker = list(opacity = 0.5, sizemode = 'diameter')) %>% 
+      layout(title = "Oceny zwycięzców i nominowanych", 
+             xaxis = list(title = 'Ocena publiczności'), 
+             yaxis = list(title = 'Ocena krytyków'),
+             legend= list(itemsizing='constant'))
+  }))
+```
+
+Aktorzy i producenci
+===================================== 
+
+Column Inputs {.sidebar}
+-------------------------------------
+
+```{r}
+fluidRow(
+  p(""),p(""),
+  p("Wybierz parametry, które Cię interesują:")
+)
+sliderInput("year3", "Rok", 
+            value = c(min(df_rating$Oscar.Year), max(df_rating$Oscar.Year)),
+                  min = min(df_rating$Oscar.Year),
+                  max = max(df_rating$Oscar.Year),
+                  step = 1)
+```
+
+
+
+```{r}
+sliderInput("number_oscars", "Wybierz liczbę nominowanych filmów wyprodukowanych przez wytwórnię:",
+            value = c(min(df3$Suma), max(df3$Suma)),
+            min = min(df3$Suma),
+            max = max(df3$Suma),
+            step = 1)
+```
+
+```{r}
+sliderInput("range", "Wybierz średnią oceną filmów, w których grał aktor:",
+            min = 5,
+            max = 10,
+            value = c(5,10),
+            step = 0.1)
+```
+Column
+-------------------------------------
+
+### Twórcy i ich osiągnięcia
+
+W tej części aplikacji postanowiliśmy zbadać wkład producentów i aktorów filmów nominowanych do Oscarów. Sprawdzimy, które wytwórnie wyprodukowały najwięcej docenionych przez jury filmów oraz, którzy aktorzy grali w największej liczbe nagrodzonych filmów.
+
+Eksplorację danych przedstawionych na wykresach można pogłębić korzystają z tabeli umieszczonej w zakładce [Dane](#Dane).
+Możemy tam wyszukać tytuły i opisy filmów wypranego producenta czy aktora.
+
+Row {data-height=600 .tabset .tabset-fade}
+-------------------------------------
+
+### Sukces producentów
+
+Wykres słupkowy prezentuje liczbę filmów nagrodzonych i nominowanych wyprodukowanych przez daną wytwórnię (tylko te, które wyprodukowały więcej niż 1 nominowany film). 
+
+Za pomocą suwaka po lewej można zmieniać producentów pokazanych na wykresie na podstawie ich osiągnięć.
+    
+```{r}
+fluidRow(
+renderPlotly({
+    plot_ly(df3 %>%
+              filter(df3$Suma >= input$number_oscars[1],
+                     df3$Suma <= input$number_oscars[2]), 
+            x = ~Nominee_C, y = ~Film.Studio.Producer.s., 
+            marker = list(color = "darkgreen", line = list(color = "darkgreen")), 
+            type = 'bar', name = 'Nominee') %>% 
+      add_trace(x = ~Winner_C,  
+                marker = list(color = "goldenrod", line = list(color = "goldenrod")), 
+                name = 'Winner') %>% 
+      layout(title = "Producenci najczęściej nagradzanych i nominowanych filmów", 
+             xaxis = list(title=""),
+             yaxis = list(title="", categoryorder = "total descending"),
+             barmode = "stack")
+  }))
+```
+
+### Sukces aktorów
+
+Wykres słupkowy prezentuje ranking aktorów według nagród i nominacji uzyskanych przez filmy, w których grali. Wybrano tylko tych aktorów, których filmy były najczęściej nagradzane.
+
+Za pomocą suwaka po lewej można zmieniać zakres lat oraz zakres średniej ocen filmów.
+    
+```{r}
+fluidRow(
+renderPlotly({ 
+  plot_ly(data=actors_df %>% 
+  #select(c("Film", "Year.of.Release","IMDB.Rating","Actors")) %>%
+  #separate_longer_delim(c("Actors"), delim = ", ") %>%
+  filter(actors_df$Year >= input$year3[1],
+         actors_df$Year <= input$year3[2]) %>%
+  filter(IMDB.Rating >= input$range[1],
+         IMDB.Rating <= input$range[2]) %>%
+  #mutate(rating = IMDB.Rating) %>%
+  group_by(Actors) %>%
+  summarize(movie_count = n(), winner_count = sum(Winner),nominee_count = sum(Nominee)) %>% 
+    arrange(desc(movie_count)) %>%
+    head(20),
+  x=~nominee_count, y = ~Actors,
+  marker = list(color = "darkgreen", line = list(color = "darkgreen")), 
+            type = 'bar', name = 'Nominee') %>%
+    add_trace(x = ~winner_count,  
+                marker = list(color = "goldenrod", line = list(color = "goldenrod")), 
+                name = 'Winner') %>%
+      layout(title = "Aktorzy według nagród i nominacji ich filmów",
+             xaxis = list(title=""),
+             yaxis = list(title ="",categoryorder = "total ascending"),
+             barmode = "stack")
+    
+  }))
+```
