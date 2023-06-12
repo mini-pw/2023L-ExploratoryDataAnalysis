@@ -1,0 +1,181 @@
+season,episode_num_in_season,episode_num_overall,title,directed_by,written_by,original_air_date,prod_code,us_viewers
+1,1,1,"Good News, Bad News",Art Wolff,Larry David & Jerry Seinfeld,1989-07-05,101,15400000.0
+1,2,2,The Stakeout,Tom Cherones,Larry David & Jerry Seinfeld,1990-05-31,102,22500000.0
+1,3,3,The Robbery,Tom Cherones,Matt Goldman,1990-06-07,103,19700000.0
+1,4,4,Male Unbonding,Tom Cherones,Larry David & Jerry Seinfeld,1990-06-14,104,19100000.0
+1,5,5,The Stock Tip,Tom Cherones,Larry David & Jerry Seinfeld,1990-06-21,105,19400000.0
+2,1,6,The Ex-Girlfriend,Tom Cherones,Larry David & Jerry Seinfeld,1991-01-23,201,15600000.0
+2,2,7,The Pony Remark,Tom Cherones,Larry David & Jerry Seinfeld,1991-01-30,202,15200000.0
+2,3,8,The Jacket,Tom Cherones,Larry David & Jerry Seinfeld,1991-02-06,205,14800000.0
+2,4,9,The Phone Message,Tom Cherones,Larry David & Jerry Seinfeld,1991-02-13,207,13600000.0
+2,5,10,The Apartment,Tom Cherones,Peter Mehlman,1991-04-04,208,24700000.0
+2,6,11,The Statue,Tom Cherones,Larry Charles,1991-04-11,210,23300000.0
+2,7,12,The Revenge,Tom Cherones,Larry David,1991-04-18,212,19600000.0
+2,8,13,The Heart Attack,Tom Cherones,Larry Charles,1991-04-25,211,20600000.0
+2,9,14,The Deal,Tom Cherones,Larry David,1991-05-02,213,22900000.0
+2,10,15,The Baby Shower,Tom Cherones,Larry Charles,1991-05-16,204,17200000.0
+2,11,16,The Chinese Restaurant,Tom Cherones,Larry David & Jerry Seinfeld,1991-05-23,206,16800000.0
+2,12,17,The Busboy,Tom Cherones,Larry David & Jerry Seinfeld,1991-06-26,203,12500000.0
+3,1,18,The Note,Tom Cherones,Larry David,1991-09-18,301,21700000.0
+3,2,19,The Truth,David Steinberg,Elaine Pope,1991-09-25,302,16700000.0
+3,3,20,The Pen,Tom Cherones,Larry David,1991-10-02,305,15100000.0
+3,4,21,The Dog,Tom Cherones,Larry David,1991-10-09,303,17200000.0
+3,5,22,The Library,Joshua White,Larry Charles,1991-10-16,304,16399999.999999998
+3,6,23,The Parking Garage,Tom Cherones,Larry David,1991-10-30,306,17000000.0
+3,7,24,The Cafe,Tom Cherones,Tom Leopold,1991-11-06,307,16399999.999999998
+3,8,25,The Tape,David Steinberg,Larry David and Bob Shaw & Don McEnery,1991-11-13,308,15800000.0
+3,9,26,The Nose Job,Tom Cherones,Peter Mehlman,1991-11-20,309,16300000.0
+3,10,27,The Stranded,Tom Cherones,Larry David & Jerry Seinfeld and Matt Goldman,1991-11-27,209,18600000.0
+3,11,28,The Alternate Side,Tom Cherones,Larry David and Bill Masters,1991-12-04,310,18000000.0
+3,12,29,The Red Dot,Tom Cherones,Larry David,1991-12-11,311,17900000.0
+3,13,30,The Subway,Tom Cherones,Larry Charles,1992-01-08,313,18700000.0
+3,14,31,The Pez Dispenser,Tom Cherones,Larry David,1992-01-15,314,19200000.0
+3,15,32,The Suicide,Tom Cherones,Tom Leopold,1992-01-29,312,16900000.0
+3,16,33,The Fix Up,Tom Cherones,Elaine Pope & Larry Charles,1992-02-05,317,18500000.0
+3,17,34,The Boyfriend,Tom Cherones,Larry David and Larry Levin,1992-02-12,315,17000000.0
+3,18,35,The Boyfriend,Tom Cherones,Larry David and Larry Levin,1992-02-12,316,17000000.0
+3,19,36,The Limo,Tom Cherones,Story by: Marc Jaffe Teleplay by: Larry Charles,1992-02-26,318,19500000.0
+3,20,37,The Good Samaritan,Jason Alexander,Peter Mehlman,1992-03-04,319,16100000.000000002
+3,21,38,The Letter,Tom Cherones,Larry David,1992-03-25,320,22300000.0
+3,22,39,The Parking Space,Tom Cherones,Larry David and Greg Daniels,1992-04-22,322,17800000.0
+3,23,40,The Keys,Tom Cherones,Larry Charles,1992-05-06,321,16399999.999999998
+4,1,41,The Trip: Part 1,Tom Cherones,Larry Charles,1992-08-12,401,16300000.0
+4,2,42,The Trip: Part 2,Tom Cherones,Larry Charles,1992-08-19,402,15100000.0
+4,3,43,The Pitch,Tom Cherones,Larry David,1992-09-16,403,17600000.0
+4,4,44,The Ticket,Tom Cherones,Larry David,1992-09-16,404,17600000.0
+4,5,45,The Wallet,Tom Cherones,Larry David,1992-09-23,405,17600000.0
+4,6,46,The Watch,Tom Cherones,Larry David,1992-09-30,406,15200000.0
+4,7,47,The Bubble Boy,Tom Cherones,Larry David & Larry Charles,1992-10-07,407,17100000.0
+4,8,48,The Cheever Letters,Tom Cherones,Story by: Larry David and Elaine Pope & Tom Leopold Teleplay by: Larry David,1992-10-28,408,15100000.0
+4,9,49,The Opera,Tom Cherones,Larry Charles,1992-11-04,409,16700000.0
+4,10,50,The Virgin,Tom Cherones,Story by: Peter Mehlman and Peter Farrelly & Bob Farrelly Teleplay by: Peter Mehlman,1992-11-11,410,16200000.0
+4,11,51,The Contest,Tom Cherones,Larry David,1992-11-18,411,18500000.0
+4,12,52,The Airport,Tom Cherones,Larry Charles,1992-11-25,412,14500000.0
+4,13,53,The Pick,Tom Cherones,Story by: Larry David and Marc Jaffe Teleplay by: Larry David,1992-12-16,413,16200000.0
+4,14,54,The Movie,Tom Cherones,Steve Skrovan & Bill Masters & Jon Hayman,1993-01-06,415,17600000.0
+4,15,55,The Visa,Tom Cherones,Peter Mehlman,1993-01-27,414,11500000.0
+4,16,56,The Shoes,Tom Cherones,Larry David & Jerry Seinfeld,1993-02-04,417,26900000.0
+4,17,57,The Outing,Tom Cherones,Larry Charles,1993-02-11,416,28000000.0
+4,18,58,The Old Man,Tom Cherones,Story by: Bruce Kirschbaum Teleplay by: Larry Charles,1993-02-18,418,22700000.0
+4,19,59,The Implant,Tom Cherones,Peter Mehlman,1993-02-25,419,27400000.0
+4,20,60,The Junior Mint,Tom Cherones,Andy Robin,1993-03-17,421,26400000.0
+4,21,61,The Smelly Car,Tom Cherones,Larry David & Peter Mehlman,1993-04-15,422,25000000.0
+4,22,62,The Handicap Spot,Tom Cherones,Larry David,1993-05-13,420,27600000.0
+4,23,63,The Pilot,Tom Cherones,Larry David,1993-05-20,423,32799999.999999996
+4,24,64,The Pilot,Tom Cherones,Larry David,1993-05-20,424,32799999.999999996
+5,1,65,The Mango,Tom Cherones,Story by: Lawrence H. Levy Teleplay by: Lawrence H. Levy and Larry David,1993-09-16,501,28200000.0
+5,2,66,The Puffy Shirt,Tom Cherones,Larry David,1993-09-23,503,29500000.0
+5,3,67,The Glasses,Tom Cherones,Tom Gammill & Max Pross,1993-09-30,502,28700000.0
+5,4,68,The Sniffing Accountant,Tom Cherones,Larry David & Jerry Seinfeld,1993-10-07,504,28400000.0
+5,5,69,The Bris,Tom Cherones,Larry Charles,1993-10-14,505,28700000.0
+5,6,70,The Lip Reader,Tom Cherones,Carol Leifer,1993-10-28,506,31000000.0
+5,7,71,The Non-Fat Yogurt,Tom Cherones,Larry David,1993-11-04,508,31100000.0
+5,8,72,The Barber,Tom Cherones,Andy Robin,1993-11-11,507,29700000.0
+5,9,73,The Masseuse,Tom Cherones,Peter Mehlman,1993-11-18,509,27700000.0
+5,10,74,The Cigar Store Indian,Tom Cherones,Tom Gammill & Max Pross,1993-12-09,510,29600000.0
+5,11,75,The Conversion,Tom Cherones,Bruce Kirschbaum,1993-12-16,511,28300000.0
+5,12,76,The Stall,Tom Cherones,Larry Charles,1994-01-06,512,35000000.0
+5,13,77,The Dinner Party,Tom Cherones,Larry David,1994-02-03,514,33000000.0
+5,14,78,The Marine Biologist,Tom Cherones,Ron Hauge & Charlie Rubin,1994-02-10,513,35000000.0
+5,15,79,The Pie,Tom Cherones,Tom Gammill & Max Pross,1994-02-17,515,
+5,16,80,The Stand-In,Tom Cherones,Larry David,1994-02-24,516,25400000.0
+5,17,81,The Wife,Tom Cherones,Peter Mehlman,1994-03-17,517,30700000.0
+5,18,82,The Raincoats,Tom Cherones,Tom Gammill & Max Pross and Larry David & Jerry Seinfeld,1994-04-28,519,29600000.0
+5,19,83,The Raincoats,Tom Cherones,Tom Gammill & Max Pross and Larry David & Jerry Seinfeld,1994-04-28,520,29600000.0
+5,20,84,The Fire,Tom Cherones,Larry Charles,1994-05-05,518,27600000.0
+5,21,85,The Hamptons,Tom Cherones,Peter Mehlman & Carol Leifer,1994-05-12,522,24500000.0
+5,22,86,The Opposite,Tom Cherones,Andy Cowan and Larry David & Jerry Seinfeld,1994-05-19,521,30100000.0
+6,1,87,The Chaperone,Andy Ackerman,Larry David and Bill Masters & Bob Shaw,1994-09-22,601,32799999.999999996
+6,2,88,The Big Salad,Andy Ackerman,Larry David,1994-09-29,602,32400000.0
+6,3,89,The Pledge Drive,Andy Ackerman,Tom Gammill & Max Pross,1994-10-06,603,29800000.0
+6,4,90,The Chinese Woman,Andy Ackerman,Peter Mehlman,1994-10-13,604,29200000.0
+6,5,91,The Couch,Andy Ackerman,Larry David,1994-10-27,605,28000000.0
+6,6,92,The Gymnast,Andy Ackerman,Alec Berg & Jeff Schaffer,1994-11-03,606,30600000.0
+6,7,93,The Soup,Andy Ackerman,Fred Stoller,1994-11-10,608,29600000.0
+6,8,94,The Mom and Pop Store,Andy Ackerman,Tom Gammill & Max Pross,1994-11-17,607,32400000.0
+6,9,95,The Secretary,David Owen Trainor,Carol Leifer & Marjorie Gross,1994-12-08,609,29700000.0
+6,10,96,The Race,Andy Ackerman,Story by: Tom Gammill & Max Pross and Larry David & Sam Kass Teleplay by: Tom Gammill & Max Pross and Larry David,1994-12-15,612,26800000.0
+6,11,97,The Switch,Andy Ackerman,Bruce Kirschbaum and Sam Kass,1995-01-05,610,36600000.0
+6,12,98,The Label Maker,Andy Ackerman,Alec Berg & Jeff Schaffer,1995-01-19,611,36200000.0
+6,13,99,The Scofflaw,Andy Ackerman,Peter Mehlman,1995-01-26,613,33400000.0
+6,14,100,Highlights of a Hundred,Andy Ackerman,Peter Mehlman,1995-02-02,623,34000000.0
+6,15,101,Highlights of a Hundred,Andy Ackerman,Peter Mehlman,1995-02-02,624,34000000.0
+6,16,102,The Beard,Andy Ackerman,Carol Leifer,1995-02-09,615,32900000.0
+6,17,103,The Kiss Hello,Andy Ackerman,Larry David & Jerry Seinfeld,1995-02-16,614,33400000.0
+6,18,104,The Doorman,Andy Ackerman,Tom Gammill & Max Pross,1995-02-23,616,33400000.0
+6,19,105,The Jimmy,Andy Ackerman,Gregg Kavet & Andy Robin,1995-03-16,617,31100000.0
+6,20,106,The Doodle,Andy Ackerman,Alec Berg & Jeff Schaffer,1995-04-06,618,30700000.0
+6,21,107,The Fusilli Jerry,Andy Ackerman,Story by: Marjorie Gross & Jonathan Gross and Ron Hauge & Charlie Rubin Teleplay by: Marjorie Gross,1995-04-27,619,28200000.0
+6,22,108,The Diplomat's Club,Andy Ackerman,Tom Gammill & Max Pross,1995-05-04,620,28900000.0
+6,23,109,The Face Painter,Andy Ackerman,Story by: Larry David and Fred Stoller Teleplay by: Larry David,1995-05-11,622,26500000.0
+6,24,110,The Understudy,Andy Ackerman,Marjorie Gross & Carol Leifer,1995-05-18,621,29800000.0
+7,1,111,The Engagement,Andy Ackerman,Larry David,1995-09-21,701,37600000.0
+7,2,112,The Postponement,Andy Ackerman,Larry David,1995-09-28,702,34500000.0
+7,3,113,The Maestro,Andy Ackerman,Larry David,1995-10-05,703,34600000.0
+7,4,114,The Wink,Andy Ackerman,Tom Gammill & Max Pross,1995-10-12,704,32299999.999999996
+7,5,115,The Hot Tub,Andy Ackerman,Gregg Kavet & Andy Robin,1995-10-19,705,32600000.0
+7,6,116,The Soup Nazi,Andy Ackerman,Spike Feresten,1995-11-02,706,33100000.0
+7,7,117,The Secret Code,Andy Ackerman,Alec Berg & Jeff Schaffer,1995-11-09,707,33900000.0
+7,8,118,The Pool Guy,Andy Ackerman,David Mandel,1995-11-16,708,33400000.0
+7,9,119,The Sponge,Andy Ackerman,Peter Mehlman,1995-12-07,709,32299999.999999996
+7,10,120,The Gum,Andy Ackerman,Tom Gammill & Max Pross,1995-12-14,710,31400000.0
+7,11,121,The Rye,Andy Ackerman,Carol Leifer,1996-01-04,711,35100000.0
+7,12,122,The Caddy,Andy Ackerman,Gregg Kavet & Andy Robin,1996-01-25,712,32000000.0
+7,13,123,The Seven,Andy Ackerman,Alec Berg & Jeff Schaffer,1996-02-01,713,37100000.0
+7,14,124,The Cadillac,Andy Ackerman,Larry David & Jerry Seinfeld,1996-02-08,714,35900000.0
+7,15,125,The Cadillac,Andy Ackerman,Larry David & Jerry Seinfeld,1996-02-08,717,35900000.0
+7,16,126,The Shower Head,Andy Ackerman,Peter Mehlman & Marjorie Gross,1996-02-15,715,32299999.999999996
+7,17,127,The Doll,Andy Ackerman,Tom Gammill & Max Pross,1996-02-22,716,32900000.0
+7,18,128,The Friars Club,Andy Ackerman,David Mandel,1996-03-07,718,32700000.000000004
+7,19,129,The Wig Master,Andy Ackerman,Spike Feresten,1996-04-04,719,30500000.0
+7,20,130,The Calzone,Andy Ackerman,Alec Berg & Jeff Schaffer,1996-04-25,720,28500000.0
+7,21,131,The Bottle Deposit,Andy Ackerman,Gregg Kavet & Andy Robin,1996-05-02,721,32400000.0
+7,22,132,The Bottle Deposit,Andy Ackerman,Gregg Kavet & Andy Robin,1996-05-02,722,32400000.0
+7,23,133,The Wait Out,Andy Ackerman,Story by: Peter Mehlman & Matt Selman Teleplay by: Peter Mehlman,1996-05-09,723,29900000.0
+7,24,134,The Invitations,Andy Ackerman,Larry David,1996-05-16,724,33200000.000000004
+8,1,135,The Foundation,Andy Ackerman,Alec Berg & Jeff Schaffer,1996-09-19,801,33720000.0
+8,2,136,The Soul Mate,Andy Ackerman,Peter Mehlman,1996-09-26,802,33240000.000000004
+8,3,137,The Bizarro Jerry,Andy Ackerman,David Mandel,1996-10-03,803,31620000.0
+8,4,138,The Little Kicks,Andy Ackerman,Spike Feresten,1996-10-10,804,32240000.000000004
+8,5,139,The Package,Andy Ackerman,Jennifer Crittenden,1996-10-17,805,30130000.0
+8,6,140,The Fatigues,Andy Ackerman,Gregg Kavet & Andy Robin,1996-10-31,806,30330000.0
+8,7,141,The Checks,Andy Ackerman,Steve O'Donnell and Tom Gammill & Max Pross,1996-11-07,807,32009999.999999996
+8,8,142,The Chicken Roaster,Andy Ackerman,Alec Berg & Jeff Schaffer,1996-11-14,808,34090000.0
+8,9,143,The Abstinence,Andy Ackerman,Steve Koren,1996-11-21,809,34350000.0
+8,10,144,The Andrea Doria,Andy Ackerman,Spike Feresten,1996-12-19,810,29650000.0
+8,11,145,The Little Jerry,Andy Ackerman,Jennifer Crittenden,1997-01-09,811,34480000.0
+8,12,146,The Money,Andy Ackerman,Peter Mehlman,1997-01-16,813,37340000.0
+8,13,147,The Comeback,David Owen Trainor,Gregg Kavet & Andy Robin,1997-01-30,812,33500000.0
+8,14,148,The Van Buren Boys,Andy Ackerman,Darin Henry,1997-02-06,814,33820000.0
+8,15,149,The Susie,Andy Ackerman,David Mandel,1997-02-13,815,32000000.0
+8,16,150,The Pothole,Andy Ackerman,Steve O'Donnell and Dan O'Keefe,1997-02-20,816,33830000.0
+8,17,151,The English Patient,Andy Ackerman,Steve Koren,1997-03-13,817,31270000.0
+8,18,152,The Nap,Andy Ackerman,Gregg Kavet & Andy Robin,1997-04-10,818,32220000.0
+8,19,153,The Yada Yada,Andy Ackerman,Peter Mehlman and Jill Franklyn,1997-04-24,819,31640000.0
+8,20,154,The Millennium,Andy Ackerman,Jennifer Crittenden,1997-05-01,820,29300000.0
+8,21,155,The Muffin Tops,Andy Ackerman,Spike Feresten,1997-05-08,821,31090000.0
+8,22,156,The Summer of George,Andy Ackerman,Alec Berg & Jeff Schaffer,1997-05-15,822,29800000.0
+9,1,157,The Butter Shave,Andy Ackerman,Alec Berg & Jeff Schaffer & David Mandel,1997-09-25,901,37780000.0
+9,2,158,The Voice,Andy Ackerman,Alec Berg & Jeff Schaffer & David Mandel,1997-10-02,902,30930000.0
+9,3,159,The Serenity Now,Andy Ackerman,Steve Koren,1997-10-09,903,30150000.0
+9,4,160,The Blood,Andy Ackerman,Dan O'Keefe,1997-10-16,904,31450000.0
+9,5,161,The Junk Mail,Andy Ackerman,Spike Feresten,1997-10-30,905,30240000.0
+9,6,162,The Merv Griffin Show,Andy Ackerman,Bruce Eric Kaplan,1997-11-06,906,31640000.0
+9,7,163,The Slicer,Andy Ackerman,Story by: Gregg Kavet & Andy Robin & Darin Henry Teleplay by: Gregg Kavet & Andy Robin,1997-11-13,907,32770000.000000004
+9,8,164,The Betrayal,Andy Ackerman,David Mandel & Peter Mehlman,1997-11-20,908,33990000.0
+9,9,165,The Apology,Andy Ackerman,Jennifer Crittenden,1997-12-11,909,30470000.0
+9,10,166,The Strike,Andy Ackerman,Dan O'Keefe and Alec Berg & Jeff Schaffer,1997-12-18,910,30790000.0
+9,11,167,The Dealership,Andy Ackerman,Steve Koren,1998-01-08,911,32860000.0
+9,12,168,The Reverse Peephole,Andy Ackerman,Spike Feresten,1998-01-15,912,33479999.999999996
+9,13,169,The Cartoon,Andy Ackerman,Bruce Eric Kaplan,1998-01-29,913,33189999.999999996
+9,14,170,The Strongbox,Andy Ackerman,Story by: Dan O'Keefe & Billy Kimball Teleplay by: Dan O'Keefe,1998-02-05,914,31630000.0
+9,15,171,The Wizard,Andy Ackerman,Steve Lookner,1998-02-26,915,30510000.0
+9,16,172,The Burning,Andy Ackerman,Jennifer Crittenden,1998-03-19,916,30920000.0
+9,17,173,The Bookstore,Andy Ackerman,Story by: Spike Feresten and Darin Henry & Marc Jaffe Teleplay by: Spike Feresten,1998-04-09,917,29600000.0
+9,18,174,The Frogger,Andy Ackerman,Story by: Gregg Kavet & Andy Robin and Steve Koren & Dan O'Keefe Teleplay by: Gregg Kavet & Andy Robin,1998-04-23,918,30660000.0
+9,19,175,The Maid,Andy Ackerman,Story by: Alec Berg & David Mandel & Jeff Schaffer and Kit Boss & Peter Mehlman Teleplay by: Alec Berg & David Mandel & Jeff Schaffer,1998-04-30,919,33320000.0
+9,20,176,The Puerto Rican Day,Andy Ackerman,"Alec Berg, Jennifer Crittenden, Spike Feresten, Bruce Eric Kaplan, Gregg Kavet, Steve Koren, David Mandel, Dan O'Keefe, Andy Robin, Jeff Schaffer",1998-05-07,920,38780000.0
+9,21,177,The Chronicle,Andy Ackerman,Darin Henry,1998-05-14,921,58530000.0
+9,22,178,The Chronicle,Andy Ackerman,Darin Henry,1998-05-14,922,58530000.0
+9,23,179,The Finale,Andy Ackerman,Larry David,1998-05-14,923,76260000.0
+9,24,180,The Finale,Andy Ackerman,Larry David,1998-05-14,924,76260000.0
