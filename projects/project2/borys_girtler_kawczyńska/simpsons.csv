@@ -1,0 +1,706 @@
+episode_no_abs,season_no,episode_no,episode_name,episode_airdate,episode_score,episode_votes,episode_description
+1,1,1,Simpsons Roasting on an Open Fire,2-Sep-90,8.2,6953,Homer is forced to become a department store Santa when Marge spends the family's Christmas savings on removing Bart's tattoo.
+2,1,2,Bart the Genius,14-Jan-90,7.7,4557,Bart ends up at a school for gifted children after cheating on an IQ test.
+3,1,3,Homer's Odyssey,21-Jan-90,7.4,4007,"After losing his job, Homer contemplates ending it all, until he discovers a new life path as a safety advocate."
+4,1,4,There's No Disgrace Like Home,28-Jan-90,7.7,3955,"After being embarrassed by the rest of the family at a company picnic, Homer becomes obsessed with improving their behavior towards each other."
+5,1,5,Bart the General,4-Feb-90,8,4299,"After being beaten up by Nelson Muntz one too many times, Bart turns to Grampa for help, and soon leads a rebellion against the school bully."
+6,1,6,Moaning Lisa,11-Feb-90,7.7,3841,"A depressed Lisa's spirit is lifted when she meets a jazz-man, Bleeding Gums Murphy."
+7,1,7,The Call of the Simpsons,2-Sep-90,7.8,3732,"Homer takes the family camping, but it soon becomes a misadventure when they lose their equipment and Homer is mistaken for Bigfoot."
+8,1,8,The Telltale Head,25-Feb-90,7.7,3586,Bart gets more than he bargained for when he saws the head off a statue of the town's founder.
+9,1,9,Life on the Fast Lane,18-Mar-90,7.5,3555,Marge contemplates an affair with a handsome bowling instructor.
+10,1,10,Homer's Night Out,7-Apr-91,7.4,3443,"After a photograph of Homer canoodling with an exotic dancer is distributed throughout Springfield, he finds himself kicked out of the house by Marge."
+11,1,11,The Crepes of Wrath,15-Apr-90,7.8,3516,"Bart is sent to France on a student exchange program, where he's treated like a slave; An Albanian student takes Bart's place in the family."
+12,1,12,Krusty Gets Busted,17-Mar-91,8.4,3885,"Homer witnesses a robbery at the Kwik-E-Mart, where the culprit is a man dressed like Bart's hero, Krusty the Clown. But is there more than meets the eye?"
+13,1,13,Some Enchanted Evening,13-May-90,7.7,3844,"Homer and Marge enjoy a night on the town, leaving the kids with a diabolical babysitter, with a surprising secret."
+14,2,1,Bart Gets an F,11-Oct-90,8.3,3856,"Mrs. Krabappel, fed up with Bart's lackadaisical approach to his studies, gives him an ultimatum: shape up or repeat the fourth grade."
+15,2,2,Simpson and Delilah,18-Oct-90,8.2,3988,Homer lies on a medical insurance form in order to obtain a miracle hair restoring drug.
+16,2,3,Treehouse of Horror,19-Nov-91,8.3,4111,"The Simpsons move into a cursed house, then are abducted by aliens, before Homer is ensconced in a tale by Edgar Allen Poe."
+17,2,4,Two Cars in Every Garage and Three Eyes on Every Fish,1-Nov-90,8.1,3354,"After the power plant experiences bad publicity and is threatened with closure, Mr. Burns decides to run for Governor in order to have power over the law."
+18,2,5,Dancin' Homer,8-Nov-90,7.4,3189,Homer's heckling of the Springfield Isotopes baseball team during one of their games inadvertently leads to his appointment as the new team mascot.
+19,2,6,Dead Putting Society,15-Nov-90,8,3146,"In an attempt to show up Ned Flanders, Homer pits Bart against Ned's son, Todd, in a miniature golf competition."
+20,2,7,Bart vs. Thanksgiving,22-Nov-90,7.7,3072,"On Thanksgiving, Bart runs away after fighting with Lisa."
+21,2,8,Bart the Daredevil,6-Dec-90,8.4,3417,"After seeing a motorcycle daredevil at a monster truck show, Bart becomes a death-defying daredevil skateboarder."
+22,2,9,Itchy & Scratchy & Marge,20-Dec-90,8.1,3491,"Marge becomes a crusader against cartoon violence after ""Itchy and Scratchy"" seemingly inspires Maggie to attack Homer."
+23,2,10,Bart Gets Hit by a Car,10-Jan-91,7.8,3041,"While skateboarding down the street, Bart is hit by a car driven by Mr. Burns. Homer turns down Mr. Burns' token offer of $100, and instead hires ambulance-chaser Lionel Hutz to bring an outrageous lawsuit against the millionaire."
+24,2,11,"One Fish, Two Fish, Blowfish, Blue Fish",24-Jan-91,8.8,4145,"After apparently consuming poison blowfish, Homer is told that he only has 24 hours to live."
+25,2,12,The Way We Was,31-Jan-91,8.3,3202,Homer and Marge tell the story of how they met and fell in love in high school.
+26,2,13,Homer vs. Lisa and the 8th Commandment,23-Jul-91,8,2997,"Homer gets a crooked cable guy to install free cable in the Simpson home, and as a result, Lisa faces an ethical crisis over her family's stealing."
+27,2,14,Principal Charming,14-Feb-91,7.5,2875,"Homer tries to set Selma up with Principal Skinner, only for him to fall for Patty instead."
+28,2,15,"Oh Brother, Where Art Thou?",21-Feb-91,8.3,3215,"After Grampa is hospitalized, he reveals that Homer has a half-brother, and the family set out to find him."
+29,2,16,Bart's Dog Gets an F,7-Mar-91,7.5,2839,"After an uncontrollable Santa's Little Helper destroys several important Simpson possessions, Homer announces that he will be thrown out of the house unless he completes obedience training."
+30,2,17,Old Money,28-Mar-91,7.6,2827,"After Grampa's new girlfriend dies and leaves him $106,000 in her will, he tries to decide what to do with it."
+31,2,18,Brush with Greatness,11-Apr-91,8,2874,"After rekindling her artistic talents, Marge is commissioned to paint a portrait of Mr. Burns; Homer vows to lose weight after getting trapped in a water slide."
+32,2,19,Lisa's Substitute,25-Apr-91,8.6,3948,Lisa has a crush on her substitute teacher; Bart decides to run for class president.
+33,2,20,The War of the Simpsons,2-May-91,7.9,2815,Homer must decide whether he should complete marriage counseling or skip out to catch a legendary catfish; Bart and Lisa take advantage of Grampa's ignorance of the house rules.
+34,2,21,Three Men and a Comic Book,9-May-91,8.3,3389,"Bart, Milhouse and Martin each pitch in to buy an expensive comic book, which soon has a disastrous effect on their friendship."
+35,2,22,Blood Feud,11-Jul-91,7.9,2769,"After Bart saves Mr. Burns' life with a blood transfusion, Homer vows revenge when they receive only a ""thank you"" card as compensation."
+36,3,1,Stark Raving Dad,19-Sep-91,8.6,4113,Homer accidentally lands in a mental hospital and ends up sharing a room with a white man who thinks he is Michael Jackson.
+37,3,2,Mr. Lisa Goes to Washington,26-Sep-91,7.8,2921,"After winning a political essay contest, Lisa is invited to Washington, D.C., but she soon becomes upset after discovering how policy-making really works."
+38,3,3,When Flanders Failed,3-Oct-91,8.2,3061,"After wishing for Flanders to lose his business, Homer discovers that his neighbor is actually about to go bankrupt and decides to help him out."
+39,3,4,Bart the Murderer,10-Oct-91,8.7,3678,"After having a horrible day, Bart gets a job tending bar for a group of gangsters and becomes the prime suspect when Principal Skinner mysteriously disappears."
+40,3,5,Homer Defined,17-Oct-91,8.5,3496,"Homer is a hero after averting a nuclear meltdown that he nearly caused, but he doesn't want to tell anyone that he stopped it completely by accident."
+41,3,6,"Like Father, Like Clown",24-Oct-91,7.6,2832,Bart and Lisa try to reunite Krusty the Clown with his father.
+42,3,7,Treehouse of Horror II,20-Nov-92,8.3,3220,"The Simpson family receives a severed monkey's paw which can grant wishes, Bart gains magical powers which he uses to turn Homer into a Jack-in-the-box, and Mr. Burns uses Homer's brain to create a robot."
+43,3,8,Lisa's Pony,7-Nov-91,7.9,2782,Homer buys Lisa a pony that the family can ill afford.
+44,3,9,Saturdays of Thunder,14-Nov-91,7.9,2770,"After Homer fails a fathering test, he decides to help Bart build his Soap Box Derby racer."
+45,3,10,Flaming Moe's,21-Nov-91,8.8,3624,"Moe claims a drink that Homer invented is his own, with the drink making the bar a local hot spot, but threatens his friendship with Homer."
+46,3,11,Burns Verkaufen der Kraftwerk,5-Dec-91,8.2,2876,"Burns decides to retire and sells the power plant to a German consortium for an exorbitant price. Homer's laziness and inefficiency are quickly exposed by his new bosses, and he is laid off."
+47,3,12,I Married Marge,26-Dec-91,8.3,2782,"As Marge goes to the doctor for a pregnancy test, Homer tells the children of the events leading up to his marriage, and Bart's birth."
+48,3,13,Radio Bart,9-Jan-92,8.5,3084,"After Bart receives a microphone which can transmit through radios, he decides to pull a series of pranks and eventually convinces the town that a boy has fallen down a well."
+49,3,14,Lisa the Greek,23-Jan-92,8,2654,Homer uses Lisa (and her prognostic skills) to help him bet on football games.
+50,3,15,Homer Alone,6-Feb-92,8.1,2684,"While Marge spends a couple of days at Rancho Relaxo after she has a breakdown, Bart and Lisa stay with Patty and Selma, and Homer stays at home to take care of Maggie."
+51,3,16,Bart the Lover,13-Feb-92,8.3,3186,"After Mrs. Krabappel gives Bart a month of detention, he gets his revenge by responding to her newspaper singles ad; Homer uses a swear jar to cut down on his cursing."
+52,3,17,Homer at the Bat,20-Feb-92,8.7,3750,"Homer and his co-workers qualify for the plant softball team's league final, but Mr. Burns hires nine professional MLB players in order to win a $1 million bet."
+53,3,18,Separate Vocations,27-Feb-92,8.2,2700,"Lisa and Bart take an examination at the school that is supposed to determine what they will be when they grow up, but the kids are not so sure."
+54,3,19,Dog of Death,12-Mar-92,7.7,2566,"After the Simpsons regret paying for an expensive surgery for Santa's Little Helper, he runs away from home and is trained by Mr. Burns to become an attack dog."
+55,3,20,Colonel Homer,6-Dec-92,8.1,2797,"Homer becomes the manager of a beautiful young country singer and finds himself almost attracted to her, sparking Marge's jealousy."
+56,3,21,Black Widower,26-Apr-92,8.3,2792,Sideshow Bob gets out of jail and plots to take his revenge on Bart by marrying his Aunt Selma and killing her.
+57,3,22,The Otto Show,23-Apr-92,7.7,2634,"After Otto loses his job as school bus driver because he does not have a license, Bart convinces Homer and Marge to let Otto stay with them until he gets back on his feet."
+58,3,23,Bart's Friend Falls in Love,7-May-92,7.8,2600,Bart becomes jealous when Milhouse falls in love with a new student named Samantha; Homer accidentally receives a vocabulary-building tape instead of a weight-loss one.
+59,3,24,"Brother, Can You Spare Two Dimes?",27-Aug-92,8.3,2730,"After Homer ""wins"" a $2000 settlement with the plant for radiation affecting his sperm count, his brother Herb comes to Springfield with an idea that could help him get his fortune back."
+60,4,1,Kamp Krusty,24-Sep-92,8.5,3221,"Bart and Lisa attend ""Kamp Krusty"" but it is nothing like they thought it would be; Homer's hair grows back and he loses weight while the kids are away."
+61,4,2,A Streetcar Named Marge,1-Oct-92,8.2,2951,"Marge stars in a musical adaptation of A Streetcar Named Desire, but is angry with Homer's lack of interest; Maggie squares off with her strict new daycare owner."
+62,4,3,Homer the Heretic,8-Oct-92,9,4178,"Homer decides to stay at home every Sunday while the rest of the family continues to attend church, and soon finds himself in an ominous situation."
+63,4,4,Lisa the Beauty Queen,15-Oct-92,7.8,2701,Homer enters Lisa in the Little Miss Springfield pageant to build her self-esteem.
+64,4,5,Treehouse of Horror III,18-Sep-94,8.5,3203,An evil Krusty the Clown doll tries to kill Homer; Marge is captured by a giant ape who falls in love with her; Bart inadvertently raises the dead.
+65,4,6,Itchy & Scratchy: The Movie,3-Nov-92,8.3,2875,"With Bart continually getting in trouble, Homer bans him from seeing the new Itchy & Scratchy movie."
+66,4,7,Marge Gets a Job,5-Nov-92,7.8,2590,"When Marge takes a job at the power plant, Mr. Burns falls in love with her; Bart ""cries wolf"" to avoid taking a test."
+67,4,8,New Kid on the Block,12-Nov-92,8.2,2801,"Bart develops a crush on his new neighbor, only to discover that she's dating Jimbo Jones; Homer sues an all-you-can-eat restaurant after he's kicked out."
+68,4,9,Mr. Plow,19-Nov-92,8.9,3602,"Homer opens a successful snow-plowing business, only to inspire Barney to start a rival outfit that puts him out of work."
+69,4,10,Lisa's First Word,3-Dec-92,8.7,3055,"While trying to coax Maggie into saying her first word, Homer and Marge talk about how Lisa spoke hers."
+70,4,11,Homer's Triple Bypass,10-Jan-93,8.7,3418,"Years of poor eating habits catch up with Homer when he suffers a massive heart attack, but the family can't afford the triple bypass operation he needs."
+71,4,12,Marge vs. the Monorail,14-Jan-93,9.1,4612,"After receiving a considerable donation of money, Springfield builds a monorail system with Homer as the conductor, unaware they've just boarded a one-way train to Hell."
+72,4,13,Selma's Choice,21-Jan-93,8,2611,"Selma starts to feel broody, but after taking Bart and Lisa to Duff Gardens, she changes her mind."
+73,4,14,Brother from the Same Planet,4-Feb-93,8.2,2640,"When Bart gets tired of Homer's horrible parenting skills, he enrolls in the ""Bigger Brother"" program where he's assigned a fantastic role model."
+74,4,15,I Love Lisa,11-Feb-93,8.4,2855,"Lisa gives Ralph a Valentine's card out of pity, but soon regrets it when he develops an unwanted crush on her."
+75,4,16,Duffless,18-Feb-93,8.4,2695,"After Homer loses his license for DUI, Marge pressures him to give up beer for a month; Lisa attempts to prove that Bart is less intelligent than a hamster."
+76,4,17,Last Exit to Springfield,11-Mar-93,9.1,4213,"When Mr. Burns revokes the plant's dental plan, forcing Lisa to be fitted with cheap, ugly braces, Homer leads its union into going on strike."
+77,4,18,So It's Come to This: A Simpsons Clip Show,1-Apr-93,7,2405,"As Homer recovers in hospital due to Bart's disastrous April Fool's Day prank, the family reminiscences over earlier hardships."
+78,4,19,The Front,2-May-93,8.1,2486,"Bart and Lisa convince Grampa to let them use his name for episodes of ""Itchy and Scratchy"" they have written; Homer re-takes a test he failed in high school."
+79,4,20,Whacking Day,9-May-93,8.1,2696,Marge home-schools Bart after he is expelled from Springfield Elementary; Lisa protests a barbaric local holiday centered around clubbing snakes to death.
+80,4,21,Marge in Chains,30-May-93,7.7,2446,"A misunderstanding leads to Marge being imprisoned for shoplifting, with her absence soon descending the family, and eventually, the town into chaos."
+81,4,22,Krusty Gets Kancelled,20-Jun-93,8.2,2732,"When Krusty's show is canceled after losing viewers to a ventriloquist and his dummy, Bart and Lisa organize a celebrity-filled comeback special for their favorite Clown."
+82,5,1,Homer's Barbershop Quartet,3-Oct-93,8.6,3182,"After the kids find a record with Homer's picture on it, he recalls the story of how he achieved fame in the 1980s with his barbershop quartet, The Be Sharps."
+83,5,2,Cape Feare,10-Oct-93,9.2,4576,"After being released from prison on parole, Sideshow Bob plots to murder Bart."
+84,5,3,Homer Goes to College,14-Oct-93,8.6,3238,"When a surprise inspection of the nuclear power plant reveals that Homer is not qualified to do his job, he is forced to go to college."
+85,5,4,Rosebud,14-Nov-93,8.9,3588,"After his birthday party goes wrong, Mr. Burns begins to want his childhood toy, a teddy bear named Bobo; Homer finds that Maggie is in possession of the doll."
+86,5,5,Treehouse of Horror IV,28-Oct-93,8.8,3334,"Homer sells his soul to the Devil for a donut, Bart contends with a gremlin on the side of the school bus which only he can see, and the family discovers that Mr. Burns is a vampire."
+87,5,6,Marge on the Lam,21-Nov-93,8.1,2566,A girls' night out turns into a high speed chase when Marge learns her friend is driving a stolen car.
+88,5,7,Bart's Inner Child,19-Dec-93,7.7,2405,"Brad Goodman, a self-help guru, encourages Springfield to act more like Bart, with disastrous results."
+89,5,8,Boy Scoutz 'n the Hood,2-Jan-94,8.7,3233,"After joining the Junior Campers while on a sugar high, Bart reluctantly invites Homer to accompany him on the group's annual father-son rafting trip, which soon goes awry."
+90,5,9,The Last Temptation of Homer,16-Jan-94,8.5,2878,Homer's marriage is in trouble when he develops an attraction to a new co-worker; Bart undergoes medical treatments that make him look like a nerd.
+91,5,10,"$pringfield (Or, How I Learned to Stop Worrying and Love Legalized Gambling)",30-Jan-94,8.6,2932,"Mr. Burns builds a casino when Springfield decides to legalize gambling, with Marge becoming addicted to the slot machines."
+92,5,11,Homer the Vigilante,20-Feb-94,8.3,2651,An outbreak of burglaries inspires Homer to lead a vigilante group.
+93,5,12,Bart Gets Famous,3-Apr-94,8.1,2531,"Bart becomes an overnight sensation as the ""I didn't do it"" boy on Krusty the Clown's show."
+94,5,13,Homer and Apu,6-Mar-94,8.3,2599,Apu moves in with the Simpsons after losing his job when Homer gets ill from the contaminated food; James Woods takes over the Kwik-E-Mart.
+95,5,14,Lisa vs. Malibu Stacy,10-Apr-94,8.1,2904,"Angered by the vacuous phrases her Malibu Stacy doll utters, Lisa works with Malibu Stacy's original designer to create a doll with admirable traits."
+96,5,15,Deep Space Homer,20-Mar-94,8.9,3529,"In an effort to increase the dismal television ratings for their space launches, NASA decides to send an ordinary man into space, and Homer is chosen for the task."
+97,5,16,Homer Loves Flanders,24-Apr-94,8.6,2987,"After Flanders invites Homer to a football game, the pair become friends, but Homer's possessiveness and loutish behaviour slowly turns Ned against him."
+98,5,17,Bart Gets an Elephant,1-May-94,7.9,2473,"After Bart receives an elephant as a prize for calling in to a radio station, the animal proves to be too costly to care for and Homer decides to sell it."
+99,5,18,Burns' Heir,15-May-94,8.3,2858,"After coming close to death, Mr. Burns decides than it's time to find an heir to his empire, and chooses Bart because of his truly devious nature."
+100,5,19,Sweet Seymour Skinner's Baadasssss Song,22-May-94,8.4,2932,"Bart accidentally gets Principal Skinner fired on inspection day, with Ned Flanders taking over as his replacement."
+101,5,20,The Boy Who Knew Too Much,29-May-94,8.3,2479,"Bart witnesses the alleged assault of a waiter by Mayor Quimby's nephew, but coming forward will mean admitting to skipping class, and face the consequences."
+102,5,21,Lady Bouvier's Lover,12-May-94,7.5,2235,"Grampa falls in love with Marge's mother, but must compete with Mr. Burns for her heart."
+103,5,22,Secrets of a Successful Marriage,19-Jun-94,8.1,2360,"Homer begins teaching a class on how to have a successful marriage, but jeopardizes his own marriage by revealing secrets about himself and Marge."
+104,6,1,Bart of Darkness,4-Sep-94,8.7,3067,"Confined to his room with a broken leg, Bart suspects Ned Flanders of murdering Maude; the family's new swimming pool earns Lisa popularity among the neighborhood kids."
+105,6,2,Lisa's Rival,11-Sep-94,8.1,2598,Lisa is jealous when a new girl in class is smarter than she is; Homer obtains a giant mound of sugar.
+106,6,3,Another Simpsons Clip Show,25-Sep-94,5.8,2284,The family recalls past tales of lost love.
+107,6,4,Itchy & Scratchy Land,16-Oct-94,8.6,2918,A family vacation to Itchy & Scratchy Land turns disastrous when the robots malfunction and turn on the tourists.
+108,6,5,Sideshow Bob Roberts,13-Nov-94,8.3,2548,"When Sideshow Bob is released from prison and is elected Mayor of Springfield, Bart and Lisa suspect foul play and are determined to expose his corruption."
+109,6,6,Treehouse of Horror V,5-Feb-96,9.2,4079,The family's job at Mr. Burns' country estate goes awry when Homer goes mad; Homer's attempt to repair a toaster results in inadvertent time travel; The school staff turn cannibalistic.
+110,6,7,Bart's Girlfriend,6-Nov-94,8.1,2542,Bart falls for Reverend Lovejoy's daughter and is surprised when she becomes a bad influence on him.
+111,6,8,Lisa on Ice,13-Nov-94,8.6,2778,Sibling rivalry between Bart and Lisa ensues when they become the star players of their respective ice hockey teams.
+112,6,9,Homer Badman,27-Nov-94,9,3879,Homer accidentally lands himself in trouble with the law and with the kids' babysitter after stealing a gummy replica at a candy convention.
+113,6,10,Grampa vs. Sexual Inadequacy,4-Dec-94,8.1,2379,Homer and Abe hit the road to sell Abe's miraculous aphrodisiac.
+114,6,11,Fear of Flying,18-Dec-94,7.8,2416,Marge goes into therapy to cure her of her traumatizing fear of flying.
+115,6,12,Homer the Great,29-Jan-95,9.1,3565,"Homer becomes a member of a mysterious organization called the Stonecutters and is heralded as ""the chosen one""."
+116,6,13,And Maggie Makes Three,22-Jan-95,8.9,3102,Homer recounts the story of Maggie's birth when the kids ask why there are no photos of her in the family album.
+117,6,14,Bart's Comet,5-Feb-95,8.7,2778,Bart discovers a comet that is on a collision course with Springfield.
+118,6,15,Homie the Clown,12-Feb-95,8.6,2826,"Homer becomes a Krusty the Clown stand-in, but is mistaken for the real Krusty by the Springfield mafia."
+119,6,16,Bart vs. Australia,19-Feb-95,8.6,2953,"After he makes a collect call to Australia and refuses to pay for it, Bart sparks an international incident, with the Simpsons forced to travel to the country in order to repair political relations."
+120,6,17,Homer vs. Patty and Selma,26-Feb-95,7.9,2272,"Desperate for money, Homer takes a loan from Patty and Selma; Bart discovers a natural talent for ballet."
+121,6,18,A Star Is Burns,5-Mar-95,8.6,2761,"The citizens of Springfield host their own film festival, with popular movie critic Jay Sherman arriving from New York to judge."
+122,6,19,Lisa's Wedding,19-Mar-95,8.4,2635,A fortune teller gives Lisa a look at her wedding in the year 2010.
+123,6,20,Two Dozen and One Greyhounds,9-Apr-95,8.2,2359,"Santa's Little Helper's new mate has puppies, and Mr. Burns schemes to steal them and make them into a coat."
+124,6,21,The PTA Disbands,16-Apr-95,8.1,2315,"Bart manipulates Mrs. Krabappel into leading a teachers' strike against Principal Skinner, but is perturbed when Marge becomes his substitute."
+125,6,22,'Round Springfield,15-Oct-95,8.2,2715,"When Bart is hospitalized, Lisa runs into her mentor Bleeding Gums Murphy, who is also a patient, and becomes devastated when he dies soon after."
+126,6,23,The Springfield Connection,7-May-95,8.2,2342,Marge deals with corruption and crime when she joins the Springfield police force.
+127,6,24,Lemon of Troy,14-May-95,8.8,2920,"When a group of Shelbyville kids steal Springfield's sacred lemon tree, Bart and his friends venture there to get the tree back."
+128,6,25,Who Shot Mr. Burns? Part One,2-Jul-95,9.2,3734,"After Mr. Burns steals oil from Springfield Elementary and blocks out the sun, an unknown person shoots him."
+129,7,1,Who Shot Mr. Burns? Part Two,1-Oct-95,9,3377,"Mr. Burns is laying in the hospital while the investigation into his shooter begins. Every citizen has motivation, but it's Simpson DNA that has been found."
+130,7,2,Radioactive Man,8-Oct-95,8.3,2547,Milhouse is cast as Radioactive Man's sidekick in a Hollywood production of the comic book.
+131,7,3,Home Sweet Home-Dum-Diddly Doodily,26-Nov-95,8.4,2484,"Marge and Homer lose custody of the kids, who are sent to live at the Flanders' house."
+132,7,4,Bart Sells His Soul,3-Dec-95,8.8,3365,Bart casually sells his soul to Milhouse for $5 but soon regrets it; Moe converts his dank bar into a family restaurant.
+133,7,5,Lisa the Vegetarian,19-Nov-95,8.5,3125,"A trip to a local petting zoo convinces Lisa to give up meat, despite excessive pressure to convince her not to do so."
+134,7,6,Treehouse of Horror VI,5-Nov-95,8.7,2943,A lightning storm causes giant advertising mascots to come to life; The children are terrorized by Groundskeeper Willie in their dreams; Homer finds himself trapped in another dimension.
+135,7,7,King Size Homer,7-Jan-96,9.1,3763,"Homer intentionally gains more weight in order to qualify for disability and work from home, but soon realizes that being morbidly obese comes with its own problems."
+136,7,8,Mother Simpson,17-Dec-95,8.7,2756,"After faking his own death, Homer is reunited with his mother, who harbors a deep secret."
+137,7,9,Sideshow Bob's Last Gleaming,28-Jan-96,8,2272,"Sideshow Bob again escapes from prison and takes control of a TV screen at an air show, demanding all television stations immediately go off the air."
+138,7,10,The Simpsons 138th Episode Spectacular!,4-Feb-96,7.5,2251,Troy McClure hosts a retrospective of the first 137 episodes of The Simpsons (1989).
+139,7,11,Marge Be Not Proud,24-Dec-95,8.5,2984,Marge's relationship with Bart is strained when he is caught shoplifting before Christmas.
+140,7,12,Team Homer,31-Mar-96,8.3,2337,"Homer starts a bowling team with Moe, Apu and Otto, but Mr. Burns insists on joining after learning that the team was funded with his money; Springfield Elementary introduces uniforms."
+141,7,13,Two Bad Neighbors,10-Mar-96,8.6,3040,"Former President George Bush and his wife, Barbara, move into the Simpsons' neighborhood and soon clash with Bart and Homer."
+142,7,14,Scenes from the Class Struggle in Springfield,14-Apr-96,7.7,2131,"After buying a Chanel suit at a bargain price, Marge finds herself invited to a country club by a former schoolmate. Taken in by the opulence of the place, she is soon overcome by a desperation to fit in."
+143,7,15,Bart the Fink,21-Apr-96,7.7,2102,"Krusty the Clown is left almost broke after Bart inadvertently rats him out to the IRS, forcing Krusty to take drastic action."
+144,7,16,Lisa the Iconoclast,19-May-96,8.2,2306,Lisa may figure out what to do when she discovers that Springfield's founding father was actually a murderous thief while researching for an essay.
+145,7,17,Homer the Smithers,26-May-96,8.9,3432,"When Smithers is forced to take a vacation, he appoints Homer as his temporary replacement."
+146,7,18,The Day the Violence Died,9-Jun-96,8.1,2262,"Bart and Lisa meet a vagabond who claims to be the creator of Itchy from ""Itchy and Scratchy."""
+147,7,19,A Fish Called Selma,2-Jun-96,8.2,2689,Washed-up movie star Troy McClure starts dating Selma in an attempt to silence bizarre rumors about his personal life and resuscitate his career.
+148,7,20,Bart on the Road,30-Jun-96,8.7,2892,"Bart makes a fake driver's license and takes Milhouse, Martin and Nelson on a huge road trip; Lisa spends time with Homer at the power plant."
+149,7,21,22 Short Films About Springfield,18-Aug-96,9,3260,A series of vignettes highlights a day in the life of various Springfield residents.
+150,7,22,Raging Abe Simpson and His Grumbling Grandson in 'The Curse of the Flying Hellfish',28-Jul-96,8.5,2465,"One of Grampa's old war buddies dies, and it's revealed that Mr. Burns is the only other living member of his WWII squad and things go sour quickly."
+151,7,23,Much Apu About Nothing,18-Aug-96,8.1,2186,"Anti-immigration fever sweeps Springfield, which threatens to lead to the deportation of Apu, until Homer decides to reject the mob mentality and help him become a legal citizen."
+152,7,24,Homerpalooza,29-Sep-96,7.9,2290,"In an attempt to prove to his kids that es a cool dad, Homer takes them to a music festival but ends up embarrassing them after being hired in a sideshow."
+153,7,25,"Summer of 4'2""",15-Sep-96,8.5,2492,"After realizing how unpopular she is, a disillusioned Lisa sees the vacation to Ned Flanders' beach house as an opportunity to reinvent herself."
+154,8,1,Treehouse of Horror VII,3-Nov-96,8.5,2741,Bart discovers his Siamese twin in the attic; Lisa becomes a God after she accidentally creates life in a science fair project; Kang and Kodos plot to conquer the planet.
+155,8,2,You Only Move Twice,5-Jan-97,9.3,5260,"After moving to another town for a new job, Homer must decide whether or not to stay when the family have a hard time with the transfer."
+156,8,3,The Homer They Fall,24-Nov-96,8.1,2366,Homer becomes a boxer after Moe discovers his amazing ability to take a punch.
+157,8,4,"Burns, Baby Burns",29-Dec-96,7.7,2319,"The Simpsons try to reunite Mr. Burns with Larry, his slovenly long-lost son."
+158,8,5,Bart After Dark,19-Jan-97,8.3,2424,Marge leads a crusade against a local burlesque house after she discovers Bart working there.
+159,8,6,A Milhouse Divided,22-Dec-96,8.1,2295,Homer questions the state of his marriage after Luann Van Houten demands a divorce from Kirk.
+160,8,7,Lisa's Date with Density,16-Feb-97,7.8,2228,"Lisa develops a crush on Nelson, and tries to reform him; Homer gets an autodialer and decides to make easy money with a telemarketing scam."
+161,8,8,Hurricane Neddy,2-Feb-97,8.8,3163,"After a hurricane destroys Ned Flanders' house, he suffers a nervous breakdown and is forced to confront repressed problems from his childhood."
+162,8,9,El Viaje Misterioso de Nuestro Jomer,30-Mar-97,8.6,3118,"After eating insanity peppers at a chili cook-off, Homer has a hallucination of a talking coyote urging him to find his soulmate."
+163,8,10,The Springfield Files,30-Mar-97,9.1,3833,Special Agents Mulder and Scully arrive in Springfield after Homer claims to have seen an alien.
+164,8,11,The Twisted World of Marge Simpson,6-Apr-97,7.8,2182,"Marge enters the pretzel vending business, but when she fails, Homer recruits some help from the mob."
+165,8,12,Mountain of Madness,9-Mar-97,8.6,2895,Homer and Mr. Burns get trapped in a snowed-in cabin during a company retreat.
+166,8,13,Simpsoncalifragilisticexpiala(Annoyed Grunt)cious,7-Sep-97,7.7,2455,"Marge is stressed from motherhood and hires a British nanny to help out around the house, who struggles to teach Bart and Lisa how to behave."
+167,8,14,The Itchy & Scratchy & Poochie Show,13-Apr-97,8,2364,"Homer is cast as Poochie, a new ""Itchy and Scratchy"" character designed to reverse declining ratings; a hip college student moves in with the Simpsons."
+168,8,15,Homer's Phobia,4-May-97,8.8,3627,"After Marge befriends John, a gay store owner, Homer worries that his presence will have a negative effect on Bart's sexuality."
+169,8,16,Brother from Another Series,18-May-97,8.2,2395,Bart suspects a paroled Sideshow Bob is up to his old tricks when he is hired by his brother Cecil to assist in the construction of a dam.
+170,8,17,"My Sister, My Sitter",25-May-97,8,2550,Bart is outraged when Lisa becomes his babysitter.
+171,8,18,Homer vs. the 18th Amendment,17-Mar-98,8.9,2910,"After alcohol is banned in Springfield, Homer adopts the moniker of the ""Beer Baron"" to bootleg liquor, prompting an investigation from an uptight Treasury agent."
+172,8,19,Grade School Confidential,1-Jun-97,8.3,2572,"Bart discovers Principal Skinner and Mrs Krabappel kissing, and it's not long before the whole town knows of their secret affair."
+173,8,20,The Canine Mutiny,22-Jun-97,7.6,2040,"When the items Bart purchased with a fake credit card are repossessed, he claims that Santa's Little Helper is the dog he bought instead of his new pet, Laddie."
+174,8,21,The Old Man and the Lisa,6-Jul-97,7.9,2147,Burns loses his fortune and recruits Lisa to help him get it back.
+175,8,22,In Marge We Trust,20-Jul-97,8.2,2216,Marge becomes a church counselor; Homer discovers his face on a Japanese detergent logo.
+176,8,23,Homer's Enemy,10-Aug-97,9.3,5413,Homer's laziness begets the ire of his industrious but arrogant new co-worker Frank Grimes; Bart buys a run-down factory for a dollar.
+177,8,24,The Simpsons Spin-Off Showcase,24-Aug-97,7.2,2154,"Troy McClure presents three spinoffs: ""Chief Wiggins, P.I.,"" ""The Love-Matic Grandpa,"" and ""The Simpson Family Smile-Time Variety Hour."""
+178,8,25,The Secret War of Lisa Simpson,25-Jan-98,7.9,2122,"Bart is sent to a military school to be disciplined; Lisa, seeking a challenge, enrolls with him, but faces discrimination as the school's only girl cadet."
+179,9,1,The City of New York vs. Homer Simpson,5-Oct-97,9.1,4185,"Homer must travel to New York to get his car back, which is illegally parked at World Trade Center Plaza."
+180,9,2,The Principal and the Pauper,19-Oct-97,6.9,2935,"At his 20th anniversary celebration as school principal, Principal Skinner is discovered to be an imposter of the real Seymour Skinner."
+181,9,3,Lisa's Sax,9-Nov-97,8.1,2128,"Homer recounts the story of Bart's first day of school, which corresponds with the story of how Lisa got her saxophone."
+182,9,4,Treehouse of Horror VIII,2-Nov-97,8.2,2316,Homer battles mutants after Springfield is annihilated by a neutron bomb; Bart has his DNA mixed with a fly; Marge is revealed to be a witch in colonial Springfield.
+183,9,5,The Cartridge Family,26-Oct-01,8.2,2342,"After a massive soccer riot, Homer purchases a gun to protect the family."
+184,9,6,Bart Star,7-Dec-97,7.7,1982,"A damning report on childhood obesity in Springfield leads to the formation of a pee-wee football team. After belittling Ned Flanders, Homer ends up coaching the team, but his favoring of Bart makes him unpopular."
+185,9,7,The Two Mrs. Nahasapeemapetilons,30-Nov-97,7.7,1923,"Apu receives a letter from his mother stating that it's time for him fulfilled his arranged marriage obligation, he pretends Marge is his wife."
+186,9,8,Lisa the Skeptic,28-Dec-97,8.1,2117,Townspeople believe Lisa has unearthed the fossiled remains of a angel.
+187,9,9,Realty Bites,11-Jan-98,7.6,1912,Marge becomes a real-estate agent.
+188,9,10,Miracle on Evergreen Terrace,20-Dec-98,7.6,2109,"When Bart accidentally burns down the family's Christmas tree and gifts, he claims that a robber stole everything. As a result, the town gets them a new tree and pitches in to raise funds."
+189,9,11,"All Singing, All Dancing",8-Feb-98,5,2232,"Homer is disappointed when the western he rented turns out to be a musical, so the family reminds him of the musical moments in the show's history."
+190,9,12,Bart Carny,22-Feb-98,7.7,2006,"Bart and Homer befriend two carnies and invite them to stay with them, but the carnies soon swindle the Simpsons out of their house."
+191,9,13,The Joy of Sect,15-Mar-98,8.4,2244,An evil cult called the Movementarians brainwashes the citizens of Springfield and it's up to Marge to get them back.
+192,9,14,Das Bus,29-Mar-98,8.2,2191,"While the kids become stranded on a desert island, Homer attempts to cash in on the Internet."
+193,9,15,The Last Temptation of Krust,5-Apr-98,7.5,1870,"After a disastrous performance, Krusty changes his image and becomes an edgy stand-up."
+194,9,16,Dumbbell Indemnity,19-Apr-98,7.7,1895,"Homer and Moe attempt insurance fraud so that Moe can support his new girlfriend. When Homer ends up in jail, Moe has to decide whether or not to come forward."
+195,9,17,Lisa the Simpson,31-May-98,8,2114,"Lisa fears she is losing her intelligence when she learns about the fabled Simpson gene. Meanwhile, Jasper freezes himself in the Kwik-E-Mart freezer."
+196,9,18,This Little Wiggy,17-May-98,7.9,1978,"Bart is reluctant to hang out with Ralph Wiggum, until he gains access to Chief Wiggum's master key to the city."
+197,9,19,Simpson Tide,5-Jul-98,8.2,2456,Homer causes an international incident after he joins the Naval reserves.
+198,9,20,The Trouble with Trillions,7-Jun-98,7.8,2296,"Homer is forced to spy for the IRS after an audit. But when he is asked to retrieve a trillion dollar bill from Mr. Burns, he switches sides and the two flee to Cuba for refuge."
+199,9,21,Girly Edition,14-Jun-98,7.9,1929,Bart and Lisa become locked in competition when they anchor a children's news program; Homer adopts a helper monkey.
+200,9,22,Trash of the Titans,31-May-98,8.4,2634,Homer becomes the sanitation commissioner for Springfield. His ineptitude pollutes the town and leads to a drastic solution.
+201,9,23,King of the Hill,19-Jul-98,8.3,2360,"After humiliating Bart at a church picnic, Homer resolves to get in shape. Soon, he is contacted by an energy bar company that wants him to climb a mountain as a promotion."
+202,9,24,Lost Our Lisa,13-Sep-98,7.8,1855,Lisa gets lost after she tries to take a bus to a museum.
+203,9,25,Natural Born Kissers,20-Sep-98,8.1,2001,Homer and Marge's attempt to spice up their marriage leads to the couple being chased naked through Springfield.
+204,10,1,Lard of the Dance,4-Oct-98,7.6,2000,Homer and Bart try to start their own grease business; Lisa organizes a school dance.
+205,10,2,The Wizard of Evergreen Terrace,25-Oct-98,8.2,2423,Homer's midlife crisis leads to a disastrous attempt at being an inventor.
+206,10,3,Bart the Mother,22-Nov-98,7.6,1898,"When Bart accidentally kills a mother bird, he tries to make amends by raising the eggs."
+207,10,4,Treehouse of Horror IX,1-Nov-98,8.1,2243,Homer receives an evil hair transplant; Bart and Lisa get trapped in an Itchy and Scratchy cartoon; Maggie is revealed to be an alien.
+208,10,5,When You Dish Upon a Star,6-Dec-98,7.2,1905,Homer becomes a Hollywood insider when he befriends Alec Baldwin and Kim Basinger.
+209,10,6,D'oh-in' in the Wind,3-Jan-99,7.6,1878,Homer becomes a hippie after a revelation about his middle name.
+210,10,7,Lisa Gets an 'A',17-Jan-99,8.1,1977,"When Lisa cheats on a test, she has a moral crisis when her perfect score qualifies the school for grant money; Homer adopts a lobster as a pet."
+211,10,8,Homer Simpson in: 'Kidney Trouble',7-Feb-99,7.3,1820,Homer gets cold feet before a transplant operation which could save Grampa's life.
+212,10,9,Mayored to the Mob,15-Aug-99,8.2,2366,Homer deals with corruption when he becomes Mayor Quimby's bodyguard.
+213,10,10,Viva Ned Flanders,14-Mar-99,7.9,1964,"When Homer takes Ned to Las Vegas in an attempt to get him to loosen up, the two end up drunkenly marrying a pair of cocktail waitresses."
+214,10,11,Wild Barts Can't Be Broken,28-Feb-99,7.8,1845,The children of Springfield revolt after a curfew is enforced.
+215,10,12,"Sunday, Cruddy Sunday",28-Mar-99,7,1937,"Homer and his friends head to the Super Bowl, but are forced to sneak in when they discover their tickets are counterfeit."
+216,10,13,Homer to the Max,19-Sep-99,7.8,1904,"Homer changes his name to ""Max Power"" after discovering that he shares his name with a dimwitted TV character."
+217,10,14,I'm with Cupid,4-Apr-99,7.3,1717,The husbands of Springfield plot revenge after Apu outshines them on Valentine's Day.
+218,10,15,Marge Simpson in: 'Screaming Yellow Honkers',18-Apr-99,7.4,1732,Marge's new SUV gives her a potent case of road rage.
+219,10,16,Make Room for Lisa,25-Apr-99,7.6,1724,"Lisa feels that her relationship with her father will never be close, and she develops stress-induced stomach pains; Marge inadvertently knocks out Milhouse."
+220,10,17,Maximum Homerdrive,9-May-99,7.7,1827,Homer takes Bart with him on a cross-country delivery on behalf of a trucker who died before completing it; Marge and Lisa experience problems with their new novelty doorbell.
+221,10,18,Simpsons Bible Stories,23-May-99,7.4,1777,Three famous religious stories are retold Simpsons style as the family nods off at church.
+222,10,19,Mom and Pop Art,6-Jun-99,7.6,1839,Homer becomes the talk of the Springfield art community when a failed barbecue pit he worked on is mistaken for an art project.
+223,10,20,The Old Man and the 'C' Student,20-Jun-99,7.3,1630,Bart is punished with community service at the Retirement Castle after he ruins Springfield's chances of hosting the Olympics.
+224,10,21,Monty Can't Buy Me Love,4-Jul-99,7.1,1656,"When a wealthy man moves to Springfield, Mr. Burns begins to feel that he is losing his grasp on the citizens and decides to enlist the help of Homer."
+225,10,22,They Saved Lisa's Brain,18-Jul-99,7.3,1672,"Lisa is invited to join the Springfield chapter of MENSA and after Mayor Quimby flees, the group ends up running the city. Meanwhile, Homer poses for a series of erotic photos."
+226,10,23,Thirty Minutes Over Tokyo,10-Oct-99,8,2029,The Simpsons must perform on a Japanese game show after Homer loses their money on a vacation.
+227,11,1,Beyond Blunderdome,7-Nov-99,7.3,1885,"Convinced he's the only man with guts to tell him the truth, Mel Gibson insists Homer accompanies him in Hollywood to help fix his newest film project."
+228,11,2,Brother's Little Helper,24-Oct-99,7.5,1665,"Bart is put on medication to control his behavior, but the pills cause him to become paranoid and insane."
+229,11,3,Guess Who's Coming to Criticize Dinner?,28-Nov-99,7.6,1680,"When Homer is hired as a local food critic by a newspaper in Springfield, he finds himself in deep trouble after his reviews turn out to be too critical."
+230,11,4,Treehouse of Horror X,15-Jan-00,7.8,1967,The Simpsons attempt to cover up their accidental murder of Ned Flanders. Bart and Lisa acquire super powers. An electronic apocalypse threatens Springfield.
+231,11,5,E-I-E-I-(Annoyed Grunt),5-Dec-99,7.8,1825,Homer cowards out of a pistol-duel and hides out with the rest of the family on a country farm.
+232,11,6,"Hello Gutter, Hello Fadder",12-Dec-99,7.3,1566,Homer becomes a minor celebrity around Springfield after bowling a perfect game.
+233,11,7,Eight Misbehavin',2-Jan-00,7,1587,Apu struggles with fatherhood after Manjula gives birth to octuplets.
+234,11,8,"Take My Wife, Sleaze",23-Jan-00,7.1,1625,"Homer's attempt at creating a motorcycle gang attracts a real gang, who kidnap Marge."
+235,11,9,Grift of the Magi,13-Feb-00,7.3,1712,A toy company purchases Springfield Elementary and uses the student body as a focus group for their new Christmas toy Funzo.
+236,11,10,Little Big Mom,12-Mar-00,7.4,1546,Lisa finds out how rough Marge has it when her mom is in traction and she becomes the woman of the house. Homer and Bart's antics get her so worked up she conspires to teach them a lesson.
+237,11,11,Faith Off,26-Mar-00,6.8,1574,Bart is led to believe he has special healing powers after a tent revival.
+238,11,12,The Mansion Family,16-Apr-00,7.3,1563,Homer receives responsibility for Mr. Burns' mansion when he is on leave and takes Burns' yacht to international waters to have a party.
+239,11,13,Saddlesore Galactica,23-Apr-00,6.4,1759,The Simpsons get an abused horse and make him a contender in horse racing. Homer finds out a secret conspiracy about jockeys. Lisa tries to reach President Clinton when the results of a school band talent competition seem tainted.
+240,11,14,"Alone Again, Natura-Diddly",7-May-00,7.7,2231,Ned deals with his grief after Maude's untimely death.
+241,11,15,Missionary: Impossible,28-May-00,7.3,1640,"When Homer is wanted dead for reneging on a 10,000 dollar pledge to PBS, Reverend Lovejoy sets him up for missionary work in the South Pacific until the heat dies down."
+242,11,16,Pygmoelian,4-Jun-00,7.3,1566,"Plastic surgery not only transforms Moe the Bartender from ugly to hunky, it helps gets him a job on a hit daytime drama."
+243,11,17,Bart to the Future,3-Sep-00,7.1,1735,Bart gets a glimpse of the future while the family is on vacation at an Indian casino.
+244,11,18,Days of Wine and D'oh'ses,17-Sep-00,7.4,1550,Homer doesn't like it when Barney quits drinking; Bart and Lisa get into trouble when they enter a photo contest for the new phone book cover.
+245,11,19,Kill the Alligator and Run,10-Sep-00,6.5,1707,"Fearing he only has three years to live, Homer takes the family on a vacation to Florida, where they become fugitives after seemingly killing a famous alligator."
+246,11,20,Last Tap Dance in Springfield,1-Oct-00,7.1,1543,Lisa has difficulties learning to tap dance; Bart and Milhouse ditch summer camp to spend a week living in the mall.
+247,11,21,"It's a Mad, Mad, Mad, Mad Marge",8-Oct-00,7.1,1575,"Everybody loves the new Simpsons' house guest Becky. Except Marge, who thinks Becky wants to kill her."
+248,11,22,Behind the Laughter,3-Sep-00,8,1961,"Fans are invited to take a behind-the-scenes look at ""The Simpsons,"" revisiting some of the most memorable experiences the family has been through."
+249,12,1,Treehouse of Horror XI,17-Dec-00,7.7,1869,Homer must do one good deed to get into Heaven; Bart and Lisa encounter a witch in a gingerbread house; Super-intelligent dolphins strike back at humanity.
+250,12,2,A Tale of Two Springfields,12-Nov-00,7.4,1709,Springfield is split in two when Homer revolts because his area code is changed; the new town walls itself off from the neighbors.
+251,12,3,Insane Clown Poppy,19-Nov-00,7,1568,"After he learns he has a daughter, Krusty turns to Homer for parenting advice."
+252,12,4,Lisa the Treehugger,24-Dec-00,7.2,1582,Lisa's crush on an environmental activist inspires her to live in a tree threatened by loggers.
+253,12,5,Homer vs. Dignity,31-Dec-00,7,1648,"Desperate for money, Homer accepts payment from Mr. Burns in exchange for humiliating himself."
+254,12,6,The Computer Wore Menace Shoes,7-Jan-01,7.7,1731,"Homer's gossip website becomes a huge hit, but when his information runs out he resorts to making up news."
+255,12,7,The Great Money Caper,14-Jan-01,7.3,1593,The whole town of Springfield conspires to teach Homer and Bart a lesson after the pair begin running confidence scams.
+256,12,8,Skinner's Sense of Snow,11-Feb-01,7.9,2220,"A freak blizzard traps the students of Springfield Elementary inside their school. Their lives at stake, they are at the mercy of the rescue efforts of a woozy Homer and Ned."
+257,12,9,HOMR,25-Feb-01,8.2,1952,"An X-ray reveals a crayon lodged in Homer's brain. After the crayon is removed, Homer experiences a sudden surge in intelligence, making him closer to Lisa and isolated from his friends."
+258,12,10,Pokey Mom,11-Mar-01,7.2,1901,"Marge befriends a convict with an artistic streak. Meanwhile, Homer battles the chiropractic industry after he creates a miracle back pain cure."
+259,12,11,Worst Episode Ever,25-Mar-01,7.4,1633,Bart and Milhouse are left in charge of the comic book store after Comic Book Guy is hospitalized.
+260,12,12,Tennis the Menace,15-Apr-01,6.8,1592,"Homer installs a tennis court in the backyard, but his lousy playing creates a rift in the family."
+261,12,13,Day of the Jackanapes,22-Apr-01,7.2,1459,When a new television game show grows in popularity and begins to draw away Krusty's TV audience e decided to retire from the television business.
+262,12,14,New Kids on the Blecch,6-May-01,7.2,1733,"A music producer offers Bart and his friends a chance to participate in an up-and-coming boyband, but the boys are not up to it after making a discovery."
+263,12,15,Hungry Hungry Homer,20-May-01,7.6,1584,Homer is forced to go on a hunger strike by the Springfield Isotopes after uncovering a secret plan to have the baseball team moved to New Mexico.
+264,12,16,Bye Bye Nerdy,3-Jun-01,6.6,1538,"Problems with a bully lead Lisa to examine just what makes bullies aggressive. Meanwhile, Homer gets into the baby-proofing business."
+265,12,17,Simpson Safari,17-Jun-01,6.8,1571,The Simpsons win a trip to Africa after Homer finds a golden animal cracker from the 60's in the loft.
+266,12,18,Trilogy of Error,15-Jul-01,8.6,2383,"Homer's rush to the hospital to re-attach his severed thumb, Lisa's rush to school to win the science fair, and Bart's run-in with an illegal fireworks scheme interconnect from their point of view."
+267,12,19,I'm Goin' to Praiseland,15-Jul-01,7.2,1833,"With Homer's help, Flanders tries to establish a Christian theme park based on drawings in Maude's sketch book."
+268,12,20,Children of a Lesser Clod,14-Oct-01,7.2,1434,"After a debilitating injury forces him to stay indoors, Homer begins a daycare center."
+269,12,21,Simpsons Tall Tales,16-Sep-01,7,1500,"A hobo tells the Simpsons tall tales on a train ride to Delaware. In the first story, Homer is outcast from society as Paul Bunyan. Then, Lisa travels the country planting trees as Connie Appleseed. Finally, Bart and Nelson raft down the Mississippi as Tom Sawyer and Huck Finn."
+270,13,1,Treehouse of Horror XII,18-Nov-01,7.6,1841,A gypsy puts a curse on Homer; The Simpsons' new automated house malfunctions and tries to kill Homer; Bart and Lisa attend a school for wizards.
+271,13,2,The Parent Rap,25-Nov-01,7.1,1487,"After Bart takes a joyride in a police car, a judge orders him to be tethered to Homer at all times."
+272,13,3,Homer the Moe,16-Dec-01,7.2,1465,Homer and his friends are forced to drink in the Simpsons' garage after Moe the Bartender renovates his shady bar into a hipster hangout.
+273,13,4,A Hunka Hunka Burns in Love,6-Jan-02,7,1422,Mr. Burns falls in love with a younger woman and recruits Homer to help him impress her.
+274,13,5,The Blunder Years,20-Jan-02,7.7,1881,A hypnotist uncovers a traumatic experience from Homer's childhood.
+275,13,6,She of Little Faith,10-Feb-02,7.1,1535,"Homer and Bart get careless with a model rocket and accidentally do damage to Springfield's church, but when Mr. Burns offers to commercialize it to repair the destruction, Lisa leaves Christianity behind to become a Buddhist."
+276,13,7,Brawl in the Family,24-Feb-02,6.8,1408,"A social services officer brings unity to the Simpson family, but their newfound happiness is threatened when the cocktail waitress Homer married in Vegas shows up at their door."
+277,13,8,Sweets and Sour Marge,24-Mar-02,7,1397,Marge rallies for a ban on sugar after Springfield is declared America's fattest city.
+278,13,9,Jaws Wired Shut,10-Mar-02,7.3,1440,Marge can't deal with the quiet after Homer has his jaws wired shut.
+279,13,10,Half-Decent Proposal,7-Apr-02,7.3,1787,Marge's high school sweetheart Artie Ziff returns and offers Homer a million dollars to spend a weekend with Marge.
+280,13,11,The Bart Wants What It Wants,21-Apr-02,7,1365,"Bart breaks up with his new girlfriend Greta, but gets jealous when she begins dating Milhouse."
+281,13,12,The Lastest Gun in the West,5-May-02,6.4,1401,Bart meets a retired cowboy movie star and convinces him to make a comeback on The Krusty the Clown Show.
+282,13,13,The Old Man and the Key,28-Jul-02,6.5,1347,Abe gets his driver's license back to impress a new woman at the retirement home.
+283,13,14,Tales from the Public Domain,9-Jun-02,7.2,1382,"Homer reads three stories from an overdue library book, imagining himself as Odysseus, Lisa as Joan of Arc and Bart as Hamlet."
+284,13,15,Blame It on Lisa,23-Jun-02,7,1445,"Lisa sponsors an orphan in Brazil, and when he goes missing she convinces the family to go to Brazil to find him. While there, Homer is kidnapped."
+285,13,16,Weekend at Burnsie's,6-Oct-02,7.7,1607,"After a traumatizing eye injury, Homer becomes a habitual user of medical marijuana."
+286,13,17,Gump Roast,15-Sep-02,5.4,1507,"In this clip show, the citizens of Springfield honor Homer Simpsons with a Roast, but the festivities take a turn for the worst when aliens crash it."
+287,13,18,I Am Furious Yellow,7-Jul-02,7.7,1526,"Bart's comic about Homer becomes a hit on-line, prompting Homer to attempt to control his anger."
+288,13,19,The Sweetest Apu,18-Aug-02,6.7,1308,Apu's marriage is on the rocks after Manjula finds out he cheated on her.
+289,13,20,Little Girl in the Big Ten,8-Sep-02,7.1,1343,Lisa pretends to be a college student when she befriends two college girls; Bart is forced to live in a plastic bubble after being bit by a mosquito.
+290,13,21,The Frying Game,13-Oct-02,7,1377,Homer and Marge find themselves on death row after they are framed for murder.
+291,13,22,Papa's Got a Brand New Badge,6-Oct-02,7.8,1970,Homer becomes chief of police after a scandal forces Wiggum out.
+292,14,1,Treehouse of Horror XIII,17-Nov-02,7.7,1711,Homer clones himself with a magic hammock; Zombie cowboys come back from the dead after Springfield bans guns; The Simpsons family take a vacation on an island where Dr. Hibbert can turn people into animals.
+293,14,2,How I Spent My Strummer Vacation,24-Nov-02,7.4,1522,"When Homer is secretly videotaped complaining about his family in a taxi, they send him off to a rock and roll fantasy camp so he can try to live his dream."
+294,14,3,Bart vs. Lisa vs. 3rd Grade,8-Dec-02,7.1,1428,"Bart and Lisa are respectively held back and moved forward one grade, putting them in the same class."
+295,14,4,Large Marge,22-Dec-02,7.1,1469,Marge accidentally gets breast implants.
+296,14,5,Helter Shelter,5-Jan-03,6.7,1400,The Simpsons family must participate in a reality television show in which they try to live in the same way that the families did in the 1800s.
+297,14,6,The Great Louse Detective,12-Jan-03,7.3,1431,Homer has to use Sideshow Bob in order to track down a potential assassin.
+298,14,7,Special Edna,9-Feb-03,7,1400,"After Skinner once again has let Mrs. Krabappel down, Bart takes her to the cinema. To cheer her up, Bart nominates Krabappel for the 'teacher of the year' award. The nominations is accepted, and soon the Simpsons family and Mrs. Krabappel are going to the award ceremony in Orlando, Florida, where Skinner tries to get back Krabappel by asking her to marry him."
+299,14,8,The Dad Who Knew Too Little,23-Mar-03,7.3,1361,Homer hires a private detective to learn more about Lisa.
+300,14,9,The Strong Arms of the Ma,16-Feb-03,6.8,1433,Marge takes up body-building to boost her self-esteem after being mugged at the Kwik-E-Mart.
+301,14,10,Pray Anything,2-Mar-03,6.7,1313,"Homer turns to religion to help him get what he wants, and is soon awarded the church in an injury settlement. Homer then turns the church into his personal party pad, and Reverend Lovejoy leaves Springfield to wallow in its hedonism."
+302,14,11,Barting Over,20-Apr-03,6.7,1405,"After finding out Homer squandered his money from a baby commercial, Bart moves out into a loft, and meets skateboarding legend Tony Hawk."
+303,14,12,I'm Spelling as Fast as I Can,18-May-03,7.2,1324,"Lisa participates in the Spellympics, but Homer is busy traveling cross-country as Krusty Burger test-markets a new sandwich. Lisa is confident that she will win, until she learns that the contest is rigged against her."
+304,14,13,A Star Is Born Again,6-Apr-03,6.9,1335,"Ned Flanders starts dating a famous movie star, but has difficulties with the tabloids following them everywhere."
+305,14,14,Mr. Spritz Goes to Washington,25-May-03,6.8,1280,The family makes Krusty run for Congress because of air traffic being redirected to fly dangerously close to their house.
+306,14,15,C.E.D'oh,8-Jun-03,7.2,1215,Homer takes over the power plant after tricking Mr. Burns into making him the official owner of the power plant.
+307,14,16,'Scuse Me While I Miss the Sky,22-Jun-03,7.1,1247,Lisa becomes interested in astronomy and starts fighting the light pollution which is preventing her from being able to enjoy her new hobby.
+308,14,17,Three Gays of the Condo,13-Jul-03,7.1,1375,"When Homer finds an old note revealing Marge only married him because she was pregnant with Bart, he moves into a condo with two gay guys."
+309,14,18,"Dude, Where's My Ranch?",17-Aug-03,6.9,1394,"Homer writes a Christmas carol called ""Everybody Hates Ned Flanders,"" which soon becomes so popular that the family decides to leave town for a while."
+310,14,19,Old Yeller-Belly,7-Sep-03,6.7,1286,"Homer throws out Santa's Little Helper for not saving him from a fire, but soon the dog becomes Duff's new mascot."
+311,14,20,"Brake My Wife, Please",14-Sep-03,6.7,1259,"Because of Homer losing his driver's license, Marge has to drive everyone everywhere, which is so stressful for her that she accidentally runs over Homer leading to the two seeing a marriage counselor."
+312,14,21,The Bart of War,28-Sep-03,6.6,1301,"Bart and Milhouse are forced into community service after destroying Flanders' memorial and join separate community groups, pitting themselves against each other."
+313,14,22,Moe Baby Blues,26-Oct-03,7.7,1921,"After saving Maggie's life, Moe develops a special bond with her, much to Homer's dismay."
+314,15,1,Treehouse of Horror XIV,16-Nov-03,7.6,1677,"First, Homer kills the Grim Reaper and takes his place in Reaper Madness. Then, Professor Frink's father is revived, only to kill people and steal their organs in Frinkenstein. Finally, Bart and Milhouse get a stop watch that can stop time in Stop the World, I Want To Goof Off."
+315,15,2,My Mother the Carjacker,30-Nov-03,7.3,1358,"Homer's mother returns to Springfield, and the city pardons her from the charges against her. Mr Burns is furious about this and makes a plan to get Mona Simpson in prison."
+316,15,3,The President Wore Pearls,21-Dec-03,6.9,1401,Lisa feuds with Principal Skinner after being elected school president.
+317,15,4,The Regina Monologues,9-Jan-04,7.1,1469,Prime minister Tony Blair welcomes the Simpsons to England where they run into author J.K. Rowling and actor Ian McKellen.
+318,15,5,The Fat and the Furriest,4-Jan-04,7.1,1313,"At the dump Homer is videotaped while being attacked by a bear. The town regards him a coward, so Homer decides to strike back at the bear."
+319,15,6,"Today, I Am a Clown",8-Feb-04,6.4,1263,Krusty decides to do what he never did when he was thirteen years old - have a Bar Mitzvah.
+320,15,7,'Tis the Fifteenth Season,22-Feb-04,7.1,1313,"After spending all his money on an expensive gift for himself, and the family thinking he should be less of an egoist, Homer decides to change his ways."
+321,15,8,"Marge vs. Singles, Seniors, Childless Couples and Teens and Gays",14-Mar-04,6.6,1290,"A concert for babies ends in a riot, so the childless adults of Springfield gather to make the town less child-friendly."
+322,15,9,"I, (Annoyed Grunt)-Bot",28-Mar-04,7.3,1361,Homer pretends to be a robot and competes in Robot Wars to win Bart's affection; Lisa has cat trouble.
+323,15,10,Diatribe of a Mad Housewife,11-Apr-04,7.2,1311,"Marge is inspired to write a novel, but the storyline of the book (a fat, mean husband, and a handsome, sweet neighbor) makes Homer jealous."
+324,15,11,Margical History Tour,30-May-04,7.1,1282,"Marge tells Lisa, Bart and Millhouse three history stories because the library doesn't have any."
+325,15,12,Milhouse Doesn't Live Here Anymore,20-Jun-04,7.2,1296,"Milhouse moves to Capital City, and therefore Lisa and Bart become best friends."
+326,15,13,Smart & Smarter,24-Oct-04,7.1,1316,"When Maggie is revealed to have an IQ of 167, Lisa is no longer the genius of the family, causing a rivalry between the sisters."
+327,15,14,The Ziff Who Came to Dinner,21-Sep-04,6.7,1254,Artie Ziff is discovered hiding out in the Simpsons' attic.
+328,15,15,Co-Dependent's Day,7-Nov-04,6.6,1268,Marge takes up heavy drinking to spend more time with Homer. Bart and Lisa confront a famous movie director about the drop in quality his films have taken.
+329,15,16,The Wandering Juvie,3-Oct-04,7,1324,"After playing a prank on the whole town, Bart is sentenced to six months of juvenile detention. There he meets Gina, who forces Bart to escape with her."
+330,15,17,My Big Fat Geek Wedding,3-Oct-04,6.6,1303,Mrs. Krabapel falls for Comic Book Guy and they plan a Star Trek like wedding. Principal Skinner plans to prevent it.
+331,15,18,Catch 'Em If You Can,31-Oct-04,7.1,1333,Homer and Marge try to have a vacation without the kids but Bart and Lisa follow them everywhere they go.
+332,15,19,Simple Simpson,10-Oct-04,7.4,1352,Homer becomes a costumed vigilante who uses pies for weapons after witnessing Lisa get humiliated at a competition at the state fair.
+333,15,20,The Way We Weren't,17-Oct-04,7.3,1323,"Marge and Homer find out that they actually kissed each other at age 10 without knowing they were each other's first kisses, and tell the story about this."
+334,15,21,Bart-Mangled Banner,14-Nov-04,6.3,1296,An accidental photo showing Bart mooning the American flag makes the Simpsons the most hated family in town.
+335,15,22,Fraudcast News,7-Nov-04,7.3,1244,"After Mr. Burns is erroneously reported as dead, he buys all of he media outlets in order to prevent them from writing scathing articles about him."
+336,16,1,Treehouse of Horror XV,5-Dec-04,7.4,1567,Ned gains the power to foresee people's deaths; Maggie is shrunk inside a vitamin capsule and swallowed; Eliza Simpson and her sidekick hunt down a murderer.
+337,16,2,All's Fair in Oven War,21-Nov-04,6.9,1270,"Homer buys Marge a new kitchen, and Marge likes cooking in the new kitchen so much she attends the Ovenfresh Bakeoff."
+338,16,3,Sleeping with the Enemy,28-Nov-04,7.2,1309,"Because she thinks her own children do not appreciate her anymore, Marge becomes a mother figure for Nelson."
+339,16,4,She Used to Be My Girl,12-Dec-04,6.4,1257,"Marge becomes jealous when Lisa begins idolizing her old high school friend, Chloe Talbot, a famous reporter."
+340,16,5,Fat Man and Little Boy,9-Jan-05,7,1203,"Bart begins designing T-shirt slogans, and his T-shirts become very popular among the citizens of Springfield."
+341,16,6,Midnight Rx,30-Jan-05,7.1,1224,"Homer goes to Canada with Apu and Ned to purchase Grampa's medication, but the three have problems getting home because the border guard thinks Apu is a terrorist."
+342,16,7,Mommie Beerest,27-Feb-05,6.8,1180,Homer gives Moe an enormous amount of money so he doesn't have to close down.
+343,16,8,Homer and Ned's Hail Mary Pass,6-Mar-05,6.2,1243,A video of Homer dancing becomes so popular that all major sports players hires Homer to design celebration dances for them.
+344,16,9,Pranksta Rap,3-Apr-05,6.5,1296,"Bart went to a rap concert Marge told him not to go to. In order to avoid punishment from Marge, he makes Marge and Homer believe he has been kidnapped."
+345,16,10,There's Something About Marrying,29-May-05,6.9,1282,A townsperson comes out of the closet when Springfield legalized same-sex marriages in a plot to bolster tourism; Homer uses the Internet to become a minister.
+346,16,11,On a Clear Day I Can't See My Sister,22-May-05,6.6,1292,"After bullying her, Bart is restricted by court order to come too close to Lisa."
+347,16,12,Goo Goo Gai Pan,1-May-05,6.9,1278,"Selma decides to adopt a child, so the whole family goes to China."
+348,16,13,Mobile Homer,15-May-05,6.7,1207,"After a garage-cleaning accident, Marge wants Homer to get life insurance. Instead, the family gets an RV."
+349,16,14,The Seven-Beer Snitch,8-May-05,6.7,1194,"Springfield builds an opera house, but since no-one attends it they convert it into a prison. Old and forgotten laws are used to fill the prison, and therefore Homer goes to jail for kicking a can five times in a row. In jail, Homer becomes a snitch"
+350,16,15,Future-Drama,28-Aug-05,7.3,1353,Bart and Lisa see into the future where their lives have changed.
+351,16,16,Don't Fear the Roofer,26-Jun-05,7.5,1420,"Homer meets a new friend, Ray the Roofer, but gets confined to a mental institution when his friends and family think he made him up."
+352,16,17,The Heartbroke Kid,30-Oct-05,7.2,1267,"Bart starts living on food from the new candy machine in school only, but he becomes so overweight that he has to go to a fat camp."
+353,16,18,A Star Is Torn,9-Oct-05,6.7,1239,"Lisa attends a singing competition for children, and Homer becomes her manager because of his skill to write songs that the crowd loves."
+354,16,19,Thank God It's Doomsday,23-Oct-05,7.3,1261,"Homer hears about the Rapture, and by using numerology to calculate when the Rapture is coming he learns that it is only one week away."
+355,16,20,Home Away from Homer,24-Jul-05,7.1,1207,"After Homer humiliates Ned Flanders, Ned, Rod, and Todd decides to leave Springfield and live in Humbleton, Pennsylvania."
+356,16,21,"The Father, the Son, and the Holy Guest Star",16-Oct-05,7.3,1334,"Bart is expelled from Springfield Elementary, and Bart is therefore enrolled in St. Jerome's Catholic School."
+357,17,1,The Bonfire of the Manatees,11-Dec-05,6.1,1335,"When Marge leaves Homer because he allowed an adult movie being shot in their house, she seeks self fulfillment in protecting manatees."
+358,17,2,The Girl Who Slept Too Little,13-Nov-05,6.9,1297,A new cemetery right outside the window of Lisa's room makes Lisa suffer from many sleepless nights.
+359,17,3,Milhouse of Sand and Fog,6-Nov-05,6.9,1215,"Maggie contracts the chicken pox and Homer gets the great idea to charge parents to get their own children sick by throwing a pox party, but his plan backfires."
+360,17,4,Treehouse of Horror XVI,18-Dec-05,7.3,1488,An android son replaces Bart; Homer and friends are the quarry in Mr. Burns' hunting tournament; a witch turns townsfolk into their Halloween costumes.
+361,17,5,Marge's Son Poisoning,1-Jan-06,7,1260,"Marge and Bart start spending more time together, and make a tradition of cycling to a tea house in a small village outside Springfield."
+362,17,6,See Homer Run,8-Jan-06,6.8,1229,"When a recall election puts Mayor Quimby's job up for grabs, Homer seizes the opportunity to win office and gain his daughter's love."
+363,17,7,The Last of the Red Hat Mamas,16-Apr-06,6.6,1255,"Milhouse tutors Lisa in Italian, and Marge joins the Cheery Red Tomatoes, a group that plans to rob Mr. Burns of one million dollars worth of Fabergé eggs."
+364,17,8,The Italian Bob,15-Jan-06,7.1,1463,"The Simpsons become lost in Italy, finding their way to a small town that Sideshow Bob has become the mayor of."
+365,17,9,Simpsons Christmas Stories,25-Dec-05,6.8,1242,"Homer tells the tale of the first Christmas ever, while Grandpa pursues his decade-old feud with Santa."
+366,17,10,Homer's Paternity Coot,12-Feb-06,6.6,1247,"When a frozen mailman from the 60's is found in a Springfield glacier, doubts arise about whether Abe really is Homer's father."
+367,17,11,We're on the Road to D'ohwhere,26-Feb-06,6.9,1198,"When Homer is on his way to Vegas to meet up with his friends, he has to make a detour to take Bart to an education camp. Meanwhile, Marge has discovered a surprising source of income."
+368,17,12,My Fair Laddy,26-Mar-06,6.4,1236,Bart and Lisa bet whether Lisa can turn Groundskeeper Willie into a proper gentleman.
+369,17,13,The Seemingly Never-Ending Story,2-Apr-06,7.7,1446,"In this story within a story within a story within a story, a cave-exploring expedition, an angry sheep and a lovestruck Moe become inextricably entwined."
+370,17,14,Bart Has Two Mommies,9-Apr-06,7,1221,"Marge starts babysitting the Flanders boys, leading Homer to spend more time with Bart and Lisa. Bart gets kidnapped by a lonely movie chimpanzee."
+371,17,15,"Homer Simpson, This Is Your Wife",23-Apr-06,6.4,1550,"As part of a new Fox show, the Simpsons participate in a wife-swap."
+372,17,16,Million Dollar Abie,30-Apr-06,6.3,1318,"After blowing Springfield's chances for an NFL franchise, Grandpa goes to an assisted-suicide center, then becomes a bullfighter."
+373,17,17,"Kiss Kiss, Bang Bangalore",21-May-06,7.2,1350,Homer gets sent to India when the power plant is relocated there. Selma and Patty kidnap Richard Dean Anderson after he spurns their MacGyver fan club.
+374,17,18,The Wettest Stories Ever Told,2-Jul-06,6.7,1223,"While waiting for the dinner at the Frying Dutchman, the family starts telling three stories about ships: ""Journey on the Mayflower"", ""Mutiny on the Bounty"", and ""The Neptune Adventure""."
+375,17,19,Girls Just Want to Have Sums,17-Sep-06,7.2,1314,"Springfield Elementary is divided into two separate schools (one for boys, one for girls) following Principal Skinner's demotion. Concerned that the boys are receiving a higher standard of education, Lisa disguises herself as a boy."
+376,17,20,Regarding Margie,8-Oct-06,6.7,1249,"After hitting her head on a stool Marge suffers from amnesia. Slowly but surely memories are starting to come back, except memories about Homer."
+377,17,21,The Monkey Suit,10-Sep-06,7.1,1278,"After seeing a museum exhibit on evolution, in which creation is labeled a myth, an outraged Ned Flanders teams with Reverend Lovejoy to blackmail Principal Skinner into requiring creationism to be taught in classrooms, eventually at the expense of any mention of evolution. Lisa becomes outraged herself, and forms a student organization to teach evolution, leading to a creationism vs. evolution trial, a la Inherit the Wind."
+378,17,22,Homer and Marge Turn a Couple Play,15-Oct-06,6.3,1261,Marge and Homer try their luck at celebrity marriage counselling.
+379,18,1,"The Mook, the Chef, the Wife and Her Homer",22-Oct-06,7.5,1547,"When Fat Tony has to take a time-out due to a whacking attempt, Homer and Bart take over the business."
+380,18,2,Jazzy & The Pussycats,29-Oct-06,6.7,1428,Lisa becomes depressed when Bart becomes a better jazz musician than her. So she decides to set up an animal shelter in the Simpsons' attic.
+381,18,3,"Please Homer, Don't Hammer 'Em",5-Nov-06,6.7,1333,"Marge begins her own carpentry business, but Homer becomes the face of the business because nobody will take a female carpenter seriously. And Bart uses Principal Skinner's peanut allergy to his advantage."
+382,18,4,Treehouse of Horror XVII,12-Nov-06,6.8,1551,A meteorite turns Homer into a rampaging blob with a voracious appetite; Bart brings a Golem to life; an alien invasion hoax turns real.
+383,18,5,G.I. (Annoyed Grunt),21-Jan-07,6.7,1340,"Homer is duped into signing up for the Army, and his hijinks after basic training ultimately results in a military occupation of Springfield."
+384,18,6,Moe'N'a Lisa,3-Dec-06,6.7,1290,"Lisa helps Moe become a distinguished poet, but she turns on him when he takes all the credit for his newfound greatness."
+385,18,7,Ice Cream of Margie (with the Light Blue Hair),10-Dec-06,6.9,1282,"Homer becomes an ice cream man after being fired from the plant, and Marge uses his leftover Popsicle sticks to create folk art figures."
+386,18,8,The Haw-Hawed Couple,17-Dec-06,7.2,1254,"Bart and Nelson become best friends, but Bart surprisingly discovers that the fringe benefits aren't worth Nelson's neediness."
+387,18,9,"Kill Gil, Vol. 1 & 2",24-Dec-06,6.2,1328,"The Simpsons let Gil stay with them during Christmas. However, he stays for 11 months because Marge can't tell him ""no."""
+388,18,10,The Wife Aquatic,4-Feb-07,6.5,1287,"Homer returns Marge to Barnacle Bay, where she spent her beloved summer vacations. But when they get there, they discover that it is no longer a tourist spot."
+389,18,11,Revenge Is a Dish Best Served Three Times,11-Feb-07,7,1249,"While Homer tries to get revenge on a driver who cut him off, his family warns him of the folly of revenge by telling stories based on ""The Count of Monte Cristo,"" ""Revenge of the Nerds,"" and ""Batman."""
+390,18,12,Little Big Girl,11-Feb-07,6.7,1352,Lisa embellishes her family heritage as Native American for a school project; Bart gets a driver's license and develops a relationship with an older girl.
+391,18,13,Springfield Up,18-Feb-07,7.3,1319,"A parody of the ""Up Series"" of British documentaries, in which a filmmaker follows Homer and his friends from grade school into their 40s."
+392,18,14,Yokel Chords,4-Mar-07,6.8,1304,"In this parody of The Sound of Music (1965), Lisa becomes a tutor for Cletus' seven children, until Krusty tries to exploit them as entertainers. Meanwhile, Bart becomes emotionally attached to his school-appointed psychiatrist."
+393,18,15,Rome-old and Juli-eh,11-Mar-07,6.2,1234,"Selma and Grampa fall in love and end up getting married, a marriage both Homer and Patty are against."
+394,18,16,Homerazzi,25-Mar-07,7.1,1273,"Homer becomes a successful Paparazzi, but Springfield's celebrities decide to get their revenge on him."
+395,18,17,Marge Gamer,22-Apr-07,7.3,1412,Marge decides to find out what their Internet has to offer and soon gets hooked on an online role-playing game; Homer referees Lisa's soccer game.
+396,18,18,The Boys of Bummer,29-Apr-07,5.9,1326,"Bart becomes the most hated person in Springfield after he is the goat in a championship baseball game, and Homer's new job as a mattress salesman ruins his and Marge's sex life."
+397,18,19,Crook and Ladder,6-May-07,6.9,1188,"Homer, Moe, Apu and Principal Skinner become volunteer firefighters. But just because they're not getting paid doesn't mean that they can't find a way to receive compensation."
+398,18,20,Stop or My Dog Will Shoot,13-May-07,6.8,1195,"Homer unwittingly drags the family into a cornfield maze after attempting to leave a boring Harvest fest that Marge brought them to. When everyone except Homer escapes, Santa's Little Helper rescues him and becomes the town hero. So the Simpsons enroll him in Police Dog Academy where he's teamed with Lou."
+399,18,21,24 Minutes,1-Jul-07,8.1,2178,Bart and Lisa join forces to stop the school bullies from setting off a stink bomb at the school bake sale.
+400,18,22,You Kent Always Say What You Want,20-May-07,7.2,1370,"After Kent Brockman is fired as a news anchor, he and Lisa use the Internet to expose the Fox News Conspiracy."
+401,19,1,He Loves to Fly and He D'ohs,23-Sep-07,6.6,1380,"Homer falls in love with private planes after taking a flight to Chicago with Mr. Burns. So Marge hires Homer a ""life manager"" to help him think positively and find a job that will allow him to fly for a living."
+402,19,2,Homer of Seville,30-Sep-07,6.6,1361,"Homer becomes an opera star after an injury improves his singing voice. His newfound popularity forces him to hire a personal assistant, who turns out to be an obsessed stalker."
+403,19,3,Midnight Towboy,7-Oct-07,7.2,1281,"Homer becomes the most hated man in town after he becomes a tow truck driver, and Marge teaches Maggie to not be an over-dependent baby."
+404,19,4,I Don't Wanna Know Why the Caged Bird Sings,3-Feb-08,6.8,1264,"Marge promises to visit a convicted bank robber in prison, but is afraid to follow through. But when the convict escapes from prison, Marge is the first person he pays a visit to."
+405,19,5,Treehouse of Horror XVIII,4-Nov-07,7,1430,"The eighteenth Simpsons Halloween Special features parodies of the movies ""E.T."" and ""Mr. and Mrs. Smith."""
+406,19,6,Little Orphan Millie,3-Feb-08,6.6,1227,"Milhouse's parents are lost at sea, which causes him to become a troubled loner. But his new persona makes him the new most popular kid at school, which sparks jealousy in Bart."
+407,19,7,Husbands and Knives,18-Nov-07,6.9,1369,"When Marge becomes a successful businesswoman, Homer becomes worried that she will dump him for a trophy husband. Therefore, he decides to have plastic surgery to make himself look like a hunk."
+408,19,8,Funeral for a Fiend,25-Nov-07,7.1,1359,"Bart is responsible for Sideshow Bob's death after his latest attempt at revenge is foiled, but is his death actually part of the plan?"
+409,19,9,Eternal Moonshine of the Simpson Mind,16-Dec-07,8.2,1940,"Homer goes to Dr. Frink to help him recover his memories from the night before, and he discovers, based on his interpretation of the memories, that Marge is having an affair."
+410,19,10,E Pluribus Wiggum,6-Jan-08,6.8,1272,"Springfield becomes the site of the first presidential primary. The townspeople soon get sick of all of the presidential candidates sucking up to them, and decide to support their own write-in candidate: Ralph Wiggum."
+411,19,11,That '90s Show,27-Jan-08,6.2,1827,"Homer and Marge tell the kids about their life in the early 1990s before they were born, when Marge was enrolled in Springfield College and Homer was the lead singer of a grunge rock band."
+412,19,12,"Love, Springfieldian Style",21-Dec-08,6.6,1312,"A series of romantic Valentine's Day parodies based on ""Bonnie and Clyde,"" ""Lady and the Tramp,"" and ""Sid and Nancy."""
+413,19,13,The DeBarted,2-Mar-08,7.7,1591,The new prankster in Bart's fourth grade class actually turns out to be a mole brought in by Principal Skinner to infiltrate Bart's inner circle. Homer falls in love with his loaner car after Marge wrecks their old one.
+414,19,14,Dial 'N' for Nerder,9-Mar-08,7.4,1326,"One of Bart's pranks results in Martin's death, but Lisa doesn't want him to confess because she would be considered an accomplice. Marge hires a television crew to find out if Homer is cheating on his diet."
+415,19,15,Smoke on the Daughter,30-Mar-08,6.7,1238,"Marge has Lisa take up ballet, mainly to have Lisa live out her own childhood dreams. Lisa then succumbs to peer pressure from her ballet mates and takes up smoking. Meanwhile, Homer and Bart try to start their own beef jerky business."
+416,19,16,Papa Don't Leech,13-Apr-08,6,1173,"When the Simpsons discover that Lurleen Lumpkin is on the skids, Marge reluctantly agrees to take her in and help her find her deadbeat dad who abandoned her 30 years ago."
+417,19,17,Apocalypse Cow,27-Apr-08,6.8,1255,"Bart tries to save the cow he raised for his 4-H club from the slaughterhouse, and in the process winds up getting accidentally engaged to one of Cletus's daughters."
+418,19,18,Any Given Sundance,4-May-08,7.1,1254,"Lisa's documentary about her family is accepted into the Sundance Film Festival. However, her family gets upset with her when they discover that the film is far from flattering."
+419,19,19,Mona Leaves-a,11-May-08,7,1280,"Homer's mom dies, and as part of her will, she asks him to spread her ashes. However, her request turns out to be part of her final act of rebellion against the system."
+420,19,20,All About Lisa,18-May-08,6.4,1140,"In a parody of ""All About Eve,"" Lisa stabs Krusty in the back, takes his job, and wins a prestigious award. Meanwhile, Homer and Bart take up coin collecting."
+421,20,1,"Sex, Pies and Idiot Scrapes",28-Sep-08,7.3,1501,"Homer and Ned go into business together as bounty hunters, and Marge takes a job at an erotic bakery."
+422,20,2,Lost Verizon,5-Oct-08,6.9,1357,Bart gets in trouble with Marge after she finds out that he has Denis Leary's cell phone and is using it to make prank phone calls.
+423,20,3,"Double, Double, Boy in Trouble",19-Oct-08,6.9,1297,"Bart trades lives with his multi-millionaire lookalike, but discovers that his lookalike's life isn't all he thought it would be."
+424,20,4,Treehouse of Horror XIX,9-Nov-10,7.2,1535,"The Simpsons' 19th Halloween Special, with parodies of ""Transformers,"" ""Mad Men,"" and ""It's the Great Pumpkin, Charlie Brown."""
+425,20,5,Dangerous Curves,9-Nov-08,6.6,1245,"The Simpsons take a Fourth of July vacation to a cabin hotel, which cause Homer and Marge to reminisce about two episodes from their past where they stayed in the cabin."
+426,20,6,Homer and Lisa Exchange Cross Words,16-Nov-08,7.1,1242,"Homer gets a job breaking up couples, and Lisa becomes an expert crossword puzzle solver, but Homer bets against her in a competition."
+427,20,7,MyPods and Boomsticks,30-Nov-08,7.1,1393,"Homer suspects that the family of Bart's new Muslim friend from Jordan is part of a terrorist plot, and Lisa becomes obsessed with her new MyPod."
+428,20,8,The Burns and the Bees,25-Jan-09,6.6,1252,"Mr. Burns wins a professional basketball team in a poker game, and the new arena he plans to have Springfield build for the team threatens to interfere with Lisa's new bee sanctuary."
+429,20,9,Lisa the Drama Queen,1-Feb-09,6,1358,"Lisa and her new best friend create their own fantasy world, but Marge doesn't want Lisa to see her friend anymore after she finds out that they're too far gone in it."
+430,20,10,"Take My Life, Please",22-Feb-09,6.9,1192,"Homer finds out that he actually won the senior class president election, and he gets an opportunity to find out how his life would have been different if it had happened."
+431,20,11,How the Test Was Won,8-Mar-09,7,1198,"Bart and his fellow underachievers are taken on a ""field trip"" to Capital City so that they can miss the standardized test, and Homer makes sure that nothing bad happens until their insurance goes back into effect."
+432,20,12,"No Loan Again, Naturally",5-Apr-09,6.8,1178,"The Simpsons lose their house, but Flanders buys it and offers to rent it back to them. But when they turn out to be less-than-reliable renters, Flanders kicks them out."
+433,20,13,Gone Maggie Gone,5-Nov-09,7.2,1330,"In order to rescue Maggie from a Catholic orphanage, Lisa must solve a series of puzzles to reveal the identity of a gem that will bring peace to Springfield."
+434,20,14,In the Name of the Grandfather,17-Mar-09,6.3,1212,"The Simpsons take Grandpa to Ireland so he can go back to visit a pub he went to during the war, but Grandpa and Homer get suckered into buying the bar."
+435,20,15,Wedding for Disaster,12-Apr-09,6.6,1152,"Homer is kidnapped moments before he and Marge are supposed to re-renew their vows. However, Marge comes to the conclusion that Homer left her at the altar."
+436,20,16,Eeny Teeny Maya Moe,19-Apr-09,7.2,1225,"Moe begins dating a little person he met on the Internet, while Maggie is being bullied at the playground next to Moe's where Homer is leaving her."
+437,20,17,"The Good, the Sad and the Drugly",26-Apr-09,7.2,1247,"Bart gets Milhouse to take the rap for a prank at school, and then blows him off when he falls for a cute 5th grade do-gooder, prompting Milhouse's wrath. Meanwhile, Lisa begins taking ""happy pills"" to improve her negative outlook."
+438,20,18,Father Knows Worst,15-Oct-09,7,1161,"Homer becomes a ""helicopter parent"" at Springfield Elementary by helping Bart finish a class project and helping Lisa become popular, and Marge finds a secret sauna in their house."
+439,20,19,"Waverly Hills, 9021-D'Oh",29-Oct-09,7.1,1266,The Simpsons set up a fake residence in Waverly Hills so that Bart and Lisa can attend school there.
+440,20,20,Four Great Women and a Manicure,22-Oct-09,6.4,1163,"A series of parodies based on four strong women: Queen Elizabeth, Snow White, Lady MacBeth, and Ayn Rand."
+441,20,21,Coming to Homerica,12-Nov-09,7.3,1294,"Townspeople build a wall around Springfield to keep ""immigrants"" from Ogdenville from relocating to their town."
+442,21,1,Homer the Whopper,27-Sep-09,7.1,1384,"A Hollywood studio makes a movie based on Comic Book Guy's comic book character ""Everyman,"" and Homer is cast in the lead. However, Homer's weight fluctuations cause problems for the production."
+443,21,2,Bart Gets a 'Z',4-Oct-09,6.6,1260,"When Bart's prank gets Ms. Krabappel fired from Springfield Elementary School, he tries to make it up to her without letting her know that he was responsible."
+444,21,3,The Great Wife Hope,11-Oct-09,6.2,1113,Marge takes on the owner of an ultimate fighting league in the ring in order to get the sport banned in Springfield.
+445,21,4,Treehouse of Horror XX,18-Oct-09,7.4,1425,"Lisa becomes livid with Miss Hoover, and in a series of homages to classic Hitchcock sets out for deadly revenge. Next, Krusty's latest fast-food sandwich transforms news anchor Kent Brockman into an enraged zombie and twenty-eight days later, cannibal zombies have overrun Springfield. In the final frightening fable, Homer accidentally falls through a trapdoor in Moe's tavern and impales himself on the pipes of Moe's microbrewery. Moe serves the barflies a glass of delicious beer flavored with Homer's blood and Homer, now half-man, half-brewing apparatus, returns for ..."
+446,21,5,The Devil Wears Nada,15-Nov-09,6.7,1145,"Marge rediscovers her sexuality after appearing in a racy calendar, but Homer is too tired to respond to her advances because he is being worked to death by his new boss, Carl."
+447,21,6,Pranks and Greens,22-Nov-09,6.6,1138,"Bart meets the boy responsible for the greatest prank in Springfield Elementary School history, and discovers that he's now a 19-year-old loser. Meanwhile, Marge is scolded for providing unhealthy snacks for Maggie's play group."
+448,21,7,Rednecks and Broomsticks,29-Nov-09,6.7,1113,"Homer becomes an expert on moonshine when he starts hanging out with Cletus after he saves the Simpsons' lives, while Lisa becomes friends with three teenage Wiccans."
+449,21,8,"Oh Brother, Where Bart Thou?",18-Feb-11,7.1,1164,"Bart becomes jealous of Maggie and Lisa's special bond as sisters, so he goes to an orphanage and ""adopts"" a little brother."
+450,21,9,Thursdays with Abie,3-Jan-10,6.7,1056,"Homer becomes jealous when a syndicated newspaper columnist begins publishing Grandpa's stories, while Bart is assigned to take care of the class's stuffed sheep for the weekend."
+451,21,10,Once Upon a Time in Springfield,10-Jan-10,6.5,1124,"The antagonism between Krusty and the new female co-star forced upon him soon turns to romance, while a headhunter encourages Homer, Lenny and Carl to take a job at another nuclear power plant."
+452,21,11,Million Dollar Maybe,31-Jan-10,7.1,1086,Homer can't tell Marge he won the lottery because he was supposed to be giving a wedding toast when he bought the ticket. But Bart soon finds out where he's hiding the money and begins to blackmail him.
+453,21,12,Boy Meets Curl,29-Apr-10,6.8,1142,"Homer and Marge become members of the U.S. Olympic curling team. At the games, Lisa becomes addicted to collecting pins, and Bart tries to save her."
+454,21,13,The Color Yellow,21-Feb-10,6.5,1133,"While searching for an admirable ancestor for a class project, Lisa discovers the story of a relative named Eliza Simpson, who may or may not have helped a slave escape to freedom."
+455,21,14,Postcards from the Wedge,10-Jun-10,7,1024,"When Bart unsuccessfully tries to play Homer and Marge against each other, he comes up with a dangerous prank that is sure to get their attention."
+456,21,15,Stealing First Base,8-Aug-10,7,1163,"Bart gets Springfield Elementary School in legal trouble when he kisses the enigmatic daughter of two lawyers, while Lisa is depressed about being ostracized because she is smart."
+457,21,16,The Greatest Story Ever D'ohed,20-May-10,5.7,1344,"Ned takes the Simpsons on a pilgrimage to Israel in order to try and save Homer, but soon discovers that he may not be worth saving."
+458,21,17,American History X-cellent,18-Feb-11,6.6,1063,"Mr Burns is sent to prison for art theft, where a scary inmate introduces him to religion. Meanwhile Smithers becomes the boss at the plant, and Bart and Lisa try to share an ant farm."
+459,21,18,Chief of Hearts,18-Apr-10,6.9,1047,"Homer and Chief Wiggum's new friendship is put to the test when the chief becomes needy after being shot, while Marge suspects that Bart may be dealing drugs."
+460,21,19,The Squirt and the Whale,5-Sep-10,6.9,1080,"After a violent storm, Lisa tries to rally the townspeople and come to the rescue of a beached whale."
+461,21,20,"To Surveil, with Love",2-May-10,7.2,1113,"Springfield covers the town with surveillance cameras after Homer creates a bomb scare at the train station. Meanwhile, Lisa considers becoming a brunette so that people will take her more seriously."
+462,21,21,Moe Letter Blues,9-May-10,7,1070,"Homer, Apu and Reverend Lovejoy all suspect that Moe may have left with one of their wives after receiving a mysterious letter, but which one is it?"
+463,21,22,The Bob Next Door,16-May-10,7.3,1182,"Bart is convinced that the Simpsons' new friendly, unassuming neighbor is actually Sideshow Bob in disguise."
+464,21,23,Judge Me Tender,23-May-10,6.5,1112,"Moe's gruff and abrasive personality makes him the perfect hyper-critical judge, and lands him a spot on American Idol. Meanwhile, Homer makes Marge uncomfortable when he starts spending more time at home with Moe's now closed."
+465,22,1,Elementary School Musical,26-Sep-10,6.1,1299,"While Homer and Bart accompany Krusty to Oslo so he can receive the Nobel Peace Prize, Marge enrolls Lisa for a week in performing arts camp."
+466,22,2,Loan-a Lisa,3-Oct-10,6.7,1074,"Lisa uses the $50 she receives from Grandpa to give Nelson a microloan to jump-start his bicycle business, but soon comes to regret the decision."
+467,22,3,MoneyBart,10-Oct-10,6.7,1130,"Lisa takes over as manager of Bart's baseball team and uses statistical analysis to build a winner, but she takes all of the fun out of it and causes Bart to quit the team."
+468,22,4,Treehouse of Horror XXI,7-Nov-10,7.1,1370,"A Satanic board game causes other popular board games to come to life, Homer and Marge rescue a possible killer and let him on their boat, and a parody of ""Twilight"" where Lisa falls for a young vampire."
+469,22,5,"Lisa Simpson, This Isn't Your Life",14-Nov-10,7.2,1070,"When Lisa discovers that Marge was also a model student, she tries to find out where everything changed so that she doesn't repeat her mistakes. Meanwhile, a series of chance accidents cause Bart to replace Nelson as school bully."
+470,22,6,The Fool Monty,21-Nov-10,6.3,1034,"After Mr. Burns finds out that he is dying, he has an accident and loses his memory, and all the townspeople use the situation to get their revenge on him."
+471,22,7,How Munched Is That Birdie in the Window?,28-Nov-10,6.3,1048,"Bart adopts a carrier pigeon, but Santa's Little Helper eats it."
+472,22,8,The Fight Before Christmas,19-Dec-10,6.8,1141,"Marge gets depressed when the rest of the family does not get into the holiday spirit, and she writes a letter, hoping to get some help; Mr. Burns and Moe's new friend delay the Simpsons as they attempt to travel to Hawaii for the holiday."
+473,22,9,Donnie Fatso,10-Feb-11,7,1105,"Homer goes to prison after attempting to get out of a series of fines with a bribe, but agrees to a reduced sentence by informing on Fat Tony for the FBI."
+474,22,10,Moms I'd Like to Forget,9-Jan-11,6.2,987,Bart sets out to uncover the origins of a sword-shaped scar on his hand; Marge reconnects with three friends she fell out with years ago.
+475,22,11,Flaming Moe,4-Mar-11,6.6,1086,Moe tries to keep his 'straightness' a secret when he opens a gay bar; Skinner falls for a new teacher.
+476,22,12,Homer the Father,23-Jan-11,6.9,1013,Homer picks up parenting advice from an 80s sitcom; Bart becomes involved in trading nuclear secrets.
+477,22,13,The Blue and the Gray,13-Feb-11,6.7,1019,"Moe employs Homer as his wing man, only to find Homer has more luck with the ladies than he does; Marge finds her first gray hair."
+478,22,14,Angry Dad: The Movie,1-Apr-11,7.2,1188,"Bart's ""Angry Dad"" character gets his own movie, but when the movie starts winning awards, Homer tries to hog all the credit."
+479,22,15,The Scorpion's Tale,6-Mar-11,6.6,1084,Lisa's school project leads to the discovery of a new drug that makes the elderly less cranky and more tolerable.
+480,22,16,A Midsummer's Nice Dreams,13-Mar-11,6,1014,"After Tommy Chong walks away from the Cheech & Chong reunion tour, Homer goes on the road as his replacement. Meanwhile, Marge tries to help the cat lady with her hoarding problem."
+481,22,17,Love Is a Many Strangled Thing,27-Mar-11,6.1,1053,The tables are turned for Homer and Bart after a therapist cures Homer of his violent tendencies toward the boy.
+482,22,18,The Great Simpsina,10-Apr-11,6.9,1056,"The family is greeted by folk singer Ewell Freestone when they visit a peach farm, but when Marge goes overboard with peach-inspired dishes, Lisa and Bart try to get rid of the unwanted fruit. Later, Lisa becomes a magician's apprentice to the legendary Great Raymondo who helps her develop her craft, but a schoolgirl crush clouds her judgment when she is coaxed into revealing the Great Raymondo's most famous magic trick to his phony archnemesis. But when the rival magician's act takes a risky turn, the Great Raymondo has one last trick up his sleeve and stages ..."
+483,22,19,The Real Housewives of Fat Tony,1-May-11,6.5,1070,"Selma falls in love with and marries Fat Tony, and Lisa discovers that Bart has a skill for finding truffles."
+484,22,20,Homer Scissorhands,8-May-11,7.1,1047,"Homer opens his own salon after he discovers that he has skills as a hair stylist, and Lisa becomes suspicious after Millhouse gets a 5th grade girlfriend."
+485,22,21,500 Keys,15-May-11,7.2,1112,"While Homer takes the Duff Blimp for a joyride, Lisa discovers a secret room in the basement of Sprinfield Elementary School."
+486,22,22,The Ned-Liest Catch,22-May-11,6.9,1124,"When Krabbapple gets suspended and put into detention after hurting Bart, Bart tries to break her out, but it ends that Flanders is the one that saves her life. But soon, Ned figures out that Edna has also dated other men such as Homer, Skinner Comic Book Guy and Aerosmith drummer Joey Kramer."
+487,23,1,The Falcon and the D'Ohman,25-Sep-11,7.1,1306,"Homer tries to befriend the new security guard at the nuclear power plant, who for some unknown reason isn't interested and keeps having flashbacks to his violent past as a government agent."
+488,23,2,Bart Stops to Smell the Roosevelts,2-Oct-11,7.1,1167,"Superintendant Chalmers gets fired after using unconventional methods to teach Bart and his friends about Teddy Roosevelt, so the boys take over Springfield Elementary until he gets his old job back."
+489,23,3,Treehouse of Horror XXII,30-Oct-11,6.4,1379,"Homer takes a dangerous dive into an isolated canyon on Candy Peak, but when a crashing boulder traps his arm, he channels Aron Ralston to save himself. In ""The Diving Bell and Butterball,"" the first of three hair-raising Halloween tales, a venomous spider bite leaves Homer paralyzed, but when Lisa discovers Homer's ability to communicate through natural gases, he is able to express his love for Marge. The killer spells continue in ""Dial D for Diddly,"" when Ned Flanders, devout preacher by day, transforms into a cold-blooded vigilante by night. In the final terrifying..."
+490,23,4,Replaceable You,6-Nov-11,6.4,1047,"Homer is betrayed by his new assistant at work and winds up working for her, and Bart and Martin create a science project that brings joy to the seniors at the Springfield Retirement Castle."
+491,23,5,The Food Wife,13-Nov-11,7.2,1149,"Homer is worried that he is no longer the cool parent after Marge, Bart, and Lisa become foodies."
+492,23,6,The Book Job,20-Nov-11,7.9,1544,"Homer and Bart put together a team to author the next successful tween novel franchise and make a million dollars, but discover that they need Lisa's help to pull it off."
+493,23,7,The Man in the Blue Flannel Pants,27-Nov-11,6.6,1024,"Homer gets promoted to accounts manager at the nuclear power plant, but soon learns the job robs you of your soul. Meanwhile, Lisa introduces Bart to ""Little Women."""
+494,23,8,The Ten-Per-Cent Solution,4-Dec-11,6.1,976,"Krusty the Clown is stuck in a rut when the television network pulls his show from the air and his talent agency drops him as a client. But when the Simpsons introduce him to seasoned agent Annie, they are surprised to learn that Annie was Krusty's very first agent. Despite their rocky relationship, Annie is convinced to re-sign Krusty and craft his career comeback. But when Krusty's retro comedy show reboot is deemed a critical success, Krusty must decide to stay with his agent or side with the network executives."
+495,23,9,Holidays of Future Passed,18-Dec-11,8.3,1921,Thirty years in the future the Simpsons get together for Christmas. Bart and Lisa are struggling as parents to connect with their children.
+496,23,10,"Politically Inept, with Homer Simpson",8-Jan-12,6,1101,"Homer becomes the host of a popular political talk show, starts an ""everyman"" movement in Springfield, and ends up hand-picking Ted Nugent as the Republican nominee for president."
+497,23,11,The D'oh-cial Network,15-Jan-12,6.9,1136,"Lisa creates an online social network that becomes a Springfield obsession, but later becomes a victim of user backlash."
+498,23,12,Moe Goes from Rags to Riches,29-Jan-12,5.6,1180,"While Bart tries to regain Milhouse's friendship, Moe's bar cleaning rag tells his unlikely story of how he got to where he is today."
+499,23,13,The Daughter Also Rises,12-Feb-12,6.3,1003,"Lisa falls for an adventurous, Hemingway-esque young boy, while Bart and Millhouse set out to bust all the myths that surround Springfield Elementary School."
+500,23,14,At Long Last Leave,19-Feb-12,6.9,1168,"The town votes to kick the Simpsons out of Springfield, so they decide to move to the Outlands."
+501,23,15,Exit Through the Kwik-E-Mart,4-Mar-12,6.8,987,"Bart becomes an urban vandal and decides to use Homer as his inspiration, while Apu hits hard times when a new trendy market takes all the Kwik-E-Mart customers."
+502,23,16,How I Wet Your Mother,11-Mar-12,7.3,1181,The family break into Homer's dreams Inception-style after he begins wetting the bed.
+503,23,17,"Them, Robot",18-Mar-12,7,1093,"Mr. Burns replaces all of the nuclear plant employees with robots--except for Homer, who stays along to supervise the robots and serve as a human scapegoat."
+504,23,18,Beware My Cheating Bart,15-Apr-12,7.1,1068,"Jimbo's girlfriend cheats on Jimbo with Bart, and Homer uses his new treadmill to catch up on a TV series about plane crash victims stranded on an island."
+505,23,19,A Totally Fun Thing Bart Will Never Do Again,29-Apr-12,7.6,1333,"Bart gets the family to take the cruise vacation of his dreams, and then launches a fiendish plot to ensure that it goes on forever."
+506,23,20,The Spy Who Learned Me,6-May-12,6.7,925,"Homer uses his paid sick leave to improve his marriage, with the help of his imaginary friend, super-spy Stradivarius Cain. Meanwhile, Bart gets revenge on Nelson for stealing everyone's lunch money."
+507,23,21,Ned 'N Edna's Blend Agenda,13-May-12,6.5,1023,"After Ned and Edna announce publicly that they were secretly married, the two clash over how to raise Rod and Todd."
+508,23,22,Lisa Goes Gaga,20-May-12,3.9,2793,"After a desperate attempt by Lisa to become more popular backfires, Lady Gaga shows up in Springfield to help her with her self-esteem."
+509,24,1,Moonshine River,24-Mar-13,6.3,1208,"The Simpsons go back to New York City so that Bart can find his old girlfriend Mary Spuckler. Meanwhile, Lisa and Marge spend the trip trying to take in New York culture on the cheap."
+510,24,2,Treehouse of Horror XXIII,24-Mar-13,7.3,1301,"A black hole threatens to swallow Springfield, Homer tries to find the source of paranormal activity, and a ""Back to the Future"" parody in which Bart keeps Marge from marrying Homer."
+511,24,3,Adventures in Baby-Getting,31-Mar-13,6.9,1010,"Marge decides that she wants another baby, but Homer doesn't want one. Meanwhile, Bart tries to figure out where Lisa is secretly going after school."
+512,24,4,Gone Abie Gone,7-Apr-13,6.6,974,Homer invests Lisa's college fund on an online poker site. Meanwhile Abe disappears from the Springfield Retirement Castle.
+513,24,5,Penny-Wiseguys,14-Apr-13,6.3,936,"Fat Tony has to serve jury duty, and his clerk, Dan, must run the mafia while he's gone. Meanwhile, Lisa considers making a disgusting change to her diet."
+514,24,6,A Tree Grows in Springfield,21-Apr-13,6.3,967,"Homer becomes addicted to his new tablet computer. But when it is destroyed Homer becomes despondent, until he finds and provides hope for Springfield in the most unlikely place."
+515,24,7,The Day the Earth Stood Cool,28-Apr-13,7,1096,"Homer befriends a hipster and invites his family to move in next door. However, their friendship soon sours as Springfield is transformed into a haven for ""coolness."""
+516,24,8,To Cur with Love,5-May-13,7.2,995,"When Homer shows no remorse over almost losing Santa's Little Helper, Grandpa tells everyone the story of Homer's childhood dog."
+517,24,9,Homer Goes to Prep School,12-May-13,6.7,929,"Homer joins the ""Springfield Preppers,"" an off-the-grid survivalist group whose leader has set up a top-secret retreat outside of town to prepare for the end of the world."
+518,24,10,A Test Before Trying,19-May-13,7,922,"The fate of Springfield Elementary rests on Bart and his test scores, and Homer finds way to make money with his own parking meter."
+519,24,11,Changing of the Guardian,22-Dec-13,6.4,948,Homer and Marge find the perfect young couple and ask them to be the guardians for the kids in case something happens to them.
+520,24,12,Love Is a Many Splintered Thing,10-Feb-13,6.2,1009,"Mary Spuckler returns to Springfield and begins a relationship with Bart. However, Bart treats her with disrespect."
+521,24,13,Hardly Kirk-ing,10-Nov-13,7,959,"Bart poses Millhouse as his father so that they can do adult activities, and Homer becomes skilled at finding lost objects thanks to Highlights magazine."
+522,24,14,Gorgeous Grampa,17-Nov-13,6.1,969,"Homer's obsession with the TV show ""Storage Battles"" leads the family to discover Grampa's past identity as ""Gorgeous Godfrey,"" the most feared, villainous man in pro-wrestling history"
+523,24,15,"Black-Eyed, Please",10-Mar-13,6.9,983,"Ned gets fed up with Homer and punches him in the eye, and Lisa is a bullying victim from her new substitute teacher."
+524,24,16,Dark Knight Court,24-Nov-13,7.1,985,"When Bart is accused of a prank he says he didn't commit, Lisa is forced to defend him in youth court, with former attorney general Janet Reno serving as judge."
+525,24,17,What Animated Women Want,25-Nov-13,6.4,963,"Homer contemplates his next move after getting in the doghouse with Marge, while Millhouse's new Stanley Kowalski-inspired persona makes him suddenly attractive to Lisa."
+526,24,18,Pulpit Friction,1-Dec-13,6.4,949,"Springfield gets a bedbug scare, the new assistant pastor at church appoints Homer as a deacon, and Marge loses her wedding dress."
+527,24,19,Whiskey Business,17-Feb-14,6.7,879,"A new makeover could put Moe in a position to make big money, Bart fails at his job of taking care of Grandpa, and Lisa fights the shameless exploitation of Bleeding Gums Murphy's likeness."
+528,24,20,The Fabulous Faker Boy,12-May-13,6.2,916,"Bart takes piano lessons from a cute Russian girl, Marge tries to teach the girl's father how to drive, and Homer loses the last of his hair."
+529,24,21,The Saga of Carl,15-Dec-13,7.1,1037,"Homer, Moe, Lenny and Carl win the lottery, but Carl steals the ticket and leaves with the money for Iceland."
+530,24,22,Dangers on a Train,1-Dec-13,6.9,939,"When Marge tries to buy Homer snack cakes for their anniversary, she winds up meeting a married man who shares a common love of British television."
+531,25,1,Homerland,20-Apr-14,6.8,1271,"Homer returns from a nuclear power convention a changed man, and Lisa begins to suspect that he has become a domestic terrorist."
+532,25,2,Treehouse of Horror XXIV,20-Apr-14,7,1347,"The scariest Simpsons Halloween show yet, featuring an opening by Guillermo Del Toro."
+533,25,3,Four Regrettings and a Funeral,27-Apr-14,6.4,1028,"While attending a funeral, Homer, Marge, Mr. Burns, and Kent Brockman recall a past regret and try to find a way to rectify the situation."
+534,25,4,YOLO,4-May-14,6.5,1065,Homer is stunned to learn he'll only live once. A pen pal from his youth helps him live that life to its fullest. Meanwhile Springfield Elementary institutes an honor code.
+535,25,5,Labor Pains,7-May-14,6.8,994,"Homer helps take care of a child that he delivered in an elevator, and Lisa tries to organize the Springfield Atoms cheerleaders against the team's greedy owner."
+536,25,6,The Kid Is All Right,7-May-14,6.3,1062,"Lisa is distressed when she discovers that her new friend is a Republican, and they wind up running against each other as Springfield Elementary's second grade representative."
+537,25,7,Yellow Subterfuge,11-May-14,6.7,1019,Principal Skinner promises the students that the best-behaved can take a ride in a submarine. Bart believes his past indiscretions will be forgotten. Lisa tries to help Krusty by suggesting him to sell the foreign rights to his shows.
+538,25,8,White Christmas Blues,18-May-14,6.4,1007,"When a sudden tourist spike means that the family cannot afford Christmas, the Simpsons open up their house to boarders."
+539,25,9,Steal This Episode,18-May-14,7.7,1418,"Fed up with the high price of Hollywood films, Homer begins screening pirated movies in his backyard, but is busted by the FBI after Marge turns him in."
+540,25,10,Married to the Blob,25-May-14,6.9,1070,Comic Book Guy seeks romantic advice from Homer when he falls for a Japanese woman who's interested in manga.
+541,25,11,Specs and the City,25-May-14,7.2,994,"Mr. Burns' Christmas present to his employees, a pair of augmented reality glasses, places a strain on Homer and Marge's relationship. Meanwhile, Bart wrestles with giving a Valentine's Day card to Nelson."
+542,25,12,Diggs,1-Jun-14,6.2,989,"Bart becomes friends with a schoolmate who enjoys falconry, but turns out to be mentally disturbed."
+543,25,13,The Man Who Grew Too Much,1-Jun-14,6.6,1059,"Lisa becomes friends with Sideshow Bob, who now has a new job working with genetically-altered foods. Meanwhile, Marge becomes frustrated teaching abstinence for the church."
+544,25,14,The Winter of His Content,8-Jun-14,6.6,971,"When Abe and two of his friends move in with the Simpsons after the Springfield Retirement Castle closes, Homer begins to embrace their lifestyle. Meanwhile, Nelson initiates Bart into the bully group after coming to his defense."
+545,25,15,The War of Art,15-Jun-14,6.9,940,The friendship between the Simpsons and the Van Houtens is challenged when a painting the Simpsons buy from the Van Houtens' yard sale is discovered to be extremely valuable.
+546,25,16,You Don't Have to Live Like a Referee,8-Jun-14,6.8,978,Homer becomes a referee for the World Cup and finds himself tested by bribers when the Simpsons travel to Brazil.
+547,25,17,Luca$,10-Aug-14,6.4,984,"Marge becomes worried when Lisa starts dating a competitive eater-in-training, while Bart receives gifts from Snake Jailbird for helping him out."
+548,25,18,Days of Future Future,16-Aug-14,6.9,1112,"Thirty years into the future, Bart is having trouble dealing with his divorce, Lisa is struggling with her marriage to Milhouse, and Marge is finally fed up after burying yet another Homer clone."
+549,25,19,What to Expect When Bart's Expecting,17-Aug-14,5.8,968,Bart becomes a savior to Springfield couples trying to conceive when he inadvertently uses voodoo to get his art teacher pregnant.
+550,25,20,Brick Like Me,9-Aug-14,7.9,1586,The Lego version of Homer begins to suspect that his entire Lego world is not real when a toy triggers a flashback to an alternate reality.
+551,25,21,Pay Pal,23-Aug-14,6.6,957,"When Homer ruins his and Marge's chances of making a new couple friend, Marge decides to concentrate on finding a friend for Lisa. However, Lisa suddenly makes a new friend on her own."
+552,25,22,The Yellow Badge of Cowardge,24-Aug-14,6.6,950,"Bart wins the annual ""last day of school"" race - with a little help from Nelson - and Homer attempts to bring back 4th of July fireworks, which have been canceled due to low budget cuts."
+553,26,1,Clown in the Dumps,2-Nov-14,5.7,1264,"Krusty has a crisis of conscience and retires from show business after his father dies before ever approving of his career. Meanwhile, Lisa becomes worried about Homer's health and life expectancy."
+554,26,2,The Wreck of the Relationship,9-Nov-14,6.8,1047,"Homer and Bart turn to the open seas to improve their relationship, and Marge becomes a trash talking victim after she drafts Homer's fantasy football team."
+555,26,3,Super Franchise Me,16-Nov-14,6.4,985,"Marge opens a sandwich franchise store after her sandwiches become a huge hit at Springfield Elementary. But running day-to-day at the store proves challenging, especially when the same franchise opens another location across the street."
+556,26,4,Treehouse of Horror XXV,19-Oct-14,7.5,1351,"The 25th annual 'Simpsons' Halloween special includes an alternate dimension, a ""Clockwork Orange""-style gang led by Moe and a visit from the Tracey Ullman-era Simpsons."
+557,26,5,Opposites A-Frack,2-Nov-14,6.2,948,An Assemblywoman brought in by Lisa to stop Mr. Burns' fracking operation ends up falling for him as much as he does for her.
+558,26,6,Simpsorama,9-Nov-14,7.9,1931,"The Simpsons meet the Planet Express crew, who have come to Springfield in the present to stop them from destroying the future."
+559,26,7,Blazed and Confused,16-Nov-14,6.8,1030,"Bart tricks his family into a camping trip at a strange event known as ""Blazing Guy"" so that he can get revenge on his sadistic new fourth grade teacher."
+560,26,8,Covercraft,23-Nov-14,6.4,968,"Homer forms a cover band with other dads in town when he takes up bass guitar to deal with a mid-life crisis, but the band's modest success is soon overwhelmed by Apu's breakout potential."
+561,26,9,I Won't Be Home for Christmas,28-Dec-14,6.8,967,Marge kicks Homer out of the house for Christmas after he consoles Moe on Christmas Eve instead of going home.
+562,26,10,The Man Who Came to Be Dinner,1-Mar-15,6.7,1173,An amusement park ride takes the Simpsons to the home planet of Kang and Kodos.
+563,26,11,Bart's New Friend,8-Mar-15,7.2,1006,"Homer is hypnotized into believing he's ten years old and ends up stuck in his new age when the hypnotist dies, so he bonds with Bart and refuses to take back the responsibilities of adulthood."
+564,26,12,The Musk Who Fell to Earth,15-Mar-15,5.6,1071,"Inventor Elon Musk comes to Springfield, and Homer inspires him with a new idea that could revolutionize Springfield, but winds up costing Mr. Burns a ton of money."
+565,26,13,Walking Big & Tall,22-Mar-15,6.3,878,"Marge tries to get Homer to lose weight. But instead, he finds a support group that encourages him to embrace his largeness."
+566,26,14,My Fare Lady,29-Mar-15,6.6,864,"Marge gets a job as a driver for a transportation app service, while Moe is forced to work as a janitor at the nuclear plant after Homer causes the bar to go bankrupt."
+567,26,15,The Princess Guide,5-Apr-15,6.4,892,Moe falls in love with a Nigerian princess whose father is working out a uranium deal with Mr. Burns.
+568,26,16,Sky Police,12-Apr-15,6.7,904,"The congregation, led by Marge, is forced to resort to gambling in order to collect money to fix the church, which Chief Wiggum destroyed with a jet pack he received by mistake."
+569,26,17,Waiting for Duffman,19-Apr-15,6.6,869,"After ""Duffman"" retires, Homer wins a reality competition to become his replacement. But his contract states that he cannot drink beer, which gives him a new perspective on alcohol."
+570,26,18,Peeping Mom,26-Apr-15,6.6,825,"Marge decides to follow Bart everywhere until he confesses to being involved in a bulldozer crash. Meanwhile, Homer ignores Santa's Little Helper when Ned gets a new dog."
+571,26,19,The Kids Are All Fight,3-May-15,6.8,836,The story of Bart and Lisa's rivalry is told when Homer finds an old film strip.
+572,26,20,Let's Go Fly a Coot,10-May-15,6,819,Bart takes up smoking e-cigarettes to impress Milhouse's cousin Annika while the rest of the family learns about Grampa's days in the Air Force.
+573,26,21,Bull-E,17-May-15,6.6,835,"Bart gets bullied at a school dance, so Marge gets an anti-bullying law passed, which results in Homer being put in therapy for bulling Ned."
+574,26,22,Mathlete's Feat,24-May-15,6.8,876,"Groundskeeper Willie becomes the coach of the mathletes, Lisa and other kids from Springfield Elementary compete against Waverly Hills Elementary."
+575,27,1,Every Man's Dream,8-Nov-15,5.6,1195,"Marge decides it's finally time to separate from Homer, and quickly moves on with her life. Homer is initially devastated, but soon stumbles into a romance with a younger woman."
+576,27,2,'Cue Detective,15-Nov-15,6.6,996,"A celebrity television chef challenges Homer to a barbecue cook-off. But before the competition, Homer's new, prized barbecue grill is stolen."
+577,27,3,Puffless,22-Nov-15,7,967,"Patty and Selma try to quit smoking, but Patty moves in with the Simpsons when Selma takes it up again. Meanwhile, Maggie goes on an adventure with some local creatures."
+578,27,4,Halloween of Horror,15-May-16,7.7,1338,"The Simpsons are proud to be the most festively decorated house on the block. But when Lisa is traumatized at Krustyland Horror Night, she feels she cannot handle Halloween anymore."
+579,27,5,Treehouse of Horror XXVI,6-Dec-15,6.6,1068,"After killing Bart, Sideshow Bob doesn't know what to do with himself; Homer wakes up with short-term memory loss; Because of radiation, Lisa, Bart and Milhouse gain super-powers."
+580,27,6,Friend with Benefit,13-Dec-15,6.7,867,"Lisa makes a new friend at school - Harper, who happens to be super-rich, while Homer makes friends with Harper's dad and sets out to continue living the good life when Lisa decides to end the friendship."
+581,27,7,"Lisa with an ""S""",20-Dec-15,5.9,873,Broadway legend Laney Fontaine transforms Lisa into a show-biz kid after Homer loses her chance at band camp.
+582,27,8,Paths of Glory,20-Dec-15,6.8,854,"Lisa tries to restore the reputation of a forgotten Springfield female inventor, while Bart takes full advantage of a diagnosis that he is a sociopath."
+583,27,9,Barthood,27-Dec-15,8.5,1925,"A tale of Bart's journey from youth to adulthood, where he is constantly in search of approval from his father and in the shadow of his more-successful younger sister."
+584,27,10,The Girl Code,28-Feb-16,6.6,949,"When Homer loses his job due to Marge's social media post, he begins working as a dishwasher at a Greek restaurant. Meanwhile, Lisa creates an app that can predict the effect any post on social media will have."
+585,27,11,Teenage Mutant Milk-Caused Hurdles,6-Mar-16,6.6,882,"Bart and Principal Skinner battle over the affection of Bart's new teacher, and a new milk-based product that Homer buys from the Kwik-E-Mart causes big changes in Bart and Lisa."
+586,27,12,Much Apu About Something,17-Jan-16,6.6,835,"Apu's nephew makes big changes when he takes over the Kwik-E-Mart business, and Bart decides that he's through with being bad after his latest prank spirals out of control."
+587,27,13,Love Is in the N2-O2-Ar-CO2-Ne-He-CH4,14-Feb-16,6.4,792,"Professor Frink's new invention turns him into a ladies' man, while a new pill at the Springfield Retirement Castle causes Grandpa to hallucinate back to his happiest moments."
+588,27,14,Gal of Constant Sorrow,15-May-16,6.5,905,"Lisa tries to launch the career of a homeless Appalachian folk singer, but Bart warns her that she will just let her down. Meanwhile, Homer tries to rescue the cat, who is trapped in the walls of the house."
+589,27,15,Lisa the Veterinarian,6-Mar-16,6.4,815,"Lisa takes a job as veterinarian's assistant, but soon lets the responsibilities of the job get to her head. Meanwhile, Marge decides to take a job as a crime scene cleaner."
+590,27,16,The Marge-ian Chronicles,3-Apr-16,7.1,866,"Lisa signs up for an opportunity to be part of a mission to colonize Mars in ten years, and Homer's strategy to use reverse psychology to talk her out of it backfires."
+591,27,17,The Burns Cage,10-Apr-16,6.3,791,"Homer tries to raise Smithers' spirits by finding him a man, and Lisa gets the lead in the school production of ""Casablanca"" alongside a new male student, sparking Millhouse's jealousy."
+592,27,18,How Lisa Got Her Marge Back,17-Apr-16,6.3,754,"After Lisa overhears Marge say that she doesn't like Lisa's jazz music, Marge takes Lisa on a trip to Capitol City to regain her friendship. Meanwhile, Bart uses Maggie as his new partner in crime for his practical jokes."
+593,27,19,Fland Canyon,1-May-16,7.2,860,"Maggie will not go to sleep, so Homer tells her a bedtime story about when the Simpsons and the Flanders went to the Grand Canyon together."
+594,27,20,To Courier with Love,15-May-16,6.8,748,"After promising Marge the trip of a lifetime, Homer makes a deal with a travel agent to be a courier of a top-secret briefcase in exchange for a discounted family vacation to Paris."
+595,27,21,Simprovised,15-May-16,6.3,774,"While trying to overcome a fear of public speaking, Homer creates an improv comedy troupe; Marge rebuilds Bart's treehouse."
+596,27,22,Orange Is the New Yellow,29-May-16,6.7,795,"Marge lets Bart go to the park alone because he's too irritating, then she ends up getting arrested for leaving him unsupervised."
+597,28,1,Monty Burns' Fleeing Circus,25-Sep-16,6.1,896,Mr. Burns puts on a variety show at the Springfield Bowl.
+598,28,2,Friends and Family,2-Oct-16,6.6,835,Homer finds a new friend in a woman who acts just like him when Mr. Burns hires the other Simpsons as his live-in virtual reality family.
+599,28,3,The Town,15-Jan-17,7.1,941,"Homer takes the family on a ""hate-cation"" to Boston after he catches Bart rooting for a rival football team."
+600,28,4,Treehouse of Horror XXVII,17-Jan-17,6.9,1038,"The children of Springfield fight to the death, Hunger Games style; Lisa's imaginary friend kills her real friends; Moe recruits Bart into his group of covert barfly agents."
+601,28,5,Trust But Clarify,22-Jan-17,6.4,775,Bart and Lisa investigate Krusty's new candy; Marge helps Homer dress for a promotion; Kent Brockman struggles with the changing media world.
+602,28,6,There Will Be Buds,6-Nov-16,6.8,779,"Homer coaches the kids' lacrosse team with Kirk Van Houten, who disappears before the championship game, after Homer rants about him being a loser."
+603,28,7,Havana Wild Weekend,13-Nov-16,6.2,766,The Simpsons go to Cuba to get Grampa cheap medical care when the Retirement Castle and V.A. hospital are unable to solve his health problems.
+604,28,8,Dad Behavior,20-Nov-16,6.6,743,"Homer discovers an app that makes his life easier, while Grampa learns that he'll be a father again."
+605,28,9,The Last Traction Hero,4-Dec-16,6.4,704,"Homer is placed in a cast following a workplace accident, leading Marge to receive romance from an unexpected source; Lisa attempts to keep the peace as bus monitor."
+606,28,10,The Nightmare After Krustmas,11-Dec-16,6,759,Krusty and his daughter spend Christmas with the Simpsons; Reverend Lovejoy seeks converts to boost attendance at church; A Christmas toy scares Maggie.
+607,28,11,Pork and Burns,8-Jan-17,6.9,758,"A Japanese book on minimalism inspires Marge to adapt to a new way of living, so the Simpsons have to part with items that no longer bring them joy."
+608,28,12,The Great Phatsby,15-Jan-17,6.2,937,"Mr Burns tries to relive his glory days, and crosses paths with a mysterious music mogul."
+609,28,13,Fatzcarraldo,12-Feb-17,6.4,728,"When all the fast food restaurants in Springfield become healthy, Homer turns to the last bastion of greasy food for comfort; Lisa must find a good news story when her school radio station is in jeopardy."
+610,28,14,The Cad and the Hat,19-Feb-17,6.5,724,Bart ruins Lisa's perfect day out of jealousy and becomes haunted by the manifestation of his guilty conscious. Homer is revealed to be a master chess player which helps him bond with his competitive dad.
+611,28,15,Kamp Krustier,5-Mar-17,6.5,724,"Bart and Lisa return home following a traumatic incident at Kamp Krusty, putting an end to Homer and Marge's sexual encounters."
+612,28,16,22 for 30,12-Mar-17,6.6,768,"A mocumentary about how Bart became a star basketball player at Springfield Elementary only to fall prey to fame, his own ego and the schemes of mobster Fat Tony."
+613,28,17,A Father's Watch,19-Mar-17,7,739,"As Homer and Marge try a different parenting style on the hellraising Bart, Grampa gives him a special watch that becomes Bart's moral center. But Bart loses it and tries everything to get it back."
+614,28,18,The Caper Chase,2-Apr-17,6.2,762,"Mr. Burns opens his own for-profit university, hiring the completely unqualified Homer as a professor, only to lose him to a mad scientist."
+615,28,19,Looking for Mr. Goodbart,30-Apr-17,7,736,Bart bonds with Skinner's mother over their mutual dislike of Skinner and realizes that he could make a bundle by befriending other lonely and disgruntled grandmothers of Springfield for money.
+616,28,20,Moho House,7-May-17,6.2,681,Mr. Burns makes a bet with his old friend that nothing can break Homer and Marge apart. But that's where Moe comes in.
+617,28,21,Dogtown,21-May-17,6.5,690,"After a successful animal rights campaign, all dogs in Springfield are allowed to go where they want and do what they want. Pack mentality quickly kicks in and the dogs of Springfield assert their dominance by threatening the people."
+618,29,1,The Serfsons,29-Dec-17,6.8,1141,"In a medieval world, Lisa is forced to use illegal magic when Marge's mother is turned into an Ice Walker."
+619,29,2,Springfield Splendor,5-Jan-18,6.6,903,"Lisa's sad experience is adapted into a graphic novel, which becomes a Broadway show."
+620,29,3,Whistler's Father,12-Jan-18,6.2,810,Homer launches Maggie's baby-celebrity career with her whistling talent; Marge is hired to style Fat Tony's brothel.
+621,29,4,Treehouse of Horror XXVIII,19-Jan-18,7.2,1114,Maggie gets possessed by a demon; Lisa discovers a creepy/perfect version of her family in an alternative universe; Homer cannibalizes himself.
+622,29,5,Grampy Can Ya Hear Me,26-Jan-18,6.4,774,Grampa gets a hearing aid and finally hears what everyone has been saying about him.
+623,29,6,The Old Blue Mayor She Ain't What She Used To Be,2-Feb-18,6.3,780,Marge runs for mayor and uses Homer as the butt of her jokes to gain public support.
+624,29,7,Singin' in the Lane,9-Feb-18,6.4,771,Homer gets his old bowling team back together and they wind up competing with arrogant millionaires.
+625,29,8,Mr. Lisa's Opus,16-Feb-18,6.9,853,"In the future, Lisa writes a college application essay to Harvard and recalls disappointing past birthdays that helped shape her."
+626,29,9,Gone Boy,24-Dec-17,7.3,919,"When Bart goes missing, the town puts together a search party to find him."
+627,29,10,Haw-Haw Land,2-Mar-18,6.5,805,Lisa falls for a crooning jazz pianist named Brendan; Bart discovers he has an affinity for chemistry.
+628,29,11,Frink Gets Testy,9-Mar-18,6.3,724,Mr. Burns builds a doomsday ark after he believes the world is ending; Professor Frink is tasked with determining who is worth saving.
+629,29,12,Homer is Where the Art Isn't,23-Mar-18,6.7,784,Homer is accused of stealing a multimillion-dollar painting and only freelance insurance investigator Manacek can prove his innocence or guilt.
+630,29,13,3 Scenes Plus a Tag from a Marriage,30-Mar-18,6.6,716,Homer and Marge tell the story of how they went from loving life without kids to being miserable parents.
+631,29,14,Fears of a Clown,6-Apr-18,6.1,679,Bart goes to prankster rehab after a clown-mask prank terrifies the town and ruins Krusty's career causing him to give up comedy and try serious drama.
+632,29,15,No Good Read Goes Unpunished,8-Apr-18,6.4,696,Marge forces everyone to give up their electronics and go to the book store in an effort to bring the family together.
+633,29,16,King Leer,20-Apr-18,6.4,660,Homer and Marge attempt to reunite Moe with his troubled family.
+634,29,17,Lisa Gets the Blues,27-Apr-18,6.9,743,"The Simpsons' flight to Gainesville gets re-routed to New Orleans, where Lisa must regain her confidence as a jazz musician."
+635,29,18,Forgive and Regret,4-May-18,7.2,741,"On his deathbed, Grampa makes a confession to Homer about the notes from Homer's mother that got lost when she left. This angers Homer to the point of refusing to reconcile with Abe after he miraculously recovers."
+636,29,19,Left Behind,11-May-18,6.7,689,Homer gets Flanders a job at the power plant; Marge feels there's no spark left in their marriage.
+637,29,20,Throw Grampa from the Dane,18-May-18,6.8,760,The Simpsons go to Denmark so Grampa can benefit from its free health-care system.
+638,29,21,Flanders' Ladder,25-May-18,7.7,1026,"When Bart falls into a coma after he is struck by lightning, he is visited by ghosts seeking closure."
+639,30,1,Bart's Not Dead,1-Feb-19,6.3,967,"Bart ends up in the hospital after taking a dare and lies about going to heaven to cover it up, but Homer takes a deal with Christian producers to make a movie about it."
+640,30,2,Heartbreak Hotel,8-Feb-19,6.1,863,Marge and Homer travel to a tropical island and go on Marge's favorite reality competition program to win a million dollars.
+641,30,3,My Way or the Highway to Heaven,15-Feb-19,6.2,826,"While God and St. Peter discuss who will get into heaven, the citizens of Springfield recall divine encounters."
+642,30,4,Treehouse of Horror XXIX,22-Feb-19,6,945,"Homer wins an oyster-eating contest against the mythical Cthulhu, Springfield is overrun by plant body-snatchers, Lisa finally snaps and Mr. Burns opens a retirement home with some Jurassic upgrades."
+643,30,5,Baby You Can't Drive My Car,1-Mar-19,7.1,775,"A self-driving car company comes to Springfield, poaching all of the power plant employees with their fun work environment."
+644,30,6,From Russia Without Love,8-Mar-19,6.5,729,"Bart, Nelson and Milhouse get a mail-order bride for Moe as a hardcore prank."
+645,30,7,Werking Mom,15-Mar-19,5.7,864,"In search of a job, Marge gets one selling plastic food storage containers - as a drag queen; Lisa tries to make the world better."
+646,30,8,Krusty the Clown,22-Mar-19,6.5,702,"Krusty hides out at a circus after he nearly kills Homer, who becomes a TV recapper and gives him a bad grade."
+647,30,9,Daddicus Finch,29-Mar-19,6.9,708,"Bart feels neglected when Homer and Lisa bond over To Kill a Mockingbird and start spending quality time together, so Marge attempts to help Homer balance attention between the kids."
+648,30,10,'Tis the 30th Season,24-Dec-18,6.8,702,"Marge is determined to fix Christmas following a failed Black Friday shopping spree, but Homer and the kids surprise her with a vacation in Florida."
+649,30,11,Mad About the Toy,5-Apr-19,5.7,823,"Motivated by a PTSD episode Grampa had while babysitting the kids, the Simpsons take a journey to Grampa's past as a post-WW2 toy model for plastic army men, and Abe finally faces his on confused sexuality."
+650,30,12,The Girl on the Bus,12-Apr-19,6.4,727,Lisa tries to live a double life when she makes a new friend and gets a taste of what it would be like to live with a more cultured family.
+651,30,13,I'm Dancing as Fat as I Can,19-Apr-19,7,704,"Homer tries to make amends for binging his and Marge's favorite show without her; Bart prepares for ""Krusty's Holiday Trample""."
+652,30,14,The Clown Stays in the Picture,26-Apr-19,6.2,652,"On Marc Maron's podcast, Krusty reveals the untold story of his past movie project, The Sands of Space. Hearing the podcast, Bart and Lisa learn their parents were production assistants on the movie in the early days of their relationship."
+653,30,15,101 Mitigations,3-May-19,6.5,609,Homer steals Comic Book Guy's car and must either prove his innocence in court or reconcile with him.
+654,30,16,I Want You (She's So Heavy),10-May-19,5.9,628,"When a romantic night ends in injury for Homer and Marge, Lisa turns to an unlikely source to fix their strained relationship."
+655,30,17,E My Sports,17-May-19,6.4,682,Homer discovers a passion for coaching Bart in video game competitions; Lisa's plan to bring Homer back to reality creates chaos.
+656,30,18,Bart vs. Itchy & Scratchy,24-Mar-19,4.6,1334,"Bart's friends start a boys rights activist group to protest Krusty's all-female reboot of Itchy and Scratchy. When they catch Bart enjoying it, they kick him out, so he joins Bossy Riot, a militant feminist gang of sixth-grade girls."
+657,30,19,Girl's in the Band,31-Mar-19,6.4,655,Homer works extra shifts at the plant so Lisa can play in the Capitol City Youth Philharmonic.
+658,30,20,I'm Just a Girl Who Can't Say D'oh,7-Apr-19,5.5,661,"Marge becomes Director of Springfield's local theater, armed with Lisa's script resembling ""Hamilton""; Homer joins a baby class with Maggie, and takes a liking to supervisor Chloe."
+659,30,21,D'oh Canada,28-Apr-19,5.5,792,Lisa is mistakenly given political asylum in Canada during a family trip to Niagara Falls.
+660,30,22,Woo-Hoo Dunnit?,5-May-19,6.2,658,"The documentary crime series ""Dateline: Springfield"" goes in-depth to solve the case of Lisa's missing college fund."
+661,30,23,Crystal Blue-Haired Persuasion,12-May-19,6.1,626,"Marge starts a business selling healing crystals and other New Age products to the naive mothers of Springfield when Homer's job cuts children's health-care benefits, leading Marge to use the crystals as a cheaper solution for Bart's ADD."
+662,31,1,The Winter of Our Monetized Content,17-Jan-20,5.8,907,Bart and Homer become social media celebrities when a video of them fighting goes viral; Lisa fights the school's new industrialized detention system.
+663,31,2,Go Big or Go Homer,24-Jan-20,6,809,"Homer inspires a 35-year-old millennial who idolizes him to start his own business, which leads the mob to chase both of them."
+664,31,3,The Fat Blue Line,31-Jan-20,6.6,716,"When the wrong man is arrested for pickpocketing Springfield during the San Castellaneta street festival, Chief Wiggum sets out to catch the real criminal."
+665,31,4,Treehouse of Horror XXX,7-Feb-20,6.9,910,"The 30th Treehouse of Horror features a demon Maggie, a mission to rescue Milhouse from another dimension, dead-Homer's spirit trying on some new bodies for size and Selma finally finding love in an unlikely place - the alien in the basement."
+666,31,5,Gorillas on the Mast,14-Feb-20,6.3,668,"After visiting Aquatraz Water Park, Lisa and Bart set out to free from captivity the most vicious animals in Springfield. Homer fulfills a lifelong dream and buys a boat, only to realize how much boat ownership sucks."
+667,31,6,Marge the Lumberjill,21-Feb-20,5.6,749,"Marge becomes a competitive lumberjack and goes on a month-long retreat to Portland with her trainer, whom Homer fears will take his wife away from him."
+668,31,7,Livin la Pura Vida,24-Dec-19,6.5,712,"The Simpsons join other Springfield families on the Van Houtens' annual trip to Costa Rica, where Homer befriends Patty's new girlfriend and Lisa discovers how the Van Houtens are able to afford this trip every year."
+669,31,8,Thanksgiving of Horror,28-Feb-20,7.4,899,"The Simpsons face various Thanksgiving nightmares, including the first Thanksgiving, an A.I. mishap and a dangerous space mission complicated by a sentient cranberry sauce."
+670,31,9,"Todd, Todd, Why Hast Thou Forsaken Me?",6-Mar-20,6.6,795,"Todd blames God for his mother's death and rejects his faith, so Ned sends him to live with the Simpsons, hoping they can scare him into believing in God again."
+671,31,10,"Bobby, It's Cold Outside",13-Mar-20,6.6,629,"Sideshow Bob gets the role of Santa Claus at Santa's Village amusement park. Meanwhile, someone is stealing all the Christmas packages off people's front porches."
+672,31,11,Hail to the Teeth,20-Mar-20,6.1,572,Homer and Marge attend Artie Ziff's wedding and become quite uncomfortable when they realize that his bride-to-be is a clone of Marge.
+673,31,12,The Miseducation of Lisa Simpson,27-Mar-20,6.6,578,"The sea captain finds treasure for which he's been searching for 40 years, but City Hall claims it since it was in city limits. Marge convinces the townspeople to use the windfall to build a STEM school. Homer crusades against automation."
+674,31,13,Frinkcoin,3-Apr-20,6,553,"Professor Frink invents a cryptocurrency that makes him the richest man in Springfield, a title Mr. Burns has no intention of giving up."
+675,31,14,Bart the Bad Guy,10-Apr-20,7.4,755,"Bart uses spoilers for a superhero movie he saw to get what he wants, but two movie executives will stop at nothing to keep his knowledge secret."
+676,31,15,Screenless,17-Apr-20,6.6,557,"Marge implements a limit on screen time for the whole family, only to realize she's the one addicted to screens."
+677,31,16,Better Off Ned,24-Apr-20,6.5,539,"Jealous of Bart's bond with Ned, Homer mentors Nelson in retaliation, but an act of heroism helps Homer to regain Bart's respect."
+678,31,17,Highway to Well,28-Apr-20,7.1,609,Marge gets a job at an upscale cannabis dispensary leading Homer to open a competing business that replicates the scuzzy days of scoring weed from and old-school pot connection.
+679,31,18,The Incredible Lightness of Being a Baby,1-May-20,6.4,524,"Maggie reunites with baby Hudson, but Marge isn't too crazy about his mom. Homer befriends Cletus Spuckler who recently discovered a vast underground reserve of helium gas on his property, attracting unwanted attention from Mr. Burns."
+680,31,19,Warrin' Priests,8-May-20,6.1,622,Reverend Lovejoy investigates the mysterious past of a new priest who's come to town and shaken things up at church.
+681,31,20,Warrin' Priests Part 2,15-May-20,5.9,584,"In Michigan, Reverend Lovejoy learns the true reason why Bode came to Springfield and the congregation must decide whether to banish their new priest."
+682,31,21,The Hateful Eight-Year-Olds,22-May-20,6.7,586,Lisa joins a group of rich girls when she makes a friend who loves horses; Homer takes Marge on a romantic cruise.
+683,31,22,The Way of the Dog,29-May-20,7.6,714,The Simpsons explore the tragic past of Santa's Little Helper when he bites Marge.
+684,32,1,Undercover Burns,15-Jan-21,6.5,742,"Mr. Burns goes undercover at the power plant as an employee named Fred and befriends Homer and the gang, but a jealous Smithers plots to bring the old Burns back."
+685,32,2,"I, Carumbus",22-Jan-21,6.8,696,"At a museum exhibit of Ancient Rome, Marge and Homer imagine themselves in Rome where Homer is more ambitious."
+686,32,3,"Now Museum, Now You Don't",29-Jan-21,5.8,625,Lisa stays home from school and fantasizes about the history of Western art.
+687,32,4,Treehouse of Horror XXXI,5-Feb-21,6.2,908,"The 31st annual Simpsons Halloween special includes a frightening look at the 2020 election, parodies of Pixar and Spider-Man: Into the Spider-Verse and a ninth birthday Lisa just can't get over."
+688,32,5,The 7 Beer Itch,12-Feb-21,5.7,621,Homer is tempted by a British femme fatale while Marge and the kids are on a seaside vacation.
+689,32,6,Podcast News,19-Feb-21,6.9,568,"Grampa is accused of a crime, while Kent Brockman questions his career."
+690,32,7,Three Dreams Denied,26-Feb-21,6.3,524,"Bart becomes a voice over actor, Comic Book Guy is humiliated at Comic-Con and Lisa is set up for a fall."
+691,32,8,The Road to Cincinnati,5-Mar-21,6.7,634,Skinner and Chalmers take an 800-mile car ride to an administrator's convention in Cincinnati.
+692,32,9,Sorry Not Sorry,12-Mar-21,6.2,538,"Lisa calls Ms. Hoover a hack and refuses to apologize, then learns her private pain."
+693,32,10,A Springfield Summer Christmas for Christmas,24-Dec-20,6.3,600,A cable channel films a Christmas movie in Springfield and Skinner falls in love.
+694,32,11,The Dad-Feelings Limited,19-Mar-21,7.1,700,The origin story of Comic Book Guy is revealed as he and Kumiko debate having a baby.
+695,32,12,Diary Queen,26-Mar-21,7,579,"Bart learns a surprising secret when he finds Mrs. Krabappel's diary at a yard sale, while Lisa discovers an even bigger surprise."
+696,32,13,Wad Goals,2-Apr-21,6.3,486,"Bart becomes a successful caddy, but Marge thinks it may ruin his character."
+697,32,14,Yokel Hero,9-Apr-21,5.7,451,"Cletus becomes a singing sensation and ruins everything when he turns on his fans, while Homer becomes a new man."
+698,32,15,Do Pizza Bots Dream of Electric Guitars,16-Apr-21,6.1,465,"Homer tries to reunite a mechanical band from his youth, but J.J. Abrams beats him to it."
+699,32,16,Manger Things,23-Apr-21,6.4,435,A secret from Flanders' past and a never-before-seen room in the Simpson home are revealed.
+700,32,17,Uncut Femmes,30-Apr-21,6.5,459,Sarah Wiggum is more than she seems; Marge participates in a jewel heist.
+701,32,18,Burger Kings,7-May-21,6.8,413,"Mr. Burns joins the plant-based burger business, convincing Lisa that he's changed for the better."
+702,32,19,Panic on the Streets of Springfield,14-May-21,6.2,530,Lisa's imaginary friend is a depressed British singer from the 1980s; Homer becomes a truck guy.
+703,32,20,Mother and Child Reunion,21-May-21,7.2,388,"Lisa makes a shocking college decision that hurts Marge, leading to a surprising place."
+704,32,21,The Man from G.R.A.M.P.A.,28-May-21,6.5,354,A British secret agent comes to Springfield to find a Russian spy.
+705,32,22,The Last Barfighter,4-Jun-21,7.8,442,A secret society of bartenders seeks revenge on Homer and his friends when Moe breaks their most sacred rule.

@@ -1,0 +1,1473 @@
+Season,Episode,Rating,Title,Directed_by,Written_by,Viewers
+1,1,9,Breaking Bad,Vince Gilligan,Vince Gilligan,1410000
+1,2,8.6,Breaking Bad,Adam Bernstein,Vince Gilligan,1490000
+1,3,8.7,Breaking Bad,Adam Bernstein,Vince Gilligan,1080000
+1,4,8.2,Breaking Bad,Jim McKay,Vince Gilligan,1090000
+1,5,8.3,Breaking Bad,Tricia Brock,"Vince Gilligan, Patty Lin",970000
+1,6,9.3,Breaking Bad,Bronwen Hughes,"Vince Gilligan, George Mastras",1070000
+1,7,8.8,Breaking Bad,Tim Hunter,"Vince Gilligan, Peter Gould",1500000
+2,1,8.6,Breaking Bad,Bryan Cranston,"Vince Gilligan, J. Roberts",1660000
+2,2,9.3,Breaking Bad,Charles Haid,"Vince Gilligan, George Mastras",1600000
+2,3,8.3,Breaking Bad,Terry McDonough,"Vince Gilligan, Peter Gould, George Mastras",1130000
+2,4,8.2,Breaking Bad,John Dahl,"Vince Gilligan, Sam Catlin",1290000
+2,5,8.3,Breaking Bad,Johan Renck,"Vince Gilligan, Moira Walley-Beckett",1210000
+2,6,8.8,Breaking Bad,Peter Medak,"Vince Gilligan, J. Roberts",1410000
+2,7,8.6,Breaking Bad,F<e9>lix Enr<ed>quez Alcal<e1>,"Vince Gilligan, John Shiban",NA
+2,8,9.2,Breaking Bad,Terry McDonough,"Vince Gilligan, Peter Gould",1040000
+2,9,9.1,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Sam Catlin",NA
+2,10,8.5,Breaking Bad,Phil Abraham,"Vince Gilligan, Moira Walley-Beckett, J. Roberts",NA
+2,11,8.9,Breaking Bad,Adam Bernstein,"Vince Gilligan, George Mastras",NA
+2,12,9.3,Breaking Bad,Colin Bucksey,"Vince Gilligan, John Shiban",NA
+2,13,9.2,Breaking Bad,Adam Bernstein,Vince Gilligan,1500000
+3,1,8.5,Breaking Bad,Bryan Cranston,Vince Gilligan,1950000
+3,2,8.6,Breaking Bad,Adam Bernstein,"Vince Gilligan, Peter Gould",1550000
+3,3,8.4,Breaking Bad,Michelle MacLaren,"Vince Gilligan, George Mastras",1330000
+3,4,8.2,Breaking Bad,Scott Winant,"Vince Gilligan, Sam Catlin",1460000
+3,5,8.6,Breaking Bad,Johan Renck,"Vince Gilligan, Moira Walley-Beckett",1610000
+3,6,9.3,Breaking Bad,John Shiban,"Vince Gilligan, John Shiban",1640000
+3,7,9.6,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Thomas Schnauz",1520000
+3,8,8.7,Breaking Bad,Colin Bucksey,"Vince Gilligan, Gennifer Hutchison",1780000
+3,9,8.4,Breaking Bad,Michael Slovis,"Vince Gilligan, Peter Gould, George Mastras",1610000
+3,10,7.8,Breaking Bad,Rian Johnson,"Vince Gilligan, Sam Catlin, Moira Walley-Beckett",1200000
+3,11,8.4,Breaking Bad,Michelle MacLaren,"Vince Gilligan, John Shiban, Thomas Schnauz",1320000
+3,12,9.5,Breaking Bad,Adam Bernstein,"Vince Gilligan, Sam Catlin, Peter Gould",1190000
+3,13,9.6,Breaking Bad,Vince Gilligan,Vince Gilligan,1560000
+4,1,9.2,Breaking Bad,Adam Bernstein,Vince Gilligan,2580000
+4,2,8.2,Breaking Bad,Michelle MacLaren,"Vince Gilligan, George Mastras",1970000
+4,3,8,Breaking Bad,David Slade,"Vince Gilligan, Sam Catlin",1710000
+4,4,8.6,Breaking Bad,Colin Bucksey,"Vince Gilligan, Moira Walley-Beckett",1830000
+4,5,8.6,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Thomas Schnauz",1750000
+4,6,8.4,Breaking Bad,Michael Slovis,"Vince Gilligan, Gennifer Hutchison",1670000
+4,7,8.8,Breaking Bad,Peter Gould,"Vince Gilligan, Peter Gould",1910000
+4,8,9.2,Breaking Bad,Johan Renck,"Vince Gilligan, Sam Catlin, George Mastras",1980000
+4,9,8.8,Breaking Bad,Terry McDonough,"Vince Gilligan, Moira Walley-Beckett, Thomas Schnauz",1890000
+4,10,9.6,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Peter Gould, Gennifer Hutchison",1800000
+4,11,9.7,Breaking Bad,Scott Winant,"Vince Gilligan, George Mastras, Sam Catlin",1550000
+4,12,9.5,Breaking Bad,Vince Gilligan,"Vince Gilligan, Thomas Schnauz, Moira Walley-Beckett",1730000
+4,13,9.9,Breaking Bad,Vince Gilligan,Vince Gilligan,1900000
+5,1,9.2,Breaking Bad,Michael Slovis,Vince Gilligan,2930000
+5,2,8.8,Breaking Bad,Michelle MacLaren,Vince Gilligan,2290000
+5,3,8.8,Breaking Bad,Adam Bernstein,"Vince Gilligan, Peter Gould",2200000
+5,4,8.8,Breaking Bad,Rian Johnson,"Vince Gilligan, Sam Catlin",2290000
+5,5,9.7,Breaking Bad,George Mastras,"Vince Gilligan, George Mastras",2480000
+5,6,9,Breaking Bad,Colin Bucksey,"Vince Gilligan, Gennifer Hutchison",2810000
+5,7,9.5,Breaking Bad,Thomas Schnauz,"Vince Gilligan, Thomas Schnauz",2980000
+5,8,9.6,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Moira Walley-Beckett",2780000
+5,9,9.4,Breaking Bad,Bryan Cranston,"Vince Gilligan, Peter Gould",5920000
+5,10,9.2,Breaking Bad,Michelle MacLaren,"Vince Gilligan, Thomas Schnauz",4770000
+5,11,9.6,Breaking Bad,Michael Slovis,"Vince Gilligan, Gennifer Hutchison",4850000
+5,12,9.1,Breaking Bad,Sam Catlin,"Vince Gilligan, Sam Catlin",4410000
+5,13,9.8,Breaking Bad,Michelle MacLaren,"Vince Gilligan, George Mastras",5110000
+5,14,10,Breaking Bad,Rian Johnson,"Vince Gilligan, Moira Walley-Beckett",6370000
+5,15,9.6,Breaking Bad,Peter Gould,"Vince Gilligan, Peter Gould",6580000
+5,16,9.9,Breaking Bad,Vince Gilligan,Vince Gilligan,10280000
+1,1,8.9,Game of Thrones,Tim Van Patten,"David Benioff, D. B. Weiss",2220000
+1,2,8.6,Game of Thrones,Tim Van Patten,"David Benioff, D. B. Weiss",2200000
+1,3,8.5,Game of Thrones,Brian Kirk,"David Benioff, D. B. Weiss",2440000
+1,4,8.6,Game of Thrones,Brian Kirk,Bryan Cogman,2450000
+1,5,9,Game of Thrones,Brian Kirk,"David Benioff, D. B. Weiss",2580000
+1,6,9.1,Game of Thrones,Daniel Minahan,"Jane Espenson, David Benioff, D. B. Weiss",2440000
+1,7,9.1,Game of Thrones,Daniel Minahan,"David Benioff, D. B. Weiss",2400000
+1,8,8.9,Game of Thrones,Daniel Minahan,George R. R. Martin,2720000
+1,9,9.6,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",2660000
+1,10,9.4,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",3040000
+2,1,8.7,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",3860000
+2,2,8.4,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",3760000
+2,3,8.7,Game of Thrones,Alik Sakharov,Bryan Cogman,3770000
+2,4,8.6,Game of Thrones,David Petrarca,Vanessa Taylor,3650000
+2,5,8.6,Game of Thrones,David Petrarca,"David Benioff, D. B. Weiss",3900000
+2,6,8.9,Game of Thrones,David Nutter,Vanessa Taylor,3880000
+2,7,8.8,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",3690000
+2,8,8.6,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",3860000
+2,9,9.6,Game of Thrones,Neil Marshall,George R. R. Martin,3380000
+2,10,9.3,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",4200000
+3,1,8.6,Game of Thrones,Daniel Minahan,"David Benioff, D. B. Weiss",4370000
+3,2,8.5,Game of Thrones,Daniel Minahan,Vanessa Taylor,4270000
+3,3,8.7,Game of Thrones,David Benioff,"David Benioff, D. B. Weiss",4720000
+3,4,9.5,Game of Thrones,Alex Graves,"David Benioff, D. B. Weiss",4870000
+3,5,8.9,Game of Thrones,Alex Graves,Bryan Cogman,5350000
+3,6,8.7,Game of Thrones,Alik Sakharov,"David Benioff, D. B. Weiss",5500000
+3,7,8.6,Game of Thrones,Michelle MacLaren,George R. R. Martin,4840000
+3,8,8.9,Game of Thrones,Michelle MacLaren,"David Benioff, D. B. Weiss",5130000
+3,9,9.9,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",5220000
+3,10,9.1,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",5390000
+4,1,9,Game of Thrones,D. B. Weiss,"David Benioff, D. B. Weiss",6640000
+4,2,9.7,Game of Thrones,Alex Graves,George R. R. Martin,6310000
+4,3,8.7,Game of Thrones,Alex Graves,"David Benioff, D. B. Weiss",6590000
+4,4,8.7,Game of Thrones,Michelle MacLaren,Bryan Cogman,6950000
+4,5,8.6,Game of Thrones,Michelle MacLaren,"David Benioff, D. B. Weiss",7160000
+4,6,9.7,Game of Thrones,Alik Sakharov,Bryan Cogman,6400000
+4,7,9,Game of Thrones,Alik Sakharov,"David Benioff, D. B. Weiss",7200000
+4,8,9.7,Game of Thrones,Alex Graves,"David Benioff, D. B. Weiss",7170000
+4,9,9.6,Game of Thrones,Neil Marshall,"David Benioff, D. B. Weiss",6950000
+4,10,9.6,Game of Thrones,Alex Graves,"David Benioff, D. B. Weiss",7090000
+5,1,8.4,Game of Thrones,Michael Slovis,"David Benioff, D. B. Weiss",8e+06
+5,2,8.4,Game of Thrones,Michael Slovis,"David Benioff, D. B. Weiss",6810000
+5,3,8.4,Game of Thrones,Mark Mylod,"David Benioff, D. B. Weiss",6710000
+5,4,8.6,Game of Thrones,Mark Mylod,Dave Hill,6820000
+5,5,8.5,Game of Thrones,Jeremy Podeswa,Bryan Cogman,6560000
+5,6,7.9,Game of Thrones,Jeremy Podeswa,Bryan Cogman,6240000
+5,7,8.9,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",5400000
+5,8,9.8,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",7010000
+5,9,9.4,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",7140000
+5,10,9.1,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",8110000
+6,1,8.4,Game of Thrones,Jeremy Podeswa,"David Benioff, D. B. Weiss",7940000
+6,2,9.3,Game of Thrones,Jeremy Podeswa,Dave Hill,7290000
+6,3,8.6,Game of Thrones,Daniel Sackheim,"David Benioff, D. B. Weiss",7280000
+6,4,9,Game of Thrones,Daniel Sackheim,"David Benioff, D. B. Weiss",7820000
+6,5,9.7,Game of Thrones,Jack Bender,"David Benioff, D. B. Weiss",7890000
+6,6,8.3,Game of Thrones,Jack Bender,Bryan Cogman,6710000
+6,7,8.5,Game of Thrones,Mark Mylod,Bryan Cogman,7800000
+6,8,8.3,Game of Thrones,Mark Mylod,"David Benioff, D. B. Weiss",7600000
+6,9,9.9,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",7660000
+6,10,9.9,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",8890000
+7,1,8.5,Game of Thrones,Jeremy Podeswa,"David Benioff, D. B. Weiss",10110000
+7,2,8.8,Game of Thrones,Mark Mylod,Bryan Cogman,9270000
+7,3,9.1,Game of Thrones,Mark Mylod,"David Benioff, D. B. Weiss",9250000
+7,4,9.7,Game of Thrones,Matt Shakman,"David Benioff, D. B. Weiss",10170000
+7,5,8.7,Game of Thrones,Matt Shakman,Dave Hill,10720000
+7,6,9,Game of Thrones,Alan Taylor,"David Benioff, D. B. Weiss",10240000
+7,7,9.4,Game of Thrones,Jeremy Podeswa,"David Benioff, D. B. Weiss",12070000
+8,1,7.6,Game of Thrones,David Nutter,Dave Hill,11760000
+8,2,7.9,Game of Thrones,David Nutter,Bryan Cogman,10290000
+8,3,7.5,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",12020000
+8,4,5.5,Game of Thrones,David Nutter,"David Benioff, D. B. Weiss",11800000
+8,5,6,Game of Thrones,Miguel Sapochnik,"David Benioff, D. B. Weiss",12480000
+8,6,4,Game of Thrones,David Benioff & D. B. Weiss,"David Benioff, D. B. Weiss",13610000
+1,1,7.3,The Office,Ken Kwapis,Ricky Gervais |Stephen Merchant and Greg Daniels,1.12e+08
+1,2,8.1,The Office,Ken Kwapis,B. J. Novak,6e+06
+1,3,7.6,The Office,Ken Whittingham,Paul Lieberstein,5.8e+07
+1,4,7.9,The Office,Bryan Gordon,Michael Schur,5.4e+07
+1,5,8.3,The Office,Greg Daniels,Greg Daniels,5e+06
+1,6,7.6,The Office,Amy Heckerling,Mindy Kaling,4.8e+07
+2,1,8.6,The Office,Greg Daniels,Mindy Kaling,9e+06
+2,2,8.1,The Office,Ken Kwapis,B. J. Novak,7.13e+08
+2,3,8.2,The Office,Paul Feig,Michael Schur,8.3e+07
+2,4,8.2,The Office,Ken Kwapis,B. J. Novak,7.6e+07
+2,5,8,The Office,Paul Feig,Greg Daniels,8e+06
+2,6,8,The Office,Ken Kwapis,Gene Stupnitsky | Lee Eisenberg,7.9e+07
+2,7,8.5,The Office,Greg Daniels,Paul Lieberstein,7.5e+07
+2,8,8,The Office,Paul Feig,Larry Wilmore,8e+06
+2,9,8.2,The Office,Paul Feig,Jennifer Celotta,8.1e+07
+2,10,8.7,The Office,Charles McDougall,Michael Schur,9.7e+07
+2,11,8.5,The Office,Ken Kwapis,Greg Daniels,8.7e+07
+2,12,9,The Office,Bryan Gordon,Mindy Kaling,1.03e+08
+2,13,8.1,The Office,Dennie Gordon,Lee Eisenberg | Gene Stupnitsky,8.7e+07
+2,14,7.7,The Office,Victor Nelli Jr.,Paul Lieberstein,8.6e+07
+2,15,8,The Office,See full summary,B. J. Novak,5.42e+08
+2,16,8.2,The Office,Greg Daniels,Michael Schur,8.95e+08
+2,17,8.3,The Office,Charles McDougall,Paul Lieberstein,8.4e+07
+2,18,8.2,The Office,See full summary,Mindy Kaling,8.8e+07
+2,19,8,The Office,Ken Whittingham,Gene Stupnitsky | Lee Eisenberg,7.8e+07
+2,20,8.2,The Office,Greg Daniels,Jennifer Celotta,7.8e+07
+2,21,8.6,The Office,Charles McDougall,Greg Daniels,7.4e+07
+2,22,9.3,The Office,Ken Kwapis,Steve Carell,7.6e+07
+3,1,8.9,The Office,Ken Kwapis,Greg Daniels,9.11e+08
+3,2,8.1,The Office,Ken Whittingham,Gene Stupnitsky | Lee Eisenberg,7.78e+08
+3,3,8.4,The Office,Greg Daniels,Paul Lieberstein,8.89e+08
+3,4,7.9,The Office,Roger Nygard,Jennifer Celotta,8.83e+08
+3,5,7.9,The Office,Randall Einhorn,B. J. Novak,8.46e+08
+3,6,7.8,The Office,Miguel Arteta,Mindy Kaling,8.81e+08
+3,7,8.5,The Office,Tucker Gates,Michael Schur,8.05e+08
+3,8,8.6,The Office,Ken Whittingham,Brent Forrester,8.63e+08
+3,9,8.2,The Office,Jeffrey Blitz,Ricky Gervais | Stephen Merchant,9.07e+08
+3,10,8.7,The Office,Harold Ramis,Jennifer Celotta,8.44e+08
+3,11,8.5,The Office,Julian Farino,Justin Spitzer,8.8e+07
+3,12,8.5,The Office,Greg Daniels,Michael Schur | Lee Eisenberg | Gene Stupnitsky,1.012e+09
+3,13,8.7,The Office,Greg Daniels,Lee Eisenberg | Gene Stupnitsky | Michael Schur,1.02e+08
+3,14,7.9,The Office,Randall Einhorn,Mindy Kaling,1.011e+09
+3,15,8.1,The Office,Ken Whittingham,Caroline Williams,8.84e+08
+3,16,8.8,The Office,Joss Whedon,Brent Forrester,8.84e+08
+3,17,8.3,The Office,J.J. Abrams,Paul Lieberstein,8.3e+07
+3,18,8.9,The Office,Jeffrey Blitz,Michael Schur,6.74e+08
+3,19,8.6,The Office,Harold Ramis,B. J. Novak,7.71e+08
+3,20,8.5,The Office,Randall Einhorn,Justin Spitzer | Brent Forrester,7.56e+08
+3,21,8.7,The Office,Tucker Gates,Gene Stupnitsky | Lee Eisenberg,7e+06
+3,22,9,The Office,Harold Ramis,Jennifer Celotta | Greg Daniels,7.2e+07
+3,23,9.2,The Office,Ken Kwapis,Paul Lieberstein | Michael Schur,7.88e+08
+4,1,8.7,The Office,Greg Daniels,Greg Daniels,9.7e+07
+4,2,8.1,The Office,Craig Zisk,Michael Schur,8.49e+08
+4,3,8.3,The Office,See full summary,Jennifer Celotta,8.91e+08
+4,4,8.5,The Office,Paul Lieberstein,Paul Lieberstein,8.5e+07
+4,5,8.6,The Office,Jason Reitman,B. J. Novak,8.98e+08
+4,6,8.3,The Office,Joss Whedon,Mindy Kaling,8.39e+08
+4,7,8,The Office,Paul Feig,Steve Carell,8.29e+08
+4,8,8.6,The Office,Julian Farino,Lester Lewis,8.86e+08
+4,9,9.4,The Office,Paul Feig,Gene Stupnitsky | Lee Eisenberg,9.22e+08
+4,10,7.9,The Office,Jeffrey Blitz,B. J. Novak,9.81e+08
+4,11,8.5,The Office,Ken Whittingham,Mindy Kaling,7.56e+08
+4,12,8.1,The Office,Randall Einhorn,Brent Forrester | Justin Spitzer,7.67e+08
+4,13,7.6,The Office,Tucker Gates,Lee Eisenberg | Gene Stupnitsky,7.22e+08
+4,14,9.2,The Office,Paul Feig,Jennifer Celotta | Paul Lieberstein,8.07e+08
+5,1,8.7,The Office,Paul Feig,Lee Eisenberg | Gene Stupnitsky,9.2e+07
+5,2,8.1,The Office,Jeffrey Blitz,Ryan Koh,8.99e+08
+5,3,7.8,The Office,Greg Daniels,Aaron Shure,8.07e+08
+5,4,7.9,The Office,Jennifer Celotta,Charlie Grandy,7.74e+08
+5,5,7.9,The Office,David Rogers,Anthony Q. Farrell,9.32e+08
+5,6,8.4,The Office,Stephen Merchant,Lester Lewis,8.35e+08
+5,7,8,The Office,Randall Einhorn,Brent Forrester,8.18e+08
+5,8,8.5,The Office,See full summary,Mindy Kaling,8.4e+07
+5,9,8.6,The Office,Paul Feig,Gene Stupnitsky | Lee Eisenberg,8.33e+08
+5,10,8.2,The Office,Paul Feig,Justin Spitzer,8.79e+08
+5,11,8.6,The Office,Dean Holland,Jennifer Celotta,8.5e+07
+5,12,7.9,The Office,Asaad Kelada,B. J. Novak,8.74e+08
+5,13,9.7,The Office,Jeffrey Blitz,Paul Lieberstein,2.291e+09
+5,14,8,The Office,Ken Kwapis,Mindy Kaling,8.39e+08
+5,15,8,The Office,Ken Kwapis,Mindy Kaling,8.89e+08
+5,16,7.9,The Office,Randall Einhorn,Brent Forrester,8.63e+08
+5,17,8.6,The Office,Randall Einhorn,Mindy Kaling,7.51e+08
+5,18,8.2,The Office,Paul Feig,Lee Eisenberg | Gene Stupnitsky,7.95e+08
+5,19,8.3,The Office,Paul Lieberstein,Aaron Shure,8.45e+08
+5,20,8.1,The Office,Paul Feig,B. J. Novak,7.2e+07
+5,21,8.6,The Office,Gene Stupnitsky,Justin Spitzer,7.94e+08
+5,22,8.6,The Office,Ken Whittingham,Ryan Koh,8.24e+08
+5,23,9.2,The Office,Steve Carell,Charlie Grandy,7.21e+08
+5,24,8.1,The Office,Brent Forrester,Anthony Q. Farrell,7.31e+08
+5,25,8.7,The Office,Randall Einhorn,Warren Lieberstein | Halsted Sullivan,7.71e+08
+5,26,8.9,The Office,Ken Kwapis,Jennifer Celotta | Paul Lieberstein,6.72e+08
+6,1,8.7,The Office,Paul Lieberstein,Paul Lieberstein,8.2e+07
+6,2,8,The Office,Randall Einhorn,Aaron Shure,7.33e+08
+6,3,7.8,The Office,Jennifer Celotta,Jennifer Celotta,7.28e+08
+6,4,9.2,The Office,Paul Feig,Greg Daniels | Mindy Kaling,9.42e+08
+6,5,9.4,The Office,Paul Feig,Greg Daniels | Mindy Kaling,9.42e+08
+6,6,7.5,The Office,David Rogers,Brent Forrester,8.1e+07
+6,7,8.5,The Office,Lee Eisenberg,Lee Eisenberg | Gene Stupnitsky,8.52e+08
+6,8,8,The Office,Reginald Hudlin,Warren Lieberstein | Halsted Sullivan,8.2e+07
+6,9,8,The Office,Seth Gordon,Charlie Grandy,7.94e+08
+6,10,8.6,The Office,Greg Daniels,Daniel Chun,7.76e+08
+6,11,8,The Office,Charles McDougall,Justin Spitzer,7.43e+08
+6,12,8.2,The Office,B.J. Novak,Gene Stupnitsky | Lee Eisenberg,8.1e+07
+6,13,8.4,The Office,Randall Einhorn,Mindy Kaling,8.51e+08
+6,14,6.7,The Office,Jeffrey Blitz,Jason Kessler,7.29e+08
+6,15,7.5,The Office,John Krasinski,Jennifer Celotta,7.36e+08
+6,16,7.9,The Office,Marc Webb,Mindy Kaling,7.4e+07
+6,17,8.3,The Office,Seth Gordon,Daniel Chun,9e+06
+6,18,8.4,The Office,Harold Ramis,Daniel Chun,9e+06
+6,19,7.5,The Office,Randall Einhorn,Jonathan Hughes,7.51e+08
+6,20,7.6,The Office,Brent Forrester,Brent Forrester,7.63e+08
+6,21,8.5,The Office,Matt Sohn,B. J. Novak,7.17e+08
+6,22,7.7,The Office,Steve Carell,Mindy Kaling,6.3e+07
+6,23,7.8,The Office,Mindy Kaling,Justin Spitzer,7.01e+08
+6,24,8,The Office,Rainn Wilson,Gene Stupnitsky | Lee Eisenberg,6.84e+08
+6,25,7.6,The Office,Randall Einhorn,Aaron Shure,6.6e+07
+6,26,7.9,The Office,Paul Lieberstein,Warren Lieberstein | Halsted Sullivan,6.6e+07
+7,1,8.2,The Office,Jeffrey Blitz,Daniel Chun,8.4e+07
+7,2,8.1,The Office,Jeffrey Blitz,B. J. Novak,7.36e+08
+7,3,8.1,The Office,John Scott,Charlie Grandy,6.95e+08
+7,4,7.7,The Office,Paul Lieberstein,Paul Lieberstein,7.36e+08
+7,5,7.6,The Office,Randall Einhorn,Mindy Kaling,6.87e+08
+7,6,8,The Office,Dean Holland,Justin Spitzer,8.07e+08
+7,7,7.3,The Office,Alex Hardcastle,Peter Ocko,7.65e+08
+7,8,7.7,The Office,Ken Whittingham,Jon Vitti,7.15e+08
+7,9,7.5,The Office,See full summary,Aaron Shure,7.28e+08
+7,10,8.1,The Office,Charles McDougall,Halsted Sullivan | Warren Lieberstein,7.31e+08
+7,11,8.9,The Office,Rainn Wilson,Mindy Kaling,7.18e+08
+7,12,8.1,The Office,David Rogers,Carrie Kemper,8.26e+08
+7,13,7.5,The Office,B.J. Novak,Steve Hely,7.93e+08
+7,14,8.4,The Office,See full summary,Brent Forrester,7.29e+08
+7,15,8.3,The Office,Greg Daniels,Robert Padnick,6.9e+07
+7,16,9.3,The Office,Tucker Gates,B. J. Novak,6.41e+08
+7,17,7.3,The Office,Randall Einhorn,Amelie Gillette,6.12e+08
+7,18,9.3,The Office,Steve Carell,Jon Vitti,7.07e+08
+7,19,7.6,The Office,Paul Lieberstein,Daniel Chun,7.87e+08
+7,20,8.9,The Office,Mindy Kaling,Mindy Kaling,6.85e+08
+7,21,9.8,The Office,Paul Feig,Greg Daniels,8.42e+08
+7,22,7.4,The Office,Matt Sohn,Charlie Grandy,6.9e+07
+7,23,8.6,The Office,Troy Miller,Justin Spitzer,6.45e+08
+7,24,8.6,The Office,Jeffrey Blitz,Paul Lieberstein,7.29e+08
+8,1,7.9,The Office,B.J. Novak,B. J. Novak,7.64e+08
+8,2,8,The Office,Charles McDougall,Paul Lieberstein,6.7e+07
+8,3,7.1,The Office,John Krasinski,Charlie Grandy,5.82e+08
+8,4,8,The Office,David Rogers,Justin Spitzer,6.08e+08
+8,5,7.4,The Office,Randall Einhorn,Carrie Kemper,5.53e+08
+8,6,7.4,The Office,Troy Miller,Daniel Chun,6.15e+08
+8,7,7.5,The Office,Matt Sohn,Allison Silverman,5.96e+08
+8,8,6.7,The Office,Jeffrey Blitz,Robert Padnick,5.5e+07
+8,9,7.5,The Office,Charlie Grandy,Dan Greaney,5.71e+08
+8,10,7.7,The Office,Ed Helms,Mindy Kaling,5.79e+08
+8,11,7.8,The Office,B.J. Novak,Steve Hely,5.9e+07
+8,12,7.9,The Office,Charles McDougall,Owen Ellickson,6.02e+08
+8,13,7.3,The Office,Eric Appel,Aaron Shure,5.31e+08
+8,14,7.5,The Office,David Rogers,Amelie Gillette,5.19e+08
+8,15,7.7,The Office,Matt Sohn,Daniel Chun,4.38e+08
+8,16,7.9,The Office,Brian Baumgartner,Halsted Sullivan | Warren Lieberstein,5.02e+08
+8,17,7.7,The Office,Brent Forrester,Mindy Kaling,4.95e+08
+8,18,7.6,The Office,Matt Sohn,Robert Padnick,4.89e+08
+8,19,6.4,The Office,Rainn Wilson,Charlie Grandy,4.87e+08
+8,20,6.8,The Office,Ed Helms,Steve Hely,4.39e+08
+8,21,6.7,The Office,Claire Scanlon,Justin Spitzer,4.35e+08
+8,22,6.9,The Office,David Rogers,Owen Ellickson,4.17e+08
+8,23,7.4,The Office,Daniel Chun,Warren Lieberstein | Halsted Sullivan,4.44e+08
+8,24,7.5,The Office,B.J. Novak,B. J. Novak,4.49e+08
+9,1,7.4,The Office,Greg Daniels,Greg Daniels,4.28e+08
+9,2,6.9,The Office,Matt Sohn,Allison Silverman,4.13e+08
+9,3,7.2,The Office,David Rogers,Jonathan Green | Gabe Miller,4.14e+08
+9,4,7.6,The Office,Bryan Cranston,Brent Forrester,4.28e+08
+9,5,6.8,The Office,Claire Scanlon,Owen Ellickson,4e+06
+9,6,7.6,The Office,John Krasinski,Dan Sterling,4.83e+08
+9,7,7.4,The Office,See full summary,Carrie Kemper,4.16e+08
+9,8,7.7,The Office,Brent Forrester,Graham Wagner,3.88e+08
+9,9,8.2,The Office,Charles McDougall,Robert Padnick,4.16e+08
+9,10,7.5,The Office,Rodman Flender,Niki Schwartz-Wright,4.54e+08
+9,11,7.6,The Office,Matt Sohn,Dan Greaney,4.15e+08
+9,12,7.7,The Office,Kelly Cantley-Kashima,Jonathan Green | Gabe Miller,4.19e+08
+9,13,7.3,The Office,David Rogers,Carrie Kemper,4.45e+08
+9,14,7.2,The Office,Lee Kirk,Owen Ellickson,3.97e+08
+9,15,7,The Office,Troy Miller,Allison Silverman,4.15e+08
+9,16,7.8,The Office,Jon Favreau,Graham Wagner,4.06e+08
+9,17,7.3,The Office,Paul Lieberstein,Paul Lieberstein,3.54e+08
+9,18,7.8,The Office,Jennifer Celotta,Tim McAuliffe,3.44e+08
+9,19,7.8,The Office,Matt Sohn,Dan Sterling,3.83e+08
+9,20,7.8,The Office,Jesse Peretz,Halsted Sullivan | Warren Lieberstein,3.25e+08
+9,21,9,The Office,Jeffrey Blitz,Niki Schwartz-Wright,3.51e+08
+9,22,9.4,The Office,David Rogers,Brent Forrester,4.56e+08
+9,23,9.8,The Office,Ken Kwapis,Greg Daniels,5.69e+08
+1,1,7.4,Seinfeld,NA,NA,NA
+1,2,7.5,Seinfeld,NA,NA,NA
+1,3,7.5,Seinfeld,NA,NA,NA
+1,4,7.3,Seinfeld,NA,NA,NA
+1,5,7.4,Seinfeld,NA,NA,NA
+2,1,7.6,Seinfeld,NA,NA,NA
+2,2,7.9,Seinfeld,NA,NA,NA
+2,3,8.2,Seinfeld,NA,NA,NA
+2,4,8.4,Seinfeld,NA,NA,NA
+2,5,7.8,Seinfeld,NA,NA,NA
+2,6,7.9,Seinfeld,NA,NA,NA
+2,7,8.2,Seinfeld,NA,NA,NA
+2,8,7.8,Seinfeld,NA,NA,NA
+2,9,8.2,Seinfeld,NA,NA,NA
+2,10,7.4,Seinfeld,NA,NA,NA
+2,11,8.6,Seinfeld,NA,NA,NA
+2,12,7.6,Seinfeld,NA,NA,NA
+3,1,8.2,Seinfeld,NA,NA,NA
+3,2,7.7,Seinfeld,NA,NA,NA
+3,3,8.2,Seinfeld,NA,NA,NA
+3,4,7.1,Seinfeld,NA,NA,NA
+3,5,8.5,Seinfeld,NA,NA,NA
+3,6,8.7,Seinfeld,NA,NA,NA
+3,7,8.4,Seinfeld,NA,NA,NA
+3,8,8.7,Seinfeld,NA,NA,NA
+3,9,7.9,Seinfeld,NA,NA,NA
+3,10,7.5,Seinfeld,NA,NA,NA
+3,11,8.3,Seinfeld,NA,NA,NA
+3,12,8.3,Seinfeld,NA,NA,NA
+3,13,8.7,Seinfeld,NA,NA,NA
+3,14,8.4,Seinfeld,NA,NA,NA
+3,15,7.5,Seinfeld,NA,NA,NA
+3,16,8.4,Seinfeld,NA,NA,NA
+3,17,8.6,Seinfeld,NA,NA,NA
+3,18,8.9,Seinfeld,NA,NA,NA
+3,19,7.9,Seinfeld,NA,NA,NA
+3,20,7.9,Seinfeld,NA,NA,NA
+3,21,8.2,Seinfeld,NA,NA,NA
+3,22,8.3,Seinfeld,NA,NA,NA
+4,1,8.1,Seinfeld,NA,NA,NA
+4,2,8.3,Seinfeld,NA,NA,NA
+4,3,8.6,Seinfeld,NA,NA,NA
+4,4,8.2,Seinfeld,NA,NA,NA
+4,5,8,Seinfeld,NA,NA,NA
+4,6,8,Seinfeld,NA,NA,NA
+4,7,8.7,Seinfeld,NA,NA,NA
+4,8,8.5,Seinfeld,NA,NA,NA
+4,9,8.2,Seinfeld,NA,NA,NA
+4,10,8.1,Seinfeld,NA,NA,NA
+4,11,9.5,Seinfeld,NA,NA,NA
+4,12,8.9,Seinfeld,NA,NA,NA
+4,13,8.5,Seinfeld,NA,NA,NA
+4,14,8.1,Seinfeld,NA,NA,NA
+4,15,8,Seinfeld,NA,NA,NA
+4,16,8.1,Seinfeld,NA,NA,NA
+4,17,9.4,Seinfeld,NA,NA,NA
+4,18,8,Seinfeld,NA,NA,NA
+4,19,8.6,Seinfeld,NA,NA,NA
+4,20,8.7,Seinfeld,NA,NA,NA
+4,21,8.4,Seinfeld,NA,NA,NA
+4,22,8.3,Seinfeld,NA,NA,NA
+4,23,8.6,Seinfeld,NA,NA,NA
+5,1,8.6,Seinfeld,NA,NA,NA
+5,2,8.9,Seinfeld,NA,NA,NA
+5,3,8.4,Seinfeld,NA,NA,NA
+5,4,8.1,Seinfeld,NA,NA,NA
+5,5,8.1,Seinfeld,NA,NA,NA
+5,6,8.4,Seinfeld,NA,NA,NA
+5,7,8.4,Seinfeld,NA,NA,NA
+5,8,8.3,Seinfeld,NA,NA,NA
+5,9,7.8,Seinfeld,NA,NA,NA
+5,10,8.4,Seinfeld,NA,NA,NA
+5,11,8.1,Seinfeld,NA,NA,NA
+5,12,8.6,Seinfeld,NA,NA,NA
+5,13,8.2,Seinfeld,NA,NA,NA
+5,14,9.2,Seinfeld,NA,NA,NA
+5,15,8.5,Seinfeld,NA,NA,NA
+5,16,7.6,Seinfeld,NA,NA,NA
+5,17,8,Seinfeld,NA,NA,NA
+5,18,8.4,Seinfeld,NA,NA,NA
+5,19,8.1,Seinfeld,NA,NA,NA
+5,20,8.6,Seinfeld,NA,NA,NA
+5,21,9,Seinfeld,NA,NA,NA
+5,22,9.5,Seinfeld,NA,NA,NA
+6,1,8,Seinfeld,NA,NA,NA
+6,2,8.1,Seinfeld,NA,NA,NA
+6,3,8.2,Seinfeld,NA,NA,NA
+6,4,8.1,Seinfeld,NA,NA,NA
+6,5,8.1,Seinfeld,NA,NA,NA
+6,6,8.2,Seinfeld,NA,NA,NA
+6,7,8.1,Seinfeld,NA,NA,NA
+6,8,8.1,Seinfeld,NA,NA,NA
+6,9,8.1,Seinfeld,NA,NA,NA
+6,10,8.9,Seinfeld,NA,NA,NA
+6,11,8.9,Seinfeld,NA,NA,NA
+6,12,8.5,Seinfeld,NA,NA,NA
+6,13,8,Seinfeld,NA,NA,NA
+6,14,7,Seinfeld,NA,NA,NA
+6,15,8.2,Seinfeld,NA,NA,NA
+6,16,8.2,Seinfeld,NA,NA,NA
+6,17,8.2,Seinfeld,NA,NA,NA
+6,18,8.9,Seinfeld,NA,NA,NA
+6,19,8.2,Seinfeld,NA,NA,NA
+6,20,8.7,Seinfeld,NA,NA,NA
+6,21,8.1,Seinfeld,NA,NA,NA
+6,22,8.4,Seinfeld,NA,NA,NA
+6,23,7.9,Seinfeld,NA,NA,NA
+7,1,8.6,Seinfeld,NA,NA,NA
+7,2,8.2,Seinfeld,NA,NA,NA
+7,3,8.1,Seinfeld,NA,NA,NA
+7,4,8.6,Seinfeld,NA,NA,NA
+7,5,8.6,Seinfeld,NA,NA,NA
+7,6,9.5,Seinfeld,NA,NA,NA
+7,7,8.4,Seinfeld,NA,NA,NA
+7,8,8.3,Seinfeld,NA,NA,NA
+7,9,8.3,Seinfeld,NA,NA,NA
+7,10,8.6,Seinfeld,NA,NA,NA
+7,11,8.8,Seinfeld,NA,NA,NA
+7,12,8.6,Seinfeld,NA,NA,NA
+7,13,8.1,Seinfeld,NA,NA,NA
+7,14,8.5,Seinfeld,NA,NA,NA
+7,15,8.4,Seinfeld,NA,NA,NA
+7,16,8.1,Seinfeld,NA,NA,NA
+7,17,7.7,Seinfeld,NA,NA,NA
+7,18,8.1,Seinfeld,NA,NA,NA
+7,19,8.8,Seinfeld,NA,NA,NA
+7,20,8.6,Seinfeld,NA,NA,NA
+7,21,8.3,Seinfeld,NA,NA,NA
+7,22,8.6,Seinfeld,NA,NA,NA
+8,1,8.1,Seinfeld,NA,NA,NA
+8,2,8,Seinfeld,NA,NA,NA
+8,3,9.1,Seinfeld,NA,NA,NA
+8,4,8.9,Seinfeld,NA,NA,NA
+8,5,8.6,Seinfeld,NA,NA,NA
+8,6,8,Seinfeld,NA,NA,NA
+8,7,8.1,Seinfeld,NA,NA,NA
+8,8,8.9,Seinfeld,NA,NA,NA
+8,9,9,Seinfeld,NA,NA,NA
+8,10,8.4,Seinfeld,NA,NA,NA
+8,11,8.3,Seinfeld,NA,NA,NA
+8,12,7.7,Seinfeld,NA,NA,NA
+8,13,8.5,Seinfeld,NA,NA,NA
+8,14,8,Seinfeld,NA,NA,NA
+8,15,8.6,Seinfeld,NA,NA,NA
+8,16,8.6,Seinfeld,NA,NA,NA
+8,17,8.5,Seinfeld,NA,NA,NA
+8,18,8.7,Seinfeld,NA,NA,NA
+8,19,9,Seinfeld,NA,NA,NA
+8,20,8.1,Seinfeld,NA,NA,NA
+8,21,8.4,Seinfeld,NA,NA,NA
+8,22,8.5,Seinfeld,NA,NA,NA
+9,1,8.4,Seinfeld,NA,NA,NA
+9,2,8.4,Seinfeld,NA,NA,NA
+9,3,8.8,Seinfeld,NA,NA,NA
+9,4,8.2,Seinfeld,NA,NA,NA
+9,5,8,Seinfeld,NA,NA,NA
+9,6,9,Seinfeld,NA,NA,NA
+9,7,8.4,Seinfeld,NA,NA,NA
+9,8,8.9,Seinfeld,NA,NA,NA
+9,9,8.2,Seinfeld,NA,NA,NA
+9,10,8.7,Seinfeld,NA,NA,NA
+9,11,8.4,Seinfeld,NA,NA,NA
+9,12,8.2,Seinfeld,NA,NA,NA
+9,13,7.9,Seinfeld,NA,NA,NA
+9,14,8,Seinfeld,NA,NA,NA
+9,15,7.9,Seinfeld,NA,NA,NA
+9,16,8.3,Seinfeld,NA,NA,NA
+9,17,8.2,Seinfeld,NA,NA,NA
+9,18,8.7,Seinfeld,NA,NA,NA
+9,19,8,Seinfeld,NA,NA,NA
+9,20,7.9,Seinfeld,NA,NA,NA
+9,21,7.7,Seinfeld,NA,NA,NA
+9,22,7.8,Seinfeld,NA,NA,NA
+1,1,8.2,Friends,James Burrows,"David Crane , Marta Kauffman",21500000
+1,2,7.9,Friends,James Burrows,"David Crane , Marta Kauffman",20200000
+1,3,8,Friends,James Burrows,"Jeffrey Astrof , Mike Sikowitz",19500000
+1,4,8,Friends,James Burrows,Alexa Junge,19700000
+1,5,8.3,Friends,Pamela Fryman,"Jeff Greenstein , Jeff Strauss",18600000
+1,6,8,Friends,Arlene Sanford,"Adam Chase , Ira Ungerleider",18200000
+1,7,8.9,Friends,James Burrows,"Jeffrey Astrof , Mike Sikowitz",23500000
+1,8,8,Friends,James Burrows,"Marta Kauffman , David Crane",21100000
+1,9,8.1,Friends,James Burrows,"Jeff Greenstein , Jeff Strauss",23100000
+1,10,7.9,Friends,Peter Bonerz,"Adam Chase , Ira Ungerleider",19900000
+1,11,8.1,Friends,James Burrows,Alexa Junge,26600000
+1,12,8.1,Friends,Paul Lazarus,"Jeffrey Astrof , Mike Sikowitz , Adam Chase , Ira Ungerleider",2.4e+07
+1,13,8.5,Friends,Alan Myerson,Alexa Junge,25800000
+1,14,8.1,Friends,James Burrows,Bill Lawrence,23800000
+1,15,8.1,Friends,Alan Myerson,"Jeff Greenstein , Jeff Strauss",24800000
+1,16,8,Friends,Michael Lembeck,"Marta Kauffman , David Crane",26100000
+1,17,8.4,Friends,Michael Lembeck,"Marta Kauffman , David Crane",30500000
+1,18,8.7,Friends,James Burrows,"Jeffrey Astrof , Mike Sikowitz",30400000
+1,19,8,Friends,Peter Bonerz,"Jeffrey Astrof , Mike Sikowitz",29400000
+1,20,7.7,Friends,Peter Bonerz,Doty Abrams,3e+07
+1,21,7.7,Friends,Gail Mancuso,"Adam Chase , Ira Ungerleider",28400000
+1,22,8.2,Friends,Robby Benson,Alexa Junge,29900000
+1,23,8.6,Friends,James Burrows,"Story by: David Crane , Marta KauffmanTeleplay by: Jeff Greenstein , Jeff Strauss",28700000
+1,24,8.8,Friends,Kevin S. Bright,Chris Brown,31300000
+2,1,8.4,Friends,Michael Lembeck,"Jeffrey Astrof , Mike Sikowitz",32100000
+2,2,8.1,Friends,Michael Lembeck,"Adam Chase , Ira Ungerleider",29800000
+2,3,8.2,Friends,Kevin S. Bright,"Michael Curtis , Gregory S. Malins",30200000
+2,4,7.8,Friends,Gail Mancuso,Alexa Junge,28100000
+2,5,8.1,Friends,Ellen Gittelsohn,Chris Brown,28300000
+2,6,8.5,Friends,Gail Mancuso,Betsy Borns,30200000
+2,7,8.9,Friends,Peter Bonerz,Michael Borkow,30500000
+2,8,8.4,Friends,Mary Kay Place,"David Crane , Marta Kauffman",32900000
+2,9,7.8,Friends,Kevin S. Bright,"Jeffrey Astrof , Mike Sikowitz",27800000
+2,10,7.9,Friends,Thomas Schlamme,Ira Ungerleider,32200000
+2,11,8,Friends,Thomas Schlamme,Doty Abrams,31600000
+2,12,8.5,Friends,Michael Lembeck,"Jeffrey Astrof , Mike Sikowitz",52900000
+2,13,8.7,Friends,Michael Lembeck,Michael Borkow,52900000
+2,14,9.3,Friends,James Burrows,Alexa Junge,33600000
+2,15,8.8,Friends,Michael Lembeck,"Michael Curtis , Gregory S. Malins",32900000
+2,16,8.5,Friends,Michael Lembeck,Betsy Borns,31100000
+2,17,8.1,Friends,Michael Lembeck,Adam Chase,30200000
+2,18,8.3,Friends,Michael Lembeck,Story by: Alexa JungeTeleplay by: Michael Borkow,30100000
+2,19,8.4,Friends,Michael Lembeck,"Michael Curtis , Gregory S. Malins",31200000
+2,20,8,Friends,Michael Lembeck,"Story by: Michael Curtis , Gregory S. MalinsTeleplay by: Adam Chase",27400000
+2,21,8,Friends,Michael Lembeck,"Brian Buckner , Sebastian Jones",24700000
+2,22,8.9,Friends,Michael Lembeck,Alexa Junge,25500000
+2,23,7.9,Friends,Michael Lembeck,Brown Mandell,26100000
+2,24,8.1,Friends,Michael Lembeck,Story by: Ira UngerleiderTeleplay by: Brown Mandell,2.9e+07
+3,1,8.3,Friends,Gail Mancuso,"Michael Curtis , Gregory S. Malins",26760000
+3,2,8.9,Friends,Gail Mancuso,Ira Ungerleider,26730000
+3,3,7.9,Friends,Kevin S. Bright,Wil Calhoun,25230000
+3,4,7.9,Friends,Steve Zuckerman,Alexa Junge,26100000
+3,5,8,Friends,Steve Zuckerman,"Shana Goldberg-Meehan , Scott Silveri",23250000
+3,6,9,Friends,Peter Bonerz,"David Crane , Marta Kauffman",23270000
+3,7,8.2,Friends,Gail Mancuso,Seth Kurland,27360000
+3,8,8.2,Friends,Gail Mancuso,Adam Chase,28690000
+3,9,8.9,Friends,Kevin S. Bright,Ira Ungerleider,29280000
+3,10,8,Friends,Terry Hughes,"Gregory S. Malins , Michael Curtis",25100000
+3,11,8.4,Friends,Terry Hughes,Alexa Junge,29800000
+3,12,8.1,Friends,Robby Benson,Doty Abrams,29610000
+3,13,8.1,Friends,Robby Benson,Michael Borkow,28030000
+3,14,7.7,Friends,Robby Benson,Wil Calhoun,28910000
+3,15,8.4,Friends,James Burrows,Michael Borkow,27250000
+3,16,9,Friends,James Burrows,"David Crane , Marta Kauffman",28260000
+3,17,8.2,Friends,Sam Simon,"Shana Goldberg-Meehan , Scott Silveri",25840000
+3,18,8.3,Friends,Robby Benson,Seth Kurland,28070000
+3,19,8,Friends,Terry Hughes,Adam Chase,23650000
+3,20,8,Friends,Terry Hughes,Wil Calhoun,24360000
+3,21,8.6,Friends,Michael Lembeck,Chris Brown,23220000
+3,22,8.1,Friends,Peter Bonerz,"Shana Goldberg-Meehan , Scott Silveri",22630000
+3,23,7.9,Friends,Shelley Jensen,"Ted Cohen , Andrew Reich",24170000
+3,24,8,Friends,Robby Benson,"Story by: Pang-Ni Landrum , Mark KunerthTeleplay by: Shana Goldberg-Meehan , Scott Silveri",23070000
+3,25,8.7,Friends,Pamela Fryman,"Story by: Pang-Ni Landrum , Mark KunerthTeleplay by: Adam Chase",23390000
+4,1,9,Friends,Shelley Jensen,Wil Calhoun,29430000
+4,2,7.9,Friends,Shelley Jensen,"Jill Condon , Amy Toomin",25540000
+4,3,8.4,Friends,Peter Bonerz,Seth Kurland,23980000
+4,4,8.1,Friends,Gail Mancuso,"Ted Cohen , Andrew Reich",24310000
+4,5,8.3,Friends,Gail Mancuso,"Gregory S. Malins , Michael Curtis",24350000
+4,6,8.4,Friends,Shelley Jensen,"Shana Goldberg-Meehan , Scott Silveri",25680000
+4,7,8.6,Friends,Kevin S. Bright,Adam Chase,26350000
+4,8,9,Friends,Peter Bonerz,Michael Borkow,26760000
+4,9,7.7,Friends,Peter Bonerz,"Ted Cohen , Andrew Reich",23890000
+4,10,7.9,Friends,Gary Halvorson,Scott Silveri,23220000
+4,11,8.4,Friends,David Steinberg,Seth Kurland,23660000
+4,12,9.4,Friends,Kevin S. Bright,"Jill Condon , Amy Toomin",27140000
+4,13,8.1,Friends,Dana DeVally Piazza,Shana Goldberg-Meehan,25270000
+4,14,8.1,Friends,Peter Bonerz,Wil Calhoun,25080000
+4,15,8.4,Friends,James Burrows,"Story by: Ted Cohen , Andrew ReichTeleplay by: Wil Calhoun",24440000
+4,16,8.1,Friends,Michael Lembeck,"Story by: Alicia Sky VarinaitisTeleplay by: Scott Silveri , Shana Goldberg-Meehan",23130000
+4,17,8.5,Friends,Michael Lembeck,Story by: Mark KunerthTeleplay by: Richard Goodman,23220000
+4,18,8.1,Friends,Gail Mancuso,"Story by: Andrew Reich , Ted CohenTeleplay by: Jill Condon , Amy Toomin",21720000
+4,19,8.6,Friends,Kevin S. Bright,"Scott Silveri , Wil Calhoun",21760000
+4,20,8.4,Friends,Gail Mancuso,"Story by: Adam ChaseTeleplay by: Gregory S. Malins , Michael Curtis",21940000
+4,21,7,Friends,Peter Bonerz,Seth Kurland,21510000
+4,22,8.3,Friends,Peter Bonerz,"Story by: Seth KurlandTeleplay by: Gregory S. Malins , Michael Curtis",23150000
+4,23,8.6,Friends,Kevin S. Bright,Michael Borkow,31610000
+4,24,9.1,Friends,Kevin S. Bright,"Story by: Jill Condon , Amy Toomin Teleplay by: Shana Goldberg-Meehan , Scott Silveri",31610000
+5,1,8.8,Friends,Kevin S. Bright,Seth Kurland,31120000
+5,2,8.9,Friends,Gary Halvorson,Wil Calhoun,25360000
+5,3,8.7,Friends,Kevin S. Bright,"David Crane , Marta Kauffman",26820000
+5,4,8.1,Friends,Shelley Jensen,Michael Curtis,24090000
+5,5,8.6,Friends,Dana DeVally Piazza,Scott Silveri,25870000
+5,6,7.9,Friends,Gary Halvorson,Alexa Junge,24990000
+5,7,8.2,Friends,Gary Halvorson,"Gigi McCreery , Perry Rein",24440000
+5,8,9,Friends,Kevin S. Bright,Gregory S. Malins,23920000
+5,9,9,Friends,Gary Halvorson,"Ted Cohen , Andrew Reich",23030000
+5,10,8,Friends,Dana DeVally Piazza,Shana Goldberg-Meehan,23670000
+5,11,9,Friends,Joe Regalbuto,Story by: Brian BoyleTeleplay by: Suzie Villandry,27020000
+5,12,8.1,Friends,Kevin S. Bright,Alicia Sky Varinaitis,24820000
+5,13,7.9,Friends,Gail Mancuso,Story by: Michael CurtisTeleplay by: Seth Kurland,24920000
+5,14,9.7,Friends,Michael Lembeck,Alexa Junge,27700000
+5,15,8.4,Friends,Kevin S. Bright,Adam Chase,29310000
+5,16,8.5,Friends,Andrew Tsao,"Story by: Alicia Sky VarinaitisTeleplay by: Gigi McCreery , Perry Rein",26020000
+5,17,8.4,Friends,Shelley Jensen,"Andrew Reich , Ted Cohen",24480000
+5,18,7.8,Friends,Todd Holland,Michael Curtis,21880000
+5,19,8.6,Friends,Gail Mancuso,Doty Abrams,20850000
+5,20,8.1,Friends,Gary Halvorson,"Shana Goldberg-Meehan , Seth Kurland",19630000
+5,21,8.3,Friends,Gary Halvorson,Story by: Scott SilveriTeleplay by: Gregory S. Malins,20920000
+5,22,8.1,Friends,Gary Halvorson,Story by: Shana Goldberg-MeehanTeleplay by: Wil Calhoun,21280000
+5,23,8.7,Friends,Kevin S. Bright,"Ted Cohen , Andrew Reich",25900000
+5,24,9,Friends,Kevin S. Bright,"Gregory S. Malins , Scott Silveri",25900000
+6,1,8.6,Friends,Kevin S. Bright,Adam Chase,27740000
+6,2,8.1,Friends,Gail Mancuso,Shana Goldberg-Meehan,22950000
+6,3,8,Friends,Gary Halvorson,Seth Kurland,21600000
+6,4,8.4,Friends,Gary Halvorson,"Andrew Reich , Ted Cohen",21070000
+6,5,8,Friends,Gary Halvorson,"Perry Rein , Gigi McCreery",22390000
+6,6,8.4,Friends,David Schwimmer,Scott Silveri,23590000
+6,7,8.2,Friends,Gary Halvorson,"Sherry Bilsing-Graham , Ellen Plummer",22750000
+6,8,8.4,Friends,Gary Halvorson,"Story by: Andrew Reich , Ted CohenTeleplay by: Perry Rein , Gigi McCreery",22140000
+6,9,9.1,Friends,Kevin S. Bright,Gregory S. Malins,19170000
+6,10,8.5,Friends,Kevin S. Bright,Brian Boyle,22430000
+6,11,7.9,Friends,Kevin S. Bright,Story by: Zachary RosenblattTeleplay by: Brian Boyle,22260000
+6,12,7.9,Friends,Gary Halvorson,"Story by: Shana Goldberg-MeehanTeleplay by: Andrew Reich , Ted Cohen",22330000
+6,13,8.1,Friends,Gary Halvorson,"Story by: Seth KurlandTeleplay by: Sherry Bilsing-Graham , Ellen Plummer",24140000
+6,14,8.4,Friends,Kevin S. Bright,"Andrew Reich , Ted Cohen",23820000
+6,15,8.4,Friends,Michael Lembeck,"Gregory S. Malins , Adam Chase",25890000
+6,16,8.4,Friends,Michael Lembeck,"David Crane , Marta Kauffman",25890000
+6,17,9,Friends,Gary Halvorson,Story by: Zachary RosenblattTeleplay by: Adam Chase,22210000
+6,18,8.2,Friends,Gary Halvorson,Seth Kurland,20520000
+6,19,8.2,Friends,Ben Weiss,"Story by: Seth KurlandTeleplay by: Gigi McCreery , Perry Rein",21460000
+6,20,7.2,Friends,Kevin S. Bright,Doty Abrams,18810000
+6,21,8.5,Friends,Michael Lembeck,Story by: David J. LaganaTeleplay by: Scott Silveri,20630000
+6,22,8.9,Friends,Gary Halvorson,"Story by: Brian CaldirolaTeleplay by: Sherry Bilsing-Graham , Ellen Plummer",20010000
+6,23,8.5,Friends,Gary Halvorson,"Ted Cohen , Andrew Reich",20870000
+6,24,8.6,Friends,Kevin S. Bright,"Shana Goldberg-Meehan , Scott Silveri",30730000
+6,25,9.2,Friends,Kevin S. Bright,"Andrew Reich , Ted Cohen",30730000
+7,1,8.3,Friends,Kevin S. Bright,"Story by: Wil CalhounTeleplay by: David Crane , Marta Kauffman",25540000
+7,2,8.2,Friends,Michael Lembeck,"Andrew Reich , Ted Cohen",27930000
+7,3,8,Friends,Gary Halvorson,"Sherry Bilsing , Ellen Plummer",22720000
+7,4,7.9,Friends,David Schwimmer,Brian Boyle,22660000
+7,5,7.9,Friends,Gary Halvorson,Story by: Earl DavisTeleplay by: Patty Lin,24430000
+7,6,8.8,Friends,Gary Halvorson,"Brian Buckner , Sebastian Jones",22010000
+7,7,8.4,Friends,David Schwimmer,Scott Silveri,23730000
+7,8,8,Friends,Kevin S. Bright,Patty Lin,16570000
+7,9,8,Friends,David Schwimmer,Wil Calhoun,21080000
+7,10,8.4,Friends,Gary Halvorson,Gregory S. Malins,23260000
+7,11,8.4,Friends,Gary Halvorson,Shana Goldberg-Meehan,24370000
+7,12,8.5,Friends,Kevin S. Bright,Zachary Rosenblatt,22860000
+7,13,8.3,Friends,Stephen Prime,"Story by: Ellen Plummer , Sherry BilsingTeleplay by: Brian Buckner , Sebastian Jones",22240000
+7,14,8.5,Friends,Ben Weiss,"Story by: Vanessa McCarthyTeleplay by: Ellen Plummer , Sherry Bilsing",22400000
+7,15,8.3,Friends,Kevin S. Bright,"Story by: Sherry Bilsing , Ellen PlummerTeleplay by: Andrew Reich , Ted Cohen",21750000
+7,16,8.6,Friends,David Schwimmer,"Story by: Brian Buckner , Sebastian JonesTeleplay by: Zachary Rosenblatt",21220000
+7,17,8.2,Friends,Kevin S. Bright,"Story by: Brian Buckner , Sebastian JonesTeleplay by: Andrew Reich , Ted Cohen",20840000
+7,18,8.3,Friends,Gary Halvorson,"Story by: Sherry Bilsing , Ellen PlummerTeleplay by: Brian Boyle",17810000
+7,19,8.6,Friends,Gary Halvorson,"Andrew Reich , Ted Cohen",16540000
+7,20,8.2,Friends,Gary Halvorson,"Scott Silveri , Shana Goldberg-Meehan",16300000
+7,21,7.2,Friends,Gary Halvorson,Doty Abrams,15650000
+7,22,8.2,Friends,"Kevin S. Bright , Gary Halvorson","Story by: Gregory S. MalinsTeleplay by: Brian Buckner , Sebastian Jones",17230000
+7,23,8.7,Friends,Kevin S. Bright,Gregory S. Malins,30050000
+7,24,9.1,Friends,Kevin S. Bright,"Marta Kauffman , David Crane",30050000
+8,1,8.6,Friends,Kevin S. Bright,"David Crane , Marta Kauffman",31700000
+8,2,9,Friends,David Schwimmer,Dana Klein Borkow,30040000
+8,3,8.6,Friends,Sheldon Epps,"Sherry Bilsing , Ellen Plummer",29200000
+8,4,9.2,Friends,Kevin S. Bright,Scott Silveri,25580000
+8,5,8,Friends,Gary Halvorson,"Brian Buckner , Sebastian Jones",25640000
+8,6,8.4,Friends,Gary Halvorson,Mark Kunerth,26960000
+8,7,7.7,Friends,Kevin S. Bright,R. Lee Fleming Jr.,24240000
+8,8,8.6,Friends,David Schwimmer,"Andrew Reich , Ted Cohen",26540000
+8,9,9.2,Friends,Gary Halvorson,Shana Goldberg-Meehan,24240000
+8,10,7.9,Friends,Kevin S. Bright,"Story by: Robert CarlockTeleplay by: Brian Buckner , Sebastian Jones",22440000
+8,11,7.9,Friends,Gary Halvorson,Robert Carlock,23850000
+8,12,8.4,Friends,David Schwimmer,"Sherry Bilsing-Graham , Ellen Plummer",25530000
+8,13,8.4,Friends,Ben Weiss,Vanessa McCarthy,29240000
+8,14,8.1,Friends,Kevin S. Bright,"Brian Buckner , Sebastian Jones",28640000
+8,15,8.2,Friends,Kevin S. Bright,Dana Klein Borkow,28640000
+8,16,8.2,Friends,Ben Weiss,"Andrew Reich , Ted Cohen",27520000
+8,17,7.9,Friends,Gary Halvorson,Story by: R. Lee Fleming Jr.Teleplay by: Steven Rosenhaus,26300000
+8,18,8.1,Friends,Gary Halvorson,Story by: Peter TibbalsTeleplay by: Mark Kunerth,22050000
+8,19,7.2,Friends,Gary Halvorson,Doty Abrams,22590000
+8,20,8.1,Friends,Kevin S. Bright,"Sherry Bilsing-Graham , Ellen Plummer",22240000
+8,21,8,Friends,Gary Halvorson,"Story by: Dana Klein BorkowTeleplay by: Brian Buckner , Sebastian Jones",23970000
+8,22,8.2,Friends,Gary Halvorson,Shana Goldberg-Meehan,24310000
+8,23,8.7,Friends,Kevin S. Bright,Scott Silveri,34910000
+8,24,8.8,Friends,Kevin S. Bright,"Marta Kauffman , David Crane",34910000
+9,1,8.5,Friends,Kevin S. Bright,"Sherry Bilsing-Graham , Ellen Plummer",34010000
+9,2,8.4,Friends,Sheldon Epps,Dana Klein Borkow,28930000
+9,3,8.1,Friends,Roger Christiansen,"Brian Buckner , Sebastian Jones",26620000
+9,4,8,Friends,Ben Weiss,"Andrew Reich , Ted Cohen",25810000
+9,5,8.4,Friends,David Schwimmer,Scott Silveri,24460000
+9,6,8.2,Friends,Kevin S. Bright,"David Crane , Marta Kauffman",27510000
+9,7,8.5,Friends,Gary Halvorson,Robert Carlock,25350000
+9,8,8.7,Friends,Kevin S. Bright,Shana Goldberg-Meehan,26760000
+9,9,8,Friends,Ben Weiss,Mark Kunerth,25420000
+9,10,7.3,Friends,Kevin S. Bright,Doty Abrams,22280000
+9,11,7.8,Friends,Gary Halvorson,Story by: Judd RubinTeleplay by: Peter Tibbals,23670000
+9,12,7.8,Friends,Ben Weiss,"Story by: Dana Klein BorkowTeleplay by: Brian Buckner , Sebastian Jones",23660000
+9,13,8,Friends,Gary Halvorson,"Story by: Sherry Bilsing-Graham , Ellen PlummerTeleplay by: Steven Rosenhaus",25820000
+9,14,8.1,Friends,Gary Halvorson,"Sherry Bilsing-Graham , Ellen Plummer",23370000
+9,15,8.2,Friends,Gary Halvorson,Peter Tibbals,20850000
+9,16,8.1,Friends,Gary Halvorson,Mark Kunerth,19520000
+9,17,8.3,Friends,Gary Halvorson,"Story by: Robert CarlockTeleplay by: Brian Buckner , Sebastian Jones",2.1e+07
+9,18,8.5,Friends,Gary Halvorson,"Story by: Brian Buckner , Sebastian JonesTeleplay by: Sherry Bilsing-Graham , Ellen Plummer",20790000
+9,19,8,Friends,Terry Hughes,Story by: Dana Klein BorkowTeleplay by: Mark Kunerth,18240000
+9,20,8.1,Friends,Sheldon Epps,"Story by: Shana Goldberg-MeehanTeleplay by: Andrew Reich , Ted Cohen",20710000
+9,21,8.1,Friends,Gary Halvorson,Story by: Scott SilveriTeleplay by: Robert Carlock,19030000
+9,22,7.7,Friends,Ben Weiss,"Andrew Reich , Ted Cohen",19550000
+9,23,8.4,Friends,Kevin S. Bright,"Shana Goldberg-Meehan , Scott Silveri",25460000
+9,24,8.5,Friends,Kevin S. Bright,"Marta Kauffman , David Crane",25460000
+10,1,8.4,Friends,Kevin S. Bright,"Andrew Reich , Ted Cohen",24540000
+10,2,8.7,Friends,Ben Weiss,"Sherry Bilsing-Graham , Ellen Plummer",22370000
+10,3,8.7,Friends,Gary Halvorson,Brian Buckner,21870000
+10,4,8.2,Friends,Gary Halvorson,Robert Carlock,18760000
+10,5,8.1,Friends,Roger Christiansen,Dana Klein Borkow,19370000
+10,6,8.1,Friends,Ben Weiss,Sebastian Jones,20370000
+10,7,8.1,Friends,Kevin S. Bright,Mark Kunerth,20210000
+10,8,8.8,Friends,Gary Halvorson,Shana Goldberg-Meehan,20660000
+10,9,8.5,Friends,David Schwimmer,Scott Silveri,25480000
+10,10,7.8,Friends,Gary Halvorson,Doty Abrams,26680000
+10,11,8.9,Friends,Kevin S. Bright,"David Crane , Marta Kauffman",24910000
+10,12,8.8,Friends,Kevin S. Bright,"Robert Carlock , Dana Klein Borkow",25900000
+10,13,8.4,Friends,Gary Halvorson,"Sherry Bilsing-Graham , Ellen Plummer",24270000
+10,14,8.5,Friends,Gary Halvorson,Story by: Robert CarlockTeleplay by: Tracy Reilly,22820000
+10,15,8.4,Friends,Gary Halvorson,"Story by: Mark KunerthTeleplay by: David Crane , Marta Kauffman",22640000
+10,16,8.8,Friends,Gary Halvorson,"Andrew Reich , Ted Cohen",24510000
+10,17,9.6,Friends,Kevin S. Bright,"Marta Kauffman , David Crane",52460000
+1,1,8.1,The Simpsons,NaN,NaN,695300
+1,2,7.7,The Simpsons,NaN,NaN,455700
+1,3,7.3,The Simpsons,NaN,NaN,400700
+1,4,7.7,The Simpsons,NaN,NaN,395500
+1,5,7.9,The Simpsons,NaN,NaN,429900
+1,6,7.6,The Simpsons,NaN,NaN,384100
+1,7,7.7,The Simpsons,NaN,NaN,373200
+1,8,7.6,The Simpsons,NaN,NaN,358600
+1,9,7.4,The Simpsons,NaN,NaN,355500
+1,10,7.3,The Simpsons,NaN,NaN,344300
+1,11,7.8,The Simpsons,NaN,NaN,351600
+1,12,8.3,The Simpsons,NaN,NaN,388500
+1,13,7.7,The Simpsons,NaN,NaN,384400
+2,1,8.2,The Simpsons,NaN,NaN,385600
+2,2,8.2,The Simpsons,NaN,NaN,398800
+2,3,8.2,The Simpsons,NaN,NaN,411100
+2,4,8,The Simpsons,NaN,NaN,335400
+2,5,7.4,The Simpsons,NaN,NaN,318900
+2,6,8,The Simpsons,NaN,NaN,314600
+2,7,7.7,The Simpsons,NaN,NaN,307200
+2,8,8.3,The Simpsons,NaN,NaN,341700
+2,9,8.1,The Simpsons,NaN,NaN,349100
+2,10,7.8,The Simpsons,NaN,NaN,304100
+2,11,8.8,The Simpsons,NaN,NaN,414500
+2,12,8.2,The Simpsons,NaN,NaN,320200
+2,13,8,The Simpsons,NaN,NaN,299700
+2,14,7.4,The Simpsons,NaN,NaN,287500
+2,15,8.3,The Simpsons,NaN,NaN,321500
+2,16,7.5,The Simpsons,NaN,NaN,283900
+2,17,7.6,The Simpsons,NaN,NaN,282700
+2,18,7.9,The Simpsons,NaN,NaN,287400
+2,19,8.5,The Simpsons,NaN,NaN,394800
+2,20,7.8,The Simpsons,NaN,NaN,281500
+2,21,8.3,The Simpsons,NaN,NaN,338900
+2,22,7.8,The Simpsons,NaN,NaN,276900
+3,1,8.6,The Simpsons,NaN,NaN,411300
+3,2,7.7,The Simpsons,NaN,NaN,292100
+3,3,8.2,The Simpsons,NaN,NaN,306100
+3,4,8.6,The Simpsons,NaN,NaN,367800
+3,5,8.4,The Simpsons,NaN,NaN,349600
+3,6,7.6,The Simpsons,NaN,NaN,283200
+3,7,8.2,The Simpsons,NaN,NaN,322000
+3,8,7.9,The Simpsons,NaN,NaN,278200
+3,9,7.9,The Simpsons,NaN,NaN,277000
+3,10,8.8,The Simpsons,NaN,NaN,362400
+3,11,8.2,The Simpsons,NaN,NaN,287600
+3,12,8.3,The Simpsons,NaN,NaN,278200
+3,13,8.5,The Simpsons,NaN,NaN,308400
+3,14,8,The Simpsons,NaN,NaN,265400
+3,15,8,The Simpsons,NaN,NaN,268400
+3,16,8.3,The Simpsons,NaN,NaN,318600
+3,17,8.7,The Simpsons,NaN,NaN,375000
+3,18,8.2,The Simpsons,NaN,NaN,270000
+3,19,7.7,The Simpsons,NaN,NaN,256600
+3,20,8,The Simpsons,NaN,NaN,279700
+3,21,8.3,The Simpsons,NaN,NaN,279200
+3,22,7.7,The Simpsons,NaN,NaN,263400
+3,23,7.7,The Simpsons,NaN,NaN,260000
+3,24,8.2,The Simpsons,NaN,NaN,273000
+4,1,8.5,The Simpsons,NaN,NaN,322100
+4,2,8.1,The Simpsons,NaN,NaN,295100
+4,3,8.9,The Simpsons,NaN,NaN,417800
+4,4,7.7,The Simpsons,NaN,NaN,270100
+4,5,8.4,The Simpsons,NaN,NaN,320300
+4,6,8.2,The Simpsons,NaN,NaN,287500
+4,7,7.8,The Simpsons,NaN,NaN,259000
+4,8,8.2,The Simpsons,NaN,NaN,280100
+4,9,8.8,The Simpsons,NaN,NaN,360200
+4,10,8.7,The Simpsons,NaN,NaN,305500
+4,11,8.6,The Simpsons,NaN,NaN,341800
+4,12,9.1,The Simpsons,NaN,NaN,461200
+4,13,8,The Simpsons,NaN,NaN,261100
+4,14,8.1,The Simpsons,NaN,NaN,264000
+4,15,8.4,The Simpsons,NaN,NaN,285500
+4,16,8.3,The Simpsons,NaN,NaN,269500
+4,17,9,The Simpsons,NaN,NaN,421300
+4,18,7,The Simpsons,NaN,NaN,240500
+4,19,8.1,The Simpsons,NaN,NaN,248600
+4,20,8.1,The Simpsons,NaN,NaN,269600
+4,21,7.7,The Simpsons,NaN,NaN,244600
+4,22,8.1,The Simpsons,NaN,NaN,273200
+5,1,8.5,The Simpsons,NaN,NaN,318200
+5,2,9.1,The Simpsons,NaN,NaN,457600
+5,3,8.5,The Simpsons,NaN,NaN,323800
+5,4,8.8,The Simpsons,NaN,NaN,358800
+5,5,8.8,The Simpsons,NaN,NaN,333400
+5,6,8,The Simpsons,NaN,NaN,256600
+5,7,7.6,The Simpsons,NaN,NaN,240500
+5,8,8.6,The Simpsons,NaN,NaN,323300
+5,9,8.5,The Simpsons,NaN,NaN,287800
+5,10,8.5,The Simpsons,NaN,NaN,293200
+5,11,8.2,The Simpsons,NaN,NaN,265100
+5,12,8.1,The Simpsons,NaN,NaN,253100
+5,13,8.2,The Simpsons,NaN,NaN,259900
+5,14,8.1,The Simpsons,NaN,NaN,290400
+5,15,8.8,The Simpsons,NaN,NaN,352900
+5,16,8.5,The Simpsons,NaN,NaN,298700
+5,17,7.8,The Simpsons,NaN,NaN,247300
+5,18,8.3,The Simpsons,NaN,NaN,285800
+5,19,8.3,The Simpsons,NaN,NaN,293200
+5,20,8.3,The Simpsons,NaN,NaN,247900
+5,21,7.5,The Simpsons,NaN,NaN,223500
+5,22,8,The Simpsons,NaN,NaN,236000
+6,1,8.7,The Simpsons,NaN,NaN,306700
+6,2,8.1,The Simpsons,NaN,NaN,259800
+6,3,5.8,The Simpsons,NaN,NaN,228400
+6,4,8.6,The Simpsons,NaN,NaN,291800
+6,5,8.2,The Simpsons,NaN,NaN,254800
+6,6,9.2,The Simpsons,NaN,NaN,407900
+6,7,8,The Simpsons,NaN,NaN,254200
+6,8,8.6,The Simpsons,NaN,NaN,277800
+6,9,8.9,The Simpsons,NaN,NaN,387900
+6,10,8,The Simpsons,NaN,NaN,237900
+6,11,7.7,The Simpsons,NaN,NaN,241600
+6,12,9,The Simpsons,NaN,NaN,356500
+6,13,8.8,The Simpsons,NaN,NaN,310200
+6,14,8.7,The Simpsons,NaN,NaN,277800
+6,15,8.6,The Simpsons,NaN,NaN,282600
+6,16,8.5,The Simpsons,NaN,NaN,295300
+6,17,7.8,The Simpsons,NaN,NaN,227200
+6,18,8.5,The Simpsons,NaN,NaN,276100
+6,19,8.3,The Simpsons,NaN,NaN,263500
+6,20,8.1,The Simpsons,NaN,NaN,235900
+6,21,8,The Simpsons,NaN,NaN,231500
+6,22,8.1,The Simpsons,NaN,NaN,271500
+6,23,8.2,The Simpsons,NaN,NaN,234200
+6,24,8.7,The Simpsons,NaN,NaN,292000
+6,25,9.1,The Simpsons,NaN,NaN,373400
+7,1,9,The Simpsons,NaN,NaN,337700
+7,2,8.3,The Simpsons,NaN,NaN,254700
+7,3,8.4,The Simpsons,NaN,NaN,248400
+7,4,8.8,The Simpsons,NaN,NaN,336500
+7,5,8.5,The Simpsons,NaN,NaN,312500
+7,6,8.6,The Simpsons,NaN,NaN,294300
+7,7,9,The Simpsons,NaN,NaN,376300
+7,8,8.7,The Simpsons,NaN,NaN,275600
+7,9,8,The Simpsons,NaN,NaN,227200
+7,10,7.4,The Simpsons,NaN,NaN,225100
+7,11,8.5,The Simpsons,NaN,NaN,298400
+7,12,8.3,The Simpsons,NaN,NaN,233700
+7,13,8.5,The Simpsons,NaN,NaN,304000
+7,14,7.7,The Simpsons,NaN,NaN,213100
+7,15,7.7,The Simpsons,NaN,NaN,210200
+7,16,8.1,The Simpsons,NaN,NaN,230600
+7,17,8.8,The Simpsons,NaN,NaN,343200
+7,18,8,The Simpsons,NaN,NaN,226200
+7,19,8.2,The Simpsons,NaN,NaN,268900
+7,20,8.6,The Simpsons,NaN,NaN,289200
+7,21,8.9,The Simpsons,NaN,NaN,326000
+7,22,8.5,The Simpsons,NaN,NaN,246500
+7,23,8.1,The Simpsons,NaN,NaN,218600
+7,24,7.9,The Simpsons,NaN,NaN,229000
+7,25,8.4,The Simpsons,NaN,NaN,249200
+8,1,8.4,The Simpsons,NaN,NaN,274100
+8,2,9.2,The Simpsons,NaN,NaN,526000
+8,3,8.1,The Simpsons,NaN,NaN,236600
+8,4,7.7,The Simpsons,NaN,NaN,231900
+8,5,8.3,The Simpsons,NaN,NaN,242400
+8,6,8.1,The Simpsons,NaN,NaN,229500
+8,7,7.8,The Simpsons,NaN,NaN,222800
+8,8,8.7,The Simpsons,NaN,NaN,316300
+8,9,8.6,The Simpsons,NaN,NaN,311800
+8,10,9,The Simpsons,NaN,NaN,383300
+8,11,7.7,The Simpsons,NaN,NaN,218200
+8,12,8.5,The Simpsons,NaN,NaN,289500
+8,13,7.7,The Simpsons,NaN,NaN,245500
+8,14,7.9,The Simpsons,NaN,NaN,236400
+8,15,8.8,The Simpsons,NaN,NaN,362700
+8,16,8.2,The Simpsons,NaN,NaN,239500
+8,17,7.9,The Simpsons,NaN,NaN,255000
+8,18,8.8,The Simpsons,NaN,NaN,291000
+8,19,8.2,The Simpsons,NaN,NaN,257200
+8,20,7.6,The Simpsons,NaN,NaN,204000
+8,21,7.9,The Simpsons,NaN,NaN,214700
+8,22,8.1,The Simpsons,NaN,NaN,221600
+8,23,9.3,The Simpsons,NaN,NaN,541300
+8,24,7.1,The Simpsons,NaN,NaN,215400
+8,25,7.8,The Simpsons,NaN,NaN,212200
+9,1,9,The Simpsons,NaN,NaN,418500
+9,2,6.9,The Simpsons,NaN,NaN,293500
+9,3,8.1,The Simpsons,NaN,NaN,212800
+9,4,8.2,The Simpsons,NaN,NaN,231600
+9,5,8.2,The Simpsons,NaN,NaN,234200
+9,6,7.7,The Simpsons,NaN,NaN,198200
+9,7,7.7,The Simpsons,NaN,NaN,192300
+9,8,8.1,The Simpsons,NaN,NaN,211700
+9,9,7.6,The Simpsons,NaN,NaN,191200
+9,10,7.6,The Simpsons,NaN,NaN,210900
+9,11,5,The Simpsons,NaN,NaN,223200
+9,12,7.7,The Simpsons,NaN,NaN,200600
+9,13,8.3,The Simpsons,NaN,NaN,224400
+9,14,8.2,The Simpsons,NaN,NaN,219100
+9,15,7.4,The Simpsons,NaN,NaN,187000
+9,16,7.6,The Simpsons,NaN,NaN,189500
+9,17,8,The Simpsons,NaN,NaN,211400
+9,18,7.9,The Simpsons,NaN,NaN,197800
+9,19,8.1,The Simpsons,NaN,NaN,245600
+9,20,7.8,The Simpsons,NaN,NaN,229600
+9,21,7.8,The Simpsons,NaN,NaN,192900
+9,22,8.4,The Simpsons,NaN,NaN,263400
+9,23,8.2,The Simpsons,NaN,NaN,236000
+9,24,7.7,The Simpsons,NaN,NaN,185500
+9,25,8,The Simpsons,NaN,NaN,200100
+10,1,7.6,The Simpsons,NaN,NaN,2e+05
+10,2,8.1,The Simpsons,NaN,NaN,242300
+10,3,7.6,The Simpsons,NaN,NaN,189800
+10,4,8.1,The Simpsons,NaN,NaN,224300
+10,5,7.2,The Simpsons,NaN,NaN,190500
+10,6,7.5,The Simpsons,NaN,NaN,187800
+10,7,8.1,The Simpsons,NaN,NaN,197700
+10,8,7.3,The Simpsons,NaN,NaN,182000
+10,9,8.1,The Simpsons,NaN,NaN,236600
+10,10,7.8,The Simpsons,NaN,NaN,196400
+10,11,7.7,The Simpsons,NaN,NaN,184500
+10,12,7,The Simpsons,NaN,NaN,193700
+10,13,7.7,The Simpsons,NaN,NaN,190400
+10,14,7.3,The Simpsons,NaN,NaN,171700
+10,15,7.3,The Simpsons,NaN,NaN,173200
+10,16,7.5,The Simpsons,NaN,NaN,172400
+10,17,7.7,The Simpsons,NaN,NaN,182700
+10,18,7.4,The Simpsons,NaN,NaN,177700
+10,19,7.6,The Simpsons,NaN,NaN,183900
+10,20,7.3,The Simpsons,NaN,NaN,163000
+10,21,7.1,The Simpsons,NaN,NaN,165600
+10,22,7.3,The Simpsons,NaN,NaN,167200
+10,23,8,The Simpsons,NaN,NaN,202900
+11,1,7.3,The Simpsons,NaN,NaN,188500
+11,2,7.5,The Simpsons,NaN,NaN,166500
+11,3,7.5,The Simpsons,NaN,NaN,168000
+11,4,7.8,The Simpsons,NaN,NaN,196700
+11,5,7.8,The Simpsons,NaN,NaN,182500
+11,6,7.3,The Simpsons,NaN,NaN,156600
+11,7,7,The Simpsons,NaN,NaN,158700
+11,8,7.1,The Simpsons,NaN,NaN,162500
+11,9,7.3,The Simpsons,NaN,NaN,171200
+11,10,7.4,The Simpsons,NaN,NaN,154600
+11,11,6.8,The Simpsons,NaN,NaN,157400
+11,12,7.3,The Simpsons,NaN,NaN,156300
+11,13,6.5,The Simpsons,NaN,NaN,175900
+11,14,7.7,The Simpsons,NaN,NaN,223100
+11,15,7.3,The Simpsons,NaN,NaN,164000
+11,16,7.3,The Simpsons,NaN,NaN,156600
+11,17,7.1,The Simpsons,NaN,NaN,173500
+11,18,7.4,The Simpsons,NaN,NaN,155000
+11,19,6.6,The Simpsons,NaN,NaN,170700
+11,20,7.1,The Simpsons,NaN,NaN,154300
+11,21,7.1,The Simpsons,NaN,NaN,157500
+11,22,7.9,The Simpsons,NaN,NaN,196100
+12,1,7.6,The Simpsons,NaN,NaN,186900
+12,2,7.4,The Simpsons,NaN,NaN,170900
+12,3,7,The Simpsons,NaN,NaN,156800
+12,4,7.1,The Simpsons,NaN,NaN,158200
+12,5,7,The Simpsons,NaN,NaN,164800
+12,6,7.7,The Simpsons,NaN,NaN,173100
+12,7,7.2,The Simpsons,NaN,NaN,159300
+12,8,7.9,The Simpsons,NaN,NaN,222000
+12,9,8.1,The Simpsons,NaN,NaN,195200
+12,10,7.1,The Simpsons,NaN,NaN,190100
+12,11,7.4,The Simpsons,NaN,NaN,163300
+12,12,6.8,The Simpsons,NaN,NaN,159200
+12,13,7.1,The Simpsons,NaN,NaN,145900
+12,14,7.2,The Simpsons,NaN,NaN,173300
+12,15,7.5,The Simpsons,NaN,NaN,158400
+12,16,6.7,The Simpsons,NaN,NaN,153800
+12,17,6.8,The Simpsons,NaN,NaN,157100
+12,18,8.6,The Simpsons,NaN,NaN,238300
+12,19,7.2,The Simpsons,NaN,NaN,183300
+12,20,7.2,The Simpsons,NaN,NaN,143400
+12,21,7,The Simpsons,NaN,NaN,150000
+13,1,7.6,The Simpsons,NaN,NaN,184100
+13,2,7.1,The Simpsons,NaN,NaN,148700
+13,3,7.1,The Simpsons,NaN,NaN,146500
+13,4,7.1,The Simpsons,NaN,NaN,142200
+13,5,7.6,The Simpsons,NaN,NaN,188100
+13,6,7.1,The Simpsons,NaN,NaN,153500
+13,7,6.8,The Simpsons,NaN,NaN,140800
+13,8,6.9,The Simpsons,NaN,NaN,139700
+13,9,7.3,The Simpsons,NaN,NaN,144000
+13,10,7.3,The Simpsons,NaN,NaN,178700
+13,11,7,The Simpsons,NaN,NaN,136500
+13,12,6.5,The Simpsons,NaN,NaN,140100
+13,13,6.5,The Simpsons,NaN,NaN,134700
+13,14,7.2,The Simpsons,NaN,NaN,138200
+13,15,7,The Simpsons,NaN,NaN,144500
+13,16,7.7,The Simpsons,NaN,NaN,160700
+13,17,5.4,The Simpsons,NaN,NaN,150700
+13,18,7.7,The Simpsons,NaN,NaN,152600
+13,19,6.8,The Simpsons,NaN,NaN,130800
+13,20,7.1,The Simpsons,NaN,NaN,134300
+13,21,7,The Simpsons,NaN,NaN,137700
+13,22,7.8,The Simpsons,NaN,NaN,197000
+14,1,7.6,The Simpsons,NaN,NaN,171100
+14,2,7.4,The Simpsons,NaN,NaN,152200
+14,3,7.1,The Simpsons,NaN,NaN,142800
+14,4,7.1,The Simpsons,NaN,NaN,146900
+14,5,6.7,The Simpsons,NaN,NaN,140000
+14,6,7.3,The Simpsons,NaN,NaN,143100
+14,7,7,The Simpsons,NaN,NaN,140000
+14,8,7.2,The Simpsons,NaN,NaN,136100
+14,9,6.8,The Simpsons,NaN,NaN,143300
+14,10,6.8,The Simpsons,NaN,NaN,131300
+14,11,6.7,The Simpsons,NaN,NaN,140500
+14,12,7.2,The Simpsons,NaN,NaN,132400
+14,13,6.9,The Simpsons,NaN,NaN,133500
+14,14,6.8,The Simpsons,NaN,NaN,128000
+14,15,7.1,The Simpsons,NaN,NaN,121500
+14,16,7.1,The Simpsons,NaN,NaN,124700
+14,17,7.2,The Simpsons,NaN,NaN,137500
+14,18,6.9,The Simpsons,NaN,NaN,139400
+14,19,6.7,The Simpsons,NaN,NaN,128600
+14,20,6.7,The Simpsons,NaN,NaN,125900
+14,21,6.6,The Simpsons,NaN,NaN,130100
+14,22,7.6,The Simpsons,NaN,NaN,192100
+15,1,7.5,The Simpsons,NaN,NaN,167700
+15,2,7.2,The Simpsons,NaN,NaN,135800
+15,3,6.9,The Simpsons,NaN,NaN,140100
+15,4,7,The Simpsons,NaN,NaN,146900
+15,5,7.1,The Simpsons,NaN,NaN,131300
+15,6,6.4,The Simpsons,NaN,NaN,126300
+15,7,7,The Simpsons,NaN,NaN,131300
+15,8,6.6,The Simpsons,NaN,NaN,129000
+15,9,7.3,The Simpsons,NaN,NaN,136100
+15,10,7.2,The Simpsons,NaN,NaN,131100
+15,11,7.1,The Simpsons,NaN,NaN,128200
+15,12,7.2,The Simpsons,NaN,NaN,129600
+15,13,7.1,The Simpsons,NaN,NaN,131600
+15,14,6.7,The Simpsons,NaN,NaN,125400
+15,15,6.7,The Simpsons,NaN,NaN,126800
+15,16,7,The Simpsons,NaN,NaN,132400
+15,17,6.6,The Simpsons,NaN,NaN,130300
+15,18,7,The Simpsons,NaN,NaN,133300
+15,19,7.3,The Simpsons,NaN,NaN,135200
+15,20,7.2,The Simpsons,NaN,NaN,132300
+15,21,6.3,The Simpsons,NaN,NaN,129600
+15,22,7.2,The Simpsons,NaN,NaN,124400
+16,1,7.4,The Simpsons,NaN,NaN,156700
+16,2,6.9,The Simpsons,NaN,NaN,127000
+16,3,7.1,The Simpsons,NaN,NaN,130900
+16,4,6.5,The Simpsons,NaN,NaN,125700
+16,5,7,The Simpsons,NaN,NaN,120300
+16,6,7.2,The Simpsons,NaN,NaN,122400
+16,7,6.9,The Simpsons,NaN,NaN,118000
+16,8,6.3,The Simpsons,NaN,NaN,124300
+16,9,6.6,The Simpsons,NaN,NaN,129600
+16,10,6.9,The Simpsons,NaN,NaN,128200
+16,11,6.7,The Simpsons,NaN,NaN,129200
+16,12,7,The Simpsons,NaN,NaN,127800
+16,13,6.8,The Simpsons,NaN,NaN,120700
+16,14,6.8,The Simpsons,NaN,NaN,119400
+16,15,7.3,The Simpsons,NaN,NaN,135300
+16,16,7.5,The Simpsons,NaN,NaN,142000
+16,17,7.1,The Simpsons,NaN,NaN,126700
+16,18,6.7,The Simpsons,NaN,NaN,123900
+16,19,7.2,The Simpsons,NaN,NaN,126100
+16,20,7.1,The Simpsons,NaN,NaN,120700
+16,21,7.3,The Simpsons,NaN,NaN,133400
+17,1,6.2,The Simpsons,NaN,NaN,133500
+17,2,6.8,The Simpsons,NaN,NaN,129700
+17,3,6.9,The Simpsons,NaN,NaN,121500
+17,4,7.3,The Simpsons,NaN,NaN,148800
+17,5,6.9,The Simpsons,NaN,NaN,126000
+17,6,6.8,The Simpsons,NaN,NaN,122900
+17,7,6.6,The Simpsons,NaN,NaN,125500
+17,8,7.1,The Simpsons,NaN,NaN,146300
+17,9,6.8,The Simpsons,NaN,NaN,124200
+17,10,6.6,The Simpsons,NaN,NaN,124700
+17,11,6.9,The Simpsons,NaN,NaN,119800
+17,12,6.5,The Simpsons,NaN,NaN,123600
+17,13,7.6,The Simpsons,NaN,NaN,144600
+17,14,7,The Simpsons,NaN,NaN,122100
+17,15,6.5,The Simpsons,NaN,NaN,155000
+17,16,6.3,The Simpsons,NaN,NaN,131800
+17,17,7.2,The Simpsons,NaN,NaN,135000
+17,18,6.7,The Simpsons,NaN,NaN,122300
+17,19,7.1,The Simpsons,NaN,NaN,131400
+17,20,6.7,The Simpsons,NaN,NaN,124900
+17,21,7.1,The Simpsons,NaN,NaN,127800
+17,22,6.4,The Simpsons,NaN,NaN,126100
+18,1,7.5,The Simpsons,NaN,NaN,154700
+18,2,6.7,The Simpsons,NaN,NaN,142800
+18,3,6.7,The Simpsons,NaN,NaN,133300
+18,4,6.9,The Simpsons,NaN,NaN,155100
+18,5,6.7,The Simpsons,NaN,NaN,134000
+18,6,6.7,The Simpsons,NaN,NaN,129000
+18,7,6.9,The Simpsons,NaN,NaN,128200
+18,8,7.2,The Simpsons,NaN,NaN,125400
+18,9,6.3,The Simpsons,NaN,NaN,132800
+18,10,6.5,The Simpsons,NaN,NaN,128700
+18,11,7,The Simpsons,NaN,NaN,124900
+18,12,6.7,The Simpsons,NaN,NaN,135200
+18,13,7.3,The Simpsons,NaN,NaN,131900
+18,14,6.8,The Simpsons,NaN,NaN,130400
+18,15,6.3,The Simpsons,NaN,NaN,123400
+18,16,7.1,The Simpsons,NaN,NaN,127300
+18,17,7.3,The Simpsons,NaN,NaN,141200
+18,18,6,The Simpsons,NaN,NaN,132600
+18,19,6.9,The Simpsons,NaN,NaN,118800
+18,20,6.8,The Simpsons,NaN,NaN,119500
+18,21,8.1,The Simpsons,NaN,NaN,217800
+18,22,7.2,The Simpsons,NaN,NaN,137000
+19,1,6.6,The Simpsons,NaN,NaN,138000
+19,2,6.5,The Simpsons,NaN,NaN,136100
+19,3,7.1,The Simpsons,NaN,NaN,128100
+19,4,6.8,The Simpsons,NaN,NaN,126400
+19,5,6.9,The Simpsons,NaN,NaN,143000
+19,6,6.6,The Simpsons,NaN,NaN,122700
+19,7,6.9,The Simpsons,NaN,NaN,136900
+19,8,7.1,The Simpsons,NaN,NaN,135900
+19,9,8.2,The Simpsons,NaN,NaN,194000
+19,10,6.8,The Simpsons,NaN,NaN,127200
+19,11,6.3,The Simpsons,NaN,NaN,182700
+19,12,6.5,The Simpsons,NaN,NaN,131200
+19,13,7.6,The Simpsons,NaN,NaN,159100
+19,14,7.3,The Simpsons,NaN,NaN,132600
+19,15,6.6,The Simpsons,NaN,NaN,123800
+19,16,6.1,The Simpsons,NaN,NaN,117300
+19,17,6.8,The Simpsons,NaN,NaN,125500
+19,18,7,The Simpsons,NaN,NaN,125400
+19,19,7,The Simpsons,NaN,NaN,128000
+19,20,6.4,The Simpsons,NaN,NaN,114000
+20,1,7.2,The Simpsons,NaN,NaN,150100
+20,2,6.8,The Simpsons,NaN,NaN,135700
+20,3,6.8,The Simpsons,NaN,NaN,129700
+20,4,7.1,The Simpsons,NaN,NaN,153500
+20,5,6.5,The Simpsons,NaN,NaN,124500
+20,6,7,The Simpsons,NaN,NaN,124200
+20,7,7.1,The Simpsons,NaN,NaN,139300
+20,8,6.5,The Simpsons,NaN,NaN,125200
+20,9,6,The Simpsons,NaN,NaN,135800
+20,10,6.9,The Simpsons,NaN,NaN,119200
+20,11,7,The Simpsons,NaN,NaN,119800
+20,12,6.8,The Simpsons,NaN,NaN,117800
+20,13,7.2,The Simpsons,NaN,NaN,133000
+20,14,6.3,The Simpsons,NaN,NaN,121200
+20,15,6.6,The Simpsons,NaN,NaN,115200
+20,16,7.2,The Simpsons,NaN,NaN,122500
+20,17,7.2,The Simpsons,NaN,NaN,124700
+20,18,6.9,The Simpsons,NaN,NaN,116100
+20,19,7.1,The Simpsons,NaN,NaN,126600
+20,20,6.4,The Simpsons,NaN,NaN,116300
+20,21,7.2,The Simpsons,NaN,NaN,129400
+21,1,7.1,The Simpsons,NaN,NaN,138400
+21,2,6.6,The Simpsons,NaN,NaN,126000
+21,3,6.3,The Simpsons,NaN,NaN,111300
+21,4,7.3,The Simpsons,NaN,NaN,142500
+21,5,6.7,The Simpsons,NaN,NaN,114500
+21,6,6.6,The Simpsons,NaN,NaN,113800
+21,7,6.7,The Simpsons,NaN,NaN,111300
+21,8,7.1,The Simpsons,NaN,NaN,116400
+21,9,6.7,The Simpsons,NaN,NaN,105600
+21,10,6.5,The Simpsons,NaN,NaN,112400
+21,11,7.1,The Simpsons,NaN,NaN,108600
+21,12,6.8,The Simpsons,NaN,NaN,114200
+21,13,6.6,The Simpsons,NaN,NaN,113300
+21,14,7,The Simpsons,NaN,NaN,102400
+21,15,7,The Simpsons,NaN,NaN,116300
+21,16,5.7,The Simpsons,NaN,NaN,134400
+21,17,6.6,The Simpsons,NaN,NaN,106300
+21,18,6.9,The Simpsons,NaN,NaN,104700
+21,19,6.9,The Simpsons,NaN,NaN,108000
+21,20,7.1,The Simpsons,NaN,NaN,111300
+21,21,7,The Simpsons,NaN,NaN,107000
+21,22,7.3,The Simpsons,NaN,NaN,118200
+21,23,6.5,The Simpsons,NaN,NaN,111200
+22,1,6.2,The Simpsons,NaN,NaN,129900
+22,2,6.7,The Simpsons,NaN,NaN,107400
+22,3,6.7,The Simpsons,NaN,NaN,113000
+22,4,7.1,The Simpsons,NaN,NaN,137000
+22,5,7.1,The Simpsons,NaN,NaN,107000
+22,6,6.4,The Simpsons,NaN,NaN,103400
+22,7,6.3,The Simpsons,NaN,NaN,104800
+22,8,6.7,The Simpsons,NaN,NaN,114100
+22,9,7,The Simpsons,NaN,NaN,110500
+22,10,6.2,The Simpsons,NaN,NaN,98700
+22,11,6.7,The Simpsons,NaN,NaN,108600
+22,12,6.9,The Simpsons,NaN,NaN,101300
+22,13,6.7,The Simpsons,NaN,NaN,101900
+22,14,7.2,The Simpsons,NaN,NaN,118800
+22,15,6.6,The Simpsons,NaN,NaN,108400
+22,16,6,The Simpsons,NaN,NaN,101400
+22,17,6.2,The Simpsons,NaN,NaN,105300
+22,18,6.8,The Simpsons,NaN,NaN,105600
+22,19,6.5,The Simpsons,NaN,NaN,107000
+22,20,7.1,The Simpsons,NaN,NaN,104700
+22,21,7.3,The Simpsons,NaN,NaN,111200
+22,22,6.9,The Simpsons,NaN,NaN,112400
+23,1,7.1,The Simpsons,NaN,NaN,130600
+23,2,7,The Simpsons,NaN,NaN,116700
+23,3,6.5,The Simpsons,NaN,NaN,137900
+23,4,6.4,The Simpsons,NaN,NaN,104700
+23,5,7.1,The Simpsons,NaN,NaN,114900
+23,6,7.9,The Simpsons,NaN,NaN,154400
+23,7,6.6,The Simpsons,NaN,NaN,102400
+23,8,6.1,The Simpsons,NaN,NaN,97600
+23,9,8.3,The Simpsons,NaN,NaN,192100
+23,10,6,The Simpsons,NaN,NaN,110100
+23,11,6.9,The Simpsons,NaN,NaN,113600
+23,12,5.8,The Simpsons,NaN,NaN,118000
+23,13,6.3,The Simpsons,NaN,NaN,100300
+23,14,6.9,The Simpsons,NaN,NaN,116800
+23,15,6.8,The Simpsons,NaN,NaN,98700
+23,16,7.2,The Simpsons,NaN,NaN,118100
+23,17,7,The Simpsons,NaN,NaN,109300
+23,18,7.1,The Simpsons,NaN,NaN,106800
+23,19,7.6,The Simpsons,NaN,NaN,133300
+23,20,6.8,The Simpsons,NaN,NaN,92500
+23,21,6.6,The Simpsons,NaN,NaN,102300
+23,22,4,The Simpsons,NaN,NaN,279300
+24,1,6.3,The Simpsons,NaN,NaN,120800
+24,2,7.2,The Simpsons,NaN,NaN,130100
+24,3,6.8,The Simpsons,NaN,NaN,101000
+24,4,6.7,The Simpsons,NaN,NaN,97400
+24,5,6.3,The Simpsons,NaN,NaN,93600
+24,6,6.3,The Simpsons,NaN,NaN,96700
+24,7,6.9,The Simpsons,NaN,NaN,109600
+24,8,7.2,The Simpsons,NaN,NaN,99500
+24,9,6.7,The Simpsons,NaN,NaN,92900
+24,10,6.9,The Simpsons,NaN,NaN,92200
+24,11,6.5,The Simpsons,NaN,NaN,94800
+24,12,6.2,The Simpsons,NaN,NaN,100900
+24,13,7,The Simpsons,NaN,NaN,95900
+24,14,6.2,The Simpsons,NaN,NaN,96900
+24,15,6.9,The Simpsons,NaN,NaN,98300
+24,16,7.1,The Simpsons,NaN,NaN,98500
+24,17,6.4,The Simpsons,NaN,NaN,96300
+24,18,6.4,The Simpsons,NaN,NaN,94900
+24,19,6.7,The Simpsons,NaN,NaN,87900
+24,20,6.3,The Simpsons,NaN,NaN,91600
+24,21,7,The Simpsons,NaN,NaN,103700
+24,22,7,The Simpsons,NaN,NaN,93900
+25,1,6.8,The Simpsons,NaN,NaN,127100
+25,2,6.9,The Simpsons,NaN,NaN,134700
+25,3,6.4,The Simpsons,NaN,NaN,102800
+25,4,6.5,The Simpsons,NaN,NaN,106500
+25,5,6.8,The Simpsons,NaN,NaN,99400
+25,6,6.3,The Simpsons,NaN,NaN,106200
+25,7,6.8,The Simpsons,NaN,NaN,101900
+25,8,6.5,The Simpsons,NaN,NaN,100700
+25,9,7.7,The Simpsons,NaN,NaN,141800
+25,10,6.9,The Simpsons,NaN,NaN,107000
+25,11,7.1,The Simpsons,NaN,NaN,99400
+25,12,6.3,The Simpsons,NaN,NaN,98900
+25,13,6.6,The Simpsons,NaN,NaN,105900
+25,14,6.6,The Simpsons,NaN,NaN,97100
+25,15,6.9,The Simpsons,NaN,NaN,94000
+25,16,6.7,The Simpsons,NaN,NaN,97800
+25,17,6.4,The Simpsons,NaN,NaN,98400
+25,18,7,The Simpsons,NaN,NaN,111200
+25,19,5.8,The Simpsons,NaN,NaN,96800
+25,20,7.9,The Simpsons,NaN,NaN,158600
+25,21,6.6,The Simpsons,NaN,NaN,95700
+25,22,6.6,The Simpsons,NaN,NaN,95000
+26,1,5.7,The Simpsons,NaN,NaN,126400
+26,2,6.8,The Simpsons,NaN,NaN,104700
+26,3,6.4,The Simpsons,NaN,NaN,98500
+26,4,7.4,The Simpsons,NaN,NaN,135100
+26,5,6.3,The Simpsons,NaN,NaN,94800
+26,6,7.9,The Simpsons,NaN,NaN,193100
+26,7,6.8,The Simpsons,NaN,NaN,103000
+26,8,6.4,The Simpsons,NaN,NaN,96800
+26,9,6.8,The Simpsons,NaN,NaN,96700
+26,10,6.7,The Simpsons,NaN,NaN,117300
+26,11,7.1,The Simpsons,NaN,NaN,100600
+26,12,5.6,The Simpsons,NaN,NaN,107100
+26,13,6.2,The Simpsons,NaN,NaN,87800
+26,14,6.6,The Simpsons,NaN,NaN,86400
+26,15,6.4,The Simpsons,NaN,NaN,89200
+26,16,6.7,The Simpsons,NaN,NaN,90400
+26,17,6.6,The Simpsons,NaN,NaN,86900
+26,18,6.6,The Simpsons,NaN,NaN,82500
+26,19,6.7,The Simpsons,NaN,NaN,83600
+26,20,6,The Simpsons,NaN,NaN,81900
+26,21,6.5,The Simpsons,NaN,NaN,83500
+26,22,6.7,The Simpsons,NaN,NaN,87600
+27,1,5.7,The Simpsons,NaN,NaN,119500
+27,2,6.5,The Simpsons,NaN,NaN,99600
+27,3,6.9,The Simpsons,NaN,NaN,96700
+27,4,7.5,The Simpsons,NaN,NaN,133800
+27,5,6.5,The Simpsons,NaN,NaN,106800
+27,6,6.6,The Simpsons,NaN,NaN,86700
+27,7,5.9,The Simpsons,NaN,NaN,87300
+27,8,6.7,The Simpsons,NaN,NaN,85400
+27,9,8.4,The Simpsons,NaN,NaN,192500
+27,10,6.6,The Simpsons,NaN,NaN,94900
+27,11,6.5,The Simpsons,NaN,NaN,88200
+27,12,6.5,The Simpsons,NaN,NaN,83500
+27,13,6.3,The Simpsons,NaN,NaN,79200
+27,14,6.5,The Simpsons,NaN,NaN,90500
+27,15,6.3,The Simpsons,NaN,NaN,81500
+27,16,7,The Simpsons,NaN,NaN,86600
+27,17,6.3,The Simpsons,NaN,NaN,79100
+27,18,6.2,The Simpsons,NaN,NaN,75400
+27,19,7.1,The Simpsons,NaN,NaN,86000
+27,20,6.7,The Simpsons,NaN,NaN,74800
+27,21,6.2,The Simpsons,NaN,NaN,77400
+27,22,6.6,The Simpsons,NaN,NaN,79500
+28,1,6,The Simpsons,NaN,NaN,89600
+28,2,6.6,The Simpsons,NaN,NaN,83500
+28,3,7,The Simpsons,NaN,NaN,94100
+28,4,6.8,The Simpsons,NaN,NaN,103800
+28,5,6.3,The Simpsons,NaN,NaN,77500
+28,6,6.6,The Simpsons,NaN,NaN,77900
+28,7,6.2,The Simpsons,NaN,NaN,76600
+28,8,6.5,The Simpsons,NaN,NaN,74300
+28,9,6.3,The Simpsons,NaN,NaN,70400
+28,10,5.9,The Simpsons,NaN,NaN,75900
+28,11,6.7,The Simpsons,NaN,NaN,75800
+28,12,6.1,The Simpsons,NaN,NaN,93700
+28,13,6.3,The Simpsons,NaN,NaN,72800
+28,14,6.4,The Simpsons,NaN,NaN,72400
+28,15,6.5,The Simpsons,NaN,NaN,72400
+28,16,6.5,The Simpsons,NaN,NaN,76800
+28,17,6.8,The Simpsons,NaN,NaN,73900
+28,18,6.1,The Simpsons,NaN,NaN,76200
+28,19,6.8,The Simpsons,NaN,NaN,73600
+28,20,6.1,The Simpsons,NaN,NaN,68100
+28,21,6.4,The Simpsons,NaN,NaN,69000
+29,1,6.8,The Simpsons,NaN,NaN,114100
+29,2,6.5,The Simpsons,NaN,NaN,90300
+29,3,6.1,The Simpsons,NaN,NaN,81000
+29,4,7,The Simpsons,NaN,NaN,111400
+29,5,6.3,The Simpsons,NaN,NaN,77400
+29,6,6.3,The Simpsons,NaN,NaN,78000
+29,7,6.4,The Simpsons,NaN,NaN,77100
+29,8,6.8,The Simpsons,NaN,NaN,85300
+29,9,7.1,The Simpsons,NaN,NaN,91900
+29,10,6.4,The Simpsons,NaN,NaN,80500
+29,11,6.2,The Simpsons,NaN,NaN,72400
+29,12,6.6,The Simpsons,NaN,NaN,78400
+29,13,6.5,The Simpsons,NaN,NaN,71600
+29,14,6,The Simpsons,NaN,NaN,67900
+29,15,6.2,The Simpsons,NaN,NaN,69600
+29,16,6.2,The Simpsons,NaN,NaN,66000
+29,17,6.6,The Simpsons,NaN,NaN,74300
+29,18,7,The Simpsons,NaN,NaN,74100
+29,19,6.6,The Simpsons,NaN,NaN,68900
+29,20,6.6,The Simpsons,NaN,NaN,76000
+29,21,7.5,The Simpsons,NaN,NaN,102600
+30,1,6.2,The Simpsons,NaN,NaN,96700
+30,2,6,The Simpsons,NaN,NaN,86300
+30,3,6.2,The Simpsons,NaN,NaN,82600
+30,4,5.9,The Simpsons,NaN,NaN,94500
+30,5,6.9,The Simpsons,NaN,NaN,77500
+30,6,6.5,The Simpsons,NaN,NaN,72900
+30,7,5.7,The Simpsons,NaN,NaN,86400
+30,8,6.4,The Simpsons,NaN,NaN,70200
+30,9,6.7,The Simpsons,NaN,NaN,70800
+30,10,6.7,The Simpsons,NaN,NaN,70200
+30,11,5.8,The Simpsons,NaN,NaN,82300
+30,12,6.4,The Simpsons,NaN,NaN,72700
+30,13,6.8,The Simpsons,NaN,NaN,70400
+30,14,6.2,The Simpsons,NaN,NaN,65200
+30,15,6.4,The Simpsons,NaN,NaN,60900
+30,16,5.8,The Simpsons,NaN,NaN,62800
+30,17,6.4,The Simpsons,NaN,NaN,68200
+30,18,4.9,The Simpsons,NaN,NaN,133400
+30,19,6.4,The Simpsons,NaN,NaN,65500
+30,20,5.5,The Simpsons,NaN,NaN,66100
+30,21,5.7,The Simpsons,NaN,NaN,79200
+30,22,6.1,The Simpsons,NaN,NaN,65800
+30,23,6.1,The Simpsons,NaN,NaN,62600
+31,1,5.9,The Simpsons,NaN,NaN,90700
+31,2,5.9,The Simpsons,NaN,NaN,80900
+31,3,6.5,The Simpsons,NaN,NaN,71600
+31,4,6.8,The Simpsons,NaN,NaN,91000
+31,5,6.2,The Simpsons,NaN,NaN,66800
+31,6,5.6,The Simpsons,NaN,NaN,74900
+31,7,6.5,The Simpsons,NaN,NaN,71200
+31,8,7.3,The Simpsons,NaN,NaN,89900
+31,9,6.5,The Simpsons,NaN,NaN,79500
+31,10,6.5,The Simpsons,NaN,NaN,62900
+31,11,6,The Simpsons,NaN,NaN,57200
+31,12,6.5,The Simpsons,NaN,NaN,57800
+31,13,5.9,The Simpsons,NaN,NaN,55300
+31,14,7.2,The Simpsons,NaN,NaN,75500
+31,15,6.5,The Simpsons,NaN,NaN,55700
+31,16,6.4,The Simpsons,NaN,NaN,53900
+31,17,6.9,The Simpsons,NaN,NaN,60900
+31,18,6.3,The Simpsons,NaN,NaN,52400
+31,19,6,The Simpsons,NaN,NaN,62200
+31,20,5.7,The Simpsons,NaN,NaN,58400
+31,21,6.5,The Simpsons,NaN,NaN,58600
+31,22,7.4,The Simpsons,NaN,NaN,71400
+32,1,6.5,The Simpsons,NaN,NaN,74200
+32,2,6.8,The Simpsons,NaN,NaN,69600
+32,3,5.8,The Simpsons,NaN,NaN,62500
+32,4,6.2,The Simpsons,NaN,NaN,90800
+32,5,5.7,The Simpsons,NaN,NaN,62100
+32,6,6.7,The Simpsons,NaN,NaN,56800
+32,7,6.2,The Simpsons,NaN,NaN,52400
+32,8,6.6,The Simpsons,NaN,NaN,63400
+32,9,6.2,The Simpsons,NaN,NaN,53800
+32,10,6.2,The Simpsons,NaN,NaN,60000
+32,11,7,The Simpsons,NaN,NaN,70000
+32,12,6.8,The Simpsons,NaN,NaN,57900
+32,13,6.2,The Simpsons,NaN,NaN,48600
+32,14,5.5,The Simpsons,NaN,NaN,45100
+32,15,5.9,The Simpsons,NaN,NaN,46500
+32,16,6.4,The Simpsons,NaN,NaN,43500
+32,17,6.4,The Simpsons,NaN,NaN,45900
+32,18,6.6,The Simpsons,NaN,NaN,41300
+32,19,6.1,The Simpsons,NaN,NaN,53000
+32,20,6.7,The Simpsons,NaN,NaN,38800
+32,21,6.2,The Simpsons,NaN,NaN,35400
+32,22,7.4,The Simpsons,NaN,NaN,44200
+33,1,4.3,The Simpsons,NA,NA,NA
+33,2,7,The Simpsons,NA,NA,NA
+33,3,6.7,The Simpsons,NA,NA,NA
+33,4,6.8,The Simpsons,NA,NA,NA
+33,5,6.8,The Simpsons,NA,NA,NA
+33,6,8.2,The Simpsons,NA,NA,NA
+33,7,8.2,The Simpsons,NA,NA,NA
+33,8,6,The Simpsons,NA,NA,NA
+33,9,6.3,The Simpsons,NA,NA,NA
+33,10,6.9,The Simpsons,NA,NA,NA
+33,11,5.8,The Simpsons,NA,NA,NA
+33,12,7.6,The Simpsons,NA,NA,NA
+33,13,6.6,The Simpsons,NA,NA,NA
+33,14,6.3,The Simpsons,NA,NA,NA
+33,15,6.4,The Simpsons,NA,NA,NA
+33,16,6.2,The Simpsons,NA,NA,NA
+33,17,5.8,The Simpsons,NA,NA,NA
+33,18,6.5,The Simpsons,NA,NA,NA
+33,19,6.6,The Simpsons,NA,NA,NA
+33,20,6.7,The Simpsons,NA,NA,NA
+33,21,5.8,The Simpsons,NA,NA,NA
+33,22,5.6,The Simpsons,NA,NA,NA
+1,1,7.7,The Office,Ken Kwapis,Ricky Gervais |Stephen Merchant and Greg Daniels,1.12e+08
+1,2,8.1,The Office,Ken Kwapis,B. J. Novak,6e+06
+1,3,8.1,The Office,Ken Whittingham,Paul Lieberstein,5.8e+07
+1,4,8.8,The Office,Bryan Gordon,Michael Schur,5.4e+07
+1,5,7.9,The Office,Greg Daniels,Greg Daniels,5e+06
+1,6,8.2,The Office,Amy Heckerling,Mindy Kaling,4.8e+07
+2,1,8.2,The Office,Greg Daniels,Mindy Kaling,9e+06
+2,2,8.2,The Office,Ken Kwapis,B. J. Novak,7.13e+08
+2,3,8.4,The Office,Paul Feig,Michael Schur,8.3e+07
+2,4,8.4,The Office,Ken Kwapis,B. J. Novak,7.6e+07
+2,5,8.7,The Office,Paul Feig,Greg Daniels,8e+06
+2,6,8.7,The Office,Ken Kwapis,Gene Stupnitsky | Lee Eisenberg,7.9e+07
+3,1,8.5,The Office,Ken Kwapis,Greg Daniels,9.11e+08
+3,2,9.4,The Office,Ken Whittingham,Gene Stupnitsky | Lee Eisenberg,7.78e+08
