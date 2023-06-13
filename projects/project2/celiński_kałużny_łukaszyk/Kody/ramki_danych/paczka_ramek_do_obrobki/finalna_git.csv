@@ -1,0 +1,1249 @@
+"","X","year_ceremony","category","film","winner","year","genre1","genre2","genre3","rating","gross","runtime"
+"1","6",1970,"BEST PICTURE","Anne of the Thousand Days","False",1969,"Biography","Drama","History",7.4,"2068232",145
+"2","8",1970,"BEST PICTURE","Butch Cassidy and the Sundance Kid","False",1969,"Biography","Crime","Drama",8,"102308889",110
+"3","10",1970,"BEST PICTURE","Hello, Dolly!","False",1969,"Adventure","Comedy","Musical",7,"7239608",146
+"4","12",1970,"BEST PICTURE","Z","False",1969,"Crime","Drama","Thriller",8.2,"83305",127
+"5","2",1970,"BEST PICTURE","Midnight Cowboy","True",1969,"Drama",NA,NA,NA,"3600000",113
+"6","1",1970,"INTERNATIONAL FEATURE FILM","The Battle of Neretva","False",1969,"Drama","History","War",7,NA,105
+"7","3",1970,"INTERNATIONAL FEATURE FILM","My Night at Maud's","False",1969,"Comedy","Drama","Romance",7.8,NA,105
+"8","4",1970,"INTERNATIONAL FEATURE FILM","Z","True",1969,"Crime","Drama","Thriller",8.2,"83305",127
+"9","1102",1970,"INTERNATIONAL FEATURE FILM","The Brothers Karamazov","False",1969,"Drama",NA,NA,NA,NA,218
+"10","1107",1970,"INTERNATIONAL FEATURE FILM","Adalen '31","False",NA,NA,NA,NA,NA,NA,NA
+"11","14",1970,"WRITING","Anne of the Thousand Days","False",1969,"Biography","Drama","History",7.4,"2068232",145
+"12","16",1970,"WRITING","Goodbye, Columbus","False",1969,"Comedy","Drama","Romance",6.4,"22939805",102
+"13","17",1970,"WRITING","Z","False",1969,"Crime","Drama","Thriller",8.2,"83305",127
+"14","19",1970,"WRITING","Bob & Carol & Ted & Alice","False",1969,"Comedy","Drama","Romance",6.7,"31897253",105
+"15","20",1970,"WRITING","Butch Cassidy and the Sundance Kid","True",1969,"Biography","Crime","Drama",8,"102308889",110
+"16","22",1970,"WRITING","The Damned","False",1969,"Drama","War",NA,7.4,"625315",156
+"17","23",1970,"WRITING","Easy Rider","False",1969,"Adventure","Drama",NA,7.3,"41728598",95
+"18","24",1970,"WRITING","The Wild Bunch","False",1969,"Action","Adventure","Western",7.9,"12064472",135
+"19","311",1970,"WRITING","Midnight Cowboy","True",1969,"Drama",NA,NA,NA,"3600000",113
+"20","413",1970,"WRITING","They Shoot Horses, Don't They?","False",1969,"Drama",NA,NA,NA,NA,120
+"21","27",1971,"BEST PICTURE","Airport","False",1970,"Action","Drama","Thriller",6.6,"100489150",137
+"22","29",1971,"BEST PICTURE","Love Story","False",1970,"Drama","Romance",NA,6.9,"106400000",100
+"23","30",1971,"BEST PICTURE","M*A*S*H","False",1970,"Comedy","Drama","War",7.4,"81600000",116
+"24","31",1971,"BEST PICTURE","Patton","True",1970,"Biography","Drama","War",7.9,"61700000",172
+"25","610",1971,"BEST PICTURE","Five Easy Pieces","False",1970,"Drama",NA,NA,NA,NA,98
+"26","26",1971,"INTERNATIONAL FEATURE FILM","First Love","False",1970,"Drama","Romance",NA,6.5,NA,90
+"27","5",1971,"INTERNATIONAL FEATURE FILM","Tristana","False",1970,"Drama",NA,NA,NA,NA,95
+"28","251",1971,"INTERNATIONAL FEATURE FILM","Hoa-Binh","False",NA,NA,NA,NA,NA,NA,NA
+"29","314",1971,"INTERNATIONAL FEATURE FILM","Investigation of a Citizen above Suspicion","True",NA,NA,NA,NA,NA,NA,NA
+"30","414",1971,"INTERNATIONAL FEATURE FILM","Paix Sur Les Champs","False",NA,NA,NA,NA,NA,NA,NA
+"31","33",1971,"WRITING","Airport","False",1970,"Action","Drama","Thriller",6.6,"100489150",137
+"32","35",1971,"WRITING","M*A*S*H","True",1970,"Comedy","Drama","War",7.4,"81600000",116
+"33","36",1971,"WRITING","Women in Love","False",1969,"Drama","Romance",NA,7.1,"1031979",131
+"34","37",1971,"WRITING","Joe","False",1970,"Drama","Thriller",NA,6.8,"19319254",107
+"35","38",1971,"WRITING","Love Story","False",1970,"Drama","Romance",NA,6.9,"106400000",100
+"36","39",1971,"WRITING","My Night at Maud's","False",1969,"Comedy","Drama","Romance",7.8,NA,105
+"37","40",1971,"WRITING","Patton","True",1970,"Biography","Drama","War",7.9,"61700000",172
+"38","7",1971,"WRITING","I Never Sang for My Father","False",1970,"Drama","Family",NA,NA,NA,92
+"39","810",1971,"WRITING","Lovers and Other Strangers","False",1970,"Comedy","Drama","Romance",NA,NA,104
+"40","9",1971,"WRITING","Five Easy Pieces","False",1970,"Drama",NA,NA,NA,NA,98
+"41","44",1972,"BEST PICTURE","A Clockwork Orange","False",1971,"Crime","Sci-Fi",NA,8.3,"6207725",136
+"42","46",1972,"BEST PICTURE","Fiddler on the Roof","False",1971,"Drama","Family","Musical",8,"80500000",181
+"43","48",1972,"BEST PICTURE","The French Connection","True",1971,"Action","Crime","Drama",7.7,"15630710",104
+"44","51",1972,"BEST PICTURE","The Last Picture Show","False",1971,"Drama","Romance",NA,8,"29133000",118
+"45","52",1972,"BEST PICTURE","Nicholas and Alexandra","False",1971,"Biography","Drama","History",7.2,"3964917",183
+"46","42",1972,"INTERNATIONAL FEATURE FILM","The Emigrants","False",1971,"Drama","History",NA,8,"1156554",151
+"47","43",1972,"INTERNATIONAL FEATURE FILM","Tchaikovsky","False",1970,"Biography","Drama",NA,6.4,NA,157
+"48","1012",1972,"INTERNATIONAL FEATURE FILM","The Policeman","False",1971,"Comedy","Drama",NA,NA,NA,87
+"49","514",1972,"INTERNATIONAL FEATURE FILM","Dodes'ka-Den","False",NA,NA,NA,NA,NA,NA,NA
+"50","614",1972,"INTERNATIONAL FEATURE FILM","The Garden of the Finzi Continis","True",NA,NA,NA,NA,NA,NA,NA
+"51","55",1972,"WRITING","A Clockwork Orange","False",1971,"Crime","Sci-Fi",NA,8.3,"6207725",136
+"52","57",1972,"WRITING","The French Connection","True",1971,"Action","Crime","Drama",7.7,"15630710",104
+"53","60",1972,"WRITING","The Last Picture Show","False",1971,"Drama","Romance",NA,8,"29133000",118
+"54","61",1972,"WRITING","The Hospital","True",1971,"Comedy","Drama","Mystery",7.1,"19711560",103
+"55","62",1972,"WRITING","Klute","False",1971,"Crime","Mystery","Thriller",7.1,"17440000",114
+"56","65",1972,"WRITING","Summer of '42","False",1971,"Drama","Romance",NA,7.2,"7381960",104
+"57","11",1972,"WRITING","The Conformist","False",1970,"Drama",NA,NA,NA,"750000",108
+"58","1210",1972,"WRITING","Sunday Bloody Sunday","False",1971,"Drama",NA,NA,NA,NA,110
+"59","712",1972,"WRITING","The Garden of the Finzi Continis","False",NA,NA,NA,NA,NA,NA,NA
+"60","813",1972,"WRITING","Investigation of a Citizen above Suspicion","False",NA,NA,NA,NA,NA,NA,NA
+"61","68",1973,"BEST PICTURE","Cabaret","False",1972,"Drama","Music","Musical",7.8,"42765000",124
+"62","69",1973,"BEST PICTURE","Deliverance","False",1972,"Adventure","Drama","Thriller",7.7,"7056013",109
+"63","71",1973,"BEST PICTURE","The Emigrants","False",1971,"Drama","History",NA,8,"1156554",151
+"64","72",1973,"BEST PICTURE","The Godfather","True",1972,"Crime","Drama",NA,9.2,"134966411",175
+"65","73",1973,"BEST PICTURE","Sounder","False",1972,"Drama","Family",NA,7.5,"3100601",105
+"66","66",1973,"INTERNATIONAL FEATURE FILM","The Dawns Here Are Quiet","False",1972,"Drama","History","War",8.1,NA,188
+"67","13",1973,"INTERNATIONAL FEATURE FILM","The Discreet Charm of the Bourgeoisie","True",1972,"Comedy",NA,NA,NA,"8e+05",101
+"68","1410",1973,"INTERNATIONAL FEATURE FILM","The New Land","False",1972,"Drama","Western",NA,NA,NA,204
+"69","911",1973,"INTERNATIONAL FEATURE FILM","I Love You Rosa","False",NA,NA,NA,NA,NA,NA,NA
+"70","1018",1973,"INTERNATIONAL FEATURE FILM","My Dearest Senorita","False",NA,NA,NA,NA,NA,NA,NA
+"71","74",1973,"WRITING","Cabaret","False",1972,"Drama","Music","Musical",7.8,"42765000",124
+"72","75",1973,"WRITING","The Emigrants","False",1971,"Drama","History",NA,8,"1156554",151
+"73","76",1973,"WRITING","The Godfather","True",1972,"Crime","Drama",NA,9.2,"134966411",175
+"74","77",1973,"WRITING","Pete 'n' Tillie","False",1972,"Comedy","Drama","Romance",6.2,"18966000",100
+"75","78",1973,"WRITING","Sounder","False",1972,"Drama","Family",NA,7.5,"3100601",105
+"76","79",1973,"WRITING","Lady Sings the Blues","False",1972,"Biography","Drama","Music",7,"6028486",144
+"77","81",1973,"WRITING","Young Winston","False",1972,"Biography","Drama","War",6.7,"4687000",124
+"78","15",1973,"WRITING","The Candidate","True",1972,"Comedy","Drama",NA,NA,NA,110
+"79","1613",1973,"WRITING","The Discreet Charm of the Bourgeoisie","False",1972,"Comedy",NA,NA,NA,"8e+05",101
+"80","1711",1973,"WRITING","Murmur of the Heart","False",1971,"Comedy","Drama",NA,NA,NA,118
+"81","85",1974,"BEST PICTURE","The Exorcist","False",1973,"Horror",NA,NA,8.1,"232906145",122
+"82","86",1974,"BEST PICTURE","The Sting","True",1973,"Comedy","Crime","Drama",8.3,"159600000",129
+"83","87",1974,"BEST PICTURE","A Touch of Class","False",1973,"Comedy","Romance",NA,6.5,"18312000",106
+"84","1910",1974,"BEST PICTURE","American Graffiti","False",1973,"Comedy","Drama",NA,NA,"777000",110
+"85","2010",1974,"BEST PICTURE","Cries and Whispers","False",1972,"Drama",NA,NA,NA,"4e+05",95
+"86","83",1974,"INTERNATIONAL FEATURE FILM","Day for Night","True",1973,"Comedy","Drama","Romance",8,"17808",116
+"87","84",1974,"INTERNATIONAL FEATURE FILM","Turkish Delight","False",1973,"Drama","Romance",NA,7.1,NA,108
+"88","18",1974,"INTERNATIONAL FEATURE FILM","The Pedestrian","False",1973,"Drama",NA,NA,NA,NA,98
+"89","1114",1974,"INTERNATIONAL FEATURE FILM","The House on Chelouche Street","False",NA,NA,NA,NA,NA,NA,NA
+"90","1213",1974,"INTERNATIONAL FEATURE FILM","L'Invitation","False",NA,NA,NA,NA,NA,NA,NA
+"91","88",1974,"WRITING","The Exorcist","True",1973,"Horror",NA,NA,8.1,"232906145",122
+"92","89",1974,"WRITING","Paper Moon","False",1973,"Comedy","Crime","Drama",8.1,"30933743",102
+"93","90",1974,"WRITING","Serpico","False",1973,"Biography","Crime","Drama",7.7,"29800000",130
+"94","93",1974,"WRITING","The Sting","True",1973,"Comedy","Crime","Drama",8.3,"159600000",129
+"95","94",1974,"WRITING","A Touch of Class","False",1973,"Comedy","Romance",NA,6.5,"18312000",106
+"96","21",1974,"WRITING","The Last Detail","False",1973,"Comedy","Drama",NA,NA,"2300000",105
+"97","2210",1974,"WRITING","The Paper Chase","False",1973,"Comedy","Drama","Romance",NA,NA,113
+"98","2310",1974,"WRITING","American Graffiti","False",1973,"Comedy","Drama",NA,NA,"777000",110
+"99","248",1974,"WRITING","Cries and Whispers","False",1972,"Drama",NA,NA,NA,"4e+05",95
+"100","25",1974,"WRITING","Save the Tiger","False",1973,"Drama",NA,NA,NA,NA,100
+"101","102",1975,"BEST PICTURE","Chinatown","False",1974,"Drama","Mystery","Thriller",8.2,"8486653",130
+"102","104",1975,"BEST PICTURE","The Conversation","False",1974,"Drama","Mystery","Thriller",7.8,"4420000",113
+"103","106",1975,"BEST PICTURE","The Godfather Part II","True",1974,"Crime","Drama",NA,9,"57300000",202
+"104","107",1975,"BEST PICTURE","Lenny","False",1974,"Biography","Drama",NA,7.6,"8427866",111
+"105","108",1975,"BEST PICTURE","The Towering Inferno","False",1974,"Action","Drama","Thriller",7,"1.16e+08",165
+"106","95",1975,"INTERNATIONAL FEATURE FILM","The Deluge","False",1974,"Adventure","History","Romance",7.7,NA,287
+"107","99",1975,"INTERNATIONAL FEATURE FILM","Lacombe, Lucien","False",1974,"Drama","Romance","War",7.6,NA,138
+"108","101",1975,"INTERNATIONAL FEATURE FILM","The Truce","False",1974,"Drama","Romance",NA,7.3,NA,108
+"109","261",1975,"INTERNATIONAL FEATURE FILM","Amarcord","True",1973,"Comedy","Drama",NA,NA,NA,123
+"110","1311",1975,"INTERNATIONAL FEATURE FILM","Cats' Play","False",NA,NA,NA,NA,NA,NA,NA
+"111","110",1975,"WRITING","Alice Doesn't Live Here Anymore","False",1974,"Drama","Romance",NA,7.3,"18600000",112
+"112","111",1975,"WRITING","Chinatown","True",1974,"Drama","Mystery","Thriller",8.2,"8486653",130
+"113","113",1975,"WRITING","The Conversation","False",1974,"Drama","Mystery","Thriller",7.8,"4420000",113
+"114","115",1975,"WRITING","Day for Night","False",1973,"Comedy","Drama","Romance",8,"17808",116
+"115","116",1975,"WRITING","Harry and Tonto","False",1974,"Adventure","Comedy","Drama",7.4,"1262135",115
+"116","118",1975,"WRITING","The Godfather Part II","True",1974,"Crime","Drama",NA,9,"57300000",202
+"117","119",1975,"WRITING","Lenny","False",1974,"Biography","Drama",NA,7.6,"8427866",111
+"118","120",1975,"WRITING","Murder on the Orient Express","False",1974,"Crime","Drama","Mystery",7.2,"72034",128
+"119","274",1975,"WRITING","The Apprenticeship of Duddy Kravitz","False",1974,"Drama",NA,NA,NA,NA,120
+"120","28",1975,"WRITING","Young Frankenstein","False",1974,"Comedy",NA,NA,NA,"2800000",106
+"121","125",1976,"BEST PICTURE","Barry Lyndon","False",1975,"Adventure","Drama","War",8.1,NA,185
+"122","127",1976,"BEST PICTURE","Dog Day Afternoon","False",1975,"Biography","Crime","Drama",8,"5e+07",125
+"123","130",1976,"BEST PICTURE","Jaws","False",1975,"Adventure","Thriller",NA,8.1,"2.6e+08",124
+"124","312",1976,"BEST PICTURE","Nashville","False",1975,"Drama","Music","Comedy",NA,"2200000",160
+"125","1510",1976,"BEST PICTURE","One Flew over the Cuckoo's Nest","True",NA,NA,NA,NA,NA,NA,NA
+"126","122",1976,"INTERNATIONAL FEATURE FILM","Dersu Uzala","True",1975,"Adventure","Biography","Drama",8.2,NA,142
+"127","124",1976,"INTERNATIONAL FEATURE FILM","Letters from Marusia","False",1975,"Drama","History",NA,6.9,NA,110
+"128","291",1976,"INTERNATIONAL FEATURE FILM","Sandakan No. 8","False",1974,"Drama",NA,NA,NA,NA,120
+"129","301",1976,"INTERNATIONAL FEATURE FILM","Scent of a Woman","False",1974,"Drama",NA,NA,NA,NA,103
+"130","1414",1976,"INTERNATIONAL FEATURE FILM","Land of Promise","False",NA,NA,NA,NA,NA,NA,NA
+"131","132",1976,"WRITING","And Now My Love","False",1974,"Drama","Romance",NA,7.2,NA,150
+"132","133",1976,"WRITING","Dog Day Afternoon","True",1975,"Biography","Crime","Drama",8,"5e+07",125
+"133","136",1976,"WRITING","Barry Lyndon","False",1975,"Adventure","Drama","War",8.1,NA,185
+"134","138",1976,"WRITING","The Man Who Would Be King","False",1975,"Adventure","War",NA,7.8,NA,129
+"135","32",1976,"WRITING","Shampoo","False",1975,"Comedy","Drama","Romance",NA,NA,109
+"136","331",1976,"WRITING","Scent of a Woman","False",1974,"Drama",NA,NA,NA,NA,103
+"137","34",1976,"WRITING","The Sunshine Boys","False",1975,"Comedy",NA,NA,NA,NA,111
+"138","1619",1976,"WRITING","Lies My Father Told Me","False",NA,NA,NA,NA,NA,NA,NA
+"139","1715",1976,"WRITING","One Flew over the Cuckoo's Nest","True",NA,NA,NA,NA,NA,NA,NA
+"140","142",1977,"BEST PICTURE","All the President's Men","False",1976,"Drama","History","Thriller",7.9,"70600000",138
+"141","144",1977,"BEST PICTURE","Bound for Glory","False",1976,"Biography","Drama","Music",7.3,NA,147
+"142","145",1977,"BEST PICTURE","Rocky","True",1976,"Drama","Sport",NA,8.1,"117235247",120
+"143","146",1977,"BEST PICTURE","Taxi Driver","False",1976,"Crime","Drama",NA,8.2,"28262574",114
+"144","372",1977,"BEST PICTURE","Network","False",1976,"Drama",NA,NA,NA,"3800000",122
+"145","140",1977,"INTERNATIONAL FEATURE FILM","Black and White in Color","True",1976,"Comedy","Drama","War",6.8,NA,90
+"146","141",1977,"INTERNATIONAL FEATURE FILM","Seven Beauties","False",1975,"Comedy","Drama","War",7.7,"11962",116
+"147","358",1977,"INTERNATIONAL FEATURE FILM","Cousin, Cousine","False",1975,"Comedy","Romance",NA,NA,NA,95
+"148","362",1977,"INTERNATIONAL FEATURE FILM","Nights and Days","False",1975,"Drama",NA,NA,NA,NA,277
+"149","1810",1977,"INTERNATIONAL FEATURE FILM","Jacob, the Liar","False",NA,NA,NA,NA,NA,NA,NA
+"150","147",1977,"WRITING","All the President's Men","True",1976,"Drama","History","Thriller",7.9,"70600000",138
+"151","149",1977,"WRITING","Bound for Glory","False",1976,"Biography","Drama","Music",7.3,NA,147
+"152","150",1977,"WRITING","Fellini's Casanova","False",1976,"Biography","Drama","History",7,NA,155
+"153","153",1977,"WRITING","Voyage of the Damned","False",1976,"Drama","War",NA,6.4,NA,155
+"154","154",1977,"WRITING","Rocky","False",1976,"Drama","Sport",NA,8.1,"117235247",120
+"155","155",1977,"WRITING","Seven Beauties","False",1975,"Comedy","Drama","War",7.7,"11962",116
+"156","381",1977,"WRITING","Cousin, Cousine","False",1975,"Comedy","Romance",NA,NA,NA,95
+"157","392",1977,"WRITING","The Front","False",1976,"Comedy","Drama",NA,NA,NA,95
+"158","402",1977,"WRITING","Network","True",1976,"Drama",NA,NA,NA,"3800000",122
+"159","1912",1977,"WRITING","The Seven-per-cent Solution","False",NA,NA,NA,NA,NA,NA,NA
+"160","159",1978,"BEST PICTURE","Annie Hall","True",1977,"Comedy","Romance",NA,8,"39200000",93
+"161","160",1978,"BEST PICTURE","The Goodbye Girl","False",1977,"Comedy","Drama","Romance",7.4,"1.02e+08",111
+"162","161",1978,"BEST PICTURE","Star Wars","False",1977,"Action","Adventure","Fantasy",8.6,"322740140",121
+"163","165",1978,"BEST PICTURE","The Turning Point","False",1977,"Drama","Music","Romance",6.8,"33600000",119
+"164","441",1978,"BEST PICTURE","Julia","False",1977,"Drama",NA,NA,NA,NA,117
+"165","156",1978,"INTERNATIONAL FEATURE FILM","Operation Thunderbolt","False",1977,"Action","Drama","History",6.6,NA,124
+"166","158",1978,"INTERNATIONAL FEATURE FILM","That Obscure Object of Desire","False",1977,"Comedy","Drama","Romance",7.8,"55261",103
+"167","41",1978,"INTERNATIONAL FEATURE FILM","Iphigenia","False",1977,"Action","Drama",NA,NA,NA,127
+"168","423",1978,"INTERNATIONAL FEATURE FILM","Madame Rosa","True",1977,"Drama",NA,NA,NA,NA,105
+"169","431",1978,"INTERNATIONAL FEATURE FILM","A Special Day","False",1977,"Drama","Romance",NA,NA,NA,106
+"170","166",1978,"WRITING","Equus","False",1977,"Drama","Mystery",NA,7.1,NA,137
+"171","167",1978,"WRITING","I Never Promised You a Rose Garden","False",1977,"Drama","Fantasy",NA,6.4,NA,96
+"172","168",1978,"WRITING","Oh, God!","False",1977,"Comedy","Fantasy",NA,6.6,"41687243",98
+"173","169",1978,"WRITING","That Obscure Object of Desire","False",1977,"Comedy","Drama","Romance",7.8,"55261",103
+"174","170",1978,"WRITING","Annie Hall","True",1977,"Comedy","Romance",NA,8,"39200000",93
+"175","171",1978,"WRITING","The Goodbye Girl","False",1977,"Comedy","Drama","Romance",7.4,"1.02e+08",111
+"176","172",1978,"WRITING","The Late Show","False",1977,"Comedy","Mystery","Thriller",6.9,NA,93
+"177","174",1978,"WRITING","Star Wars","False",1977,"Action","Adventure","Fantasy",8.6,"322740140",121
+"178","178",1978,"WRITING","The Turning Point","False",1977,"Drama","Music","Romance",6.8,"33600000",119
+"179","45",1978,"WRITING","Julia","True",1977,"Drama",NA,NA,NA,NA,117
+"180","181",1979,"BEST PICTURE","Coming Home","False",1978,"Drama","Romance","War",7.3,"32653905",127
+"181","183",1979,"BEST PICTURE","The Deer Hunter","True",1978,"Drama","War",NA,8.1,"48979328",183
+"182","184",1979,"BEST PICTURE","Heaven Can Wait","False",1978,"Comedy","Fantasy","Romance",6.9,"81640278",101
+"183","187",1979,"BEST PICTURE","Midnight Express","False",1978,"Biography","Crime","Drama",7.5,"3.5e+07",121
+"184","190",1979,"BEST PICTURE","An Unmarried Woman","False",1978,"Comedy","Drama","Romance",7.1,"2.4e+07",124
+"185","179",1979,"INTERNATIONAL FEATURE FILM","Get Out Your Handkerchiefs","True",1978,"Comedy","Drama","Romance",7,NA,108
+"186","180",1979,"INTERNATIONAL FEATURE FILM","The Glass Cell","False",1978,"Crime","Drama",NA,6.7,NA,93
+"187","462",1979,"INTERNATIONAL FEATURE FILM","White Bim Black Ear","False",1977,"Drama",NA,NA,NA,NA,182
+"188","2012",1979,"INTERNATIONAL FEATURE FILM","Hungarians","False",NA,NA,NA,NA,NA,NA,NA
+"189","2110",1979,"INTERNATIONAL FEATURE FILM","Viva Italia!","False",NA,NA,NA,NA,NA,NA,NA
+"190","191",1979,"WRITING","California Suite","False",1978,"Comedy","Drama","Romance",6.2,NA,103
+"191","192",1979,"WRITING","Heaven Can Wait","False",1978,"Comedy","Fantasy","Romance",6.9,"81640278",101
+"192","195",1979,"WRITING","Midnight Express","True",1978,"Biography","Crime","Drama",7.5,"3.5e+07",121
+"193","198",1979,"WRITING","Same Time, Next Year","False",1978,"Comedy","Drama","Romance",7.2,"19703082",119
+"194","199",1979,"WRITING","Coming Home","True",1978,"Drama","Romance","War",7.3,"32653905",127
+"195","201",1979,"WRITING","The Deer Hunter","False",1978,"Drama","War",NA,8.1,"48979328",183
+"196","202",1979,"WRITING","An Unmarried Woman","False",1978,"Comedy","Drama","Romance",7.1,"2.4e+07",124
+"197","47",1979,"WRITING","Bloodbrothers","False",1978,"Drama",NA,NA,NA,NA,116
+"198","482",1979,"WRITING","Autumn Sonata","False",1978,"Drama",NA,NA,NA,NA,93
+"199","49",1979,"WRITING","Interiors","False",1978,"Drama",NA,NA,NA,"1e+07",93
+"200","206",1980,"BEST PICTURE","Apocalypse Now","False",1979,"Drama","Mystery","War",8.5,"83471511",147
+"201","208",1980,"BEST PICTURE","Breaking Away","False",1979,"Comedy","Drama","Sport",7.7,"16424918",101
+"202","511",1980,"BEST PICTURE","All That Jazz","False",1979,"Drama",NA,NA,NA,NA,123
+"203","526",1980,"BEST PICTURE","Kramer vs. Kramer","True",1979,"Drama",NA,NA,NA,"8e+06",105
+"204","53",1980,"BEST PICTURE","Norma Rae","False",1979,"Drama",NA,NA,NA,"4500000",110
+"205","203",1980,"INTERNATIONAL FEATURE FILM","The Maids of Wilko","False",1979,"Drama","Romance",NA,7.4,NA,118
+"206","204",1980,"INTERNATIONAL FEATURE FILM","A Simple Story","False",1978,"Drama","Romance",NA,6.9,NA,110
+"207","205",1980,"INTERNATIONAL FEATURE FILM","The Tin Drum","True",1979,"Drama","War",NA,7.5,NA,142
+"208","50",1980,"INTERNATIONAL FEATURE FILM","To Forget Venice","False",1979,"Drama",NA,NA,NA,NA,110
+"209","2212",1980,"INTERNATIONAL FEATURE FILM","Mama Turns a Hundred","False",NA,NA,NA,NA,NA,NA,NA
+"210","209",1980,"WRITING","Apocalypse Now","False",1979,"Drama","Mystery","War",8.5,"83471511",147
+"211","211",1980,"WRITING","A Little Romance","False",1979,"Adventure","Comedy","Romance",7.4,NA,110
+"212","213",1980,"WRITING","Breaking Away","True",1979,"Comedy","Drama","Sport",7.7,"16424918",101
+"213","214",1980,"WRITING","The China Syndrome","False",1979,"Drama","Thriller",NA,7.4,"51718367",122
+"214","215",1980,"WRITING","Manhattan","False",1979,"Comedy","Drama","Romance",7.8,"45700000",96
+"215","54",1980,"WRITING","Kramer vs. Kramer","True",1979,"Drama",NA,NA,NA,"8e+06",105
+"216","552",1980,"WRITING","La Cage aux Folles","False",1978,"Comedy",NA,NA,NA,NA,92
+"217","56",1980,"WRITING","Norma Rae","False",1979,"Drama",NA,NA,NA,"4500000",110
+"218","572",1980,"WRITING","All That Jazz","False",1979,"Drama",NA,NA,NA,NA,123
+"219","58",1980,"WRITING","...And Justice for All","False",1979,"Crime","Drama","Mystery",NA,NA,119
+"220","219",1981,"BEST PICTURE","Coal Miner's Daughter","False",1980,"Biography","Drama","Music",7.5,"67182787",124
+"221","220",1981,"BEST PICTURE","The Elephant Man","False",1980,"Biography","Drama",NA,8.2,NA,124
+"222","221",1981,"BEST PICTURE","Raging Bull","False",1980,"Biography","Drama","Sport",8.2,"23383987",129
+"223","223",1981,"BEST PICTURE","Tess","False",1979,"Drama","Romance",NA,7.3,NA,186
+"224","612",1981,"BEST PICTURE","Ordinary People","True",1980,"Drama",NA,NA,NA,"6e+06",124
+"225","216",1981,"INTERNATIONAL FEATURE FILM","The Last Metro","False",1980,"Drama","Romance","War",7.4,NA,131
+"226","218",1981,"INTERNATIONAL FEATURE FILM","Moscow Does Not Believe in Tears","True",1980,"Comedy","Drama","Romance",8.1,"2500000",150
+"227","59",1981,"INTERNATIONAL FEATURE FILM","Confidence","False",1980,"Drama",NA,NA,NA,NA,105
+"228","601",1981,"INTERNATIONAL FEATURE FILM","The Nest","False",1980,"Drama",NA,NA,NA,NA,97
+"229","2312",1981,"INTERNATIONAL FEATURE FILM","Kagemusha (The Shadow Warrior)","False",NA,NA,NA,NA,NA,NA,NA
+"230","224",1981,"WRITING","Breaker Morant","False",1980,"Drama","History","War",7.8,"7142857",107
+"231","226",1981,"WRITING","Coal Miner's Daughter","False",1980,"Biography","Drama","Music",7.5,"67182787",124
+"232","227",1981,"WRITING","The Elephant Man","False",1980,"Biography","Drama",NA,8.2,NA,124
+"233","228",1981,"WRITING","The Stunt Man","False",1980,"Action","Comedy","Drama",7,"7063886",131
+"234","231",1981,"WRITING","Brubaker","False",1980,"Crime","Drama",NA,7.1,"37121708",131
+"235","232",1981,"WRITING","Private Benjamin","False",1980,"Comedy","War",NA,6.2,"69847348",109
+"236","622",1981,"WRITING","Ordinary People","True",1980,"Drama",NA,NA,NA,"6e+06",124
+"237","63",1981,"WRITING","Fame","False",1980,"Drama","Music",NA,NA,NA,134
+"238","64",1981,"WRITING","Melvin and Howard","True",1980,"Comedy","Drama",NA,NA,NA,95
+"239","2410",1981,"WRITING","Mon Oncle D'Amerique","False",NA,NA,NA,NA,NA,NA,NA
+"240","235",1982,"BEST PICTURE","Atlantic City","False",1980,"Crime","Drama","Romance",7.3,NA,104
+"241","237",1982,"BEST PICTURE","Chariots of Fire","True",1981,"Biography","Drama","Sport",7.1,"58972904",125
+"242","239",1982,"BEST PICTURE","Raiders of the Lost Ark","False",1981,"Action","Adventure",NA,8.4,"248159971",115
+"243","241",1982,"BEST PICTURE","Reds","False",1981,"Biography","Drama","History",7.3,"40382659",195
+"244","683",1982,"BEST PICTURE","On Golden Pond","False",1981,"Drama",NA,NA,NA,NA,109
+"245","233",1982,"INTERNATIONAL FEATURE FILM","The Boat Is Full","False",1981,"Drama","War",NA,7.1,NA,101
+"246","234",1982,"INTERNATIONAL FEATURE FILM","Man of Iron","False",1981,"Drama","History",NA,7.3,NA,156
+"247","651",1982,"INTERNATIONAL FEATURE FILM","Mephisto","True",1981,"Drama",NA,NA,NA,NA,145
+"248","665",1982,"INTERNATIONAL FEATURE FILM","Muddy River","False",1981,"Drama",NA,NA,NA,NA,105
+"249","67",1982,"INTERNATIONAL FEATURE FILM","Three Brothers","False",1981,"Drama",NA,NA,NA,NA,113
+"250","244",1982,"WRITING","The French Lieutenant's Woman","False",1981,"Drama","Romance",NA,6.9,"22600000",124
+"251","245",1982,"WRITING","Pennies from Heaven","False",1981,"Drama","Musical","Romance",6.5,"9179289",108
+"252","246",1982,"WRITING","Prince of the City","False",1981,"Crime","Drama",NA,7.4,"8124257",167
+"253","247",1982,"WRITING","Absence of Malice","False",1981,"Drama","Romance","Thriller",6.9,"40716963",116
+"254","249",1982,"WRITING","Arthur","False",1981,"Comedy","Romance",NA,6.9,"95461682",97
+"255","250",1982,"WRITING","Atlantic City","False",1980,"Crime","Drama","Romance",7.3,NA,104
+"256","252",1982,"WRITING","Chariots of Fire","True",1981,"Biography","Drama","Sport",7.1,"58972904",125
+"257","254",1982,"WRITING","Reds","False",1981,"Biography","Drama","History",7.3,"40382659",195
+"258","691",1982,"WRITING","On Golden Pond","True",1981,"Drama",NA,NA,NA,NA,109
+"259","70",1982,"WRITING","Ragtime","False",1981,"Drama",NA,NA,NA,NA,155
+"260","260",1983,"BEST PICTURE","Gandhi","True",1982,"Biography","Drama","History",8,"52767889",191
+"261","262",1983,"BEST PICTURE","Missing","False",1982,"Biography","Drama","History",7.7,"1.4e+07",122
+"262","266",1983,"BEST PICTURE","Tootsie","False",1982,"Comedy","Drama","Romance",7.4,"177200000",116
+"263","721",1983,"BEST PICTURE","The Verdict","False",1982,"Drama",NA,NA,NA,"1.6e+07",129
+"264","2710",1983,"BEST PICTURE","E.T. The Extra-Terrestrial","False",NA,NA,NA,NA,NA,NA,NA
+"265","257",1983,"INTERNATIONAL FEATURE FILM","Alsino and the Condor","False",1982,"Drama","War",NA,6.3,NA,89
+"266","258",1983,"INTERNATIONAL FEATURE FILM","The Flight of the Eagle","False",1982,"Adventure","Biography","Drama",7.2,NA,140
+"267","711",1983,"INTERNATIONAL FEATURE FILM","Private Life","False",1982,NA,NA,NA,NA,NA,102
+"268","253",1983,"INTERNATIONAL FEATURE FILM","Coup de Torchon ('Clean Slate')","False",NA,NA,NA,NA,NA,NA,NA
+"269","263",1983,"INTERNATIONAL FEATURE FILM","Volver a Empezar ('To Begin Again')","True",NA,NA,NA,NA,NA,NA,NA
+"270","267",1983,"WRITING","Missing","True",1982,"Biography","Drama","History",7.7,"1.4e+07",122
+"271","271",1983,"WRITING","Sophie's Choice","False",1982,"Drama","Romance",NA,7.5,"30036000",150
+"272","272",1983,"WRITING","Victor/Victoria","False",1982,"Comedy","Music","Romance",7.6,"21933614",134
+"273","273",1983,"WRITING","Gandhi","True",1982,"Biography","Drama","History",8,"52767889",191
+"274","275",1983,"WRITING","An Officer and a Gentleman","False",1982,"Drama","Romance",NA,7,"129795552",124
+"275","276",1983,"WRITING","Tootsie","False",1982,"Comedy","Drama","Romance",7.4,"177200000",116
+"276","732",1983,"WRITING","Das Boot","False",1981,"Drama","History","War",NA,"1.4e+07",150
+"277","741",1983,"WRITING","The Verdict","False",1982,"Drama",NA,NA,NA,"1.6e+07",129
+"278","754",1983,"WRITING","Diner","False",1982,"Comedy","Drama",NA,NA,NA,110
+"279","282",1983,"WRITING","E.T. The Extra-Terrestrial","False",NA,NA,NA,NA,NA,NA,NA
+"280","281",1984,"BEST PICTURE","The Right Stuff","False",1983,"Adventure","Biography","Drama",7.8,"21500000",193
+"281","762",1984,"BEST PICTURE","The Big Chill","False",1983,"Comedy","Drama",NA,NA,NA,105
+"282","771",1984,"BEST PICTURE","The Dresser","False",1983,"Drama",NA,NA,NA,NA,118
+"283","782",1984,"BEST PICTURE","Tender Mercies","False",1983,"Drama","Music","Romance",NA,NA,92
+"284","792",1984,"BEST PICTURE","Terms of Endearment","True",1983,"Comedy","Drama",NA,NA,"8e+06",132
+"285","277",1984,"INTERNATIONAL FEATURE FILM","Carmen","False",1983,"Drama","Music","Romance",7.5,NA,102
+"286","278",1984,"INTERNATIONAL FEATURE FILM","Entre Nous","False",1983,"Biography","Drama","War",7,NA,110
+"287","279",1984,"INTERNATIONAL FEATURE FILM","Entre Nous","False",1983,"Biography","Drama","War",7.1,NA,110
+"288","280",1984,"INTERNATIONAL FEATURE FILM","Le Bal","False",1983,"History","Musical",NA,7.7,NA,109
+"289","296",1984,"INTERNATIONAL FEATURE FILM","Fanny & Alexander","True",NA,NA,NA,NA,NA,NA,NA
+"290","302",1984,"INTERNATIONAL FEATURE FILM","Job's Revolt","False",NA,NA,NA,NA,NA,NA,NA
+"291","284",1984,"WRITING","Betrayal","False",1983,"Drama","Thriller",NA,6.9,NA,95
+"292","285",1984,"WRITING","Reuben, Reuben","False",1983,"Comedy","Drama","Romance",6.8,NA,101
+"293","286",1984,"WRITING","Silkwood","False",1983,"Biography","Drama","History",7.1,"35615609",131
+"294","289",1984,"WRITING","WarGames","False",1983,"Action","Drama","Sci-Fi",7.1,"79568000",114
+"295","80",1984,"WRITING","The Dresser","False",1983,"Drama",NA,NA,NA,NA,118
+"296","812",1984,"WRITING","Educating Rita","False",1983,"Drama","Comedy",NA,NA,NA,110
+"297","82",1984,"WRITING","Terms of Endearment","True",1983,"Comedy","Drama",NA,NA,"8e+06",132
+"298","834",1984,"WRITING","The Big Chill","False",1983,"Comedy","Drama",NA,NA,NA,105
+"299","843",1984,"WRITING","Tender Mercies","True",1983,"Drama","Music","Romance",NA,NA,92
+"300","315",1984,"WRITING","Fanny & Alexander","False",NA,NA,NA,NA,NA,NA,NA
+"301","294",1985,"BEST PICTURE","Amadeus","True",1984,"Biography","Drama","Music",8.4,"51973029",160
+"302","295",1985,"BEST PICTURE","The Killing Fields","False",1984,"Biography","Drama","History",7.8,"34700291",141
+"303","298",1985,"BEST PICTURE","A Passage to India","False",1984,"Adventure","Drama","History",7.3,"27187653",164
+"304","300",1985,"BEST PICTURE","A Soldier's Story","False",1984,"Crime","Drama","Mystery",7.2,"21821347",101
+"305","872",1985,"BEST PICTURE","Places in the Heart","False",1984,"Drama","Family",NA,NA,NA,111
+"306","292",1985,"INTERNATIONAL FEATURE FILM","Camila","False",1984,"Drama","Romance",NA,6.8,NA,105
+"307","293",1985,"INTERNATIONAL FEATURE FILM","Dangerous Moves","True",1984,"Drama","Sport","Thriller",6.7,NA,100
+"308","852",1985,"INTERNATIONAL FEATURE FILM","Beyond the Walls","False",1984,"Drama",NA,NA,NA,NA,103
+"309","862",1985,"INTERNATIONAL FEATURE FILM","Double Feature","False",1984,"Drama",NA,NA,NA,NA,115
+"310","322",1985,"INTERNATIONAL FEATURE FILM","Wartime Romance","False",NA,NA,NA,NA,NA,NA,NA
+"311","303",1985,"WRITING","Amadeus","True",1984,"Biography","Drama","Music",8.4,"51973029",160
+"312","304",1985,"WRITING","Greystoke: The Legend of Tarzan, Lord of the Apes","False",1984,"Adventure","Drama",NA,6.4,"45900000",143
+"313","305",1985,"WRITING","The Killing Fields","False",1984,"Biography","Drama","History",7.8,"34700291",141
+"314","308",1985,"WRITING","A Passage to India","False",1984,"Adventure","Drama","History",7.3,"27187653",164
+"315","310",1985,"WRITING","A Soldier's Story","False",1984,"Crime","Drama","Mystery",7.2,"21821347",101
+"316","313",1985,"WRITING","Beverly Hills Cop","False",1984,"Action","Comedy","Crime",7.3,"234760478",105
+"317","316",1985,"WRITING","El Norte","False",1983,"Adventure","Drama",NA,7.7,NA,141
+"318","317",1985,"WRITING","Splash","False",1984,"Comedy","Fantasy","Romance",6.3,"62100000",111
+"319","881",1985,"WRITING","Broadway Danny Rose","False",1984,"Comedy",NA,NA,NA,"8e+06",84
+"320","892",1985,"WRITING","Places in the Heart","True",1984,"Drama","Family",NA,NA,NA,111
+"321","324",1986,"BEST PICTURE","Out of Africa","True",1985,"Biography","Drama","Romance",7.1,"87100000",161
+"322","326",1986,"BEST PICTURE","Prizzi's Honor","False",1985,"Comedy","Crime","Drama",6.7,"26700000",130
+"323","328",1986,"BEST PICTURE","Witness","False",1985,"Drama","Romance","Thriller",7.4,"68706993",112
+"324","92",1986,"BEST PICTURE","The Color Purple","False",1985,"Drama",NA,NA,NA,"1.5e+07",154
+"325","931",1986,"BEST PICTURE","Kiss of the Spider Woman","False",1985,"Drama",NA,NA,NA,NA,120
+"326","319",1986,"INTERNATIONAL FEATURE FILM","Angry Harvest","False",1985,"Drama","Romance","War",7.2,NA,105
+"327","321",1986,"INTERNATIONAL FEATURE FILM","Colonel Redl","False",1985,"Biography","Drama","History",7.4,"2357",144
+"328","323",1986,"INTERNATIONAL FEATURE FILM","The Official Story","True",1985,"Drama","History",NA,7.7,"29426",112
+"329","901",1986,"INTERNATIONAL FEATURE FILM","Three Men and a Cradle","False",1985,"Comedy",NA,NA,NA,NA,106
+"330","91",1986,"INTERNATIONAL FEATURE FILM","When Father Was Away on Business","False",1985,"Drama",NA,NA,NA,NA,136
+"331","330",1986,"WRITING","Out of Africa","True",1985,"Biography","Drama","Romance",7.1,"87100000",161
+"332","332",1986,"WRITING","Prizzi's Honor","False",1985,"Comedy","Crime","Drama",6.7,"26700000",130
+"333","334",1986,"WRITING","Back to the Future","False",1985,"Adventure","Comedy","Sci-Fi",8.5,"210609762",116
+"334","336",1986,"WRITING","Brazil","False",1985,"Drama","Sci-Fi",NA,7.9,"9929135",132
+"335","337",1986,"WRITING","The Official Story","False",1985,"Drama","History",NA,7.7,"29426",112
+"336","338",1986,"WRITING","The Purple Rose of Cairo","False",1985,"Comedy","Fantasy","Romance",7.7,"10631333",82
+"337","340",1986,"WRITING","Witness","True",1985,"Drama","Romance","Thriller",7.4,"68706993",112
+"338","941",1986,"WRITING","The Color Purple","False",1985,"Drama",NA,NA,NA,"1.5e+07",154
+"339","951",1986,"WRITING","Kiss of the Spider Woman","False",1985,"Drama",NA,NA,NA,NA,120
+"340","96",1986,"WRITING","The Trip to Bountiful","False",1985,"Drama",NA,NA,NA,NA,108
+"341","346",1987,"BEST PICTURE","Children of a Lesser God","False",1986,"Drama","Romance",NA,7.2,"31853080",119
+"342","347",1987,"BEST PICTURE","The Mission","False",1986,"Adventure","Drama","History",7.4,"17218023",125
+"343","349",1987,"BEST PICTURE","Platoon","True",1986,"Drama","War",NA,8.1,"138530565",120
+"344","350",1987,"BEST PICTURE","A Room with a View","False",1985,"Drama","Romance",NA,7.2,"20966644",117
+"345","991",1987,"BEST PICTURE","Hannah and Her Sisters","False",1986,"Comedy","Drama",NA,NA,"6400000",107
+"346","342",1987,"INTERNATIONAL FEATURE FILM","The Assault","True",1986,"Drama","History","Romance",7.2,"203781",144
+"347","345",1987,"INTERNATIONAL FEATURE FILM","Betty Blue","False",1986,"Drama","Romance",NA,7.3,"2003822",119
+"348","97",1987,"INTERNATIONAL FEATURE FILM","The Decline of the American Empire","False",1986,"Comedy","Drama",NA,NA,NA,101
+"349","98",1987,"INTERNATIONAL FEATURE FILM","My Sweet Little Village","False",1985,"Comedy",NA,NA,NA,NA,98
+"350","333",1987,"INTERNATIONAL FEATURE FILM","'38'","False",NA,NA,NA,NA,NA,NA,NA
+"351","351",1987,"WRITING","Children of a Lesser God","False",1986,"Drama","Romance",NA,7.2,"31853080",119
+"352","352",1987,"WRITING","The Color of Money","False",1986,"Drama","Sport",NA,7,"52293982",119
+"353","353",1987,"WRITING","A Room with a View","True",1985,"Drama","Romance",NA,7.2,"20966644",117
+"354","354",1987,"WRITING","Stand by Me","False",1986,"Adventure","Drama",NA,8.1,"52287414",89
+"355","355",1987,"WRITING","My Beautiful Laundrette","False",1985,"Comedy","Drama","Romance",6.8,"2451545",97
+"356","356",1987,"WRITING","Platoon","False",1986,"Drama","War",NA,8.1,"138530565",120
+"357","357",1987,"WRITING","Salvador","False",1986,"Drama","History","Thriller",7.4,NA,122
+"358","100",1987,"WRITING","Crimes of the Heart","False",1986,"Drama","Family",NA,NA,NA,105
+"359","1016",1987,"WRITING","Hannah and Her Sisters","True",1986,"Comedy","Drama",NA,NA,"6400000",107
+"360","341",1987,"WRITING","'Crocodile' Dundee","False",NA,NA,NA,NA,NA,NA,NA
+"361","363",1988,"BEST PICTURE","Broadcast News","False",1987,"Comedy","Drama","Romance",7.2,"51249404",133
+"362","364",1988,"BEST PICTURE","Fatal Attraction","False",1987,"Drama","Thriller",NA,6.9,"156645693",119
+"363","365",1988,"BEST PICTURE","Hope and Glory","False",1987,"Comedy","Drama","Romance",7.3,"10021120",113
+"364","366",1988,"BEST PICTURE","The Last Emperor","True",1987,"Biography","Drama","History",7.7,"43984230",163
+"365","368",1988,"BEST PICTURE","Moonstruck","False",1987,"Comedy","Drama","Romance",7.1,"80640528",102
+"366","360",1988,"INTERNATIONAL FEATURE FILM","The Family","False",1987,"Drama","Romance",NA,7.4,"346730",127
+"367","361",1988,"INTERNATIONAL FEATURE FILM","Pathfinder","False",1987,"Action","Adventure","Drama",7.2,NA,86
+"368","1021",1988,"INTERNATIONAL FEATURE FILM","Babette's Feast","True",1987,"Comedy","Drama",NA,NA,NA,102
+"369","103",1988,"INTERNATIONAL FEATURE FILM","Course Completed","False",1987,"Drama",NA,NA,NA,NA,94
+"370","359",1988,"INTERNATIONAL FEATURE FILM","Au Revoir Les Enfants (Goodbye, Children)","False",NA,NA,NA,NA,NA,NA,NA
+"371","369",1988,"WRITING","Fatal Attraction","False",1987,"Drama","Thriller",NA,6.9,"156645693",119
+"372","370",1988,"WRITING","Full Metal Jacket","False",1987,"Drama","War",NA,8.3,"46357676",116
+"373","371",1988,"WRITING","The Last Emperor","True",1987,"Biography","Drama","History",7.7,"43984230",163
+"374","373",1988,"WRITING","Broadcast News","False",1987,"Comedy","Drama","Romance",7.2,"51249404",133
+"375","374",1988,"WRITING","Hope and Glory","False",1987,"Comedy","Drama","Romance",7.3,"10021120",113
+"376","375",1988,"WRITING","Moonstruck","True",1987,"Comedy","Drama","Romance",7.1,"80640528",102
+"377","1042",1988,"WRITING","The Dead","False",1987,"Drama",NA,NA,NA,NA,83
+"378","105",1988,"WRITING","Radio Days","False",1987,"Comedy","Drama","Music",NA,"1.6e+07",90
+"379","367",1988,"WRITING","My Life as a Dog","False",NA,NA,NA,NA,NA,NA,NA
+"380","3710",1988,"WRITING","Au Revoir Les Enfants (Goodbye, Children)","False",NA,NA,NA,NA,NA,NA,NA
+"381","378",1989,"BEST PICTURE","The Accidental Tourist","False",1988,"Drama","Romance",NA,6.7,"32632093",121
+"382","379",1989,"BEST PICTURE","Dangerous Liaisons","False",1988,"Drama","Romance",NA,7.6,"34700000",119
+"383","380",1989,"BEST PICTURE","Mississippi Burning","False",1988,"Crime","Drama","Mystery",7.8,"34603943",128
+"384","383",1989,"BEST PICTURE","Working Girl","False",1988,"Comedy","Drama","Romance",6.8,"6.4e+07",113
+"385","109",1989,"BEST PICTURE","Rain Man","True",1988,"Drama",NA,NA,NA,"2.5e+07",134
+"386","376",1989,"INTERNATIONAL FEATURE FILM","Hanussen","False",1988,"Drama","History",NA,7.2,"82635",140
+"387","377",1989,"INTERNATIONAL FEATURE FILM","Salaam Bombay!","False",1988,"Crime","Drama",NA,7.9,"2080046",113
+"388","1061",1989,"INTERNATIONAL FEATURE FILM","The Music Teacher","False",1988,"Music",NA,NA,NA,NA,100
+"389","1072",1989,"INTERNATIONAL FEATURE FILM","Pelle the Conqueror","True",1987,"Drama",NA,NA,NA,NA,157
+"390","1082",1989,"INTERNATIONAL FEATURE FILM","Women on the Verge of a Nervous Breakdown","False",1988,"Comedy","Drama",NA,NA,"7e+05",88
+"391","384",1989,"WRITING","The Accidental Tourist","False",1988,"Drama","Romance",NA,6.7,"32632093",121
+"392","385",1989,"WRITING","Dangerous Liaisons","True",1988,"Drama","Romance",NA,7.6,"34700000",119
+"393","386",1989,"WRITING","Gorillas in the Mist","False",1988,"Biography","Drama",NA,7,"24720479",129
+"394","387",1989,"WRITING","Little Dorrit","False",1987,"Drama","Romance",NA,7.2,"1025228",357
+"395","388",1989,"WRITING","The Unbearable Lightness of Being","False",1988,"Drama","Romance",NA,7.3,"10006806",171
+"396","389",1989,"WRITING","Big","False",1988,"Comedy","Drama","Fantasy",7.3,"114968774",104
+"397","391",1989,"WRITING","Bull Durham","False",1988,"Comedy","Romance","Sport",7,"50888729",108
+"398","393",1989,"WRITING","A Fish Called Wanda","False",1988,"Comedy","Crime",NA,7.5,"63493712",108
+"399","394",1989,"WRITING","Running on Empty","False",1988,"Crime","Drama","Music",7.6,"2835116",116
+"400","1106",1989,"WRITING","Rain Man","True",1988,"Drama",NA,NA,NA,"2.5e+07",134
+"401","401",1990,"BEST PICTURE","Born on the Fourth of July","False",1989,"Biography","Drama","War",7.2,"70001698",145
+"402","403",1990,"BEST PICTURE","Driving Miss Daisy","True",1989,"Comedy","Drama","Romance",7.3,"106593296",99
+"403","404",1990,"BEST PICTURE","Field of Dreams","False",1989,"Drama","Family","Fantasy",7.5,"64431625",107
+"404","407",1990,"BEST PICTURE","My Left Foot","False",1989,"Biography","Drama",NA,7.8,"14743391",103
+"405","1113",1990,"BEST PICTURE","Dead Poets Society","False",1989,"Drama",NA,NA,NA,"16400000",128
+"406","396",1990,"INTERNATIONAL FEATURE FILM","Camille Claudel","False",1988,"Biography","Drama","History",7.2,"201055",175
+"407","399",1990,"INTERNATIONAL FEATURE FILM","Cinema Paradiso","True",1988,"Drama","Romance",NA,8.5,"11990401",155
+"408","400",1990,"INTERNATIONAL FEATURE FILM","Jesus of Montreal","False",1989,"Drama","Romance",NA,7.5,"1601612",120
+"409","382",1990,"INTERNATIONAL FEATURE FILM","Waltzing Regitze","False",NA,NA,NA,NA,NA,NA,NA
+"410","395",1990,"INTERNATIONAL FEATURE FILM","What Happened to Santiago","False",NA,NA,NA,NA,NA,NA,NA
+"411","408",1990,"WRITING","Born on the Fourth of July","False",1989,"Biography","Drama","War",7.2,"70001698",145
+"412","410",1990,"WRITING","Driving Miss Daisy","True",1989,"Comedy","Drama","Romance",7.3,"106593296",99
+"413","411",1990,"WRITING","Enemies, A Love Story","False",1989,"Comedy","Drama","Romance",6.6,"7754571",119
+"414","412",1990,"WRITING","Field of Dreams","False",1989,"Drama","Family","Fantasy",7.5,"64431625",107
+"415","415",1990,"WRITING","My Left Foot","False",1989,"Biography","Drama",NA,7.8,"14743391",103
+"416","416",1990,"WRITING","When Harry Met Sally...","False",1989,"Comedy","Drama","Romance",7.7,"92823600",95
+"417","112",1990,"WRITING","Crimes and Misdemeanors","False",1989,"Comedy","Drama",NA,NA,"1.9e+07",104
+"418","1131",1990,"WRITING","Dead Poets Society","True",1989,"Drama",NA,NA,NA,"16400000",128
+"419","114",1990,"WRITING","Do the Right Thing","False",1989,"Drama",NA,NA,NA,"6500000",120
+"420","405",1990,"WRITING","sex, lies, and videotape","False",NA,NA,NA,NA,NA,NA,NA
+"421","425",1991,"BEST PICTURE","Awakenings","False",1990,"Biography","Drama",NA,7.8,"52096475",121
+"422","426",1991,"BEST PICTURE","Ghost","False",1990,"Drama","Fantasy","Romance",7.1,"217631306",127
+"423","418",1991,"BEST PICTURE","Dances With Wolves","True",NA,NA,NA,NA,NA,NA,NA
+"424","427",1991,"BEST PICTURE","The Godfather, Part III","False",NA,NA,NA,NA,NA,NA,NA
+"425","433",1991,"BEST PICTURE","Good Fellas","False",NA,NA,NA,NA,NA,NA,NA
+"426","417",1991,"INTERNATIONAL FEATURE FILM","Cyrano de Bergerac","False",1990,"Comedy","Drama","History",7.5,"15140007",137
+"427","420",1991,"INTERNATIONAL FEATURE FILM","Journey of Hope","True",1990,"Adventure","Drama",NA,7.5,"261718",105
+"428","421",1991,"INTERNATIONAL FEATURE FILM","Ju Dou","False",1990,"Drama","Romance",NA,7.6,"1986433",95
+"429","422",1991,"INTERNATIONAL FEATURE FILM","The Nasty Girl","False",1990,"Comedy","Drama","History",7.3,"2281569",92
+"430","424",1991,"INTERNATIONAL FEATURE FILM","Open Doors","False",1990,"Crime","Drama",NA,7.2,"123470",108
+"431","429",1991,"WRITING","Awakenings","False",1990,"Biography","Drama",NA,7.8,"52096475",121
+"432","430",1991,"WRITING","The Grifters","False",1990,"Crime","Drama","Thriller",6.9,"13446769",110
+"433","432",1991,"WRITING","Reversal of Fortune","False",1990,"Biography","Drama","Mystery",7.2,"15445131",111
+"434","434",1991,"WRITING","Alice","False",1990,"Comedy","Romance",NA,6.6,"7331647",106
+"435","435",1991,"WRITING","Ghost","True",1990,"Drama","Fantasy","Romance",7.1,"217631306",127
+"436","438",1991,"WRITING","Green Card","False",1990,"Comedy","Drama","Romance",6.3,"29888235",107
+"437","439",1991,"WRITING","Metropolitan","False",1990,"Comedy","Drama","Romance",7.3,"2938208",98
+"438","1155",1991,"WRITING","Avalon","False",1990,"Drama",NA,NA,NA,NA,126
+"439","442",1991,"WRITING","Dances With Wolves","True",NA,NA,NA,NA,NA,NA,NA
+"440","452",1991,"WRITING","Good Fellas","False",NA,NA,NA,NA,NA,NA,NA
+"441","445",1992,"BEST PICTURE","Beauty and the Beast","False",1991,"Animation","Family","Fantasy",8,"218967620",84
+"442","449",1992,"BEST PICTURE","Bugsy","False",1991,"Biography","Crime","Drama",6.8,"49114016",136
+"443","451",1992,"BEST PICTURE","JFK","False",1991,"Drama","History","Thriller",8,"70405498",189
+"444","453",1992,"BEST PICTURE","The Prince of Tides","False",1991,"Drama","Romance",NA,6.8,"74787599",132
+"445","454",1992,"BEST PICTURE","The Silence of the Lambs","True",1991,"Crime","Drama","Thriller",8.6,"130742922",118
+"446","440",1992,"INTERNATIONAL FEATURE FILM","The Elementary School","False",1991,"Adventure","Comedy","Drama",7.8,NA,100
+"447","443",1992,"INTERNATIONAL FEATURE FILM","Mediterraneo","True",1991,"Comedy","Drama","War",7.4,"4532791",96
+"448","444",1992,"INTERNATIONAL FEATURE FILM","Raise the Red Lantern","False",1991,"Drama","Romance",NA,8.1,"2603061",125
+"449","1161",1992,"INTERNATIONAL FEATURE FILM","Children of Nature","False",1991,"Romance","Drama",NA,NA,NA,82
+"450","117",1992,"INTERNATIONAL FEATURE FILM","The Ox","False",1991,"Drama",NA,NA,NA,NA,92
+"451","456",1992,"WRITING","Europa Europa","False",1990,"Drama","History","War",7.6,"5575738",112
+"452","458",1992,"WRITING","JFK","False",1991,"Drama","History","Thriller",8,"70405498",189
+"453","460",1992,"WRITING","The Prince of Tides","False",1991,"Drama","Romance",NA,6.8,"74787599",132
+"454","461",1992,"WRITING","The Silence of the Lambs","True",1991,"Crime","Drama","Thriller",8.6,"130742922",118
+"455","463",1992,"WRITING","Bugsy","False",1991,"Biography","Crime","Drama",6.8,"49114016",136
+"456","465",1992,"WRITING","The Fisher King","False",1991,"Comedy","Drama","Fantasy",7.5,"41895491",137
+"457","466",1992,"WRITING","Grand Canyon","False",1991,"Crime","Drama",NA,6.9,"33243020",134
+"458","467",1992,"WRITING","Thelma & Louise","True",1991,"Adventure","Crime","Drama",7.5,"45361000",130
+"459","1183",1992,"WRITING","Fried Green Tomatoes","False",1991,"Drama","Comedy",NA,NA,"1.1e+07",130
+"460","464",1992,"WRITING","Boyz N the Hood","False",NA,NA,NA,NA,NA,NA,NA
+"461","475",1993,"BEST PICTURE","The Crying Game","False",1992,"Crime","Drama","Romance",7.2,"62549000",112
+"462","478",1993,"BEST PICTURE","A Few Good Men","False",1992,"Drama","Thriller",NA,7.7,"141340178",138
+"463","479",1993,"BEST PICTURE","Howards End","False",1992,"Drama","Romance",NA,7.4,"25967000",142
+"464","121",1993,"BEST PICTURE","Scent of a Woman","False",1992,"Drama",NA,NA,NA,"3.1e+07",157
+"465","1222",1993,"BEST PICTURE","Unforgiven","True",1992,"Western",NA,NA,NA,"1.4e+07",131
+"466","469",1993,"INTERNATIONAL FEATURE FILM","Close to Eden","False",1991,"Adventure","Drama","Romance",7.6,NA,119
+"467","471",1993,"INTERNATIONAL FEATURE FILM","Daens","False",1992,"Biography","Drama","History",7.6,NA,138
+"468","473",1993,"INTERNATIONAL FEATURE FILM","Indochine","True",1992,"Drama","Romance","War",7,"5734232",160
+"469","1191",1993,"INTERNATIONAL FEATURE FILM","A Place in the World","False",1992,"Action","Drama",NA,NA,NA,120
+"470","1201",1993,"INTERNATIONAL FEATURE FILM","Schtonk!","False",1992,"History","Comedy",NA,NA,NA,115
+"471","480",1993,"WRITING","Howards End","True",1992,"Drama","Romance",NA,7.4,"25967000",142
+"472","481",1993,"WRITING","The Player","False",1992,"Comedy","Crime","Drama",7.5,"21706100",124
+"473","483",1993,"WRITING","The Crying Game","True",1992,"Crime","Drama","Romance",7.2,"62549000",112
+"474","486",1993,"WRITING","Husbands and Wives","False",1992,"Comedy","Drama","Romance",7.5,"10555619",108
+"475","487",1993,"WRITING","Lorenzo's Oil","False",1992,"Biography","Drama",NA,7.3,"7286388",129
+"476","123",1993,"WRITING","Enchanted April","False",1991,"Romance","Drama",NA,NA,NA,89
+"477","1242",1993,"WRITING","Scent of a Woman","False",1992,"Drama",NA,NA,NA,"3.1e+07",157
+"478","1251",1993,"WRITING","Passion Fish","False",1992,"Drama",NA,NA,NA,NA,135
+"479","126",1993,"WRITING","Unforgiven","False",1992,"Western",NA,NA,NA,"1.4e+07",131
+"480","472",1993,"WRITING","A River Runs through It","False",NA,NA,NA,NA,NA,NA,NA
+"481","494",1994,"BEST PICTURE","The Fugitive","False",1993,"Action","Crime","Drama",7.8,"183875760",130
+"482","498",1994,"BEST PICTURE","In the Name of the Father","False",1993,"Biography","Crime","Drama",8.1,"25010410",133
+"483","500",1994,"BEST PICTURE","The Piano","False",1993,"Drama","Music","Romance",7.5,"40158000",121
+"484","501",1994,"BEST PICTURE","The Remains of the Day","False",1993,"Drama","Romance",NA,7.8,"22954968",134
+"485","502",1994,"BEST PICTURE","Schindler's List","True",1993,"Biography","Drama","History",9,"96898818",195
+"486","488",1994,"INTERNATIONAL FEATURE FILM","Belle Epoque","True",1992,"Comedy","Drama","Romance",7.1,"5971369",109
+"487","489",1994,"INTERNATIONAL FEATURE FILM","Farewell My Concubine","False",1993,"Drama","Music","Romance",8.1,"5216888",171
+"488","490",1994,"INTERNATIONAL FEATURE FILM","Hedd Wyn","False",1992,"Drama","Romance","War",7.1,NA,123
+"489","492",1994,"INTERNATIONAL FEATURE FILM","The Scent of Green Papaya","False",1993,"Drama","Music","Romance",7.3,"1910763",104
+"490","493",1994,"INTERNATIONAL FEATURE FILM","The Wedding Banquet","False",1993,"Comedy","Drama","Romance",7.6,"6933459",106
+"491","504",1994,"WRITING","The Age of Innocence","False",1993,"Drama","Romance",NA,7.2,"32200000",139
+"492","505",1994,"WRITING","In the Name of the Father","False",1993,"Biography","Crime","Drama",8.1,"25010410",133
+"493","507",1994,"WRITING","The Remains of the Day","False",1993,"Drama","Romance",NA,7.8,"22954968",134
+"494","508",1994,"WRITING","Schindler's List","True",1993,"Biography","Drama","History",9,"96898818",195
+"495","510",1994,"WRITING","Shadowlands","False",1993,"Biography","Drama","Romance",7.4,"25842000",131
+"496","512",1994,"WRITING","Dave","False",1993,"Comedy","Romance",NA,6.9,"63270710",110
+"497","513",1994,"WRITING","In the Line of Fire","False",1993,"Action","Crime","Drama",7.2,"102314283",128
+"498","516",1994,"WRITING","The Piano","True",1993,"Drama","Music","Romance",7.5,"40158000",121
+"499","517",1994,"WRITING","Sleepless in Seattle","False",1993,"Comedy","Drama","Romance",6.8,"126533006",105
+"500","1271",1994,"WRITING","Philadelphia","False",1993,"Drama",NA,NA,NA,"2.6e+07",126
+"501","522",1995,"BEST PICTURE","Forrest Gump","True",1994,"Drama","Romance",NA,8.8,"330252182",142
+"502","523",1995,"BEST PICTURE","Four Weddings and a Funeral","False",1994,"Comedy","Drama","Romance",7.1,"52700832",117
+"503","524",1995,"BEST PICTURE","Pulp Fiction","False",1994,"Crime","Drama",NA,8.9,"107928762",154
+"504","525",1995,"BEST PICTURE","Quiz Show","False",1994,"Biography","Drama","History",7.5,"24822619",133
+"505","129",1995,"BEST PICTURE","The Shawshank Redemption","False",1994,"Drama","Crime",NA,NA,"2.5e+07",142
+"506","518",1995,"INTERNATIONAL FEATURE FILM","Before the Rain","False",1994,"Drama","Romance","War",7.9,"763847",113
+"507","520",1995,"INTERNATIONAL FEATURE FILM","Burnt by the Sun","True",1994,"Drama","War",NA,7.8,"2616503",135
+"508","521",1995,"INTERNATIONAL FEATURE FILM","Eat Drink Man Woman","False",1994,"Comedy","Drama","Romance",7.8,"7294403",124
+"509","128",1995,"INTERNATIONAL FEATURE FILM","Strawberry and Chocolate","False",1993,"Comedy","Drama",NA,NA,NA,108
+"510","484",1995,"INTERNATIONAL FEATURE FILM","Farinelli: Il Castrato","False",NA,NA,NA,NA,NA,NA,NA
+"511","527",1995,"WRITING","Forrest Gump","True",1994,"Drama","Romance",NA,8.8,"330252182",142
+"512","528",1995,"WRITING","The Madness of King George","False",1994,"Biography","Comedy","Drama",7.2,"15238994",110
+"513","530",1995,"WRITING","Quiz Show","False",1994,"Biography","Drama","History",7.5,"24822619",133
+"514","532",1995,"WRITING","Four Weddings and a Funeral","False",1994,"Comedy","Drama","Romance",7.1,"52700832",117
+"515","533",1995,"WRITING","Heavenly Creatures","False",1994,"Biography","Crime","Drama",7.3,"3049135",99
+"516","536",1995,"WRITING","Pulp Fiction","True",1994,"Crime","Drama",NA,8.9,"107928762",154
+"517","1304",1995,"WRITING","Nobody's Fool","False",1994,"Drama","Comedy",NA,NA,NA,110
+"518","131",1995,"WRITING","The Shawshank Redemption","False",1994,"Drama","Crime",NA,NA,"2.5e+07",142
+"519","491",1995,"WRITING","Bullets over Broadway","False",NA,NA,NA,NA,NA,NA,NA
+"520","503",1995,"WRITING","Red","False",NA,NA,NA,NA,NA,NA,NA
+"521","539",1996,"BEST PICTURE","Apollo 13","False",1995,"Adventure","Drama","History",7.7,"173837933",140
+"522","541",1996,"BEST PICTURE","Babe","False",1995,"Comedy","Drama","Family",6.9,"66600000",91
+"523","542",1996,"BEST PICTURE","Braveheart","True",1995,"Biography","Drama","History",8.4,"75600000",178
+"524","545",1996,"BEST PICTURE","Sense and Sensibility","False",1995,"Drama","Romance",NA,7.7,"43182776",136
+"525","515",1996,"BEST PICTURE","The Postman (Il Postino)","False",NA,NA,NA,NA,NA,NA,NA
+"526","537",1996,"INTERNATIONAL FEATURE FILM","O Quatrilho","False",1995,"Romance","Drama",NA,6.7,NA,92
+"527","538",1996,"INTERNATIONAL FEATURE FILM","The Star Maker","False",1995,"Drama","Romance",NA,7.4,"116797",113
+"528","1321",1996,"INTERNATIONAL FEATURE FILM","All Things Fair","False",1995,"Drama","Romance","War",NA,NA,130
+"529","1331",1996,"INTERNATIONAL FEATURE FILM","Antonia's Line","True",1995,"Drama","Comedy",NA,NA,"9e+05",102
+"530","134",1996,"INTERNATIONAL FEATURE FILM","Dust of Life","False",1995,"Drama",NA,NA,NA,NA,87
+"531","546",1996,"WRITING","Apollo 13","False",1995,"Adventure","Drama","History",7.7,"173837933",140
+"532","548",1996,"WRITING","Babe","False",1995,"Comedy","Drama","Family",6.9,"66600000",91
+"533","549",1996,"WRITING","Leaving Las Vegas","False",1995,"Drama","Romance",NA,7.5,"31968347",111
+"534","550",1996,"WRITING","Sense and Sensibility","True",1995,"Drama","Romance",NA,7.7,"43182776",136
+"535","551",1996,"WRITING","Braveheart","False",1995,"Biography","Drama","History",8.4,"75600000",178
+"536","554",1996,"WRITING","Mighty Aphrodite","False",1995,"Comedy","Fantasy","Romance",7,"6700000",95
+"537","556",1996,"WRITING","Nixon","False",1995,"Biography","Drama","History",7.1,"13560960",192
+"538","558",1996,"WRITING","Toy Story","False",1995,"Animation","Adventure","Comedy",8.3,"191796233",81
+"539","562",1996,"WRITING","The Usual Suspects","True",1995,"Crime","Drama","Mystery",8.5,"23341568",106
+"540","529",1996,"WRITING","The Postman (Il Postino)","False",NA,NA,NA,NA,NA,NA,NA
+"541","569",1997,"BEST PICTURE","The English Patient","True",1996,"Drama","Romance","War",7.4,"78651430",162
+"542","571",1997,"BEST PICTURE","Fargo","False",1996,"Crime","Thriller",NA,8.1,"24611975",98
+"543","573",1997,"BEST PICTURE","Jerry Maguire","False",1996,"Comedy","Drama","Romance",7.3,"153952592",139
+"544","575",1997,"BEST PICTURE","Shine","False",1996,"Biography","Drama","Music",7.6,"35811509",105
+"545","137",1997,"BEST PICTURE","Secrets & Lies","False",1996,"Drama",NA,NA,NA,"4500000",142
+"546","565",1997,"INTERNATIONAL FEATURE FILM","A Chef in Love","False",1996,"Comedy","Romance",NA,6.3,"603957",100
+"547","566",1997,"INTERNATIONAL FEATURE FILM","Prisoner of the Mountains","False",1996,"Drama","War",NA,7.5,"661361",99
+"548","567",1997,"INTERNATIONAL FEATURE FILM","Ridicule","False",1996,"Comedy","Drama","History",7.3,"2503829",102
+"549","135",1997,"INTERNATIONAL FEATURE FILM","Kolya","True",1996,"Music","Drama","Comedy",NA,"1031764",105
+"550","1361",1997,"INTERNATIONAL FEATURE FILM","The Other Side of Sunday","False",1996,"Drama","Comedy",NA,NA,NA,103
+"551","577",1997,"WRITING","The Crucible","False",1996,"Drama","History",NA,6.8,"7340103",124
+"552","578",1997,"WRITING","The English Patient","False",1996,"Drama","Romance","War",7.4,"78651430",162
+"553","580",1997,"WRITING","Fargo","True",1996,"Crime","Thriller",NA,8.1,"24611975",98
+"554","582",1997,"WRITING","Jerry Maguire","False",1996,"Comedy","Drama","Romance",7.3,"153952592",139
+"555","584",1997,"WRITING","Lone Star","False",1996,"Drama","Mystery","Western",7.4,"13269963",135
+"556","585",1997,"WRITING","Shine","False",1996,"Biography","Drama","Music",7.6,"35811509",105
+"557","1381",1997,"WRITING","Hamlet","False",1996,"Drama",NA,NA,NA,NA,242
+"558","139",1997,"WRITING","Sling Blade","True",1996,"Drama",NA,NA,NA,"1e+06",135
+"559","1403",1997,"WRITING","Trainspotting","False",1996,"Drama","Crime",NA,NA,"4e+06",94
+"560","1412",1997,"WRITING","Secrets & Lies","False",1996,"Drama",NA,NA,NA,"4500000",142
+"561","594",1998,"BEST PICTURE","As Good as It Gets","False",1997,"Comedy","Drama","Romance",7.7,"148478011",139
+"562","595",1998,"BEST PICTURE","Good Will Hunting","False",1997,"Drama","Romance",NA,8.3,"138433435",126
+"563","596",1998,"BEST PICTURE","L.A. Confidential","False",1997,"Crime","Drama","Mystery",8.2,"64616940",138
+"564","599",1998,"BEST PICTURE","Titanic","True",1997,"Drama","Romance",NA,7.9,"659325379",194
+"565","1442",1998,"BEST PICTURE","The Full Monty","False",1997,"Comedy",NA,NA,NA,"3500000",91
+"566","587",1998,"INTERNATIONAL FEATURE FILM","Character","True",1997,"Crime","Drama","Mystery",7.7,"713413",122
+"567","590",1998,"INTERNATIONAL FEATURE FILM","Four Days in September","False",1997,"Action","Drama","History",7.4,"310724",110
+"568","593",1998,"INTERNATIONAL FEATURE FILM","The Thief","False",1997,"Crime","Drama",NA,7.6,"1126115",96
+"569","1421",1998,"INTERNATIONAL FEATURE FILM","Beyond Silence","False",1996,"Drama",NA,NA,NA,NA,109
+"570","143",1998,"INTERNATIONAL FEATURE FILM","Secrets of the Heart","False",1997,"Drama",NA,NA,NA,"1727000",105
+"571","600",1998,"WRITING","Donnie Brasco","False",1997,"Biography","Crime","Drama",7.7,"41909762",127
+"572","602",1998,"WRITING","L.A. Confidential","True",1997,"Crime","Drama","Mystery",8.2,"64616940",138
+"573","605",1998,"WRITING","The Wings of the Dove","False",1997,"Drama","Romance",NA,7.1,"13718385",102
+"574","606",1998,"WRITING","As Good as It Gets","False",1997,"Comedy","Drama","Romance",7.7,"148478011",139
+"575","607",1998,"WRITING","Good Will Hunting","True",1997,"Drama","Romance",NA,8.3,"138433435",126
+"576","1453",1998,"WRITING","The Sweet Hereafter","False",1997,"Drama",NA,NA,NA,"5e+06",112
+"577","1463",1998,"WRITING","Wag the Dog","False",1997,"Comedy","Drama",NA,NA,"1.5e+07",97
+"578","1471",1998,"WRITING","Boogie Nights","False",1997,"Drama",NA,NA,NA,"1.5e+07",156
+"579","148",1998,"WRITING","Deconstructing Harry","False",1997,"Comedy","Drama",NA,NA,"2e+07",96
+"580","1492",1998,"WRITING","The Full Monty","False",1997,"Comedy",NA,NA,NA,"3500000",91
+"581","611",1999,"BEST PICTURE","Elizabeth","False",1998,"Biography","Drama","History",7.4,"30082699",124
+"582","613",1999,"BEST PICTURE","Life Is Beautiful","False",1997,"Comedy","Drama","Romance",8.6,"57598247",116
+"583","615",1999,"BEST PICTURE","Saving Private Ryan","False",1998,"Drama","War",NA,8.6,"216540909",169
+"584","616",1999,"BEST PICTURE","Shakespeare in Love","True",1998,"Comedy","Drama","History",7.1,"100317794",123
+"585","618",1999,"BEST PICTURE","The Thin Red Line","False",1998,"Drama","History","War",7.6,"36400491",170
+"586","608",1999,"INTERNATIONAL FEATURE FILM","Children of Heaven","False",1997,"Drama","Family","Sport",8.2,"933933",89
+"587","609",1999,"INTERNATIONAL FEATURE FILM","Life Is Beautiful","True",1997,"Comedy","Drama","Romance",8.6,"57598247",116
+"588","1502",1999,"INTERNATIONAL FEATURE FILM","Central Station","False",1998,"Drama",NA,NA,NA,"2900000",113
+"589","151",1999,"INTERNATIONAL FEATURE FILM","The Grandfather","False",1998,"Drama",NA,NA,NA,NA,151
+"590","152",1999,"INTERNATIONAL FEATURE FILM","Tango","False",1998,"Drama","Romance",NA,NA,NA,115
+"591","620",1999,"WRITING","Gods and Monsters","True",1998,"Biography","Drama",NA,7.3,"6390032",105
+"592","621",1999,"WRITING","Out of Sight","False",1998,"Comedy","Crime","Drama",7,"37562568",123
+"593","624",1999,"WRITING","A Simple Plan","False",1998,"Crime","Drama","Thriller",7.5,"16311763",121
+"594","626",1999,"WRITING","The Thin Red Line","False",1998,"Drama","History","War",7.6,"36400491",170
+"595","628",1999,"WRITING","Bulworth","False",1998,"Comedy","Drama","Romance",6.8,"26525834",108
+"596","629",1999,"WRITING","Life Is Beautiful","False",1997,"Comedy","Drama","Romance",8.6,"57598247",116
+"597","631",1999,"WRITING","Saving Private Ryan","False",1998,"Drama","War",NA,8.6,"216540909",169
+"598","632",1999,"WRITING","Shakespeare in Love","True",1998,"Comedy","Drama","History",7.1,"100317794",123
+"599","1531",1999,"WRITING","Primary Colors","False",1998,"Drama",NA,NA,NA,"6.5e+07",143
+"600","1541",1999,"WRITING","The Truman Show","False",1998,"Comedy","Drama",NA,NA,"6e+07",103
+"601","635",2000,"BEST PICTURE","The Cider House Rules","False",1999,"Drama","Romance",NA,7.4,"57545092",126
+"602","636",2000,"BEST PICTURE","The Green Mile","False",1999,"Crime","Drama","Fantasy",8.6,"136801374",189
+"603","639",2000,"BEST PICTURE","The Insider","False",1999,"Biography","Drama","Thriller",7.8,"28965197",157
+"604","641",2000,"BEST PICTURE","The Sixth Sense","False",1999,"Drama","Mystery","Thriller",8.2,"293506292",107
+"605","1565",2000,"BEST PICTURE","American Beauty","True",1999,"Drama",NA,NA,NA,"1.5e+07",122
+"606","634",2000,"INTERNATIONAL FEATURE FILM","Under the Sun","False",1998,"Drama","Romance",NA,6.8,"288083",130
+"607","1552",2000,"INTERNATIONAL FEATURE FILM","Solomon and Gaenor","False",1999,NA,NA,NA,NA,NA,105
+"608","531",2000,"INTERNATIONAL FEATURE FILM","All about My Mother","True",NA,NA,NA,NA,NA,NA,NA
+"609","543",2000,"INTERNATIONAL FEATURE FILM","Caravan","False",NA,NA,NA,NA,NA,NA,NA
+"610","553",2000,"INTERNATIONAL FEATURE FILM","East-West","False",NA,NA,NA,NA,NA,NA,NA
+"611","643",2000,"WRITING","The Cider House Rules","True",1999,"Drama","Romance",NA,7.4,"57545092",126
+"612","644",2000,"WRITING","Election","False",1999,"Comedy","Romance",NA,7.3,"14879556",103
+"613","645",2000,"WRITING","The Green Mile","False",1999,"Crime","Drama","Fantasy",8.6,"136801374",189
+"614","648",2000,"WRITING","The Insider","False",1999,"Biography","Drama","Thriller",7.8,"28965197",157
+"615","650",2000,"WRITING","The Talented Mr. Ripley","False",1999,"Crime","Drama","Thriller",7.4,"81298265",139
+"616","652",2000,"WRITING","Being John Malkovich","False",1999,"Comedy","Drama","Fantasy",7.8,"22858926",113
+"617","653",2000,"WRITING","The Sixth Sense","False",1999,"Drama","Mystery","Thriller",8.2,"293506292",107
+"618","655",2000,"WRITING","Topsy-Turvy","False",1999,"Biography","Comedy","Drama",7.4,"6201757",160
+"619","157",2000,"WRITING","American Beauty","True",1999,"Drama",NA,NA,NA,"1.5e+07",122
+"620","1581",2000,"WRITING","Magnolia","False",1999,"Drama",NA,NA,NA,"3.7e+07",189
+"621","663",2001,"BEST PICTURE","Chocolat","False",2000,"Drama","Romance",NA,7.3,"71509363",121
+"622","664",2001,"BEST PICTURE","Crouching Tiger, Hidden Dragon","False",2000,"Action","Adventure","Drama",7.9,"128078872",120
+"623","667",2001,"BEST PICTURE","Erin Brockovich","False",2000,"Biography","Drama",NA,7.4,"125595205",131
+"624","668",2001,"BEST PICTURE","Gladiator","True",2000,"Action","Adventure","Drama",8.5,"187705427",155
+"625","670",2001,"BEST PICTURE","Traffic","False",2000,"Crime","Drama","Thriller",7.6,"124115725",147
+"626","657",2001,"INTERNATIONAL FEATURE FILM","Amores Perros","False",2000,"Drama","Thriller",NA,8.1,"5383834",154
+"627","658",2001,"INTERNATIONAL FEATURE FILM","Crouching Tiger, Hidden Dragon","True",2000,"Action","Adventure","Drama",7.9,"128078872",120
+"628","661",2001,"INTERNATIONAL FEATURE FILM","Divided We Fall","False",2000,"Comedy","Drama","War",7.6,"1320112",117
+"629","662",2001,"INTERNATIONAL FEATURE FILM","The Taste of Others","False",2000,"Comedy","Drama","Romance",7.2,"635282",112
+"630","561",2001,"INTERNATIONAL FEATURE FILM","Everybody Famous!","False",NA,NA,NA,NA,NA,NA,NA
+"631","672",2001,"WRITING","Chocolat","False",2000,"Drama","Romance",NA,7.3,"71509363",121
+"632","673",2001,"WRITING","Crouching Tiger, Hidden Dragon","False",2000,"Action","Adventure","Drama",7.9,"128078872",120
+"633","676",2001,"WRITING","O Brother, Where Art Thou?","False",2000,"Adventure","Comedy","Crime",7.7,"45512588",107
+"634","678",2001,"WRITING","Traffic","True",2000,"Crime","Drama","Thriller",7.6,"124115725",147
+"635","680",2001,"WRITING","Almost Famous","True",2000,"Adventure","Comedy","Drama",7.9,"32534850",122
+"636","681",2001,"WRITING","Erin Brockovich","False",2000,"Biography","Drama",NA,7.4,"125595205",131
+"637","682",2001,"WRITING","Gladiator","False",2000,"Action","Adventure","Drama",8.5,"187705427",155
+"638","1591",2001,"WRITING","Wonder Boys","False",2000,"Comedy","Drama",NA,NA,"3.5e+07",111
+"639","1602",2001,"WRITING","Billy Elliot","False",2000,"Drama","Comedy","Music",NA,"5e+06",110
+"640","1616",2001,"WRITING","You Can Count on Me","False",2000,"Drama","Family",NA,NA,NA,111
+"641","684",2002,"ANIMATED FEATURE FILM","Jimmy Neutron: Boy Genius","False",2001,"Animation","Action","Adventure",6,"80936232",82
+"642","689",2002,"ANIMATED FEATURE FILM","Monsters, Inc.","False",2001,"Animation","Adventure","Comedy",8.1,"289916256",92
+"643","693",2002,"ANIMATED FEATURE FILM","Shrek","True",2001,"Animation","Adventure","Comedy",7.9,"267665011",90
+"644","702",2002,"BEST PICTURE","A Beautiful Mind","True",2001,"Biography","Drama",NA,8.2,"170742341",135
+"645","703",2002,"BEST PICTURE","Gosford Park","False",2001,"Comedy","Drama","Mystery",7.2,"41308615",137
+"646","704",2002,"BEST PICTURE","In the Bedroom","False",2001,"Crime","Drama",NA,7.4,"35930604",131
+"647","705",2002,"BEST PICTURE","The Lord of the Rings: The Fellowship of the Ring","False",2001,"Action","Adventure","Drama",8.8,"315544750",178
+"648","581",2002,"BEST PICTURE","Moulin Rouge","False",NA,NA,NA,NA,NA,NA,NA
+"649","698",2002,"INTERNATIONAL FEATURE FILM","Amélie","False",2001,"Comedy","Romance",NA,8.3,"33225499",122
+"650","699",2002,"INTERNATIONAL FEATURE FILM","No Man's Land","True",2000,"Drama","Romance","War",7.2,NA,90
+"651","700",2002,"INTERNATIONAL FEATURE FILM","No Man's Land","True",2001,"Comedy","Drama","War",7.9,"1059830",98
+"652","162",2002,"INTERNATIONAL FEATURE FILM","Elling","False",2001,"Comedy","Drama",NA,NA,NA,89
+"653","163",2002,"INTERNATIONAL FEATURE FILM","Son of the Bride","False",2001,"Comedy","Drama","Romance",NA,NA,123
+"654","574",2002,"INTERNATIONAL FEATURE FILM","Lagaan","False",NA,NA,NA,NA,NA,NA,NA
+"655","708",2002,"WRITING","A Beautiful Mind","True",2001,"Biography","Drama",NA,8.2,"170742341",135
+"656","709",2002,"WRITING","In the Bedroom","False",2001,"Crime","Drama",NA,7.4,"35930604",131
+"657","710",2002,"WRITING","The Lord of the Rings: The Fellowship of the Ring","False",2001,"Action","Adventure","Drama",8.8,"315544750",178
+"658","713",2002,"WRITING","Shrek","False",2001,"Animation","Adventure","Comedy",7.9,"267665011",90
+"659","718",2002,"WRITING","Amélie","False",2001,"Comedy","Romance",NA,8.3,"33225499",122
+"660","719",2002,"WRITING","Gosford Park","True",2001,"Comedy","Drama","Mystery",7.2,"41308615",137
+"661","720",2002,"WRITING","Memento","False",2000,"Mystery","Thriller",NA,8.4,"25544867",113
+"662","722",2002,"WRITING","Monster's Ball","False",2001,"Drama","Romance",NA,7.1,"31252964",111
+"663","164",2002,"WRITING","Ghost World","False",2001,"Comedy","Drama",NA,NA,"7e+06",111
+"664","1651",2002,"WRITING","The Royal Tenenbaums","False",2001,"Comedy","Drama",NA,NA,"2.1e+07",110
+"665","723",2003,"ANIMATED FEATURE FILM","Ice Age","False",2002,"Animation","Adventure","Comedy",7.5,"176387405",81
+"666","726",2003,"ANIMATED FEATURE FILM","Lilo & Stitch","False",2002,"Animation","Adventure","Comedy",7.3,"145794338",85
+"667","731",2003,"ANIMATED FEATURE FILM","Spirit: Stallion of the Cimarron","False",2002,"Animation","Adventure","Drama",7.2,"73280117",83
+"668","734",2003,"ANIMATED FEATURE FILM","Spirited Away","True",2001,"Animation","Adventure","Family",8.6,"10055859",125
+"669","739",2003,"ANIMATED FEATURE FILM","Treasure Planet","False",2002,"Animation","Adventure","Family",7.2,"38176783",95
+"670","750",2003,"BEST PICTURE","Chicago","True",2002,"Comedy","Crime","Musical",7.2,"170687518",113
+"671","751",2003,"BEST PICTURE","Gangs of New York","False",2002,"Crime","Drama",NA,7.5,"77812000",167
+"672","752",2003,"BEST PICTURE","The Hours","False",2002,"Drama","Romance",NA,7.5,"41675994",110
+"673","753",2003,"BEST PICTURE","The Lord of the Rings: The Two Towers","False",2002,"Action","Adventure","Drama",8.8,"342551365",179
+"674","756",2003,"BEST PICTURE","The Pianist","False",2002,"Biography","Drama","Music",8.5,"32572577",150
+"675","744",2003,"INTERNATIONAL FEATURE FILM","Hero","False",2002,"Action","Adventure","Drama",7.9,"53710019",120
+"676","746",2003,"INTERNATIONAL FEATURE FILM","Nowhere in Africa","True",2001,"Biography","Drama","History",7.5,"6173485",141
+"677","748",2003,"INTERNATIONAL FEATURE FILM","Zus & Zo","False",2001,"Comedy","Fantasy","Romance",6.1,"28397",106
+"678","591",2003,"INTERNATIONAL FEATURE FILM","El Crimen del Padre Amaro","False",NA,NA,NA,NA,NA,NA,NA
+"679","603",2003,"INTERNATIONAL FEATURE FILM","The Man without a Past","False",NA,NA,NA,NA,NA,NA,NA
+"680","758",2003,"WRITING","About a Boy","False",2002,"Comedy","Drama","Romance",7.1,"41385278",101
+"681","759",2003,"WRITING","Chicago","False",2002,"Comedy","Crime","Musical",7.2,"170687518",113
+"682","760",2003,"WRITING","The Hours","False",2002,"Drama","Romance",NA,7.5,"41675994",110
+"683","761",2003,"WRITING","The Pianist","True",2002,"Biography","Drama","Music",8.5,"32572577",150
+"684","763",2003,"WRITING","Far from Heaven","False",2002,"Drama","Romance",NA,7.3,"15854988",107
+"685","764",2003,"WRITING","Gangs of New York","False",2002,"Crime","Drama",NA,7.5,"77812000",167
+"686","765",2003,"WRITING","My Big Fat Greek Wedding","False",2002,"Comedy","Drama","Romance",6.6,"241438208",95
+"687","766",2003,"WRITING","Talk to Her","True",2002,"Drama","Mystery","Romance",7.9,"9284265",112
+"688","1662",2003,"WRITING","Y Tu Mamá También","False",2001,"Drama","Romance",NA,NA,"5e+06",106
+"689","617",2003,"WRITING","Adaptation","False",NA,NA,NA,NA,NA,NA,NA
+"690","768",2004,"ANIMATED FEATURE FILM","Brother Bear","False",2003,"Animation","Adventure","Comedy",6.8,"85336277",85
+"691","772",2004,"ANIMATED FEATURE FILM","Finding Nemo","True",2003,"Animation","Adventure","Comedy",8.2,"380843261",100
+"692","775",2004,"ANIMATED FEATURE FILM","The Triplets of Belleville","False",2003,"Animation","Adventure","Comedy",7.7,"7002255",80
+"693","785",2004,"BEST PICTURE","The Lord of the Rings: The Return of the King","True",2003,"Action","Adventure","Drama",9,"377845905",201
+"694","788",2004,"BEST PICTURE","Master and Commander: The Far Side of the World","False",2003,"Action","Adventure","Drama",7.4,"93927920",138
+"695","791",2004,"BEST PICTURE","Mystic River","False",2003,"Crime","Drama","Mystery",7.9,"90135191",138
+"696","794",2004,"BEST PICTURE","Seabiscuit","False",2003,"Drama","History","Sport",7.3,"120277854",140
+"697","1682",2004,"BEST PICTURE","Lost in Translation","False",2003,"Drama","Romance","Comedy",NA,"4e+06",102
+"698","777",2004,"INTERNATIONAL FEATURE FILM","The Barbarian Invasions","True",2003,"Comedy","Crime","Drama",7.5,"3432342",99
+"699","780",2004,"INTERNATIONAL FEATURE FILM","The Twilight Samurai","False",2002,"Drama","Romance",NA,8.1,NA,129
+"700","781",2004,"INTERNATIONAL FEATURE FILM","Twin Sisters","False",2002,"Drama","Romance","War",7.4,"1207",137
+"701","783",2004,"INTERNATIONAL FEATURE FILM","Zelary","False",2003,"Drama","Romance","War",7.6,"329723",150
+"702","1671",2004,"INTERNATIONAL FEATURE FILM","Evil","False",2003,"Drama",NA,NA,NA,NA,113
+"703","796",2004,"WRITING","American Splendor","False",2003,"Biography","Comedy","Drama",7.4,"6003587",101
+"704","797",2004,"WRITING","City of God","False",2002,"Crime","Drama",NA,8.6,"7563397",130
+"705","798",2004,"WRITING","The Lord of the Rings: The Return of the King","True",2003,"Action","Adventure","Drama",9,"377845905",201
+"706","801",2004,"WRITING","Mystic River","False",2003,"Crime","Drama","Mystery",7.9,"90135191",138
+"707","804",2004,"WRITING","Seabiscuit","False",2003,"Drama","History","Sport",7.3,"120277854",140
+"708","806",2004,"WRITING","The Barbarian Invasions","False",2003,"Comedy","Crime","Drama",7.5,"3432342",99
+"709","809",2004,"WRITING","Dirty Pretty Things","False",2002,"Crime","Drama","Thriller",7.3,"8111360",97
+"710","811",2004,"WRITING","Finding Nemo","False",2003,"Animation","Adventure","Comedy",8.2,"380843261",100
+"711","1691",2004,"WRITING","In America","False",2003,"Drama","Family",NA,NA,NA,105
+"712","1701",2004,"WRITING","Lost in Translation","True",2003,"Drama","Romance","Comedy",NA,"4e+06",102
+"713","814",2005,"ANIMATED FEATURE FILM","The Incredibles","True",2004,"Animation","Action","Adventure",8,"261441092",115
+"714","818",2005,"ANIMATED FEATURE FILM","Shark Tale","False",2004,"Animation","Adventure","Comedy",6,"160861908",90
+"715","822",2005,"ANIMATED FEATURE FILM","Shrek 2","False",2004,"Animation","Adventure","Comedy",7.3,"436471036",93
+"716","832",2005,"BEST PICTURE","The Aviator","False",2004,"Biography","Drama",NA,7.5,"102608827",170
+"717","833",2005,"BEST PICTURE","Finding Neverland","False",2004,"Biography","Drama","Family",7.7,"51680613",106
+"718","835",2005,"BEST PICTURE","Million Dollar Baby","True",2004,"Drama","Sport",NA,8.1,"100492203",132
+"719","836",2005,"BEST PICTURE","Ray","False",2004,"Biography","Drama","Music",7.7,"75331600",152
+"720","837",2005,"BEST PICTURE","Sideways","False",2004,"Comedy","Drama","Romance",7.5,"71503593",127
+"721","827",2005,"INTERNATIONAL FEATURE FILM","As It Is in Heaven","False",2004,"Comedy","Drama","Music",7.5,"9910",133
+"722","828",2005,"INTERNATIONAL FEATURE FILM","Downfall","False",2004,"Biography","Drama","History",8.2,"5509040",156
+"723","831",2005,"INTERNATIONAL FEATURE FILM","The Sea Inside","True",2004,"Biography","Drama",NA,8,"2086345",126
+"724","1712",2005,"INTERNATIONAL FEATURE FILM","Yesterday","False",2004,"Drama",NA,NA,NA,NA,96
+"725","623",2005,"INTERNATIONAL FEATURE FILM","The Chorus (Les Choristes)","False",NA,NA,NA,NA,NA,NA,NA
+"726","838",2005,"WRITING","Before Sunset","False",2004,"Drama","Romance",NA,8.1,"5820649",80
+"727","839",2005,"WRITING","Finding Neverland","False",2004,"Biography","Drama","Family",7.7,"51680613",106
+"728","841",2005,"WRITING","Million Dollar Baby","False",2004,"Drama","Sport",NA,8.1,"100492203",132
+"729","842",2005,"WRITING","The Motorcycle Diaries","False",2004,"Adventure","Biography","Drama",7.7,"16781387",126
+"730","844",2005,"WRITING","Sideways","True",2004,"Comedy","Drama","Romance",7.5,"71503593",127
+"731","845",2005,"WRITING","The Aviator","False",2004,"Biography","Drama",NA,7.5,"102608827",170
+"732","846",2005,"WRITING","Eternal Sunshine of the Spotless Mind","True",2004,"Drama","Romance","Sci-Fi",8.3,"34400301",108
+"733","848",2005,"WRITING","Hotel Rwanda","False",2004,"Biography","Drama","History",8.1,"23530892",121
+"734","851",2005,"WRITING","The Incredibles","False",2004,"Animation","Action","Adventure",8,"261441092",115
+"735","855",2005,"WRITING","Vera Drake","False",2004,"Crime","Drama",NA,7.7,"3753806",125
+"736","856",2006,"ANIMATED FEATURE FILM","Howl's Moving Castle","False",2004,"Animation","Adventure","Family",8.2,"4711096",119
+"737","633",2006,"ANIMATED FEATURE FILM","Tim Burton's Corpse Bride","False",NA,NA,NA,NA,NA,NA,NA
+"738","642",2006,"ANIMATED FEATURE FILM","Wallace & Gromit in The Curse of the Were-Rabbit","True",NA,NA,NA,NA,NA,NA,NA
+"739","865",2006,"BEST PICTURE","Brokeback Mountain","False",2005,"Drama","Romance",NA,7.7,"83043761",134
+"740","866",2006,"BEST PICTURE","Capote","False",2005,"Biography","Crime","Drama",7.3,"28747570",114
+"741","869",2006,"BEST PICTURE","Crash","True",2004,"Crime","Drama","Thriller",7.8,"54580300",112
+"742","871",2006,"BEST PICTURE","Good Night, and Good Luck.","False",2005,"Biography","Drama","History",7.4,"31501218",93
+"743","873",2006,"BEST PICTURE","Munich","False",2005,"Action","Drama","History",7.5,"47403685",164
+"744","860",2006,"INTERNATIONAL FEATURE FILM","Don't Tell","False",2005,"Drama","Mystery",NA,6.4,"27105",120
+"745","861",2006,"INTERNATIONAL FEATURE FILM","Paradise Now","False",2005,"Crime","Drama","Thriller",7.4,"1452402",91
+"746","864",2006,"INTERNATIONAL FEATURE FILM","Tsotsi","True",2005,"Crime","Drama",NA,7.2,"2912363",94
+"747","654",2006,"INTERNATIONAL FEATURE FILM","Joyeux Noël","False",NA,NA,NA,NA,NA,NA,NA
+"748","666",2006,"INTERNATIONAL FEATURE FILM","Sophie Scholl - The Final Days","False",NA,NA,NA,NA,NA,NA,NA
+"749","876",2006,"WRITING","Brokeback Mountain","True",2005,"Drama","Romance",NA,7.7,"83043761",134
+"750","877",2006,"WRITING","Capote","False",2005,"Biography","Crime","Drama",7.3,"28747570",114
+"751","880",2006,"WRITING","The Constant Gardener","False",2005,"Drama","Mystery","Romance",7.4,"33579797",129
+"752","883",2006,"WRITING","A History of Violence","False",2005,"Action","Crime","Drama",7.4,"31493782",96
+"753","886",2006,"WRITING","Munich","False",2005,"Action","Drama","History",7.5,"47403685",164
+"754","889",2006,"WRITING","Crash","True",2004,"Crime","Drama","Thriller",7.8,"54580300",112
+"755","891",2006,"WRITING","Good Night, and Good Luck.","False",2005,"Biography","Drama","History",7.4,"31501218",93
+"756","893",2006,"WRITING","Match Point","False",2005,"Drama","Romance","Thriller",7.6,"23089926",124
+"757","895",2006,"WRITING","Syriana","False",2005,"Drama","Thriller",NA,6.9,"50824620",128
+"758","1721",2006,"WRITING","The Squid and the Whale","False",2005,"Comedy","Drama",NA,NA,"1500000",81
+"759","896",2007,"ANIMATED FEATURE FILM","Cars","False",2006,"Animation","Adventure","Comedy",7.2,"244082982",117
+"760","900",2007,"ANIMATED FEATURE FILM","Happy Feet","True",2006,"Animation","Adventure","Comedy",6.4,"198000317",108
+"761","904",2007,"ANIMATED FEATURE FILM","Monster House","False",2006,"Animation","Comedy","Family",6.6,"73661010",91
+"762","912",2007,"BEST PICTURE","The Departed","True",2006,"Crime","Drama","Thriller",8.5,"132384315",151
+"763","914",2007,"BEST PICTURE","Letters from Iwo Jima","False",2006,"Action","Adventure","Drama",7.9,"13756082",141
+"764","918",2007,"BEST PICTURE","The Queen","False",2006,"Biography","Drama",NA,7.3,"56441711",103
+"765","175",2007,"BEST PICTURE","Babel","False",2006,"Drama",NA,NA,NA,"2.5e+07",143
+"766","176",2007,"BEST PICTURE","Little Miss Sunshine","False",2006,"Comedy","Drama",NA,NA,"8e+06",102
+"767","908",2007,"INTERNATIONAL FEATURE FILM","The Lives of Others","True",2006,"Drama","Mystery","Thriller",8.4,"11286112",137
+"768","910",2007,"INTERNATIONAL FEATURE FILM","Pan's Labyrinth","False",2006,"Drama","Fantasy","War",8.2,"37634615",118
+"769","173",2007,"INTERNATIONAL FEATURE FILM","After the Wedding","False",2006,"Drama",NA,NA,NA,NA,124
+"770","1743",2007,"INTERNATIONAL FEATURE FILM","Water","False",2005,"Romance","Drama",NA,NA,NA,115
+"771","671",2007,"INTERNATIONAL FEATURE FILM","Days of Glory (Indigenes)","False",NA,NA,NA,NA,NA,NA,NA
+"772","919",2007,"WRITING","Children of Men","False",2006,"Action","Drama","Sci-Fi",7.9,"35552383",109
+"773","922",2007,"WRITING","The Departed","True",2006,"Crime","Drama","Thriller",8.5,"132384315",151
+"774","924",2007,"WRITING","Little Children","False",2006,"Drama","Romance",NA,7.5,"5463019",137
+"775","925",2007,"WRITING","Notes on a Scandal","False",2006,"Crime","Drama","Romance",7.4,"17508670",92
+"776","928",2007,"WRITING","Letters from Iwo Jima","False",2006,"Action","Adventure","Drama",7.9,"13756082",141
+"777","932",2007,"WRITING","Pan's Labyrinth","False",2006,"Drama","Fantasy","War",8.2,"37634615",118
+"778","934",2007,"WRITING","The Queen","False",2006,"Biography","Drama",NA,7.3,"56441711",103
+"779","177",2007,"WRITING","Babel","False",2006,"Drama",NA,NA,NA,"2.5e+07",143
+"780","1781",2007,"WRITING","Little Miss Sunshine","True",2006,"Comedy","Drama",NA,NA,"8e+06",102
+"781","685",2007,"WRITING","Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan","False",NA,NA,NA,NA,NA,NA,NA
+"782","935",2008,"ANIMATED FEATURE FILM","Persepolis","False",2007,"Animation","Biography","Drama",8,"4445756",96
+"783","939",2008,"ANIMATED FEATURE FILM","Ratatouille","True",2007,"Animation","Adventure","Comedy",8.1,"206445654",111
+"784","943",2008,"ANIMATED FEATURE FILM","Surf's Up","False",2007,"Animation","Adventure","Comedy",6.7,"58867694",85
+"785","956",2008,"BEST PICTURE","Atonement","False",2007,"Drama","Mystery","Romance",7.8,"50927067",123
+"786","959",2008,"BEST PICTURE","Michael Clayton","False",2007,"Crime","Drama","Mystery",7.2,"49033882",119
+"787","962",2008,"BEST PICTURE","No Country for Old Men","True",2007,"Crime","Drama","Thriller",8.2,"74283625",122
+"788","1791",2008,"BEST PICTURE","Juno","False",2007,"Comedy","Drama","Romance",NA,"7500000",96
+"789","1801",2008,"BEST PICTURE","There Will Be Blood","False",2007,"Drama",NA,NA,NA,"2.5e+07",158
+"790","947",2008,"INTERNATIONAL FEATURE FILM","Beaufort","False",2007,"Action","Drama","War",6.7,"101299",131
+"791","949",2008,"INTERNATIONAL FEATURE FILM","The Counterfeiters","True",2007,"Crime","Drama","History",7.5,"5484715",99
+"792","952",2008,"INTERNATIONAL FEATURE FILM","Katyn","False",2007,"Drama","History","War",7,"118095",121
+"793","954",2008,"INTERNATIONAL FEATURE FILM","12","False",2007,"Crime","Drama","Thriller",7.6,"125120",159
+"794","692",2008,"INTERNATIONAL FEATURE FILM","Mongol","False",NA,NA,NA,NA,NA,NA,NA
+"795","964",2008,"WRITING","Atonement","False",2007,"Drama","Mystery","Romance",7.8,"50927067",123
+"796","967",2008,"WRITING","The Diving Bell and the Butterfly","False",2007,"Biography","Drama",NA,8,"5990075",112
+"797","968",2008,"WRITING","No Country for Old Men","True",2007,"Crime","Drama","Thriller",8.2,"74283625",122
+"798","970",2008,"WRITING","Lars and the Real Girl","False",2007,"Comedy","Drama","Romance",7.3,"5972884",106
+"799","971",2008,"WRITING","Michael Clayton","False",2007,"Crime","Drama","Mystery",7.2,"49033882",119
+"800","974",2008,"WRITING","Ratatouille","False",2007,"Animation","Adventure","Comedy",8.1,"206445654",111
+"801","1811",2008,"WRITING","Away from Her","False",2007,"Drama","Romance",NA,NA,NA,110
+"802","182",2008,"WRITING","There Will Be Blood","False",2007,"Drama",NA,NA,NA,"2.5e+07",158
+"803","1831",2008,"WRITING","Juno","True",2007,"Comedy","Drama","Romance",NA,"7500000",96
+"804","1841",2008,"WRITING","The Savages","False",2007,"Drama",NA,NA,NA,NA,114
+"805","978",2009,"ANIMATED FEATURE FILM","Bolt","False",2008,"Animation","Adventure","Comedy",6.8,"114053579",96
+"806","983",2009,"ANIMATED FEATURE FILM","Kung Fu Panda","False",2008,"Animation","Action","Adventure",7.6,"215434591",92
+"807","701",2009,"ANIMATED FEATURE FILM","WALL-E","True",NA,NA,NA,NA,NA,NA,NA
+"808","996",2009,"BEST PICTURE","The Curious Case of Benjamin Button","False",2008,"Drama","Fantasy","Romance",7.8,"127509326",166
+"809","998",2009,"BEST PICTURE","Frost/Nixon","False",2008,"Biography","Drama","History",7.7,"18593156",122
+"810","1000",2009,"BEST PICTURE","Milk","False",2008,"Biography","Drama","History",7.5,"31841299",128
+"811","1002",2009,"BEST PICTURE","The Reader","False",2008,"Drama","Romance",NA,7.6,"34194407",124
+"812","1003",2009,"BEST PICTURE","Slumdog Millionaire","True",2008,"Crime","Drama","Romance",8,"141319928",120
+"813","988",2009,"INTERNATIONAL FEATURE FILM","The Baader Meinhof Complex","False",2008,"Action","Biography","Crime",7.3,"476270",150
+"814","993",2009,"INTERNATIONAL FEATURE FILM","Revanche","False",2008,"Crime","Drama","Romance",7.5,NA,121
+"815","185",2009,"INTERNATIONAL FEATURE FILM","The Class","False",2007,"Drama",NA,NA,NA,"145625",99
+"816","186",2009,"INTERNATIONAL FEATURE FILM","The Class","False",2008,"Drama",NA,NA,NA,NA,128
+"817","1871",2009,"INTERNATIONAL FEATURE FILM","Departures","True",2008,"Drama",NA,NA,NA,NA,130
+"818","188",2009,"INTERNATIONAL FEATURE FILM","Waltz with Bashir","False",2007,"Drama","Animation","War",NA,"2e+06",90
+"819","1005",2009,"WRITING","The Curious Case of Benjamin Button","False",2008,"Drama","Fantasy","Romance",7.8,"127509326",166
+"820","1007",2009,"WRITING","Doubt","False",2008,"Drama","Mystery",NA,7.5,"33422556",104
+"821","1008",2009,"WRITING","Frost/Nixon","False",2008,"Biography","Drama","History",7.7,"18593156",122
+"822","1010",2009,"WRITING","The Reader","False",2008,"Drama","Romance",NA,7.6,"34194407",124
+"823","1011",2009,"WRITING","Slumdog Millionaire","True",2008,"Crime","Drama","Romance",8,"141319928",120
+"824","1013",2009,"WRITING","Frozen River","False",2008,"Crime","Drama",NA,7.1,"2508841",97
+"825","1014",2009,"WRITING","Happy-Go-Lucky","False",2008,"Comedy","Drama","Romance",7,"3494485",118
+"826","1015",2009,"WRITING","In Bruges","False",2008,"Comedy","Crime","Drama",7.9,"7757130",107
+"827","1017",2009,"WRITING","Milk","True",2008,"Biography","Drama","History",7.5,"31841299",128
+"828","714",2009,"WRITING","WALL-E","False",NA,NA,NA,NA,NA,NA,NA
+"829","1019",2010,"ANIMATED FEATURE FILM","Coraline","False",2009,"Animation","Drama","Family",7.7,"75286229",100
+"830","1023",2010,"ANIMATED FEATURE FILM","Fantastic Mr. Fox","False",2009,"Animation","Adventure","Comedy",7.9,"21002919",87
+"831","1027",2010,"ANIMATED FEATURE FILM","The Princess and the Frog","False",2009,"Animation","Adventure","Comedy",7.1,"104400899",97
+"832","1032",2010,"ANIMATED FEATURE FILM","The Secret of Kells","False",2009,"Animation","Adventure","Family",7.6,"686383",75
+"833","1036",2010,"ANIMATED FEATURE FILM","Up","True",2009,"Animation","Adventure","Comedy",8.3,"293004164",96
+"834","1046",2010,"BEST PICTURE","Avatar","False",2009,"Action","Adventure","Fantasy",7.9,"760507625",162
+"835","1050",2010,"BEST PICTURE","The Blind Side","False",2009,"Biography","Drama","Sport",7.6,"255959475",129
+"836","1052",2010,"BEST PICTURE","District 9","False",2009,"Action","Sci-Fi","Thriller",7.9,"115646235",112
+"837","1055",2010,"BEST PICTURE","The Hurt Locker","True",2008,"Drama","Thriller","War",7.5,"17017811",131
+"838","1057",2010,"BEST PICTURE","Inglourious Basterds","False",2009,"Adventure","Drama","War",8.3,"120540719",153
+"839","1059",2010,"BEST PICTURE","Up","False",2009,"Animation","Adventure","Comedy",8.3,"293004164",96
+"840","1062",2010,"BEST PICTURE","Up in the Air","False",2009,"Comedy","Drama","Romance",7.4,"83823381",109
+"841","1901",2010,"BEST PICTURE","An Education","False",2009,"Drama","Romance",NA,NA,"7500000",100
+"842","1911",2010,"BEST PICTURE","A Serious Man","False",2009,"Comedy","Drama",NA,NA,"7e+06",105
+"843","724",2010,"BEST PICTURE","Precious: Based on the Novel 'Push' by Sapphire","False",NA,NA,NA,NA,NA,NA,NA
+"844","1039",2010,"INTERNATIONAL FEATURE FILM","Ajami","False",2009,"Crime","Drama",NA,7.3,"621240",124
+"845","1040",2010,"INTERNATIONAL FEATURE FILM","A Prophet","False",2009,"Crime","Drama",NA,7.8,"2084637",155
+"846","1041",2010,"INTERNATIONAL FEATURE FILM","The Secret in Their Eyes","True",2009,"Drama","Mystery","Romance",8.2,"6391436",129
+"847","1044",2010,"INTERNATIONAL FEATURE FILM","The White Ribbon","False",2009,"Drama","Mystery","Thriller",7.8,"2222647",144
+"848","189",2010,"INTERNATIONAL FEATURE FILM","The Milk of Sorrow","False",2009,"Drama",NA,NA,NA,NA,94
+"849","1063",2010,"WRITING","District 9","False",2009,"Action","Sci-Fi","Thriller",7.9,"115646235",112
+"850","1066",2010,"WRITING","Up in the Air","False",2009,"Comedy","Drama","Romance",7.4,"83823381",109
+"851","1067",2010,"WRITING","The Hurt Locker","True",2008,"Drama","Thriller","War",7.5,"17017811",131
+"852","1069",2010,"WRITING","Inglourious Basterds","False",2009,"Adventure","Drama","War",8.3,"120540719",153
+"853","1071",2010,"WRITING","The Messenger","False",2009,"Drama","Romance","War",7.1,"66637",113
+"854","1073",2010,"WRITING","Up","False",2009,"Animation","Adventure","Comedy",8.3,"293004164",96
+"855","1921",2010,"WRITING","An Education","False",2009,"Drama","Romance",NA,NA,"7500000",100
+"856","193",2010,"WRITING","In the Loop","False",2009,"Comedy",NA,NA,NA,NA,106
+"857","194",2010,"WRITING","A Serious Man","False",2009,"Comedy","Drama",NA,NA,"7e+06",105
+"858","733",2010,"WRITING","Precious: Based on the Novel 'Push' by Sapphire","True",NA,NA,NA,NA,NA,NA,NA
+"859","1076",2011,"ANIMATED FEATURE FILM","How to Train Your Dragon","False",2010,"Animation","Action","Adventure",8.1,"217581231",98
+"860","1081",2011,"ANIMATED FEATURE FILM","The Illusionist","False",2010,"Animation","Drama","Fantasy",7.5,"2231474",80
+"861","1083",2011,"ANIMATED FEATURE FILM","Toy Story 3","True",2010,"Animation","Adventure","Comedy",8.3,"415004880",103
+"862","1091",2011,"BEST PICTURE","Black Swan","False",2010,"Drama","Thriller",NA,8,"106954678",108
+"863","1092",2011,"BEST PICTURE","The Fighter","False",2010,"Action","Biography","Drama",7.8,"93617009",116
+"864","1093",2011,"BEST PICTURE","The Fighter","False",2009,"Action",NA,NA,4.5,NA,90
+"865","1096",2011,"BEST PICTURE","Inception","False",2010,"Action","Adventure","Sci-Fi",8.8,"292576195",148
+"866","1100",2011,"BEST PICTURE","The Kids Are All Right","False",2010,"Comedy","Drama","Romance",7,"20811365",106
+"867","1101",2011,"BEST PICTURE","The King's Speech","True",2010,"Biography","Drama","History",8,"138797449",118
+"868","1103",2011,"BEST PICTURE","127 Hours","False",2010,"Biography","Drama",NA,7.5,"18335230",94
+"869","1104",2011,"BEST PICTURE","The Social Network","False",2010,"Biography","Drama",NA,7.8,"96962694",120
+"870","1105",2011,"BEST PICTURE","Toy Story 3","False",2010,"Animation","Adventure","Comedy",8.3,"415004880",103
+"871","1109",2011,"BEST PICTURE","Winter's Bone","False",2010,"Drama","Mystery",NA,7.1,"6531503",100
+"872","1951",2011,"BEST PICTURE","True Grit","False",2010,"Drama","Adventure","Western",NA,"3.8e+07",110
+"873","1087",2011,"INTERNATIONAL FEATURE FILM","Biutiful","False",2010,"Drama","Romance",NA,7.4,"5101237",148
+"874","1088",2011,"INTERNATIONAL FEATURE FILM","Dogtooth","False",2009,"Drama","Thriller",NA,7.2,"110248",97
+"875","1089",2011,"INTERNATIONAL FEATURE FILM","In a Better World","True",2010,"Drama","Romance",NA,7.6,"1008098",118
+"876","1090",2011,"INTERNATIONAL FEATURE FILM","Incendies","False",2010,"Drama","Mystery",NA,8.3,"6857096",131
+"877","742",2011,"INTERNATIONAL FEATURE FILM","Outside the Law (Hors-la-loi)","False",NA,NA,NA,NA,NA,NA,NA
+"878","1110",2011,"WRITING","127 Hours","False",2010,"Biography","Drama",NA,7.5,"18335230",94
+"879","1111",2011,"WRITING","The Social Network","True",2010,"Biography","Drama",NA,7.8,"96962694",120
+"880","1112",2011,"WRITING","Toy Story 3","False",2010,"Animation","Adventure","Comedy",8.3,"415004880",103
+"881","1116",2011,"WRITING","Winter's Bone","False",2010,"Drama","Mystery",NA,7.1,"6531503",100
+"882","1117",2011,"WRITING","The Fighter","False",2010,"Action","Biography","Drama",7.8,"93617009",116
+"883","1118",2011,"WRITING","The Fighter","False",2009,"Action",NA,NA,4.5,NA,90
+"884","1121",2011,"WRITING","Inception","False",2010,"Action","Adventure","Sci-Fi",8.8,"292576195",148
+"885","1125",2011,"WRITING","The Kids Are All Right","False",2010,"Comedy","Drama","Romance",7,"20811365",106
+"886","1126",2011,"WRITING","The King's Speech","True",2010,"Biography","Drama","History",8,"138797449",118
+"887","196",2011,"WRITING","True Grit","False",2010,"Drama","Adventure","Western",NA,"3.8e+07",110
+"888","197",2011,"WRITING","Another Year","False",2010,"Comedy","Drama",NA,NA,"8e+06",129
+"889","1128",2012,"ANIMATED FEATURE FILM","A Cat in Paris","False",2010,"Animation","Adventure","Comedy",6.9,"309973",70
+"890","1132",2012,"ANIMATED FEATURE FILM","Chico & Rita","False",2010,"Animation","Crime","Drama",7.2,"350524",94
+"891","1135",2012,"ANIMATED FEATURE FILM","Kung Fu Panda 2","False",2011,"Animation","Action","Adventure",7.2,"165249063",90
+"892","1140",2012,"ANIMATED FEATURE FILM","Puss in Boots","False",2011,"Animation","Adventure","Comedy",6.6,"149260504",90
+"893","1146",2012,"ANIMATED FEATURE FILM","Rango","True",2011,"Animation","Action","Adventure",7.2,"123477607",107
+"894","1152",2012,"BEST PICTURE","The Artist","True",2011,"Comedy","Drama","Romance",7.9,"44671682",100
+"895","1153",2012,"BEST PICTURE","The Artist","True",2011,"Thriller",NA,NA,8.2,NA,100
+"896","1154",2012,"BEST PICTURE","Extremely Loud & Incredibly Close","False",2011,"Adventure","Drama","Mystery",6.9,"31847881",129
+"897","1156",2012,"BEST PICTURE","Hugo","False",2011,"Adventure","Drama","Family",7.5,"73864507",126
+"898","1160",2012,"BEST PICTURE","Midnight in Paris","False",2011,"Comedy","Fantasy","Romance",7.7,"56816662",94
+"899","1162",2012,"BEST PICTURE","Moneyball","False",2011,"Biography","Drama","Sport",7.6,"75605492",133
+"900","1164",2012,"BEST PICTURE","The Tree of Life","False",2011,"Drama","Fantasy",NA,6.8,"13303319",139
+"901","1165",2012,"BEST PICTURE","War Horse","False",2011,"Action","Adventure","Drama",7.2,"79884879",146
+"902","2011",2012,"BEST PICTURE","The Descendants","False",2011,"Comedy","Drama",NA,NA,"2e+07",115
+"903","2021",2012,"BEST PICTURE","The Help","False",2011,"Drama",NA,NA,NA,"2.5e+07",146
+"904","1150",2012,"INTERNATIONAL FEATURE FILM","Bullhead","False",2011,"Crime","Drama",NA,7.3,"151840",129
+"905","1151",2012,"INTERNATIONAL FEATURE FILM","In Darkness","False",2011,"Drama","War",NA,7.3,"1041455",145
+"906","1981",2012,"INTERNATIONAL FEATURE FILM","Footnote","False",2011,"Comedy",NA,NA,NA,NA,102
+"907","1991",2012,"INTERNATIONAL FEATURE FILM","Monsieur Lazhar","False",2011,"Drama","Comedy",NA,NA,NA,94
+"908","200",2012,"INTERNATIONAL FEATURE FILM","A Separation","True",2011,"Drama",NA,NA,NA,"5e+06",123
+"909","1169",2012,"WRITING","Hugo","False",2011,"Adventure","Drama","Family",7.5,"73864507",126
+"910","1173",2012,"WRITING","The Ides of March","False",2011,"Drama","Thriller",NA,7.1,"40962534",101
+"911","1174",2012,"WRITING","Moneyball","False",2011,"Biography","Drama","Sport",7.6,"75605492",133
+"912","1176",2012,"WRITING","Tinker Tailor Soldier Spy","False",2011,"Drama","Mystery","Thriller",7,"24149393",127
+"913","1178",2012,"WRITING","The Artist","False",2011,"Comedy","Drama","Romance",7.9,"44671682",100
+"914","1179",2012,"WRITING","The Artist","False",2011,"Thriller",NA,NA,8.2,NA,100
+"915","1180",2012,"WRITING","Bridesmaids","False",2011,"Comedy","Romance",NA,6.8,"169106725",125
+"916","1181",2012,"WRITING","Margin Call","False",2011,"Drama","Thriller",NA,7.1,"5354039",107
+"917","1182",2012,"WRITING","Midnight in Paris","True",2011,"Comedy","Fantasy","Romance",7.7,"56816662",94
+"918","2031",2012,"WRITING","The Descendants","True",2011,"Comedy","Drama",NA,NA,"2e+07",115
+"919","2041",2012,"WRITING","A Separation","False",2011,"Drama",NA,NA,NA,"5e+06",123
+"920","1184",2013,"ANIMATED FEATURE FILM","Brave","True",2012,"Animation","Adventure","Comedy",7.1,"237283207",93
+"921","1188",2013,"ANIMATED FEATURE FILM","Frankenweenie","False",2012,"Animation","Comedy","Drama",6.9,"35291068",87
+"922","1193",2013,"ANIMATED FEATURE FILM","ParaNorman","False",2012,"Animation","Adventure","Comedy",7,"56003051",92
+"923","1198",2013,"ANIMATED FEATURE FILM","The Pirates! Band of Misfits","False",2012,"Animation","Adventure","Comedy",6.7,"31051126",88
+"924","1202",2013,"ANIMATED FEATURE FILM","Wreck-It Ralph","False",2012,"Animation","Adventure","Comedy",7.7,"189422889",101
+"925","1216",2013,"BEST PICTURE","Argo","True",2012,"Biography","Drama","Thriller",7.7,"136025503",120
+"926","1218",2013,"BEST PICTURE","Beasts of the Southern Wild","False",2012,"Adventure","Drama","Fantasy",7.2,"12795746",93
+"927","1220",2013,"BEST PICTURE","Les Misérables","False",2012,"Drama","Musical","Romance",7.5,"148809770",158
+"928","1221",2013,"BEST PICTURE","Life of Pi","False",2012,"Adventure","Drama","Fantasy",7.9,"124987023",127
+"929","1223",2013,"BEST PICTURE","Lincoln","False",2012,"Biography","Drama","History",7.3,"182207973",150
+"930","1226",2013,"BEST PICTURE","Silver Linings Playbook","False",2012,"Comedy","Drama","Romance",7.7,"132092958",122
+"931","1227",2013,"BEST PICTURE","Zero Dark Thirty","False",2012,"Drama","History","Thriller",7.4,"95720716",157
+"932","2061",2013,"BEST PICTURE","Amour","False",2012,"Drama","Romance",NA,NA,"8900000",127
+"933","207",2013,"BEST PICTURE","Django Unchained","False",2012,"Drama","Western",NA,NA,"1e+08",165
+"934","1207",2013,"INTERNATIONAL FEATURE FILM","Kon-Tiki","False",2012,"Action","Adventure","Biography",7.2,"1517410",118
+"935","1211",2013,"INTERNATIONAL FEATURE FILM","No","False",2012,"Drama","History",NA,7.4,"2343664",118
+"936","1212",2013,"INTERNATIONAL FEATURE FILM","A Royal Affair","False",2012,"Biography","Drama","History",7.5,"1546761",137
+"937","1215",2013,"INTERNATIONAL FEATURE FILM","War Witch","False",2012,"Drama","War",NA,7,"70544",90
+"938","2051",2013,"INTERNATIONAL FEATURE FILM","Amour","True",2012,"Drama","Romance",NA,NA,"8900000",127
+"939","1230",2013,"WRITING","Argo","True",2012,"Biography","Drama","Thriller",7.7,"136025503",120
+"940","1232",2013,"WRITING","Beasts of the Southern Wild","False",2012,"Adventure","Drama","Fantasy",7.2,"12795746",93
+"941","1234",2013,"WRITING","Life of Pi","False",2012,"Adventure","Drama","Fantasy",7.9,"124987023",127
+"942","1236",2013,"WRITING","Lincoln","False",2012,"Biography","Drama","History",7.3,"182207973",150
+"943","1239",2013,"WRITING","Silver Linings Playbook","False",2012,"Comedy","Drama","Romance",7.7,"132092958",122
+"944","1240",2013,"WRITING","Flight","False",2012,"Drama","Thriller",NA,7.3,"93772375",138
+"945","1241",2013,"WRITING","Moonrise Kingdom","False",2012,"Comedy","Drama","Family",7.8,"45512466",94
+"946","1243",2013,"WRITING","Zero Dark Thirty","False",2012,"Drama","History","Thriller",7.4,"95720716",157
+"947","2081",2013,"WRITING","Amour","False",2012,"Drama","Romance",NA,NA,"8900000",127
+"948","2091",2013,"WRITING","Django Unchained","True",2012,"Drama","Western",NA,8.3,"1e+08",165
+"949","1246",2014,"ANIMATED FEATURE FILM","The Croods","False",2013,"Animation","Adventure","Comedy",7.2,"187168425",98
+"950","1250",2014,"ANIMATED FEATURE FILM","Despicable Me 2","False",2013,"Animation","Adventure","Comedy",7.3,"368061265",98
+"951","1255",2014,"ANIMATED FEATURE FILM","Ernest & Celestine","False",2012,"Animation","Adventure","Comedy",7.8,"292562",80
+"952","1260",2014,"ANIMATED FEATURE FILM","Frozen","True",2013,"Animation","Adventure","Comedy",7.4,"400738009",102
+"953","1264",2014,"ANIMATED FEATURE FILM","The Wind Rises","False",2013,"Animation","Biography","Drama",7.7,"5209580",126
+"954","1276",2014,"BEST PICTURE","American Hustle","False",2013,"Crime","Drama",NA,7.2,"150117807",138
+"955","1277",2014,"BEST PICTURE","Captain Phillips","False",2013,"Action","Biography","Crime",7.8,"107100855",134
+"956","1281",2014,"BEST PICTURE","Dallas Buyers Club","False",2013,"Biography","Drama",NA,7.9,"27298285",117
+"957","1282",2014,"BEST PICTURE","Gravity","False",2013,"Drama","Sci-Fi","Thriller",7.7,"274092705",91
+"958","1284",2014,"BEST PICTURE","Her","False",2013,"Drama","Romance","Sci-Fi",8,"25568251",126
+"959","1286",2014,"BEST PICTURE","Philomena","False",2013,"Biography","Comedy","Drama",7.6,"37707719",98
+"960","1287",2014,"BEST PICTURE","12 Years a Slave","True",2013,"Biography","Drama","History",8.1,"56671993",134
+"961","1289",2014,"BEST PICTURE","The Wolf of Wall Street","False",2013,"Biography","Comedy","Crime",8.2,"116900694",180
+"962","212",2014,"BEST PICTURE","Nebraska","False",2013,"Drama","Adventure",NA,NA,"1.2e+07",115
+"963","1268",2014,"INTERNATIONAL FEATURE FILM","The Broken Circle Breakdown","False",2012,"Drama","Music","Romance",7.7,"175058",111
+"964","1269",2014,"INTERNATIONAL FEATURE FILM","The Hunt","False",2012,"Action","Horror","Thriller",4.3,NA,74
+"965","1272",2014,"INTERNATIONAL FEATURE FILM","Omar","False",2013,"Crime","Drama","Romance",7.5,"356000",98
+"966","210",2014,"INTERNATIONAL FEATURE FILM","The Great Beauty","True",2013,"Drama",NA,NA,NA,"12400000",142
+"967","2111",2014,"INTERNATIONAL FEATURE FILM","The Missing Picture","False",2013,"Documentary",NA,NA,NA,NA,95
+"968","1291",2014,"WRITING","Before Midnight","False",2013,"Drama","Romance",NA,7.9,"8114627",109
+"969","1292",2014,"WRITING","Captain Phillips","False",2013,"Action","Biography","Crime",7.8,"107100855",134
+"970","1296",2014,"WRITING","Philomena","False",2013,"Biography","Comedy","Drama",7.6,"37707719",98
+"971","1297",2014,"WRITING","12 Years a Slave","True",2013,"Biography","Drama","History",8.1,"56671993",134
+"972","1299",2014,"WRITING","The Wolf of Wall Street","False",2013,"Biography","Comedy","Crime",8.2,"116900694",180
+"973","1301",2014,"WRITING","American Hustle","False",2013,"Crime","Drama",NA,7.2,"150117807",138
+"974","1302",2014,"WRITING","Dallas Buyers Club","False",2013,"Biography","Drama",NA,7.9,"27298285",117
+"975","1303",2014,"WRITING","Her","True",2013,"Drama","Romance","Sci-Fi",8,"25568251",126
+"976","2131",2014,"WRITING","Blue Jasmine","False",2013,"Drama",NA,NA,NA,"1.8e+07",99
+"977","2141",2014,"WRITING","Nebraska","False",2013,"Drama","Adventure",NA,NA,"1.2e+07",115
+"978","1305",2015,"ANIMATED FEATURE FILM","Big Hero 6","True",2014,"Animation","Action","Adventure",7.8,"222527828",102
+"979","1310",2015,"ANIMATED FEATURE FILM","The Boxtrolls","False",2014,"Animation","Adventure","Comedy",6.8,"50837305",96
+"980","1314",2015,"ANIMATED FEATURE FILM","How to Train Your Dragon 2","False",2014,"Animation","Action","Adventure",7.8,"177002924",102
+"981","1319",2015,"ANIMATED FEATURE FILM","Song of the Sea","False",2014,"Animation","Adventure","Drama",8,"857524",93
+"982","2151",2015,"ANIMATED FEATURE FILM","The Tale of the Princess Kaguya","False",2013,"Animation","Drama","Fantasy",NA,"49300000",137
+"983","1327",2015,"BEST PICTURE","American Sniper","False",2014,"Action","Biography","Drama",7.3,"350126372",133
+"984","1330",2015,"BEST PICTURE","The Grand Budapest Hotel","False",2014,"Adventure","Comedy","Crime",8.1,"59100318",99
+"985","1332",2015,"BEST PICTURE","The Imitation Game","False",2014,"Biography","Drama","Thriller",8,"91125683",114
+"986","1335",2015,"BEST PICTURE","Selma","False",2014,"Biography","Drama","History",7.5,"52076908",128
+"987","1337",2015,"BEST PICTURE","The Theory of Everything","False",2014,"Biography","Drama","Romance",7.7,"35893537",123
+"988","217",2015,"BEST PICTURE","Birdman or (The Unexpected Virtue of Ignorance)","True",2014,"Drama","Comedy",NA,7.1,"1.8e+07",120
+"989","2181",2015,"BEST PICTURE","Boyhood","False",2014,"Drama",NA,NA,NA,"4e+06",165
+"990","2191",2015,"BEST PICTURE","Whiplash","False",2014,"Drama","Music",NA,NA,"3300000",107
+"991","1323",2015,"INTERNATIONAL FEATURE FILM","Leviathan","False",2014,"Crime","Drama",NA,7.6,"1092800",140
+"992","1324",2015,"INTERNATIONAL FEATURE FILM","Tangerines","False",2013,"Drama","War",NA,8.1,"144501",87
+"993","1325",2015,"INTERNATIONAL FEATURE FILM","Timbuktu","False",2014,"Drama","War",NA,7.1,"1076075",96
+"994","1326",2015,"INTERNATIONAL FEATURE FILM","Wild Tales","False",2014,"Comedy","Drama","Thriller",8.1,"3107072",122
+"995","2161",2015,"INTERNATIONAL FEATURE FILM","Ida","True",2013,"Drama",NA,NA,6.6,"2159280",82
+"996","1339",2015,"WRITING","American Sniper","False",2014,"Action","Biography","Drama",7.3,"350126372",133
+"997","1342",2015,"WRITING","The Imitation Game","True",2014,"Biography","Drama","Thriller",8,"91125683",114
+"998","1345",2015,"WRITING","Inherent Vice","False",2014,"Comedy","Crime","Drama",6.6,"8110975",148
+"999","1348",2015,"WRITING","The Theory of Everything","False",2014,"Biography","Drama","Romance",7.7,"35893537",123
+"1000","1350",2015,"WRITING","Foxcatcher","False",2014,"Biography","Drama","History",7,"12096300",134
+"1001","1353",2015,"WRITING","The Grand Budapest Hotel","False",2014,"Adventure","Comedy","Crime",8.1,"59100318",99
+"1002","1355",2015,"WRITING","Nightcrawler","False",2014,"Crime","Drama","Thriller",7.8,"32381218",117
+"1003","2201",2015,"WRITING","Whiplash","False",2014,"Drama","Music",NA,NA,"3300000",107
+"1004","2211",2015,"WRITING","Birdman or (The Unexpected Virtue of Ignorance)","True",2014,"Drama","Comedy",NA,7.7,"1.8e+07",120
+"1005","222",2015,"WRITING","Boyhood","False",2014,"Drama",NA,NA,NA,"4e+06",165
+"1006","1357",2016,"ANIMATED FEATURE FILM","Anomalisa","False",2015,"Animation","Comedy","Drama",7.2,"3759286",90
+"1007","1359",2016,"ANIMATED FEATURE FILM","Inside Out","True",2015,"Animation","Adventure","Comedy",8.2,"356461711",95
+"1008","1363",2016,"ANIMATED FEATURE FILM","Shaun the Sheep Movie","False",2015,"Animation","Adventure","Comedy",7.3,"19375982",85
+"1009","1367",2016,"ANIMATED FEATURE FILM","When Marnie Was There","False",2014,"Animation","Drama","Family",7.7,"765127",103
+"1010","755",2016,"ANIMATED FEATURE FILM","Boy and the World","False",NA,NA,NA,NA,NA,NA,NA
+"1011","1378",2016,"BEST PICTURE","The Big Short","False",2015,"Biography","Comedy","Drama",7.8,"70259870",130
+"1012","1380",2016,"BEST PICTURE","Bridge of Spies","False",2015,"Drama","History","Thriller",7.6,"72313754",142
+"1013","1383",2016,"BEST PICTURE","Brooklyn","False",2015,"Drama","Romance",NA,7.5,"38322743",117
+"1014","1384",2016,"BEST PICTURE","Mad Max: Fury Road","False",2015,"Action","Adventure","Sci-Fi",8.1,"154058340",120
+"1015","1388",2016,"BEST PICTURE","The Martian","False",2015,"Adventure","Drama","Sci-Fi",8,"228433663",144
+"1016","1390",2016,"BEST PICTURE","The Revenant","False",2015,"Action","Adventure","Drama",8,"183637894",156
+"1017","1392",2016,"BEST PICTURE","Room","False",2015,"Drama","Thriller",NA,8.1,"14677674",118
+"1018","1393",2016,"BEST PICTURE","Spotlight","True",2015,"Biography","Crime","Drama",8.1,"45055776",129
+"1019","1370",2016,"INTERNATIONAL FEATURE FILM","Embrace of the Serpent","False",2015,"Adventure","Biography","Drama",7.8,"1329249",125
+"1020","1372",2016,"INTERNATIONAL FEATURE FILM","Son of Saul","True",2015,"Drama","War",NA,7.4,"1777043",107
+"1021","1373",2016,"INTERNATIONAL FEATURE FILM","Theeb","False",2014,"Adventure","Drama","Thriller",7.2,"283024",100
+"1022","1375",2016,"INTERNATIONAL FEATURE FILM","A War","False",2015,"Crime","Drama","Thriller",7,"122902",115
+"1023","2231",2016,"INTERNATIONAL FEATURE FILM","Mustang","False",2015,"Drama",NA,NA,NA,"1300000",97
+"1024","1395",2016,"WRITING","The Big Short","True",2015,"Biography","Comedy","Drama",7.8,"70259870",130
+"1025","1397",2016,"WRITING","Brooklyn","False",2015,"Drama","Romance",NA,7.5,"38322743",117
+"1026","1398",2016,"WRITING","Carol","False",2015,"Drama","Romance",NA,7.2,"12711491",118
+"1027","1399",2016,"WRITING","The Martian","False",2015,"Adventure","Drama","Sci-Fi",8,"228433663",144
+"1028","1401",2016,"WRITING","Room","False",2015,"Drama","Thriller",NA,8.1,"14677674",118
+"1029","1402",2016,"WRITING","Bridge of Spies","False",2015,"Drama","History","Thriller",7.6,"72313754",142
+"1030","1405",2016,"WRITING","Ex Machina","False",2014,"Drama","Sci-Fi","Thriller",7.7,"25442958",108
+"1031","1407",2016,"WRITING","Inside Out","False",2015,"Animation","Adventure","Comedy",8.2,"356461711",95
+"1032","1411",2016,"WRITING","Spotlight","True",2015,"Biography","Crime","Drama",8.1,"45055776",129
+"1033","1413",2016,"WRITING","Straight Outta Compton","False",2015,"Biography","Drama","History",7.8,"161197785",147
+"1034","1415",2017,"ANIMATED FEATURE FILM","Kubo and the Two Strings","False",2016,"Animation","Action","Adventure",7.7,"48023088",101
+"1035","1420",2017,"ANIMATED FEATURE FILM","Moana","False",2016,"Animation","Adventure","Comedy",7.6,"248757044",107
+"1036","1424",2017,"ANIMATED FEATURE FILM","My Life as a Zucchini","False",2016,"Animation","Comedy","Drama",7.7,"292279",70
+"1037","1425",2017,"ANIMATED FEATURE FILM","The Red Turtle","False",2016,"Animation","Drama","Family",7.5,"920057",80
+"1038","1428",2017,"ANIMATED FEATURE FILM","Zootopia","True",2016,"Animation","Adventure","Comedy",8,"341268248",108
+"1039","1439",2017,"BEST PICTURE","Arrival","False",2016,"Drama","Mystery","Sci-Fi",7.9,"100546139",116
+"1040","1441",2017,"BEST PICTURE","Hacksaw Ridge","False",2016,"Biography","Drama","History",8.1,"67209615",139
+"1041","1444",2017,"BEST PICTURE","Hell or High Water","False",2016,"Crime","Drama","Thriller",7.6,"26862450",102
+"1042","1446",2017,"BEST PICTURE","Hidden Figures","False",2016,"Biography","Drama","History",7.8,"169607287",127
+"1043","1448",2017,"BEST PICTURE","La La Land","False",2016,"Comedy","Drama","Music",8,"151101803",128
+"1044","1449",2017,"BEST PICTURE","Lion","False",2015,"Action","Drama",NA,3.3,NA,143
+"1045","1450",2017,"BEST PICTURE","Lion","False",2016,"Biography","Drama",NA,8,"51739495",118
+"1046","1451",2017,"BEST PICTURE","Lion","False",2015,"Comedy","Drama","Romance",NA,NA,70
+"1047","225",2017,"BEST PICTURE","Fences","False",2016,"Drama",NA,NA,NA,"2.4e+07",139
+"1048","2261",2017,"BEST PICTURE","Manchester by the Sea","False",2016,"Drama",NA,NA,7.6,"9e+06",138
+"1049","2271",2017,"BEST PICTURE","Moonlight","True",2016,"Drama",NA,NA,6.6,"4e+06",111
+"1050","1433",2017,"INTERNATIONAL FEATURE FILM","Land of Mine","False",2015,"Drama","History","War",7.8,"435266",100
+"1051","1435",2017,"INTERNATIONAL FEATURE FILM","A Man Called Ove","False",2015,"Comedy","Drama","Romance",7.7,"3358518",116
+"1052","1436",2017,"INTERNATIONAL FEATURE FILM","The Salesman","True",2016,"Drama","Thriller",NA,7.7,"2402067",124
+"1053","1437",2017,"INTERNATIONAL FEATURE FILM","Tanna","False",2015,"Adventure","Drama","Romance",6.9,"5711",104
+"1054","2241",2017,"INTERNATIONAL FEATURE FILM","Toni Erdmann","False",2016,"Comedy","Drama",NA,NA,"1e+07",162
+"1055","1452",2017,"WRITING","Arrival","False",2016,"Drama","Mystery","Sci-Fi",7.9,"100546139",116
+"1056","1454",2017,"WRITING","Hidden Figures","False",2016,"Biography","Drama","History",7.8,"169607287",127
+"1057","1456",2017,"WRITING","Lion","False",2015,"Action","Drama",NA,3.3,NA,143
+"1058","1457",2017,"WRITING","Lion","False",2016,"Biography","Drama",NA,8,"51739495",118
+"1059","1458",2017,"WRITING","Lion","False",2015,"Comedy","Drama","Romance",NA,NA,70
+"1060","1459",2017,"WRITING","Hell or High Water","False",2016,"Crime","Drama","Thriller",7.6,"26862450",102
+"1061","1461",2017,"WRITING","La La Land","False",2016,"Comedy","Drama","Music",8,"151101803",128
+"1062","1462",2017,"WRITING","The Lobster","False",2015,"Drama","Romance","Sci-Fi",7.1,"8699235",119
+"1063","2281",2017,"WRITING","Fences","False",2016,"Drama",NA,NA,NA,"2.4e+07",139
+"1064","229",2017,"WRITING","Moonlight","True",2016,"Drama",NA,NA,6.6,"4e+06",111
+"1065","230",2017,"WRITING","Manchester by the Sea","True",2016,"Drama",NA,NA,7.6,"9e+06",138
+"1066","2311",2017,"WRITING","20th Century Women","False",2016,"Drama",NA,NA,NA,"7e+06",119
+"1067","1465",2018,"ANIMATED FEATURE FILM","The Boss Baby","False",2017,"Animation","Adventure","Comedy",6.3,"175003033",97
+"1068","1469",2018,"ANIMATED FEATURE FILM","The Breadwinner","False",2017,"Animation","Drama","Family",7.7,"312381",94
+"1069","1472",2018,"ANIMATED FEATURE FILM","Coco","True",2017,"Animation","Adventure","Comedy",8.4,"209726015",105
+"1070","1476",2018,"ANIMATED FEATURE FILM","Coco","True",2017,"Horror",NA,NA,7.4,NA,98
+"1071","1478",2018,"ANIMATED FEATURE FILM","Ferdinand","False",2017,"Animation","Adventure","Comedy",6.7,"84410380",108
+"1072","1481",2018,"ANIMATED FEATURE FILM","Loving Vincent","False",2017,"Animation","Drama","Mystery",7.8,"6735118",94
+"1073","1490",2018,"BEST PICTURE","Call Me by Your Name","False",2017,"Drama","Romance",NA,7.8,"18095701",132
+"1074","1491",2018,"BEST PICTURE","Darkest Hour","False",2017,"Biography","Drama","War",7.4,"56468410",125
+"1075","1493",2018,"BEST PICTURE","Dunkirk","False",2017,"Action","Drama","History",7.8,"188373161",106
+"1076","1497",2018,"BEST PICTURE","Get Out","False",2017,"Horror","Mystery","Thriller",7.7,"176040665",104
+"1077","1500",2018,"BEST PICTURE","Phantom Thread","False",2017,"Drama","Romance",NA,7.4,"21023275",130
+"1078","1501",2018,"BEST PICTURE","The Post","False",2017,"Biography","Drama","History",7.2,"81903458",116
+"1079","1505",2018,"BEST PICTURE","The Shape of Water","True",2017,"Drama","Fantasy","Romance",7.3,"63859435",123
+"1080","2331",2018,"BEST PICTURE","Lady Bird","False",2017,"Drama","Comedy",NA,NA,"1e+07",94
+"1081","767",2018,"BEST PICTURE","Three Billboards outside Ebbing, Missouri","False",NA,NA,NA,NA,NA,NA,NA
+"1082","1483",2018,"INTERNATIONAL FEATURE FILM","The Insult","False",2017,"Crime","Drama","Thriller",7.6,"1001305",113
+"1083","1485",2018,"INTERNATIONAL FEATURE FILM","Loveless","False",2017,"Drama","Romance",NA,NA,NA,81
+"1084","1486",2018,"INTERNATIONAL FEATURE FILM","On Body and Soul","False",2017,"Drama","Fantasy","Mystery",7.5,NA,116
+"1085","1489",2018,"INTERNATIONAL FEATURE FILM","The Square","False",2016,"Family",NA,NA,NA,NA,75
+"1086","2321",2018,"INTERNATIONAL FEATURE FILM","A Fantastic Woman","True",2017,"Drama",NA,NA,6.6,"3700000",104
+"1087","1507",2018,"WRITING","Call Me by Your Name","True",2017,"Drama","Romance",NA,7.8,"18095701",132
+"1088","1508",2018,"WRITING","The Disaster Artist","False",2017,"Biography","Comedy","Drama",7.3,"21120616",104
+"1089","1509",2018,"WRITING","Logan","False",2017,"Action","Drama","Sci-Fi",8.1,"226277068",137
+"1090","1512",2018,"WRITING","Molly's Game","False",2017,"Biography","Crime","Drama",7.4,"28780744",140
+"1091","1515",2018,"WRITING","Mudbound","False",2017,"Drama","War",NA,7.4,NA,134
+"1092","1516",2018,"WRITING","The Big Sick","False",2017,"Comedy","Drama","Romance",7.5,"42873127",120
+"1093","1517",2018,"WRITING","Get Out","True",2017,"Horror","Mystery","Thriller",7.7,"176040665",104
+"1094","1520",2018,"WRITING","The Shape of Water","False",2017,"Drama","Fantasy","Romance",7.3,"63859435",123
+"1095","2341",2018,"WRITING","Lady Bird","False",2017,"Drama","Comedy",NA,NA,"1e+07",94
+"1096","773",2018,"WRITING","Three Billboards outside Ebbing, Missouri","False",NA,NA,NA,NA,NA,NA,NA
+"1097","1522",2019,"ANIMATED FEATURE FILM","Incredibles 2","False",2018,"Animation","Action","Adventure",7.6,"608581744",118
+"1098","1527",2019,"ANIMATED FEATURE FILM","Isle of Dogs","False",2018,"Animation","Adventure","Comedy",7.8,"32015231",101
+"1099","1530",2019,"ANIMATED FEATURE FILM","Mirai","False",2018,"Animation","Adventure","Drama",7,"812794",98
+"1100","1534",2019,"ANIMATED FEATURE FILM","Ralph Breaks the Internet","False",2018,"Animation","Adventure","Comedy",7,"201091711",112
+"1101","1539",2019,"ANIMATED FEATURE FILM","Spider-Man: Into the Spider-Verse","True",2018,"Animation","Action","Adventure",8.4,"190241310",117
+"1102","1553",2019,"BEST PICTURE","Black Panther","False",2018,"Action","Adventure","Sci-Fi",7.3,"700059566",134
+"1103","1556",2019,"BEST PICTURE","BlacKkKlansman","False",2018,"Biography","Comedy","Crime",7.5,"49275340",135
+"1104","1558",2019,"BEST PICTURE","Bohemian Rhapsody","False",2018,"Biography","Drama","Music",7.9,"216428042",134
+"1105","1559",2019,"BEST PICTURE","The Favourite","False",2018,"Biography","Comedy","Drama",7.5,"34366783",119
+"1106","1561",2019,"BEST PICTURE","Green Book","True",2018,"Biography","Comedy","Drama",8.2,"85080171",130
+"1107","1562",2019,"BEST PICTURE","A Star Is Born","False",2018,"Drama","Music","Romance",7.6,"215288866",136
+"1108","1563",2019,"BEST PICTURE","Vice","False",2018,"Biography","Comedy","Drama",7.2,"47836282",132
+"1109","2371",2019,"BEST PICTURE","Roma","False",2018,"Drama",NA,NA,NA,"1.5e+07",135
+"1110","1545",2019,"INTERNATIONAL FEATURE FILM","Cold War","False",2018,"Drama","Music","Romance",7.5,"4572545",89
+"1111","1546",2019,"INTERNATIONAL FEATURE FILM","Cold War","False",2017,"Comedy","Romance",NA,6.8,NA,96
+"1112","1547",2019,"INTERNATIONAL FEATURE FILM","Never Look Away","False",2018,"Biography","Drama","Romance",7.7,"1304042",189
+"1113","1551",2019,"INTERNATIONAL FEATURE FILM","Shoplifters","False",2018,"Crime","Drama","Thriller",7.9,"3313513",121
+"1114","2351",2019,"INTERNATIONAL FEATURE FILM","Capernaum","False",2018,"Drama",NA,NA,NA,"4e+06",126
+"1115","236",2019,"INTERNATIONAL FEATURE FILM","Roma","True",2018,"Drama",NA,NA,7,"1.5e+07",135
+"1116","1564",2019,"WRITING","The Ballad of Buster Scruggs","False",2018,"Comedy","Drama","Musical",7.3,NA,133
+"1117","1566",2019,"WRITING","BlacKkKlansman","True",2018,"Biography","Comedy","Crime",7.5,"49275340",135
+"1118","1568",2019,"WRITING","Can You Ever Forgive Me?","False",2018,"Biography","Comedy","Crime",7.1,"8803865",106
+"1119","1570",2019,"WRITING","If Beale Street Could Talk","False",2018,"Drama","Romance",NA,7.1,"14915773",119
+"1120","1571",2019,"WRITING","A Star Is Born","False",2018,"Drama","Music","Romance",7.6,"215288866",136
+"1121","1572",2019,"WRITING","The Favourite","False",2018,"Biography","Comedy","Drama",7.5,"34366783",119
+"1122","1574",2019,"WRITING","First Reformed","False",2017,"Drama","Mystery","Thriller",7.1,"3448256",113
+"1123","1576",2019,"WRITING","Green Book","True",2018,"Biography","Comedy","Drama",8.2,"85080171",130
+"1124","1577",2019,"WRITING","Vice","False",2018,"Biography","Comedy","Drama",7.2,"47836282",132
+"1125","238",2019,"WRITING","Roma","False",2018,"Drama",NA,NA,NA,"1.5e+07",135
+"1126","1578",2020,"ANIMATED FEATURE FILM","How to Train Your Dragon: The Hidden World","False",2019,"Animation","Action","Adventure",7.4,"160799505",104
+"1127","1583",2020,"ANIMATED FEATURE FILM","I Lost My Body","False",2019,"Animation","Drama","Fantasy",7.5,NA,81
+"1128","1586",2020,"ANIMATED FEATURE FILM","Klaus","False",2019,"Animation","Adventure","Comedy",8.2,NA,96
+"1129","1590",2020,"ANIMATED FEATURE FILM","Missing Link","False",2019,"Animation","Adventure","Comedy",6.7,"16649539",93
+"1130","1594",2020,"ANIMATED FEATURE FILM","Toy Story 4","True",2019,"Animation","Adventure","Comedy",7.7,"434038008",100
+"1131","1601",2020,"BEST PICTURE","Ford v Ferrari","False",2019,"Action","Biography","Drama",8.1,"117624028",152
+"1132","1604",2020,"BEST PICTURE","The Irishman","False",2019,"Biography","Crime","Drama",7.8,"7e+06",209
+"1133","1606",2020,"BEST PICTURE","Jojo Rabbit","False",2019,"Comedy","Drama","War",7.9,"33370906",108
+"1134","1607",2020,"BEST PICTURE","Joker","False",2019,"Crime","Drama","Thriller",8.4,"335451311",122
+"1135","1609",2020,"BEST PICTURE","Little Women","False",2018,"Drama","Family",NA,5.3,"1379357",112
+"1136","1610",2020,"BEST PICTURE","Little Women","False",2019,"Drama","Romance",NA,7.8,"108101214",135
+"1137","1611",2020,"BEST PICTURE","Marriage Story","False",2019,"Drama","Romance",NA,7.9,"2e+06",137
+"1138","1612",2020,"BEST PICTURE","1917","False",2019,"Action","Drama","War",8.2,"159227644",119
+"1139","1614",2020,"BEST PICTURE","Parasite","True",2019,"Drama","Thriller",NA,8.5,"53367844",132
+"1140","793",2020,"BEST PICTURE","Once upon a Time...in Hollywood","False",NA,NA,NA,NA,NA,NA,NA
+"1141","1598",2020,"INTERNATIONAL FEATURE FILM","Les Misérables","False",2019,"Crime","Drama","Thriller",7.6,NA,104
+"1142","1600",2020,"INTERNATIONAL FEATURE FILM","Parasite","True",2019,"Drama","Thriller",NA,8.5,"53367844",132
+"1143","2391",2020,"INTERNATIONAL FEATURE FILM","Honeyland","False",2019,"Documentary",NA,NA,NA,NA,85
+"1144","240",2020,"INTERNATIONAL FEATURE FILM","Pain and Glory","False",2019,"Drama",NA,NA,NA,"10769016",114
+"1145","784",2020,"INTERNATIONAL FEATURE FILM","Corpus Christi","False",NA,NA,NA,NA,NA,NA,NA
+"1146","1615",2020,"WRITING","The Irishman","False",2019,"Biography","Crime","Drama",7.8,"7e+06",209
+"1147","1617",2020,"WRITING","Jojo Rabbit","True",2019,"Comedy","Drama","War",7.9,"33370906",108
+"1148","1618",2020,"WRITING","Joker","False",2019,"Crime","Drama","Thriller",8.4,"335451311",122
+"1149","1620",2020,"WRITING","Little Women","False",2018,"Drama","Family",NA,5.3,"1379357",112
+"1150","1621",2020,"WRITING","Little Women","False",2019,"Drama","Romance",NA,7.8,"108101214",135
+"1151","1622",2020,"WRITING","The Two Popes","False",2019,"Biography","Comedy","Drama",7.6,NA,125
+"1152","1623",2020,"WRITING","Knives Out","False",2019,"Comedy","Crime","Drama",7.9,"165359751",130
+"1153","1626",2020,"WRITING","Marriage Story","False",2019,"Drama","Romance",NA,7.9,"2e+06",137
+"1154","1627",2020,"WRITING","1917","False",2019,"Action","Drama","War",8.2,"159227644",119
+"1155","1629",2020,"WRITING","Parasite","True",2019,"Drama","Thriller",NA,8.5,"53367844",132
+"1156","802",2020,"WRITING","Once upon a Time...in Hollywood","False",NA,NA,NA,NA,NA,NA,NA
+"1157","1630",2021,"ANIMATED FEATURE FILM","Onward","False",2020,"Animation","Adventure","Comedy",7.4,"61555145",102
+"1158","1634",2021,"ANIMATED FEATURE FILM","Over the Moon","False",2020,"Animation","Adventure","Comedy",6.3,NA,95
+"1159","1639",2021,"ANIMATED FEATURE FILM","A Shaun the Sheep Movie: Farmageddon","False",2019,"Animation","Adventure","Comedy",6.8,"47800000",86
+"1160","1644",2021,"ANIMATED FEATURE FILM","Soul","True",2020,"Animation","Adventure","Comedy",8,"121000000",100
+"1161","1648",2021,"ANIMATED FEATURE FILM","Wolfwalkers","False",2020,"Animation","Action","Adventure",8,NA,103
+"1162","1659",2021,"BEST PICTURE","The Father","False",2020,"Drama","Mystery",NA,8.2,NA,97
+"1163","1660",2021,"BEST PICTURE","Mank","False",2020,"Biography","Comedy","Drama",6.8,NA,131
+"1164","1661",2021,"BEST PICTURE","Promising Young Woman","False",2020,"Crime","Drama","Mystery",7.5,NA,113
+"1165","1664",2021,"BEST PICTURE","The Trial of the Chicago 7","False",2020,"Drama","History","Thriller",7.7,NA,129
+"1166","242",2021,"BEST PICTURE","Minari","False",2020,"Drama",NA,NA,NA,NA,115
+"1167","243",2021,"BEST PICTURE","Sound of Metal","False",2020,"Drama",NA,NA,7.8,"516520",130
+"1168","8310",2021,"BEST PICTURE","Judas and the Black Messiah","False",2021,"Biography","Crime","Drama",7.4,"7400000",126
+"1169","847",2021,"BEST PICTURE","Nomadland","True",2020,"Drama",NA,NA,7.2,"39500000",108
+"1170","1654",2021,"INTERNATIONAL FEATURE FILM","Better Days","False",2019,"Crime","Drama","Romance",7.5,NA,135
+"1171","1657",2021,"INTERNATIONAL FEATURE FILM","Quo Vadis, Aida?","False",2020,"Drama","History","War",8,NA,101
+"1172","2411",2021,"INTERNATIONAL FEATURE FILM","Collective","False",2020,"Documentary",NA,NA,NA,NA,109
+"1173","815",2021,"INTERNATIONAL FEATURE FILM","Another Round","True",2020,"Comedy","Drama",NA,21700000,"7.5",115
+"1174","821",2021,"INTERNATIONAL FEATURE FILM","The Man Who Sold His Skin","False",NA,NA,NA,NA,NA,NA,NA
+"1175","1666",2021,"WRITING","The Father","True",2020,"Drama","Mystery",NA,8.2,"28400000",97
+"1176","1667",2021,"WRITING","Promising Young Woman","True",2020,"Crime","Drama","Mystery",7.5,"18900000",113
+"1177","1670",2021,"WRITING","The Trial of the Chicago 7","False",2020,"Drama","History","Thriller",7.7,NA,129
+"1178","2441",2021,"WRITING","Minari","False",2020,"Drama",NA,NA,NA,NA,115
+"1179","2451",2021,"WRITING","Sound of Metal","False",2020,"Drama",NA,NA,NA,NA,130
+"1180","853",2021,"WRITING","Borat Subsequent Moviefilm: Delivery of Prodigious Bribe to American Regime for Make Benefit Once Glorious Nation of Kazakhstan","False",NA,NA,NA,NA,NA,NA,NA
+"1181","863",2021,"WRITING","Nomadland","False",NA,NA,NA,NA,NA,NA,NA
+"1182","874",2021,"WRITING","One Night in Miami...","False",2020,"Drama",NA,NA,7.1,"13000000",114
+"1183","882",2021,"WRITING","The White Tiger","False",2021,"Comedy","Drama",NA,6.7,"3427641",131
+"1184","894",2021,"WRITING","Judas and the Black Messiah","False",2021,"Biography","Crime","Drama",7.4,"7400000",126
+"1185","1672",2022,"ANIMATED FEATURE FILM","Encanto","True",2021,"Animation","Comedy","Family",7.2,"96093622",102
+"1186","1675",2022,"ANIMATED FEATURE FILM","Luca","False",2021,"Animation","Adventure","Comedy",7.4,"49800000",95
+"1187","1677",2022,"ANIMATED FEATURE FILM","Luca","False",2020,"Crime","Drama","Thriller",7,"49800000",104
+"1188","1681",2022,"ANIMATED FEATURE FILM","Raya and the Last Dragon","False",2021,"Animation","Action","Adventure",7.3,"54723032",107
+"1189","1683",2022,"ANIMATED FEATURE FILM","Raya and the Last Dragon","False",2021,"Animation","Action","Adventure",7.3,"54723032",107
+"1190","902",2022,"ANIMATED FEATURE FILM","Flee","False",2021,"Animation","Document",NA,7.5,"755053",89
+"1191","913",2022,"ANIMATED FEATURE FILM","The Mitchells vs. the Machines","False",2021,"Animation",NA,NA,7.6,"110000000",114
+"1192","1687",2022,"BEST PICTURE","Belfast","False",2021,"Biography","Drama",NA,7.3,"49000000",98
+"1193","1688",2022,"BEST PICTURE","Don't Look Up","False",2021,"Comedy","Drama","Sci-Fi",7.2,"791863",138
+"1194","1689",2022,"BEST PICTURE","Dune","False",2021,"Action","Adventure","Drama",8,"108327830",155
+"1195","1692",2022,"BEST PICTURE","King Richard","False",2021,"Biography","Drama","Sport",7.5,"27700000",144
+"1196","1694",2022,"BEST PICTURE","Licorice Pizza","False",2021,"Comedy","Drama","Romance",7.2,"27700000",133
+"1197","1695",2022,"BEST PICTURE","Nightmare Alley","False",2021,"Crime","Drama","Thriller",7,"39600000",150
+"1198","1697",2022,"BEST PICTURE","The Power of the Dog","False",2021,"Drama","Romance","Western",6.8,"417022",126
+"1199","1698",2022,"BEST PICTURE","West Side Story","False",2021,"Crime","Drama","Musical",7.2,"76000000",156
+"1200","953",2022,"BEST PICTURE","CODA","True",2021,"Drama","Romance",NA,6.9,"1900000",112
+"1201","961",2022,"BEST PICTURE","Drive My Car","False",2021,"Drama",NA,NA,6.9,"15400000",89
+"1202","1686",2022,"INTERNATIONAL FEATURE FILM","The Worst Person in the World","False",2021,"Comedy","Drama","Romance",7.8,"12700000",128
+"1203","2461",2022,"INTERNATIONAL FEATURE FILM","Lunana: A Yak in the Classroom","False",2020,"Drama",NA,NA,7.4,"1975298",109
+"1204","921",2022,"INTERNATIONAL FEATURE FILM","Drive My Car","True",2021,"Drama",NA,NA,6.9,"15400000",179
+"1205","933",2022,"INTERNATIONAL FEATURE FILM","Flee","False",2021,"Animation","Document",NA,7.5,"755053",89
+"1206","1700",2022,"WRITING","Dune","False",2021,"Action","Adventure","Drama",8,"108327830",155
+"1207","1703",2022,"WRITING","The Power of the Dog","False",2021,"Drama","Romance","Western",6.8,"417022",126
+"1208","1704",2022,"WRITING","Belfast","True",2021,"Biography","Drama",NA,7.3,"49000000",98
+"1209","1705",2022,"WRITING","Don't Look Up","False",2021,"Comedy","Drama","Sci-Fi",7.2,"791863",138
+"1210","1706",2022,"WRITING","King Richard","False",2021,"Biography","Drama","Sport",7.5,"27700000",144
+"1211","1708",2022,"WRITING","Licorice Pizza","False",2021,"Comedy","Drama","Romance",7.2,"27700000",133
+"1212","1709",2022,"WRITING","The Worst Person in the World","False",2021,"Comedy","Drama","Romance",7.8,"12700000",128
+"1213","972",2022,"WRITING","CODA","True",2021,"Drama","Romance",NA,6.9,"1900000",112
+"1214","981",2022,"WRITING","Drive My Car","False",2021,"Drama",NA,NA,6.9,"15400000 ",179
+"1215","992",2022,"WRITING","The Lost Daughter","False",2021,"622635",NA,NA,6.1,"622635",127
+"1216","1710",2023,"ANIMATED FEATURE FILM","Guillermo del Toro's Pinocchio","True",2022,"Animation","Drama","Family",7.6,"108967",117
+"1217","1713",2023,"ANIMATED FEATURE FILM","Marcel the Shell with Shoes On","False",2021,"Animation","Comedy","Drama",7.7,"5792525",90
+"1218","1714",2023,"ANIMATED FEATURE FILM","Marcel the Shell with Shoes On","False",2021,"Animation","Comedy","Drama",7.8,"5792525",90
+"1219","1716",2023,"ANIMATED FEATURE FILM","Puss in Boots: The Last Wish","False",2022,"Animation","Adventure","Comedy",7.9,"938 000",102
+"1220","1717",2023,"ANIMATED FEATURE FILM","Puss in Boots: The Last Wish","False",2022,"Animation","Adventure","Comedy",7.9,"168464485",102
+"1221","1722",2023,"ANIMATED FEATURE FILM","The Sea Beast","False",2022,"Animation","Adventure","Comedy",7.1,"938 000",115
+"1222","1723",2023,"ANIMATED FEATURE FILM","The Sea Beast","False",2022,"Animation","Adventure","Comedy",7,"938 000",115
+"1223","1726",2023,"ANIMATED FEATURE FILM","Turning Red","False",2022,"Animation","Adventure","Comedy",7,"20100000",100
+"1224","1735",2023,"BEST PICTURE","All Quiet on the Western Front","False",2022,"Action","Drama","War",7.8,"3000000",148
+"1225","1737",2023,"BEST PICTURE","Avatar: The Way of Water","False",2022,"Action","Adventure","Fantasy",7.8,"2320000000",192
+"1226","1741",2023,"BEST PICTURE","Elvis","False",2022,"Biography","Drama","Music",7.3,"151040048",159
+"1227","1742",2023,"BEST PICTURE","Everything Everywhere All at Once","True",2022,"Action","Adventure","Comedy",8,"141000000",139
+"1228","1746",2023,"BEST PICTURE","Top Gun: Maverick","False",2022,"Action","Drama",NA,8.3,NA,130
+"1229","1031",2023,"BEST PICTURE","The Banshees of Inisherin","False",NA,NA,NA,NA,NA,NA,NA
+"1230","1043",2023,"BEST PICTURE","The Fabelmans","False",NA,NA,NA,NA,NA,NA,NA
+"1231","1051",2023,"BEST PICTURE","Tár","False",2022,"Drama",NA,NA,7.5,"28800000",158
+"1232","1064",2023,"BEST PICTURE","Triangle of Sadness","False",2022,"Comedy","Drama",NA,7,"25600000",158
+"1233","1074",2023,"BEST PICTURE","Women Talking","False",2022,"Drama",NA,NA,6.4,"9000000",104
+"1234","1730",2023,"INTERNATIONAL FEATURE FILM","All Quiet on the Western Front","True",2022,"Action","Drama","War",7.8,"3000000",148
+"1235","1732",2023,"INTERNATIONAL FEATURE FILM","Argentina, 1985","False",2022,"Biography","Crime","Drama",7.6,"905893",140
+"1236","1001",2023,"INTERNATIONAL FEATURE FILM","Close","False",NA,"Drama",NA,NA,7.7,"5000000",105
+"1237","10110",2023,"INTERNATIONAL FEATURE FILM","EO","False",2022,"Drama",NA,NA,6.8,"2300000",86
+"1238","1022",2023,"INTERNATIONAL FEATURE FILM","The Quiet Girl","False",2022,"Drama",NA,NA,7.7,NA,96
+"1239","1747",2023,"WRITING","All Quiet on the Western Front","False",2022,"Action","Drama","War",7.8,"3000000",148
+"1240","1749",2023,"WRITING","Top Gun: Maverick","False",2022,"Action","Drama",NA,8.3,"1493000000",130
+"1241","1750",2023,"WRITING","Everything Everywhere All at Once","True",2022,"Action","Adventure","Comedy",8,"141000000",139
+"1242","1084",2023,"WRITING","Glass Onion: A Knives Out Mystery","False",2022,"Crime","Comedy","Drama",6.6,"15000000",139
+"1243","1094",2023,"WRITING","Living","False",2022,"Drama",NA,NA,6.8,"12100000",102
+"1244","1108",2023,"WRITING","Women Talking","True",2022,"drama",NA,NA,6.4,"9000000",104
+"1245","1115",2023,"WRITING","The Banshees of Inisherin","False",2022,"Comedy","Drama",NA,7.7,"50300000",114
+"1246","1122",2023,"WRITING","The Fabelmans","False",2022,"Drama",NA,NA,7.5,"45500000",151
+"1247","1133",2023,"WRITING","Tár","False",2022,"Drama",NA,NA,7.5,"28800000",158
+"1248","1141",2023,"WRITING","Triangle of Sadness","False",2022,"Comedy","Drama",NA,7,"25600000",147
