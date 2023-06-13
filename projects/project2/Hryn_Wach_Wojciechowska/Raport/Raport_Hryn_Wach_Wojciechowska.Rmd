@@ -1,0 +1,41 @@
+---
+title: "Raport"
+author: "Hryn Wach Wojciechowska"
+date: '2023-06-12'
+output: html_document
+---
+
+## Projekt 2
+
+### Zakładka 1
+
+Pierwsza zakładka dotyczy platform streamingowych, a dokładniej ocen filmów i seriali znajdujących się na nich. Generowany jest histogram przybliżający wykres gęstości dla ocen filmów. Wykres możemy modyfikować za pomocą ustawień na lewym panelu zmieniając platformę stremingową, kategorię wiekową oraz zakres lat, w których film został wyemitowany. Ponadto poniżej wykresu wyświetlana jest informacja dotycząca liczby filmów dla danych ustawień.
+
+Do tej wizualizacji wybraliśmy filmy i seriale z lat 2000-2021 i posłużyliśmy się ocenami z Rotten Tomatoes – popularnej strony internetowej zawierającej recenzje i oceny filmów oraz seriali. Ze względu na platformę Disney+ przyjrzeliśmy się również jak wyglądają oceny dla poszczególnych kategorii wiekowych. Dzięki tym ustawieniom, użytkownik może łatwiej dokonać wyboru, na której platformie powinien wykupić subskrybcję, aby był najbardziej usatysfakcjonowany.
+
+
+### Zakładka 2
+
+W tej części możemy zapoznać się z ocenami poszczególnych filmów Marvela dostępnych na dwóch platformach: Internet Movie Database i Metacritic.
+
+Na panelu po lewej stronie użytkownik może wybrać:
+
+1. producenta: Marvel, DC,
+2. główną postać: kobietę, mężczyznę. Poprzez niezaznaczenie żadnej kratki, użytkownik wybiera film bez głównego bohatera,
+3. długość trwania filmu w minutach,
+4. rok emisji,
+5. a także budżet w milionach dolaróW.
+
+Dla początkowych ustawień najlepiej ocenianymi filmami według IMDB są Strażnicy Galaktyki i Avengers, jednak według Metacritic na drugim miejscu po Strażnikach Galaktyki, znajduje się Zimowy Żołnierz.
+
+Z tej wizualizacji możemy korzystać również w inny sposób. Użytkownik może wybrać kategorie i rodzaj filmu, który aktualnie go interesuje i dzięki temu zobaczyć jakie firmy z tej grupy są najlepiej oceniane. Załóżmy, że chciałaby obejrzeć film, gdzie nie ma głównej postaci, wyprodukowany przez Marvela, z resztą parametróW ustawionych na maksymalny przedział. W ten sposób widzi, że Avengers: Endgame, ma najlepsze oceny na obu portalach i może zdecydować się na jego obejrzenie.
+
+
+### Zakładka 3
+
+W trzeciej zakładce znajduje się moduł umożliwiający generowanie wykresu rozkładu ocen filmów na podstawie wybranych lat emisji i długości trwania filmów w minutach. Na wykresie można prześledzić, jakie oceny otrzymywały filmy w określonym zakresie lat i długości trwania. To umożliwia szybką identyfikację zależności między tymi parametrami a jakością filmów.
+
+W tej samej zakładce znajduje się również sekcja tekstowa, która prezentuje informacje dotyczące filmu o najwyższej ocenie dla wybranych przez użytkownika danych. Można tam znaleźć tytuł filmu o najwyższej ocenie oraz krótki opis tego filmu w języku angielskim. To umożliwia użytkownikowi zapoznanie się z szczegółami najlepiej ocenianego filmu i uzyskanie wglądu w jego fabułę lub tematykę.
+
+Analiza rozkładu ocen filmów na wykresie oraz prezentacja informacji o najwyżej ocenionym filmie stanowią ważne elementy tego projektu. Dają one użytkownikowi możliwość łatwego i intuicyjnego oceniania jakości filmów na podstawie wybranych parametrów. Dzięki temu użytkownik może podejmować informowane decyzje dotyczące wyboru filmów do oglądania, uwzględniając ich oceny oraz preferencje czasowe. Dane o ocenach pochodzą z popularnego portalu IMDB, zapewniając wiarygodność wyników.
+
