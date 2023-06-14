@@ -272,7 +272,7 @@ Wstęp do eksploracji danych składa się z:
   <tr>
     <td rowspan="2">14-06</td>
     <td rowspan="2"></td>
-    <td rowspan="2">Python: Przygotowanie EDA przed modelowaniem</td>
+    <td rowspan="2"><a href= https://github.com/MI2-Education/2023L-ExploratoryDataAnalysis/tree/main/labs/lab15 target="_blank" rel="noopener noreferrer">Python: Przygotowanie EDA przed modelowaniem </a></td>
   </tr>
   <tr>
   </tr>
