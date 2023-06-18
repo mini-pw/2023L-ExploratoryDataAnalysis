@@ -1,10 +1,3 @@
----
-title: "What makes a TV Show popular"
-author: "Pola Mościcka, Stanisław Frelik, Jan Skalski"
-date: "2023-06-18"
-output: html_document
----
-
 # Krótko o projekcie
 
 Stworzony przez nas dashboard umożliwia wgląd do statystyk wielu popularnych seriali. Główną ideą naszego projektu było umożliwienie użytkownikowi przeprowadzenia własnej analizy najpopularniejszych seriali, tego co uczyniło je faktycznie najczęściej oglądanymi oraz czym się one charakteryzują. Mnogość nowożytnych seriali może się wydawać przytłaczająca... nasz dashboard umożliwia na prostą, przejrzystą i pokazową analizę tego zagadnienia!
